@@ -32,6 +32,6 @@ permalink: /redday/privacy/
 
 ## 6. 문의
 
-st7light@koreacu.ac.kr
+theteamcumulus@gmail.com
 
 이 방침이 바뀌면 이 페이지에 시행일과 함께 게시합니다.

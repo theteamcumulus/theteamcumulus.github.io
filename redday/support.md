@@ -21,4 +21,4 @@ iPhone 기본 시계 앱과 같은 정책입니다. 알람은 무음 모드와 �
 
 ## 문의
 
-st7light@koreacu.ac.kr — 앱의 설정 탭 > 피드백 보내기로도 보낼 수 있어요.
+theteamcumulus@gmail.com — 앱의 설정 탭 > 피드백 보내기로도 보낼 수 있어요.
