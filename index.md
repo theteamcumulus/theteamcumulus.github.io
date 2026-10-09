@@ -6,3 +6,5 @@ layout: default
 
 - [빨간날 개인정보 처리방침](/redday/privacy/)
 - [빨간날 지원](/redday/support/)
+- [SandTime 개인정보 처리방침](/sandtime/privacy/)
+- [SandTime 지원](/sandtime/support/)
