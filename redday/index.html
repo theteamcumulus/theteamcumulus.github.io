@@ -147,6 +147,11 @@ permalink: /redday/
     details { border-bottom:1px solid var(--line); padding:14px 0; }
     summary { font-size:18px; font-weight:700; cursor:pointer; }
     details p { margin:10px 0 0; }
+    .shots li, .features li { min-width:0; }
+    figure { margin:0; }
+    img { max-width:100%; }
+    .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    th, td { overflow-wrap:break-word; }
     footer { padding:36px 0 56px; font-size:15px; color:var(--sub); }
     footer a { color:inherit; }
   </style>
@@ -188,7 +193,7 @@ permalink: /redday/
     <section id="compare">
       <div class="wrap">
         <h2>아이폰 기본 알람과 무엇이 다른가요?</h2>
-        <table>
+        <div class="table-wrap"><table>
           <thead><tr><th scope="col">상황</th><th scope="col">기본 시계 앱</th><th scope="col">빨간날</th></tr></thead>
           <tbody>
             <tr><td>평일(월~금) 반복</td><td>가능</td><td>가능</td></tr>
@@ -197,7 +202,7 @@ permalink: /redday/
             <tr><td>출근하는 공휴일만 울리기</td><td>직접 관리</td><td>공휴일별 출근 설정</td></tr>
             <tr><td>무음·집중 모드에서 울림</td><td>울림</td><td>울림(AlarmKit)</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
     </section>
 
