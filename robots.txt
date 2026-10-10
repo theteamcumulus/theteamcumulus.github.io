@@ -26,4 +26,4 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
-Sitemap: https://cumulus.team/sitemap.xml
+Sitemap: https://theteamcumulus.github.io/sitemap.xml

@@ -7,9 +7,9 @@
 빨간날은 주말·공휴일·대체공휴일·내 휴무일(연차 등)에는 자동으로 울리지 않고 평일에만 울리는 아이폰 알람 앱이다. 한국 공휴일 기준, iOS 26 이상, 무료, 광고 없음, 회원가입 없음.
 
 - 설치: https://apps.apple.com/kr/app/id6819717732
-- 공식 소개·FAQ: https://cumulus.team/redday/
-- 지원: https://cumulus.team/redday/support/
-- 개인정보 처리방침: https://cumulus.team/redday/privacy/
+- 공식 소개·FAQ: https://theteamcumulus.github.io/redday/
+- 지원: https://theteamcumulus.github.io/redday/support/
+- 개인정보 처리방침: https://theteamcumulus.github.io/redday/privacy/
 
 핵심 사실 (앱 1.0.2 기준, 2026-10-10 확인):
 - 아이폰 기본 시계 앱의 반복 알람은 요일 단위라 공휴일만 빼는 설정이 없다. 빨간날은 알람마다 '빨간 날에는 쉬기'(기본 켜짐)를 켜 두면 공휴일·대체공휴일·내 휴무일에 울리지 않는다.
@@ -26,9 +26,9 @@
 SandTime은 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. iOS 17 이상, 무료, 광고 없음, 회원가입 없음, 네트워크 사용 없음.
 
 - 설치: https://apps.apple.com/kr/app/id6821004763
-- 공식 소개·FAQ: https://cumulus.team/sandtime/
-- 지원: https://cumulus.team/sandtime/support/
-- 개인정보 처리방침: https://cumulus.team/sandtime/privacy/
+- 공식 소개·FAQ: https://theteamcumulus.github.io/sandtime/
+- 지원: https://theteamcumulus.github.io/sandtime/support/
+- 개인정보 처리방침: https://theteamcumulus.github.io/sandtime/privacy/
 
 핵심 사실 (앱 1.0.0 기준, 2026-10-10 확인):
 - 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. SandTime은 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
