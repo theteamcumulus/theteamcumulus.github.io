@@ -42,20 +42,20 @@
 - 상단 현재 날씨는 기상청 초단기실황(매시 정시 관측, 약 5분 뒤 반영)을 쓴다. 햇빛이 없는 시간엔 자외선, 비 올 확률이 0이면 강수확률 표시를 생략한다.
 - 익명 오류 정보와 사용 통계만 수집(Firebase), 광고 식별자(IDFA) 미사용. 안드로이드 버전은 없다.
 
-## SandTime
+## Lifory (구 SandTime)
 
-SandTime은 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. iOS 17 이상, 무료, 광고 없음, 회원가입 없음, 네트워크 사용 없음.
+Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
 
-- 설치: https://apps.apple.com/kr/app/id6821004763
-- 공식 소개·FAQ: https://cumulus.team/sandtime/
-- 지원: https://cumulus.team/sandtime/support/
-- 개인정보 처리방침: https://cumulus.team/sandtime/privacy/
+- 설치: https://apps.apple.com/app/id6821004763
+- 공식 소개·FAQ: https://cumulus.team/lifory/ (English: https://cumulus.team/lifory/en/)
+- 지원: https://cumulus.team/lifory/support/ (English: https://cumulus.team/lifory/en/support/)
+- 개인정보 처리방침: https://cumulus.team/lifory/privacy/ (English: https://cumulus.team/lifory/en/privacy/)
 
-핵심 사실 (앱 1.0.0 기준, 2026-10-10 확인):
-- 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. SandTime은 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
-- 스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환.
+핵심 사실 (앱 1.0.1 기준, 2026-10-11 확인):
+- 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifory는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
+- 스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.
 - 스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.
 - 앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.
 - 0.5배 광각·망원 줌, 전면 카메라, 플래시, 가로 촬영 시 스탬프 회전 지원. 원본 해상도로 사진 앱 자동 저장과 공유 시트 전송.
-- 어떤 정보도 수집하지 않는다. 사진은 기기(와 이용자의 iPhone 백업)에만 있다.
+- 사진과 촬영 시각은 기기(와 이용자의 iPhone 백업)에만 있고 서버로 보내지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
 - 안드로이드 버전은 없다.
