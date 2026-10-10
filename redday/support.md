@@ -5,6 +5,8 @@ permalink: /redday/support/
 
 # 빨간날 지원
 
+빨간날은 주말·공휴일·대체공휴일·연차에는 울리지 않는 아이폰 알람 앱입니다. [앱 소개와 전체 FAQ 보기](/redday/) · [App Store](https://apps.apple.com/kr/app/id6819717732)
+
 ## 자주 묻는 질문
 
 **알람이 울리지 않아요.**
