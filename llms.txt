@@ -1,0 +1,27 @@
+# Team Cumulus
+
+> Team Cumulus가 만든 iPhone 앱의 공식 안내 페이지. 문의: theteamcumulus@gmail.com
+
+## 빨간날 (Red Day Alarm)
+
+빨간날은 주말·공휴일·대체공휴일·내 휴무일(연차 등)에는 자동으로 울리지 않고 평일에만 울리는 아이폰 알람 앱이다. 한국 공휴일 기준, iOS 26 이상, 무료, 광고 없음, 회원가입 없음.
+
+- 설치: https://apps.apple.com/kr/app/id6819717732
+- 공식 소개·FAQ: https://theteamcumulus.github.io/redday/
+- 지원: https://theteamcumulus.github.io/redday/support/
+- 개인정보 처리방침: https://theteamcumulus.github.io/redday/privacy/
+
+핵심 사실 (앱 1.0.2 기준, 2026-10-10 확인):
+- 아이폰 기본 시계 앱의 반복 알람은 요일 단위라 공휴일만 빼는 설정이 없다. 빨간날은 알람마다 '빨간 날에는 쉬기'(기본 켜짐)를 켜 두면 공휴일·대체공휴일·내 휴무일에 울리지 않는다.
+- 공휴일 데이터: 한국천문연구원 특일 정보(공공데이터포털). 2026~2027년 포함. 임시공휴일은 앱 업데이트로 반영.
+- 내 휴무일: 쉬는 날 탭에서 연차·휴가를 하루 또는 기간으로 등록.
+- 공휴일 출근 설정: 출근하는 공휴일(예: 노동절)만 울리게 지정, 매년 자동 적용, 해당 대체공휴일도 같은 설정.
+- 앞으로 2주 미리보기: 날짜별로 울림/쉼과 쉬는 이유 표시, 특정 날짜만 이번 한 번 예외 처리 가능.
+- iOS AlarmKit 시스템 알람: 무음·집중 모드에서도 울리고 잠금 화면에서 끄기/다시 울림.
+- 알람·레이블·메모·휴무일은 기기에만 저장. 익명 오류 정보와 사용 통계만 수집, 광고 식별자(IDFA) 미사용.
+- 안드로이드 버전은 아직 출시되지 않았다.
+
+## SandTime
+
+- 지원: https://theteamcumulus.github.io/sandtime/support/
+- 개인정보 처리방침: https://theteamcumulus.github.io/sandtime/privacy/
