@@ -13,3 +13,6 @@ layout: default
 - [Lifory — 삶의 모든 순간이 하나의 이야기가 됩니다 (날짜 스탬프 카메라)](/lifory/) · [English](/lifory/en/)
 - [Lifory 개인정보 처리방침](/lifory/privacy/) · [Privacy Policy](/lifory/en/privacy/)
 - [Lifory 지원](/lifory/support/) · [Support](/lifory/en/support/)
+- [온루미 — 좋은 마음이 빛나는 곳 (감사일기와 긍정확언)](/onlumi/) · [English](/onlumi/en/)
+- [온루미 개인정보 처리방침](/onlumi/privacy/) · [Privacy Policy](/onlumi/en/privacy/)
+- [온루미 지원](/onlumi/support/) · [Support](/onlumi/en/support/)

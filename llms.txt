@@ -59,3 +59,21 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 0.5배 광각·망원 줌, 전면 카메라, 플래시, 가로 촬영 시 스탬프 회전 지원. 원본 해상도로 사진 앱 자동 저장과 공유 시트 전송.
 - 사진과 촬영 시각은 기기(와 이용자의 iPhone 백업)에만 있고 서버로 보내지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
 - 안드로이드 버전은 없다.
+
+## 온루미 (Onlumi)
+
+온루미는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "좋은 마음이 빛나는 곳" / "Let Goodness Glow". App Store 이름: 온루미 - 감사일기와 긍정확언 (Onlumi - Gratitude & Quotes). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 개발 중 이름은 좋은말.
+
+- 설치: https://apps.apple.com/kr/app/id6819722166
+- 공식 소개·FAQ: https://cumulus.team/onlumi/ (English: https://cumulus.team/onlumi/en/)
+- 지원: https://cumulus.team/onlumi/support/ (English: https://cumulus.team/onlumi/en/support/)
+- 개인정보 처리방침: https://cumulus.team/onlumi/privacy/ (English: https://cumulus.team/onlumi/en/privacy/)
+
+핵심 사실 (앱 1.0.0 기준, 2026-10-11 확인):
+- 문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.
+- 다음 문구 순서는 날짜와 주제별로 섞인다. 즐겨찾기(하트)와 보관함 검색. 배경 테마 10가지.
+- 위젯(소형·중형·대형): 오늘의 문구, 중형·대형은 공유·즐겨찾기·다음 문구 버튼. 앱과 같은 테마·문구.
+- 문구 이미지 공유: 테마 사진 원본 비율(1080×1935), 사진 밝기에 맞춘 글자색(대비 4.5:1 이상).
+- 마음 나누기: 긍정확언·감사일기 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.
+- 즐겨찾기와 테마는 기기에만 저장. 커뮤니티 글은 Supabase(서울 리전). 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
+- 안드로이드 버전은 없다.
