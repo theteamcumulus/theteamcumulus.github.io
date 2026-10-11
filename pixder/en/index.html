@@ -61,10 +61,11 @@ permalink: /pixder/en/
           "https://cumulus.team/pixder/img/en/screen-01.jpg",
           "https://cumulus.team/pixder/img/en/screen-02.jpg",
           "https://cumulus.team/pixder/img/en/screen-03.jpg",
-          "https://cumulus.team/pixder/img/en/screen-04.jpg"
+          "https://cumulus.team/pixder/img/en/screen-04.jpg",
+          "https://cumulus.team/pixder/img/en/screen-05.jpg"
         ],
         "featureList": [
-          "Swipe to sort: left to mark for deletion, right to keep",
+          "Swipe to sort: left to mark for deletion, right to keep, up to favorite",
           "Undo",
           "Review your picks, then delete in one go (iOS confirmation)",
           "Sort all photos, one month at a time, or just screenshots",
@@ -111,7 +112,7 @@ permalink: /pixder/en/
   </script>
 
   <style>
-    :root { --brand:#5E3BEE; --brand-dark:#4B25D9; --keep:#0A84FF; --del:#E5383B; --ink:#1d1d1f; --sub:#5f6368; --bg:#fff; --soft:#f5f4fb; --line:#e6e4ef; }
+    :root { --brand:#5E3BEE; --brand-dark:#4B25D9; --keep:#009E6B; --fav:#2985FF; --del:#FF4559; --ink:#1d1d1f; --sub:#5f6368; --bg:#fff; --soft:#f5f4fb; --line:#e6e4ef; }
     @media (prefers-color-scheme: dark) { :root { --brand:#7656FF; --ink:#f2f2f4; --sub:#b4b4bb; --bg:#111113; --soft:#1c1b22; --line:#2c2b33; } }
     * { box-sizing:border-box; }
     body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
@@ -132,10 +133,11 @@ permalink: /pixder/en/
     h2 { font-size:clamp(24px,3.6vw,30px); margin:0 0 18px; line-height:1.3; }
     p, li { font-size:17px; }
     .muted { color:var(--sub); }
-    .swipe-legend { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0 0; }
+    .swipe-legend { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin:22px 0 0; }
     .swipe-legend div { border-radius:16px; padding:18px 20px; background:var(--soft); }
     .swipe-legend .l { border-left:6px solid var(--del); }
     .swipe-legend .r { border-left:6px solid var(--keep); }
+    .swipe-legend .u { border-left:6px solid var(--fav); }
     .swipe-legend strong { display:block; font-size:19px; }
     .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; list-style:none; padding:0; margin:0; }
     .features li { background:var(--soft); border-radius:16px; padding:18px 20px; }
@@ -178,6 +180,7 @@ permalink: /pixder/en/
         <p>Pixder brings it down to one decision at a time. Look at the photo, then swipe.</p>
         <div class="swipe-legend">
           <div class="l"><strong>← Swipe left</strong>Marks it for deletion. Nothing is deleted yet.</div>
+          <div class="u"><strong>↑ Swipe up</strong>Adds it to Favorites in Photos and keeps it.</div>
           <div class="r"><strong>Swipe right →</strong>Keeps it. You won't see it again.</div>
         </div>
       </div>
@@ -187,7 +190,7 @@ permalink: /pixder/en/
       <div class="wrap">
         <h2>Features</h2>
         <ul class="features">
-          <li><strong>Swipe to sort</strong>Left to mark for deletion, right to keep. The buttons below the card do the same.</li>
+          <li><strong>Swipe to sort</strong>Left ✕ to mark for deletion, right ♥ to keep, up ★ to favorite. The buttons below the card do the same.</li>
           <li><strong>Undo</strong>Swiped the wrong way? Undo right away, as many steps back as you need.</li>
           <li><strong>Review, then delete</strong>Check every photo marked for deletion and take back any you want to keep. iOS asks once more before deleting.</li>
           <li><strong>By month or screenshots</strong>Sort all photos newest first, one month at a time, or just screenshots, with progress for each month.</li>
@@ -232,10 +235,11 @@ permalink: /pixder/en/
       <div class="wrap">
         <h2>Screenshots</h2>
         <ul class="shots">
-          <li><figure><img src="/pixder/img/en/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped left with a red trash circle and the label To Delete"><figcaption>Swipe left to delete</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped right with a blue check circle and the label Keep"><figcaption>Swipe right to keep</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-03.jpg" width="600" height="1304" loading="lazy" alt="Review screen: grid of 12 photos marked for deletion, a 30-day recovery note and a red Delete 12 Items button"><figcaption>Review, then delete in one go</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Home screen: All Photos progress, Review Deletions, and a list of All Photos, Screenshots and months"><figcaption>By month or screenshots</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped left with an X symbol in a red circle"><figcaption>← ✕ Mark for deletion</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped right with a heart symbol in a green circle"><figcaption>→ ♥ Keep</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-03.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped up with a star symbol in a blue circle"><figcaption>↑ ★ Favorite</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Review screen: grid of 12 photos marked for deletion, a 30-day recovery note and a red Delete 12 Items button"><figcaption>Review, then delete in one go</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-05.jpg" width="600" height="1304" loading="lazy" alt="Home screen: All Photos progress, Review Deletions, and a list of All Photos, Screenshots and months"><figcaption>By month or screenshots</figcaption></figure></li>
         </ul>
       </div>
     </section>

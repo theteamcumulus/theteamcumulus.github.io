@@ -61,10 +61,11 @@ permalink: /pixder/
           "https://cumulus.team/pixder/img/screen-01.jpg",
           "https://cumulus.team/pixder/img/screen-02.jpg",
           "https://cumulus.team/pixder/img/screen-03.jpg",
-          "https://cumulus.team/pixder/img/screen-04.jpg"
+          "https://cumulus.team/pixder/img/screen-04.jpg",
+          "https://cumulus.team/pixder/img/screen-05.jpg"
         ],
         "featureList": [
-          "스와이프 정리: 왼쪽은 삭제 후보, 오른쪽은 보관",
+          "스와이프 정리: 왼쪽은 삭제 후보, 오른쪽은 보관, 위로는 즐겨찾기",
           "되돌리기",
           "삭제 후보를 검토한 뒤 한 번에 삭제(iOS 확인 창)",
           "전체 사진·월별·스크린샷만 정리",
@@ -111,7 +112,7 @@ permalink: /pixder/
   </script>
 
   <style>
-    :root { --brand:#5E3BEE; --brand-dark:#4B25D9; --keep:#0A84FF; --del:#E5383B; --ink:#1d1d1f; --sub:#5f6368; --bg:#fff; --soft:#f5f4fb; --line:#e6e4ef; }
+    :root { --brand:#5E3BEE; --brand-dark:#4B25D9; --keep:#009E6B; --fav:#2985FF; --del:#FF4559; --ink:#1d1d1f; --sub:#5f6368; --bg:#fff; --soft:#f5f4fb; --line:#e6e4ef; }
     @media (prefers-color-scheme: dark) { :root { --brand:#7656FF; --ink:#f2f2f4; --sub:#b4b4bb; --bg:#111113; --soft:#1c1b22; --line:#2c2b33; } }
     * { box-sizing:border-box; }
     body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif; color:var(--ink); background:var(--bg); line-height:1.65; word-break:keep-all; }
@@ -132,10 +133,11 @@ permalink: /pixder/
     h2 { font-size:clamp(24px,3.6vw,30px); margin:0 0 18px; line-height:1.35; }
     p, li { font-size:17px; }
     .muted { color:var(--sub); }
-    .swipe-legend { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0 0; }
+    .swipe-legend { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin:22px 0 0; }
     .swipe-legend div { border-radius:16px; padding:18px 20px; background:var(--soft); }
     .swipe-legend .l { border-left:6px solid var(--del); }
     .swipe-legend .r { border-left:6px solid var(--keep); }
+    .swipe-legend .u { border-left:6px solid var(--fav); }
     .swipe-legend strong { display:block; font-size:19px; }
     .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; list-style:none; padding:0; margin:0; }
     .features li { background:var(--soft); border-radius:16px; padding:18px 20px; }
@@ -178,6 +180,7 @@ permalink: /pixder/
         <p>Pixder는 판단을 한 번에 한 장으로 줄였습니다. 사진을 크게 보고 손가락으로 넘기기만 하면 됩니다.</p>
         <div class="swipe-legend">
           <div class="l"><strong>← 왼쪽으로 넘기기</strong>삭제 후보에 담아요. 아직 지우지 않아요.</div>
+          <div class="u"><strong>↑ 위로 넘기기</strong>사진 앱 즐겨찾기에 추가하고 보관해요.</div>
           <div class="r"><strong>오른쪽으로 넘기기 →</strong>보관해요. 다시 보여 주지 않아요.</div>
         </div>
       </div>
@@ -187,7 +190,7 @@ permalink: /pixder/
       <div class="wrap">
         <h2>주요 기능</h2>
         <ul class="features">
-          <li><strong>스와이프 정리</strong>왼쪽은 삭제 후보, 오른쪽은 보관. 같은 동작을 아래 버튼으로도 할 수 있어요.</li>
+          <li><strong>스와이프 정리</strong>왼쪽 ✕ 삭제 후보, 오른쪽 ♥ 보관, 위로 ★ 즐겨찾기. 같은 동작을 아래 버튼으로도 할 수 있어요.</li>
           <li><strong>되돌리기</strong>잘못 넘겼다면 바로 되돌려요. 몇 번이든 차례로 되돌릴 수 있어요.</li>
           <li><strong>검토하고 한 번에 삭제</strong>삭제 후보를 모아 확인하고, 남기고 싶은 사진은 후보에서 빼요. 지울 때는 iOS 확인 창이 한 번 더 떠요.</li>
           <li><strong>월별·스크린샷 정리</strong>전체 사진을 최신순으로, 또는 한 달씩, 스크린샷만 골라 정리해요. 월마다 진행률이 보여요.</li>
@@ -232,10 +235,11 @@ permalink: /pixder/
       <div class="wrap">
         <h2>앱 화면</h2>
         <ul class="shots">
-          <li><figure><img src="/pixder/img/screen-01.jpg" width="600" height="1304" loading="lazy" alt="스와이프 덱: 카드를 왼쪽으로 넘기는 중, 빨간 휴지통 원과 '삭제 후보' 표시"><figcaption>왼쪽은 삭제 후보</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/screen-02.jpg" width="600" height="1304" loading="lazy" alt="스와이프 덱: 카드를 오른쪽으로 넘기는 중, 파란 체크 원과 '보관' 표시"><figcaption>오른쪽은 보관</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/screen-03.jpg" width="600" height="1304" loading="lazy" alt="삭제 후보 검토 화면: 후보 12개 그리드, 30일 복구 안내, 빨간 '12개 삭제' 버튼"><figcaption>검토하고 한 번에 삭제</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/screen-04.jpg" width="600" height="1304" loading="lazy" alt="홈 화면: 전체 사진 진행률, 삭제 후보 검토, 전체·스크린샷·월별 정리 대상 목록"><figcaption>월별·스크린샷 정리</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/screen-01.jpg" width="600" height="1304" loading="lazy" alt="스와이프 덱: 카드를 왼쪽으로 넘기는 중, 빨간 원 안의 ✕ 기호"><figcaption>← ✕ 삭제 후보</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/screen-02.jpg" width="600" height="1304" loading="lazy" alt="스와이프 덱: 카드를 오른쪽으로 넘기는 중, 초록 원 안의 하트 기호"><figcaption>→ ♥ 보관</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/screen-03.jpg" width="600" height="1304" loading="lazy" alt="스와이프 덱: 카드를 위로 넘기는 중, 파란 원 안의 별 기호"><figcaption>↑ ★ 즐겨찾기</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/screen-04.jpg" width="600" height="1304" loading="lazy" alt="삭제 후보 검토 화면: 후보 12개 그리드, 30일 복구 안내, 빨간 '12개 삭제' 버튼"><figcaption>검토하고 한 번에 삭제</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/screen-05.jpg" width="600" height="1304" loading="lazy" alt="홈 화면: 전체 사진 진행률, 삭제 후보 검토, 전체·스크린샷·월별 정리 대상 목록"><figcaption>월별·스크린샷 정리</figcaption></figure></li>
         </ul>
       </div>
     </section>
