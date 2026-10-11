@@ -54,11 +54,11 @@ See https://firebase.google.com/support/privacy for how Google handles data.
 
 ## 5. Permissions
 
-The app does not ask for camera, photos, location, contacts or notification permissions. Images are shared through the iOS share sheet; they are saved to Photos only if you choose that in the share sheet.
+The app does not ask for camera, photos, location, contacts or notification permissions. Images are shared through your device's share sheet (iOS share sheet or Android share menu); they are saved to Photos or your gallery only if you choose that there.
 
 ## 6. Sharing
 
-Tapping Share opens the iOS share sheet. Quote images go only to the app or person you choose, and are then handled under that service's privacy policy.
+Tapping Share opens your device's share sheet. Quote images go only to the app or person you choose, and are then handled under that service's privacy policy.
 
 ## 7. Sending feedback
 
@@ -67,7 +67,7 @@ Settings › Send feedback opens your mail app with the app version and device m
 ## 8. Your rights
 
 - You can delete any of your posts from its ⋯ menu.
-- Settings › Delete account and data removes your account and all your posts, reactions, reports and blocks at once. Deleting only the app leaves your posts on the server, so delete them first.
+- Settings › Delete account and data removes your account and all your posts, reactions, reports and blocks at once. Deleting only the app leaves your posts on the server, so delete them first. If you already removed the app, see [Request account deletion](/onlumi/en/support/#delete-account).
 - To request deletion or restriction of error reports and usage statistics, email us at the address below.
 
 ## 9. Children
