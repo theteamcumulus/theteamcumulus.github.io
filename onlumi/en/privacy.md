@@ -5,7 +5,7 @@ permalink: /onlumi/en/privacy/
 
 # Onlumi Privacy Policy
 
-Effective: October 11, 2026 (version 1.0.0)
+Effective: October 11, 2026 (version 1.0.0 build 16 and later: bookmarks and feedback added)
 
 Onlumi ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The app creates an anonymous account on each device, without sign-up, to run the community, and collects error reports and anonymous usage statistics to keep the app stable and improve it.
 
@@ -29,6 +29,7 @@ We do not collect:
 ## 2. Information stored on your device
 
 - Today's quote, favourite quotes, the selected theme and background stay on your device (in storage shared by the app and the widget).
+- Posts you bookmark in the community are kept as a copy (text and author name) on your device only so you can find them in Collection. They are not sent to our servers.
 - Deleting the app deletes this information.
 
 ## 3. Retention
@@ -59,17 +60,21 @@ The app does not ask for camera, photos, location, contacts or notification perm
 
 Tapping Share opens the iOS share sheet. Quote images go only to the app or person you choose, and are then handled under that service's privacy policy.
 
-## 7. Your rights
+## 7. Sending feedback
+
+Settings › Send feedback opens your mail app with the app version and device model / OS version filled in. Nothing is sent unless you tap Send. We use your email only to reply and to improve the app.
+
+## 8. Your rights
 
 - You can delete any of your posts from its ⋯ menu.
 - Settings › Delete account and data removes your account and all your posts, reactions, reports and blocks at once. Deleting only the app leaves your posts on the server, so delete them first.
 - To request deletion or restriction of error reports and usage statistics, email us at the address below.
 
-## 8. Children
+## 9. Children
 
 The app is not directed to children under 14 and does not knowingly collect their information.
 
-## 9. Contact
+## 10. Contact
 
 theteamcumulus@gmail.com
 

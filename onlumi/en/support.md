@@ -5,6 +5,8 @@ permalink: /onlumi/en/support/
 
 # Onlumi Support
 
+Onlumi is a free iPhone app with a daily quote or Bible verse, a Home Screen widget and an anonymous community for gratitude journals and affirmations. [About Onlumi and full FAQ](/onlumi/en/) · [App Store](https://apps.apple.com/kr/app/id6819722166)
+
 ## FAQ
 
 **How do I add the widget?**
@@ -31,6 +33,14 @@ Yes. Favourites and themes are stored only on your device. Posts on the server r
 **Which Bible translation is used?**
 Verses are quoted exactly from the Korean Revised Version (개역개정) of the Korean Bible Society. The app's content is in Korean.
 
+**My post was saved as "Only me".**
+Very short or unclear posts (for example "lol" or repeated characters) and negative posts are kept visible only to you. Add a sentence about what you are grateful for and why, and it can be shared. Posting the same text again or posting too often is also limited (3 per minute, 20 per day).
+
+**Can I keep posts I like?**
+Tap the bookmark under a community post and it appears in Collection › Bookmarks.
+
 ## Contact
 
-theteamcumulus@gmail.com — you can also use Settings › Contact in the app. We usually reply within 2 business days.
+Onlumi grows with your stories. Tell us what felt awkward, what you wish it had, or what you liked — we read every message.
+
+theteamcumulus@gmail.com — Settings › Send feedback in the app opens an email with the app version and device info filled in. We usually reply within 2 business days.
