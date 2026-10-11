@@ -77,3 +77,20 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 마음 나누기: 긍정확언·감사일기 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.
 - 즐겨찾기와 테마는 기기에만 저장. 커뮤니티 글은 Supabase(서울 리전). 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
 - 안드로이드 버전은 없다.
+
+## Pixder (픽스더)
+
+Pixder is an iPhone photo cleaner by Team Cumulus. Photos appear one at a time; swipe left to mark for deletion, swipe right to keep, then review the marked photos and delete them all at once. iPhone, iOS 17 or later, free, no ads, no sign-up, no daily limits. 8 languages (ko, en, ja, zh-Hans, zh-Hant, es, fr, de). Status on 2026-10-11: preparing App Store release.
+
+- 공식 소개·FAQ (ko): https://cumulus.team/pixder/
+- Official page (en): https://cumulus.team/pixder/en/
+- 지원 / Support: https://cumulus.team/pixder/support/ · https://cumulus.team/pixder/en/support/
+- 개인정보 처리방침 / Privacy: https://cumulus.team/pixder/privacy/ · https://cumulus.team/pixder/en/privacy/
+
+Key facts (app 1.0.0, checked 2026-10-11):
+- Swiping never deletes. Deletion happens only from the review screen after the standard iOS confirmation dialog; deleted items go to Recently Deleted in Photos for 30 days and can be recovered.
+- Storage is freed only after Recently Deleted is emptied (Pixder cannot empty it).
+- Sort scopes: All Photos (newest first), by month, Screenshots. Keeping a photo applies everywhere. Progress is saved and resumes automatically. Undo is available.
+- Photos, videos (first frame and length) and Live Photos are supported. Limited photo access works with the selected photos only.
+- Photos, photo identifiers and metadata never leave the device. Only anonymous crash reports (Firebase Crashlytics) and usage statistics (Google Analytics for Firebase, no IDFA) are collected.
+- Android version is not available.

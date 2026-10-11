@@ -16,3 +16,6 @@ layout: default
 - [온루미 — 좋은 마음이 빛나는 곳 (감사일기와 긍정확언)](/onlumi/) · [English](/onlumi/en/)
 - [온루미 개인정보 처리방침](/onlumi/privacy/) · [Privacy Policy](/onlumi/en/privacy/)
 - [온루미 지원](/onlumi/support/) · [Support](/onlumi/en/support/)
+- [Pixder — 넘기기만 하면 사진 정리 끝 (스와이프 사진 정리)](/pixder/) · [English](/pixder/en/)
+- [Pixder 개인정보 처리방침](/pixder/privacy/) · [Privacy Policy](/pixder/en/privacy/)
+- [Pixder 지원](/pixder/support/) · [Support](/pixder/en/support/)
