@@ -77,6 +77,7 @@ ld = {"@context": "https://schema.org", "@graph": [
      "operatingSystem": "iOS 15.1 이상 (위젯은 iOS 17 이상)", "availableOnDevice": "iPhone",
      "applicationCategory": "WeatherApplication", "applicationSubCategory": "출퇴근 날씨",
      "inLanguage": "ko", "countriesSupported": "KR", "softwareVersion": VERSION, "contentRating": "4+",
+     "datePublished": "2026-10-12",
      "image": BASE + "img/icon-512.png", "screenshot": [BASE + "img/" + f for f, _, _ in SHOTS],
      "featureList": [f"{t}: {d}" for t, d in FEATURES],
      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"},
