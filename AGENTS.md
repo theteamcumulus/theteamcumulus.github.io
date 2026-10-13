@@ -15,6 +15,7 @@ Team Cumulus 공식 사이트. 팀 project_id: SITE.
 - 지우지 않는 파일: CNAME, BingSiteAuth.xml, naver*.html, 67671e*.txt, fb31c6d1*.txt(IndexNow 키)(검색엔진 소유 확인용).
 - 앱 아이콘은 <app>/img/<app>-app-icon.png(icon-512.png 사본, render.py가 만듦)를 쓴다. 이미지 검색·AI가 앱별 아이콘을 구분하게 하려는 것. sitemap.xml 이미지 항목도 render.py가 만든다.
 - 배포 후 검색엔진에 갱신 알림: `python3 tools/indexnow.py`(IndexNow, Bing 등).
+- 지원·개인정보(.md) 페이지는 _layouts/default.html을 쓴다. 새 .md 페이지에는 front matter로 app, app_name, description(고유, 160자 이하), image(앱 아이콘), 영어판이면 lang: en·locale: en_US, ko/en 쌍이 있으면 alternates(ko·en)를 넣는다.
 
 ## 변경 시 같이 고칠 것
 - 페이지를 추가·변경하면 sitemap.xml lastmod, llms.txt의 해당 앱 항목, 페이지 JSON-LD를 함께 맞춘다.
