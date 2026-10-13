@@ -6,7 +6,7 @@
 
 빨간날은 주말·공휴일·대체공휴일·내 휴무일(연차 등)에는 자동으로 울리지 않고 평일에만 울리는 아이폰 알람 앱이다. 한국 공휴일 기준, iOS 26 이상, 무료, 광고 없음, 회원가입 없음.
 
-- 설치: https://apps.apple.com/kr/app/id6819717732
+- 설치: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
 - 개인정보 처리방침: https://cumulus.team/redday/privacy/
@@ -46,7 +46,7 @@
 
 Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
 
-- 설치: https://apps.apple.com/app/id6821004763
+- 설치: https://apps.apple.com/app/id6821004763?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/lifory/ (English: https://cumulus.team/lifory/en/)
 - 지원: https://cumulus.team/lifory/support/ (English: https://cumulus.team/lifory/en/support/)
 - 개인정보 처리방침: https://cumulus.team/lifory/privacy/ (English: https://cumulus.team/lifory/en/privacy/)
@@ -64,7 +64,7 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 
 온루미는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "좋은 마음이 빛나는 곳" / "Let Goodness Glow". App Store 이름: 온루미 - 감사일기와 긍정확언 (Onlumi - Gratitude & Quotes). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 개발 중 이름은 좋은말.
 
-- 설치: https://apps.apple.com/kr/app/id6819722166
+- 설치: https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/onlumi/ (English: https://cumulus.team/onlumi/en/)
 - 지원: https://cumulus.team/onlumi/support/ (English: https://cumulus.team/onlumi/en/support/)
 - 개인정보 처리방침: https://cumulus.team/onlumi/privacy/ (English: https://cumulus.team/onlumi/en/privacy/)

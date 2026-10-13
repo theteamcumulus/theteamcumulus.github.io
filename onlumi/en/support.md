@@ -5,7 +5,7 @@ permalink: /onlumi/en/support/
 
 # Onlumi Support
 
-Onlumi is a free iPhone app with a daily quote or Bible verse, a Home Screen widget and an anonymous community for gratitude journals and affirmations. [About Onlumi and full FAQ](/onlumi/en/) · [App Store](https://apps.apple.com/kr/app/id6819722166)
+Onlumi is a free iPhone app with a daily quote or Bible verse, a Home Screen widget and an anonymous community for gratitude journals and affirmations. [About Onlumi and full FAQ](/onlumi/en/) · [App Store](https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-support-en&mt=8)
 
 ## FAQ
 

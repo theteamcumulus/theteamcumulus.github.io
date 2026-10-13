@@ -5,7 +5,7 @@ permalink: /onlumi/support/
 
 # 온루미 지원
 
-온루미는 하루 한 문장의 명언·성경 구절과 홈 화면 위젯, 감사일기·긍정확언을 익명으로 나누는 커뮤니티를 담은 무료 아이폰 앱입니다. [앱 소개와 전체 FAQ 보기](/onlumi/) · [App Store](https://apps.apple.com/kr/app/id6819722166)
+온루미는 하루 한 문장의 명언·성경 구절과 홈 화면 위젯, 감사일기·긍정확언을 익명으로 나누는 커뮤니티를 담은 무료 아이폰 앱입니다. [앱 소개와 전체 FAQ 보기](/onlumi/) · [App Store](https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-support&mt=8)
 
 ## 자주 묻는 질문
 
