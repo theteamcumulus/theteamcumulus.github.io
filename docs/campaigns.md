@@ -29,3 +29,13 @@
 - 다른 앱 페이지는 HTML의 `href`를 직접 고친다. 새 버튼을 추가하면 위 표에 ct를 먼저 적는다.
 - 링크를 바꾸면 `curl -s -o /dev/null -w "%{http_code}" -L "<주소>"`로 200인지 확인한다(출시 전 앱은 404).
 - 분석: 출퇴근날씨는 weather-fit 저장소 `scripts/app-analytics.mjs`(Analytics Reports API). 다른 앱은 App Store Connect 앱 분석 콘솔, 또는 같은 스크립트를 앱 ID·리포트 요청 ID만 바꿔 쓴다.
+
+## Google Play (Android)
+
+형식: `https://play.google.com/store/apps/details?id=<패키지>&referrer=<URL 인코딩한 UTM>`
+예: `…?id=com.cumulus.weatherfit&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-landing-hero`
+
+- `utm_source=cumulus.team`, `utm_medium=web`, `utm_campaign=<위 ct 표와 같은 값>` — iOS와 같은 위치는 같은 이름을 써서 플랫폼끼리 비교한다. 사이트 밖은 `utm_source=<instagram 등>&utm_medium=social|community|qr`.
+- referrer 값 전체를 한 번 URL 인코딩한다(`=`→`%3D`, `&`→`%26`). HTML 속성 안에서 `id=…&referrer=` 사이의 `&`는 `&amp;`.
+- 보는 곳: Play Console › 통계 › 스토어 등록정보 획득(UTM 캠페인별 방문·설치) / Firebase Analytics 첫 사용자 소스·캠페인(앱 SDK가 Play Install Referrer로 읽음).
+- 출시 전에는 링크를 내보내지 않는다. weatherfit은 `build_landing.py`의 `PLAY_LIVE`(False)·`play_link(ct)`로 준비돼 있다. 출시하면 True로 바꾸고 FAQ·meta·JSON-LD·llms.txt의 "iPhone 전용" 문구를 같이 고친다.

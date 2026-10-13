@@ -7,6 +7,7 @@
 """
 import html
 import json
+from urllib.parse import quote
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / 'index.html'
@@ -19,6 +20,25 @@ CAMPAIGN_BASE = APP  # 국가(/kr) 필수: 국가 없는 주소는 웹에서 미
 
 def app_link(ct):
     return f'{CAMPAIGN_BASE}?pt={PT}&amp;ct={ct}&amp;mt=8' if PT else APP
+
+
+# Google Play (Android). Play 출시 전에는 PLAY_LIVE = False → 버튼을 내보내지 않는다.
+# 출시하면 True로 바꾸고, 같은 커밋에서 FAQ "해외나 안드로이드…"·hero meta·JSON-LD(operatingSystem 등)·llms.txt도 고친다.
+# 캠페인: referrer에 UTM(utm_source=cumulus.team, utm_medium=web, utm_campaign=<App Store ct와 같은 값>).
+PLAY_LIVE = False
+PLAY = 'https://play.google.com/store/apps/details?id=com.cumulus.weatherfit'
+
+
+def play_link(ct):
+    referrer = quote(f'utm_source=cumulus.team&utm_medium=web&utm_campaign={ct}', safe='')
+    return f'{PLAY}&amp;referrer={referrer}'
+
+
+def play_cta(ct, label, style=''):
+    if not PLAY_LIVE:
+        return ''
+    return f'\n      <a class="cta cta-play"{style} href="{play_link(ct)}">{label}</a>'
+
 
 BASE = 'https://cumulus.team/weatherfit/'
 TODAY = '2026-10-11'
@@ -112,7 +132,9 @@ TEMPLATE = Path(__file__).resolve().parent / 'landing.template.html'
 page = (TEMPLATE.read_text()
         .replace('{{APP_HERO}}', app_link('web-landing-hero'))
         .replace('{{APP_HOWTO}}', app_link('web-landing-howto'))
-        .replace('{{APP_BOTTOM}}', app_link('web-landing-bottom')).replace('{{BASE}}', BASE).replace('{{TODAY}}', TODAY)
+        .replace('{{APP_BOTTOM}}', app_link('web-landing-bottom'))
+        .replace('{{PLAY_HERO}}', play_cta('web-landing-hero', 'Google Play에서 보기'))
+        .replace('{{PLAY_BOTTOM}}', play_cta('web-landing-bottom', 'Google Play에서 출퇴근날씨 보기')).replace('{{BASE}}', BASE).replace('{{TODAY}}', TODAY)
         .replace('{{TODAY_KO}}', TODAY_KO).replace('{{VERSION}}', VERSION)
         .replace('{{LD_JSON}}', ld_json).replace('{{FEATURES}}', features_html)
         .replace('{{SHOTS}}', shots_html).replace('{{FAQ}}', faq_html))
