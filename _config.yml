@@ -6,3 +6,5 @@ description: Team Cumulus가 만든 iPhone 앱(빨간날, 출퇴근날씨, Lifor
 exclude:
   - weatherfit/build_landing.py
   - weatherfit/landing.template.html
+  - AGENTS.md
+  - CLAUDE.md
