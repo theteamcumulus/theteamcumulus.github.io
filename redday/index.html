@@ -29,6 +29,11 @@ permalink: /redday/
 
   <!-- appstore:head:start -->
   <meta name="apple-itunes-app" content="app-id=6819717732">
+  <meta property="og:image" content="https://cumulus.team/redday/img/redday-app-icon.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="빨간날 앱 아이콘">
+  <link rel="image_src" href="https://cumulus.team/redday/img/redday-app-icon.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,7 +75,13 @@ permalink: /redday/
       "fileSize": "69.3MB",
       "contentRating": "4+",
       "releaseNotes": "• 정렬 버튼을 누르면 아래에서 메뉴가 올라와요. 시간순, 레이블순 중에서 골라 보세요.\n• 레이블순에서는 어떤 레이블을 위에 둘지 손가락으로 끌어서 순서를 바꿀 수 있어요.\n• 쉬는 날 목록에서 공휴일 옆 '쉼'을 누르면 바로 '출근'으로 바꿀 수 있어요. 공휴일에도 일하는 분들을 위해서요.\n• 공휴일 출근 설정에서 가까운 공휴일부터 보여 드려요.\n• 2027년 설날 연휴 날짜를 바로잡았어요. 2월 6일부터 9일까지 푹 쉬세요.\n\n내일 아침도, 쉬는 날이면 푹 주무세요.",
-      "image": "https://cumulus.team/redday/img/icon-512.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cumulus.team/redday/img/redday-app-icon.png",
+        "width": 512,
+        "height": 512,
+        "caption": "빨간날 앱 아이콘"
+      },
       "screenshot": [
         "https://cumulus.team/redday/img/screen-01.jpg",
         "https://cumulus.team/redday/img/screen-02.jpg",
@@ -288,7 +299,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     <div class="wrap">
       <!-- appstore:hero:start -->
       <div class="as-head">
-        <img class="as-icon" src="/redday/img/icon-512.png" width="128" height="128" alt="빨간날 앱 아이콘">
+        <img class="as-icon" src="/redday/img/redday-app-icon.png" width="128" height="128" alt="빨간날 앱 아이콘">
         <div>
           <h1 class="as-name">빨간날</h1>
           <p class="as-sub">공휴일엔 쉬는 알람</p>

@@ -32,6 +32,11 @@ permalink: /lifory/en/
 
   <!-- appstore:head:start -->
   <meta name="apple-itunes-app" content="app-id=6821004763">
+  <meta property="og:image" content="https://cumulus.team/lifory/img/lifory-app-icon.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="Lifory app icon">
+  <link rel="image_src" href="https://cumulus.team/lifory/img/lifory-app-icon.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,7 +83,13 @@ permalink: /lifory/en/
       "dateModified": "2026-10-12",
       "fileSize": "5.2MB",
       "contentRating": "4+",
-      "image": "https://cumulus.team/lifory/img/icon-512.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cumulus.team/lifory/img/lifory-app-icon.png",
+        "width": 512,
+        "height": 512,
+        "caption": "Lifory app icon"
+      },
       "screenshot": [
         "https://cumulus.team/lifory/img/en/screen-01.jpg",
         "https://cumulus.team/lifory/img/en/screen-02.jpg",
@@ -288,7 +299,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     <div class="wrap">
       <!-- appstore:hero:start -->
       <div class="as-head">
-        <img class="as-icon" src="/lifory/img/icon-512.png" width="128" height="128" alt="Lifory app icon">
+        <img class="as-icon" src="/lifory/img/lifory-app-icon.png" width="128" height="128" alt="Lifory app icon">
         <div>
           <h1 class="as-name">Lifory</h1>
           <p class="as-sub">Film-Style Date Stamp Camera</p>

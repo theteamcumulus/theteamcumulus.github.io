@@ -28,6 +28,11 @@ permalink: /weatherfit/
   <meta name="twitter:card" content="summary_large_image">
 
   <meta name="apple-itunes-app" content="app-id=6819701703">
+  <meta property="og:image" content="https://cumulus.team/weatherfit/img/weatherfit-app-icon.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="출퇴근날씨 앱 아이콘">
+  <link rel="image_src" href="https://cumulus.team/weatherfit/img/weatherfit-app-icon.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,7 +73,13 @@ permalink: /weatherfit/
       "dateModified": "2026-10-12",
       "fileSize": "41.2MB",
       "contentRating": "4+",
-      "image": "https://cumulus.team/weatherfit/img/icon-512.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cumulus.team/weatherfit/img/weatherfit-app-icon.png",
+        "width": 512,
+        "height": 512,
+        "caption": "출퇴근날씨 앱 아이콘"
+      },
       "screenshot": [
         "https://cumulus.team/weatherfit/img/screen-01.jpg",
         "https://cumulus.team/weatherfit/img/screen-02.jpg",
@@ -302,7 +313,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
   <header class="hero">
     <div class="wrap">
       <div class="as-head">
-        <img class="as-icon" src="/weatherfit/img/icon-512.png" width="128" height="128" alt="출퇴근날씨 앱 아이콘">
+        <img class="as-icon" src="/weatherfit/img/weatherfit-app-icon.png" width="128" height="128" alt="출퇴근날씨 앱 아이콘">
         <div>
           <h1 class="as-name">출퇴근날씨</h1>
           <p class="as-sub">출근·점심·퇴근, 내 체감 날씨</p>

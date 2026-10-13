@@ -73,7 +73,7 @@ def hub_card(data, app):
                   f'<a href="{links["support"]["en"]}" hreflang="en" lang="en">Support</a>',
                   f'<a href="{links["privacy"]["en"]}" hreflang="en" lang="en">Privacy Policy</a>']
     return f'''          <li class="as-app">
-            <img class="as-icon" src="/{app["slug"]}/img/icon-512.png" width="64" height="64" alt="">
+            <img class="as-icon" src="{AS.icon_path(app)}" width="64" height="64" alt="">
             <h3><a href="{links["landing"]["ko"]}">{AS.esc(name)}</a></h3>
             <p>{AS.esc(app["subtitle"]["ko"])}</p>
             <p class="as-meta-line">{meta}</p>
@@ -90,7 +90,7 @@ def render_hub(data):
             if checked else '')
     items = [{'@type': 'ListItem', 'position': i + 1,
               'item': {'@type': 'MobileApplication', '@id': f'{base}/{a["slug"]}/#app', 'name': AS.page_name(a, a['pages'][0]),
-                       'url': base + a['links']['landing']['ko'], 'image': f'{base}/{a["slug"]}/img/icon-512.png'}}
+                       'url': base + a['links']['landing']['ko'], 'image': base + AS.icon_path(a)}}
              for i, a in enumerate(data['apps'])]
     ld = {'@context': 'https://schema.org', '@graph': [
         AS.org_node(data),
@@ -119,7 +119,7 @@ def catalog(data):
             'subtitle': a['subtitle'], 'subtitleSource': a['subtitleSource'],
             'developer': data['site']['developer'],
             'summary': a['summary'],
-            'iconUrl': f'{base}/{a["slug"]}/img/icon-512.png',
+            'iconUrl': base + AS.icon_path(a),
             'landingUrls': {k: base + v for k, v in a['links']['landing'].items()},
             'supportUrls': {k: base + v for k, v in a['links']['support'].items()},
             'privacyUrls': {k: base + v for k, v in a['links']['privacy'].items()},
@@ -151,7 +151,7 @@ def llms_card(data, a):
     page = a['pages'][0]
     kr = AS.store_for(a, page)
     L = a['llms']
-    out = [f'## {L["title"]}', f'![{a["name"]["ko"]} 아이콘]({base}/{a["slug"]}/img/icon-512.png)', '', a['summary']['ko']]
+    out = [f'## {L["title"]}', f'![{a["name"]["ko"]} 아이콘]({base}{AS.icon_path(a)})', '', a['summary']['ko']]
     if 'en' in a['summary']:
         out += ['', a['summary']['en']]
     out += ['', L['intro'], '']
@@ -205,21 +205,49 @@ def llms(data):
 
 # ---------- sitemap ----------
 
+SITEMAP_NS = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+IMAGE_NS = 'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'
+
+
 def sitemap(data, text):
+    """lastmod 갱신 + 랜딩·허브에 이미지 항목(앱 아이콘·스크린샷·로고)을 붙인다. 이미지 검색·AI가 진짜 아이콘을 찾게 하기 위해."""
     base = data['site']['base']
-    dates = {base + '/': data['site']['hubModified']}
+    entries = {base + '/': (data['site']['hubModified'], [base + data['site']['logo']] if data['site'].get('logo') else [])}
     for a in data['apps']:
         for p in a['pages']:
-            dates[base + p['path']] = p['modified']
-    for url, d in dates.items():
-        text, n = re.subn(rf'(<loc>{re.escape(url)}</loc><lastmod>)[0-9-]+(</lastmod>)', rf'\g<1>{d}\2', text)
+            # 생성기 페이지(출퇴근날씨)는 스크린샷 목록이 build_landing.py에 있어 img 폴더에서 찾는다.
+            shots = [src for src, _, _ in p['shots']] if p.get('shots') else \
+                [f'/{a["slug"]}/img/{f.name}' for f in sorted((ROOT / a['slug'] / 'img').glob('screen-*.jpg'))]
+            imgs = [base + AS.icon_path(a)] + [base + s for s in shots]
+            entries[base + p['path']] = (p['modified'], imgs)
+    if IMAGE_NS not in text:
+        text = text.replace(SITEMAP_NS, SITEMAP_NS + ' ' + IMAGE_NS, 1)
+    for url, (d, imgs) in entries.items():
+        images = ''.join(f'\n    <image:image><image:loc>{i}</image:loc></image:image>' for i in imgs)
+        tail = (images + '\n  </url>') if imgs else '</url>'
+        text, n = re.subn(rf'<url><loc>{re.escape(url)}</loc><lastmod>[0-9-]+</lastmod>(?:\s*<image:image>.*?</image:image>)*\s*</url>',
+                          lambda m: f'<url><loc>{url}</loc><lastmod>{d}</lastmod>{tail}', text, flags=re.S)
         if n != 1:
             raise KeyError(f'sitemap.xml: {url} 항목 없음')
     return text
 
 
+def named_icons(data):
+    """<slug>/img/icon-512.png → <slug>-app-icon.png 사본 (바이트가 다를 때만)."""
+    out = []
+    for a in data['apps']:
+        src = ROOT / a['slug'] / 'img' / 'icon-512.png'
+        dst = ROOT / AS.icon_path(a).lstrip('/')
+        if not dst.exists() or dst.read_bytes() != src.read_bytes():
+            dst.write_bytes(src.read_bytes())
+            out.append(dst)
+    return out
+
+
 def main():
     data = AS.load()
+    for icon in named_icons(data):
+        print('updated', icon.relative_to(ROOT))
     writes = []
     try:
         for app in data['apps']:

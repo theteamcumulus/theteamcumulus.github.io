@@ -2,30 +2,86 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-13</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/redday/img/redday-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/redday/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/redday/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/redday/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/redday/img/screen-04.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/redday/support/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://cumulus.team/redday/privacy/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://cumulus.team/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/weatherfit/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/assets/logo-512.png</image:loc></image:image>
+  </url>
+  <url><loc>https://cumulus.team/weatherfit/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/weatherfit-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-06.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/weatherfit/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/weatherfit/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/lifory/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/lifory/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/lifory/img/lifory-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/screen-05.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/lifory/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/lifory/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/lifory/en/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/lifory/en/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/lifory/img/lifory-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/en/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/en/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/en/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/en/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/lifory/img/en/screen-05.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/lifory/en/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/lifory/en/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/onlumi/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/onlumi-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-04.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/onlumi/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/onlumi/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/en/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/onlumi/en/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/onlumi-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-04.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/onlumi/en/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/onlumi/en/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/screen-05.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/pixder/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/pixder/privacy/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://cumulus.team/pixder/en/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/pixder/en/</loc><lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-05.jpg</image:loc></image:image>
+  </url>
   <url><loc>https://cumulus.team/pixder/en/support/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://cumulus.team/pixder/en/privacy/</loc><lastmod>2026-10-11</lastmod></url>
 </urlset>

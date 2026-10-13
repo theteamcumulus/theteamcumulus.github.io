@@ -11,6 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path(__file__).resolve().parent / 'apps.json'
 KST = timezone(timedelta(hours=9))
+BASE_URL = 'https://cumulus.team'
+
+
 def esc(s):
     """본문·속성 공용 이스케이프. 작은따옴표는 그대로 둔다(속성은 모두 큰따옴표)."""
     return html.escape(str(s), quote=False).replace('"', '&quot;')
@@ -169,6 +172,11 @@ def store_link(page, where, pt):
     return f"{page['storeUrl']}?pt={pt}&amp;ct={ct}&amp;mt=8"
 
 
+def icon_path(app):
+    """앱 이름이 든 아이콘 경로(이미지 검색·AI가 어느 앱 아이콘인지 알 수 있게). icon-512.png 사본, render.py가 만든다."""
+    return f'/{app["slug"]}/img/{app["slug"]}-app-icon.png'
+
+
 def page_name(app, page):
     store = store_for(app, page)
     return store['trackName'] if store else page['name']
@@ -180,6 +188,12 @@ def block_head(app, page, ld_graph):
     out = []
     if is_live(app):
         out.append(f'  <meta name="apple-itunes-app" content="app-id={app["trackId"]}">')
+    # 두 번째 og:image: 정사각형 앱 아이콘. 첫 번째(배너)는 SNS 공유용으로 페이지 head에 그대로 둔다.
+    icon_url = BASE_URL + icon_path(app)
+    alt = esc(L[page['lang']]['icon_alt'].format(name=page_name(app, page)))
+    out += [f'  <meta property="og:image" content="{icon_url}">', '  <meta property="og:image:width" content="512">',
+            '  <meta property="og:image:height" content="512">', f'  <meta property="og:image:alt" content="{alt}">',
+            f'  <link rel="image_src" href="{icon_url}">']
     out.append('  <script type="application/ld+json">')
     out.append(json.dumps(ld_graph, ensure_ascii=False, indent=2))
     out.append('  </script>')
@@ -201,7 +215,7 @@ def block_hero(app, page, data):
         get = f'      <p class="as-soon">{esc(t["soon"])}</p>'
     return '\n'.join([
         '      <div class="as-head">',
-        f'        <img class="as-icon" src="/{app["slug"]}/img/icon-512.png" width="128" height="128" alt="{esc(t["icon_alt"].format(name=name))}">',
+        f'        <img class="as-icon" src="{icon_path(app)}" width="128" height="128" alt="{esc(t["icon_alt"].format(name=name))}">',
         '        <div>',
         f'          <h1 class="as-name">{esc(name)}</h1>',
         f'          <p class="as-sub">{esc(sub)}</p>',
@@ -431,7 +445,8 @@ def app_node(app, page, data, shots, extra=None):
         node['contentRating'] = store['trackContentRating']
         if store.get('releaseNotes'):
             node['releaseNotes'] = store['releaseNotes']
-    node['image'] = f'{base}/{app["slug"]}/img/icon-512.png'
+    node['image'] = {'@type': 'ImageObject', 'url': base + icon_path(app), 'width': 512, 'height': 512,
+                     'caption': L[lang]['icon_alt'].format(name=page_name(app, page))}
     node['screenshot'] = [base + src for src, _, _ in shots]
     feats = (extra or {}).get('featureList') or page.get('ld', {}).get('featureList')
     if feats:
