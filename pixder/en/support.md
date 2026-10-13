@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /pixder/en/support/
+app: pixder
+app_name: Pixder
+description: "Pixder support: frequently asked questions, troubleshooting tips and how to contact Team Cumulus about the swipe photo cleaner for iPhone."
+image: /pixder/img/pixder-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /pixder/support/
+  en: /pixder/en/support/
 ---
 
 # Pixder Support

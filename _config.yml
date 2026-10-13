@@ -1,6 +1,7 @@
 title: Team Cumulus
 theme: jekyll-theme-primer
 lang: ko
+locale: ko_KR
 url: https://cumulus.team
 description: Team Cumulus가 만든 iPhone 앱(빨간날, 출퇴근날씨, Lifory, 온루미, Pixder) 공식 안내
 exclude:
@@ -10,3 +11,5 @@ exclude:
   - weatherfit/landing.template.html
   - AGENTS.md
   - CLAUDE.md
+twitter:
+  card: summary

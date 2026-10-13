@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /weatherfit/privacy/
+app: weatherfit
+app_name: 출퇴근날씨
+description: "출퇴근날씨(출퇴근 체감 날씨와 옷차림을 알려주는 아이폰 앱)이 어떤 정보를 왜 수집·이용하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+image: /weatherfit/img/weatherfit-app-icon.png
 ---
 
 # 출퇴근날씨 개인정보 처리방침

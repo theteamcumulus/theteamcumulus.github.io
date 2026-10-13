@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /lifory/support/
+app: lifory
+app_name: Lifory
+description: "Lifory(찍는 순간의 날짜를 새기는 아이폰 카메라 앱) 자주 묻는 질문, 문제 해결 방법과 문의처를 안내하는 Team Cumulus 공식 지원 페이지입니다."
+image: /lifory/img/lifory-app-icon.png
+alternates:
+  ko: /lifory/support/
+  en: /lifory/en/support/
 ---
 
 # Lifory 지원

@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /redday/support/
+app: redday
+app_name: 빨간날
+description: "빨간날(공휴일엔 알아서 쉬는 아이폰 알람 앱) 자주 묻는 질문, 문제 해결 방법과 문의처를 안내하는 Team Cumulus 공식 지원 페이지입니다."
+image: /redday/img/redday-app-icon.png
 ---
 
 # 빨간날 지원

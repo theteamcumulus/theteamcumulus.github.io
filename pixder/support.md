@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /pixder/support/
+app: pixder
+app_name: Pixder
+description: "Pixder(스와이프로 정리하는 아이폰 사진 정리 앱) 자주 묻는 질문, 문제 해결 방법과 문의처를 안내하는 Team Cumulus 공식 지원 페이지입니다."
+image: /pixder/img/pixder-app-icon.png
+alternates:
+  ko: /pixder/support/
+  en: /pixder/en/support/
 ---
 
 # Pixder 지원

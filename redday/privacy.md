@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /redday/privacy/
+app: redday
+app_name: 빨간날
+description: "빨간날(공휴일엔 알아서 쉬는 아이폰 알람 앱)이 어떤 정보를 왜 수집·이용하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+image: /redday/img/redday-app-icon.png
 ---
 
 # 빨간날 개인정보 처리방침

@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /lifory/en/privacy/
+app: lifory
+app_name: Lifory
+description: "Privacy policy for Lifory, the date stamp camera for iPhone: what information the app collects, why it is used, and how to contact us."
+image: /lifory/img/lifory-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /lifory/privacy/
+  en: /lifory/en/privacy/
 ---
 
 # Lifory Privacy Policy

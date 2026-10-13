@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /weatherfit/support/
+app: weatherfit
+app_name: 출퇴근날씨
+description: "출퇴근날씨(출퇴근 체감 날씨와 옷차림을 알려주는 아이폰 앱) 자주 묻는 질문, 문제 해결 방법과 문의처를 안내하는 Team Cumulus 공식 지원 페이지입니다."
+image: /weatherfit/img/weatherfit-app-icon.png
 ---
 
 # 출퇴근날씨 지원

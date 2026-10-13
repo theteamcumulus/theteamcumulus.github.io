@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /onlumi/privacy/
+app: onlumi
+app_name: 온루미
+description: "온루미(감사일기·긍정확언과 명언 위젯 아이폰 앱)이 어떤 정보를 왜 수집·이용하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+image: /onlumi/img/onlumi-app-icon.png
+alternates:
+  ko: /onlumi/privacy/
+  en: /onlumi/en/privacy/
 ---
 
 # 온루미 개인정보 처리방침

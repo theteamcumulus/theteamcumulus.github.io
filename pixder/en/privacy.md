@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /pixder/en/privacy/
+app: pixder
+app_name: Pixder
+description: "Privacy policy for Pixder, the swipe photo cleaner for iPhone: what information the app collects, why it is used, and how to contact us."
+image: /pixder/img/pixder-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /pixder/privacy/
+  en: /pixder/en/privacy/
 ---
 
 # Pixder Privacy Policy

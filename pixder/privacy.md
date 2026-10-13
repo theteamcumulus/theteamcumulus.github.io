@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /pixder/privacy/
+app: pixder
+app_name: Pixder
+description: "Pixder(스와이프로 정리하는 아이폰 사진 정리 앱)이 어떤 정보를 왜 수집·이용하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+image: /pixder/img/pixder-app-icon.png
+alternates:
+  ko: /pixder/privacy/
+  en: /pixder/en/privacy/
 ---
 
 # Pixder 개인정보 처리방침

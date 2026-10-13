@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{% endif %}
+{% seo %}
+    {% for alt in page.alternates %}<link rel="alternate" hreflang="{{ alt[0] }}" href="{{ alt[1] | absolute_url }}">
+    {% endfor %}{% if page.alternates %}<link rel="alternate" hreflang="x-default" href="{{ page.alternates.en | absolute_url }}">{% endif %}
+    {% if page.app %}<link rel="icon" type="image/png" sizes="32x32" href="/{{ page.app }}/img/favicon-32.png">
+    <link rel="apple-touch-icon" href="/{{ page.app }}/img/apple-touch-icon.png">{% else %}<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">{% endif %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>.site-title{margin:0 0 24px;font-size:1.25rem;font-weight:600}.site-title a{color:inherit}</style>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <p class="site-title"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a>{% if page.app %} · <a href="/{{ page.app }}/{% if page.lang == 'en' %}en/{% endif %}">{{ page.app_name }}</a>{% endif %}</p>
+      {{ content }}
+    </div>
+  </body>
+</html>

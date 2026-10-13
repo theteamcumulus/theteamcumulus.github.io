@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /lifory/en/support/
+app: lifory
+app_name: Lifory
+description: "Lifory support: frequently asked questions, troubleshooting tips and how to contact Team Cumulus about the date stamp camera for iPhone."
+image: /lifory/img/lifory-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /lifory/support/
+  en: /lifory/en/support/
 ---
 
 # Lifory Support

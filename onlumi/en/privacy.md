@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /onlumi/en/privacy/
+app: onlumi
+app_name: Onlumi
+description: "Privacy policy for Onlumi, the gratitude journal and daily quote app for iPhone: what information the app collects, why it is used, and how to contact us."
+image: /onlumi/img/onlumi-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /onlumi/privacy/
+  en: /onlumi/en/privacy/
 ---
 
 # Onlumi Privacy Policy

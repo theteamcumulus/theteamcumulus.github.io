@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /onlumi/support/
+app: onlumi
+app_name: 온루미
+description: "온루미(감사일기·긍정확언과 명언 위젯 아이폰 앱) 자주 묻는 질문, 문제 해결 방법과 문의처를 안내하는 Team Cumulus 공식 지원 페이지입니다."
+image: /onlumi/img/onlumi-app-icon.png
+alternates:
+  ko: /onlumi/support/
+  en: /onlumi/en/support/
 ---
 
 # 온루미 지원

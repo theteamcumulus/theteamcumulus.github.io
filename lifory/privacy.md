@@ -1,6 +1,13 @@
 ---
 layout: default
 permalink: /lifory/privacy/
+app: lifory
+app_name: Lifory
+description: "Lifory(찍는 순간의 날짜를 새기는 아이폰 카메라 앱)이 어떤 정보를 왜 수집·이용하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+image: /lifory/img/lifory-app-icon.png
+alternates:
+  ko: /lifory/privacy/
+  en: /lifory/en/privacy/
 ---
 
 # Lifory 개인정보 처리방침

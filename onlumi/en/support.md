@@ -1,6 +1,15 @@
 ---
 layout: default
 permalink: /onlumi/en/support/
+app: onlumi
+app_name: Onlumi
+description: "Onlumi support: frequently asked questions, troubleshooting tips and how to contact Team Cumulus about the gratitude journal and daily quote app for iPhone."
+image: /onlumi/img/onlumi-app-icon.png
+lang: en
+locale: en_US
+alternates:
+  ko: /onlumi/support/
+  en: /onlumi/en/support/
 ---
 
 # Onlumi Support
