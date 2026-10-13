@@ -11,6 +11,15 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / 'index.html'
 APP = 'https://apps.apple.com/kr/app/id6819701703'
+# App Analytics 캠페인 링크: pt = 팀 provider token(App Store Connect › 앱 분석 › 캠페인 링크 생성), ct = 위치별 캠페인.
+# 토큰 목록과 분석 방법은 weather-fit 저장소 docs/analytics/acquisition.md. JSON-LD에는 캠페인 없는 APP을 쓴다.
+PT = '129567498'
+CAMPAIGN_BASE = 'https://apps.apple.com/app/apple-store/id6819701703'
+
+
+def app_link(ct):
+    return f'{CAMPAIGN_BASE}?pt={PT}&amp;ct={ct}&amp;mt=8' if PT else APP
+
 BASE = 'https://cumulus.team/weatherfit/'
 TODAY = '2026-10-11'
 TODAY_KO = '2026년 10월 11일'
@@ -101,7 +110,9 @@ ld_json = json.dumps(ld, ensure_ascii=False, indent=2)
 
 TEMPLATE = Path(__file__).resolve().parent / 'landing.template.html'
 page = (TEMPLATE.read_text()
-        .replace('{{APP}}', APP).replace('{{BASE}}', BASE).replace('{{TODAY}}', TODAY)
+        .replace('{{APP_HERO}}', app_link('web-landing-hero'))
+        .replace('{{APP_HOWTO}}', app_link('web-landing-howto'))
+        .replace('{{APP_BOTTOM}}', app_link('web-landing-bottom')).replace('{{BASE}}', BASE).replace('{{TODAY}}', TODAY)
         .replace('{{TODAY_KO}}', TODAY_KO).replace('{{VERSION}}', VERSION)
         .replace('{{LD_JSON}}', ld_json).replace('{{FEATURES}}', features_html)
         .replace('{{SHOTS}}', shots_html).replace('{{FAQ}}', faq_html))
