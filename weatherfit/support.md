@@ -5,7 +5,7 @@ permalink: /weatherfit/support/
 
 # 출퇴근날씨 지원
 
-출퇴근날씨는 출근·점심·퇴근 시간의 기상청 예보를 내가 느끼는 체감과 하루 옷차림으로 알려주는 아이폰 날씨 앱입니다. [앱 소개와 전체 FAQ 보기](/weatherfit/) · [App Store](https://apps.apple.com/app/apple-store/id6819701703?pt=129567498&ct=web-support&mt=8)
+출퇴근날씨는 출근·점심·퇴근 시간의 기상청 예보를 내가 느끼는 체감과 하루 옷차림으로 알려주는 아이폰 날씨 앱입니다. [앱 소개와 전체 FAQ 보기](/weatherfit/) · [App Store](https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-support&mt=8)
 
 ## 자주 묻는 질문
 

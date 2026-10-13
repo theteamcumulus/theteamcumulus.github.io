@@ -14,7 +14,7 @@ APP = 'https://apps.apple.com/kr/app/id6819701703'
 # App Analytics 캠페인 링크: pt = 팀 provider token(App Store Connect › 앱 분석 › 캠페인 링크 생성), ct = 위치별 캠페인.
 # 토큰 목록과 분석 방법은 weather-fit 저장소 docs/analytics/acquisition.md. JSON-LD에는 캠페인 없는 APP을 쓴다.
 PT = '129567498'
-CAMPAIGN_BASE = 'https://apps.apple.com/app/apple-store/id6819701703'
+CAMPAIGN_BASE = APP  # 국가(/kr) 필수: 국가 없는 주소는 웹에서 미국 스토어로 열려 404 (한국 전용 앱)
 
 
 def app_link(ct):
