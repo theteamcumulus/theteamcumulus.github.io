@@ -12,7 +12,7 @@ Team Cumulus 공식 사이트. 팀 project_id: SITE.
 - App Store 정보(앱 헤더·정보 띠·새로운 기능·정보 표·JSON-LD·허브 앱 목록)와 llms.txt·/apps.json은 tools/appstore/apps.json에서 생성한다. 랜딩의 `<!-- appstore:*:start/end -->` 사이와 llms.txt는 직접 고치지 않는다. 갱신: `python3 tools/appstore/sync.py && python3 tools/appstore/render.py`(저장소 루트). 본문 FAQ를 고치면 render만 다시 실행하면 FAQPage JSON-LD가 따라온다.
 - 개발자 표기는 Team Cumulus만 쓴다. App Store 판매자 실명·개발자 페이지 URL은 사이트·apps.json·llms.txt에 넣지 않는다(sync.py도 저장하지 않음). 앱이 실제 지원 언어와 스토어 언어 표기가 다르면 tools/appstore/apps.json의 languageOverride로 맞춘다(출퇴근날씨: KO).
 - 팀 로고: assets/logo.svg(원본), logo-512.png·apple-touch-icon.png·favicon-32.png는 macOS `sips`로 생성.
-- 지우지 않는 파일: CNAME, BingSiteAuth.xml, naver*.html, 67671e*.txt, fb31c6d1*.txt(IndexNow 키)(검색엔진 소유 확인용).
+- 지우지 않는 파일: CNAME, BingSiteAuth.xml, naver*.html, google*.html(Search Console), 67671e*.txt, fb31c6d1*.txt(IndexNow 키)(검색엔진 소유 확인용).
 - 앱 아이콘은 <app>/img/<app>-app-icon.png(icon-512.png 사본, render.py가 만듦)를 쓴다. 이미지 검색·AI가 앱별 아이콘을 구분하게 하려는 것. sitemap.xml 이미지 항목도 render.py가 만든다.
 - 배포 후 검색엔진에 갱신 알림: `python3 tools/indexnow.py`(IndexNow, Bing 등).
 - 지원·개인정보(.md) 페이지는 _layouts/default.html을 쓴다. 새 .md 페이지에는 front matter로 app, app_name, description(고유, 160자 이하), image(앱 아이콘), 영어판이면 lang: en·locale: en_US, ko/en 쌍이 있으면 alternates(ko·en)를 넣는다.
