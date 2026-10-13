@@ -20,13 +20,14 @@
 | `web-landing-en-hero` / `-howto` / `-bottom` | 영어 랜딩(`/<app>/en/`) 같은 위치 | onlumi(hero·bottom), lifory |
 | `web-support` / `web-support-en` | 지원 페이지 상단 App Store 링크 | weatherfit, redday, onlumi(+en) |
 | `web-llms` | /llms.txt 앱 항목 (AI 검색·에이전트 경유) | 전 앱 |
+| `web-hub` | 허브(/) 앱 카드의 "App Store에서 보기" | 출시된 앱 |
 
 예약(사이트 밖에서 쓸 때): `sns-instagram`, `sns-threads`, `sns-x`, `community-<이름>`, `qr-offline`.
 
 ## 고칠 때
 
 - weatherfit 랜딩은 `weatherfit/build_landing.py`의 `PT`·`app_link(ct)`로 만든다(index.html 직접 수정 금지).
-- 다른 앱 페이지는 HTML의 `href`를 직접 고친다. 새 버튼을 추가하면 위 표에 ct를 먼저 적는다.
+- 랜딩 상단 배지(hero)·하단 버튼(bottom)·허브·llms.txt 링크는 `tools/appstore/appstore_lib.py`·`render.py`가 만든다(`store_link`, apps.json의 pages[].storeUrl·ct). 본문 안 링크(howto)는 HTML의 `href`를 직접 고친다. 새 버튼을 추가하면 위 표에 ct를 먼저 적는다.
 - 링크를 바꾸면 `curl -s -o /dev/null -w "%{http_code}" -L "<주소>"`로 200인지 확인한다(출시 전 앱은 404).
 - 분석: 출퇴근날씨는 weather-fit 저장소 `scripts/app-analytics.mjs`(Analytics Reports API). 다른 앱은 App Store Connect 앱 분석 콘솔, 또는 같은 스크립트를 앱 ID·리포트 요청 ID만 바꿔 쓴다.
 

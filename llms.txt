@@ -2,16 +2,46 @@
 
 > Team Cumulus가 만든 iPhone 앱의 공식 안내 페이지. 문의: theteamcumulus@gmail.com
 
+모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.
+App Store 등록정보는 2026-10-13에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
+
+| 앱 | App Store 부제 | 상태 | 공식 페이지 |
+|---|---|---|---|
+| 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.4) | https://cumulus.team/redday/ |
+| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.0) | https://cumulus.team/weatherfit/ |
+| Lifory (구 SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.1) | https://cumulus.team/lifory/ |
+| 온루미 (Onlumi) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/onlumi/ |
+| Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
+
 ## 빨간날 (Red Day Alarm)
+![빨간날 아이콘](https://cumulus.team/redday/img/icon-512.png)
+
+빨간날은 주말·공휴일·대체공휴일·연차에는 자동으로 쉬고 평일에만 울리는 무료 아이폰 알람 앱입니다(iOS 26 이상, 한국 공휴일 기준).
 
 빨간날은 주말·공휴일·대체공휴일·내 휴무일(연차 등)에는 자동으로 울리지 않고 평일에만 울리는 아이폰 알람 앱이다. 한국 공휴일 기준, iOS 26 이상, 무료, 광고 없음, 회원가입 없음.
 
-- 설치: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
+- App Store 이름 / 부제: 빨간날 / 공휴일엔 쉬는 알람
+- 개발자: Team Cumulus
+- 상태: App Store 출시 · 카테고리: 유틸리티, 생산성 · 가격: 무료 · 연령: 4+
+- 버전: 1.0.4 (2026-10-13) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 69.3MB
+- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-13 확인)
+- App Store: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
 - 개인정보 처리방침: https://cumulus.team/redday/privacy/
 
-핵심 사실 (앱 1.0.2 기준, 2026-10-10 확인):
+이런 분께 추천:
+- 평일 아침 알람을 맞춰 두고 쓰는 직장인·학생
+- 연휴 전날 알람을 끄고 출근 전날 다시 켜는 일이 번거로운 분
+- 연차·휴가 날에도 알람이 울리지 않길 바라는 분
+- 노동절처럼 공휴일에도 출근하는 날이 있는 분
+
+맞지 않는 경우:
+- 안드로이드 폰을 쓰는 경우(안드로이드 버전은 아직 없습니다)
+- iOS 26 미만 아이폰(iOS 26 이상 필요)
+- 한국이 아닌 나라의 공휴일 기준이 필요한 경우(한국 공휴일 기준)
+
+핵심 사실 (2026-10-10 확인):
 - 아이폰 기본 시계 앱의 반복 알람은 요일 단위라 공휴일만 빼는 설정이 없다. 빨간날은 알람마다 '빨간 날에는 쉬기'(기본 켜짐)를 켜 두면 공휴일·대체공휴일·내 휴무일에 울리지 않는다.
 - 공휴일 데이터: 한국천문연구원 특일 정보(공공데이터포털). 2026~2027년 포함. 임시공휴일은 앱 업데이트로 반영.
 - 내 휴무일: 쉬는 날 탭에서 연차·휴가를 하루 또는 기간으로 등록.
@@ -22,15 +52,34 @@
 - 안드로이드 버전은 아직 출시되지 않았다.
 
 ## 출퇴근날씨 (WeatherFit)
+![출퇴근날씨 아이콘](https://cumulus.team/weatherfit/img/icon-512.png)
+
+출퇴근날씨는 출근·점심·퇴근 세 시간대 기상청 예보를 내 체감과 하루 옷차림으로 알려주는 무료 아이폰 날씨 앱입니다.
 
 출퇴근날씨는 출근·점심·퇴근 세 시간대의 대한민국 기상청 예보를 '내가 느끼는 체감'과 하루 옷차림으로 알려주는 아이폰 날씨 앱이다. iPhone 전용, iOS 15.1 이상(홈 화면 위젯은 iOS 17 이상), 무료, 광고 없음, 회원가입 없음. 2026-10-12 대한민국 App Store 출시.
 
+- App Store 이름 / 부제: 출퇴근날씨 / 출근·점심·퇴근, 내 체감 날씨
+- 개발자: Team Cumulus
+- 상태: App Store 출시 · 카테고리: 날씨, 라이프스타일 · 가격: 무료 · 연령: 4+
+- 버전: 1.0.0 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.2MB
+- 평점: 아직 표시할 평가 없음 (2026-10-13 확인)
 - App Store: https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/weatherfit/
 - 지원: https://cumulus.team/weatherfit/support/
 - 개인정보 처리방침: https://cumulus.team/weatherfit/privacy/
 
-핵심 사실 (앱 1.0.0 기준, 2026-10-10 확인):
+이런 분께 추천:
+- 출근·점심·퇴근 날씨를 한 화면에서 보고 싶은 직장인
+- 같은 기온에도 남보다 춥거나 덥게 느끼는 분
+- 집과 직장 지역의 날씨가 다른 분
+- 일교차 큰 날 무엇을 입을지 고민되는 분
+
+맞지 않는 경우:
+- 해외에서 쓰는 경우(기상청 예보는 대한민국 위치에서만 제공됩니다)
+- 안드로이드 폰을 쓰는 경우(현재 iPhone 전용)
+- iOS 17 미만에서 홈 화면 위젯을 쓰려는 경우(앱은 iOS 15.1 이상, 위젯은 iOS 17 이상)
+
+핵심 사실 (2026-10-10 확인):
 - 시간대: 출근 오전 8시·점심 12시·퇴근 오후 6시가 기본. 30분 단위로 변경 가능(출근 05:00–10:30, 점심 11:00–14:30, 퇴근 15:00–22:00). 퇴근 시각이 지나면 내일 시간대로 전환.
 - 데이터: 기상청 단기예보·초단기실황(체감온도 산출식), 자외선 Open-Meteo, 미세먼지 OpenWeather. 대한민국 위치에서만 동작.
 - 체감: 10단계 문구(예: 트렌치코트 시즌, 걷고 싶은 날, 출근길 사우나). 비·눈 오는 날과 평일 월·금요일엔 그에 어울리는 문구가 섞인다. '지금 내 체감은?' 기록으로 온도·습도·바람·비·자외선별 개인 보정을 학습하며 기록은 기기에만 저장.
@@ -43,15 +92,36 @@
 - 익명 오류 정보와 사용 통계만 수집(Firebase), 광고 식별자(IDFA) 미사용. 안드로이드 버전은 없다.
 
 ## Lifory (구 SandTime)
+![Lifory 아이콘](https://cumulus.team/lifory/img/icon-512.png)
+
+Lifory는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.
+
+Lifory is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting.
 
 Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
 
-- 설치: https://apps.apple.com/app/id6821004763?pt=129567498&ct=web-llms&mt=8
+- App Store 이름 / 부제: Lifory / 찍는 순간을 새기는 날짜 카메라
+- 개발자: Team Cumulus
+- 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
+- 버전: 1.0.1 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
+- 평점: 아직 표시할 평가 없음 (2026-10-13 확인)
+- App Store: https://apps.apple.com/kr/app/id6821004763?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/lifory/ (English: https://cumulus.team/lifory/en/)
 - 지원: https://cumulus.team/lifory/support/ (English: https://cumulus.team/lifory/en/support/)
 - 개인정보 처리방침: https://cumulus.team/lifory/privacy/ (English: https://cumulus.team/lifory/en/privacy/)
 
-핵심 사실 (앱 1.0.1 기준, 2026-10-11 확인):
+이런 분께 추천:
+- 사진에 필름 카메라 같은 날짜 표시를 남기고 싶은 분
+- 여행·육아·일상 사진에 찍은 날짜가 보이길 원하는 분
+- 찍은 뒤에도 스탬프 스타일을 바꾸고 싶은 분
+- 회원가입 없이 사진을 기기에만 두고 싶은 분
+
+맞지 않는 경우:
+- 사진 앱에 있는 기존 사진에 날짜를 넣으려는 경우(앱에서 직접 찍은 사진에만 새깁니다)
+- 안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)
+- iOS 17 미만 아이폰(iOS 17 이상 필요)
+
+핵심 사실 (2026-10-11 확인):
 - 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifory는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
 - 스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.
 - 스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.
@@ -61,15 +131,32 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 안드로이드 버전은 없다.
 
 ## 온루미 (Onlumi)
+![온루미 아이콘](https://cumulus.team/onlumi/img/icon-512.png)
+
+온루미는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.
+
+Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
 
 온루미는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "좋은 마음이 빛나는 곳" / "Let Goodness Glow". App Store 이름: 온루미 - 감사일기와 긍정확언 (Onlumi - Gratitude & Quotes). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 개발 중 이름은 좋은말.
 
-- 설치: https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-llms&mt=8
+- App Store 이름 / 부제: 온루미 / 감사일기와 긍정확언 (App Store 출시 전, 사이트 표기)
+- 개발자: Team Cumulus
+- 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
 - 공식 소개·FAQ: https://cumulus.team/onlumi/ (English: https://cumulus.team/onlumi/en/)
 - 지원: https://cumulus.team/onlumi/support/ (English: https://cumulus.team/onlumi/en/support/)
 - 개인정보 처리방침: https://cumulus.team/onlumi/privacy/ (English: https://cumulus.team/onlumi/en/privacy/)
 
-핵심 사실 (앱 1.0.0 기준, 2026-10-11 확인):
+이런 분께 추천:
+- 하루 한 문장 명언·성경 구절(개역개정)을 홈 화면 위젯으로 보고 싶은 분
+- 감사일기와 긍정확언을 익명으로 나누고 응원받고 싶은 분
+- 회원가입 없이 가볍게 쓰고 싶은 분
+
+맞지 않는 경우:
+- 한국어가 아닌 언어로 쓰려는 경우(앱 언어는 한국어)
+- 안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)
+- iOS 17 미만 아이폰(iOS 17 이상 필요)
+
+핵심 사실 (2026-10-11 확인):
 - 문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.
 - 다음 문구 순서는 날짜와 주제별로 섞인다. 즐겨찾기(하트)와 보관함 검색. 배경 테마 10가지.
 - 위젯(소형·중형·대형): 오늘의 문구, 중형·대형은 공유·즐겨찾기·다음 문구 버튼. 앱과 같은 테마·문구.
@@ -81,15 +168,32 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 안드로이드 버전은 없다.
 
 ## Pixder (픽스더)
+![Pixder 아이콘](https://cumulus.team/pixder/img/icon-512.png)
+
+Pixder는 사진을 한 장씩 넘기며 왼쪽은 삭제 후보, 오른쪽은 보관으로 고른 뒤 한 번에 지우는 무료 아이폰 사진 정리 앱입니다.
+
+Pixder is a free iPhone photo cleaner: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once.
 
 Pixder is an iPhone photo cleaner by Team Cumulus. Photos appear one at a time; swipe left to mark for deletion, swipe right to keep, then review the marked photos and delete them all at once. iPhone, iOS 17 or later, free, no ads, no sign-up, no daily limits. 8 languages (ko, en, ja, zh-Hans, zh-Hant, es, fr, de). Status on 2026-10-11: preparing App Store release.
 
-- 공식 소개·FAQ (ko): https://cumulus.team/pixder/
-- Official page (en): https://cumulus.team/pixder/en/
-- 지원 / Support: https://cumulus.team/pixder/support/ · https://cumulus.team/pixder/en/support/
-- 개인정보 처리방침 / Privacy: https://cumulus.team/pixder/privacy/ · https://cumulus.team/pixder/en/privacy/
+- App Store 이름 / 부제: Pixder / 스와이프 사진 정리 (App Store 출시 전, 사이트 표기)
+- 개발자: Team Cumulus
+- 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
+- 공식 소개·FAQ: https://cumulus.team/pixder/ (English: https://cumulus.team/pixder/en/)
+- 지원: https://cumulus.team/pixder/support/ (English: https://cumulus.team/pixder/en/support/)
+- 개인정보 처리방침: https://cumulus.team/pixder/privacy/ (English: https://cumulus.team/pixder/en/privacy/)
 
-Key facts (app 1.0.0, checked 2026-10-11):
+이런 분께 추천:
+- 사진이 수천 장 쌓여 정리를 미뤄 온 분
+- 스크린샷이나 한 달 치 사진만 골라 빠르게 정리하고 싶은 분
+- 실수로 지울까 걱정돼 지우기 전에 한 번 더 확인하고 싶은 분
+
+맞지 않는 경우:
+- '최근 삭제된 항목'까지 앱이 대신 비워 주길 원하는 경우(Pixder는 이 앨범을 비울 수 없습니다)
+- 안드로이드 폰을 쓰는 경우(안드로이드 버전은 아직 없습니다)
+- iOS 17 미만 아이폰(iOS 17 이상 필요)
+
+Key facts (checked 2026-10-11):
 - Swiping never deletes. Deletion happens only from the review screen after the standard iOS confirmation dialog; deleted items go to Recently Deleted in Photos for 30 days and can be recovered.
 - Storage is freed only after Recently Deleted is emptied (Pixder cannot empty it).
 - Sort scopes: All Photos (newest first), by month, Screenshots. Keeping a photo applies everywhere. Progress is saved and resumes automatically. Undo is available.

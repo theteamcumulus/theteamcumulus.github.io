@@ -31,103 +31,175 @@ permalink: /pixder/en/
   <meta property="og:image:alt" content="Pixder app icon with the text 'Swipe to tidy up your photos'">
   <meta name="twitter:card" content="summary_large_image">
 
+  <!-- appstore:head:start -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://cumulus.team/#org",
-        "name": "Team Cumulus",
-        "url": "https://cumulus.team/",
-        "email": "theteamcumulus@gmail.com"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cumulus.team/#org",
+      "name": "Team Cumulus",
+      "url": "https://cumulus.team/",
+      "email": "theteamcumulus@gmail.com",
+      "logo": "https://cumulus.team/assets/logo-512.png"
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://cumulus.team/pixder/#app",
+      "name": "Pixder",
+      "alternateName": [
+        "Pixder: Swipe Photo Cleaner"
+      ],
+      "description": "Pixder is a free iPhone photo cleaner: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once.",
+      "url": "https://cumulus.team/pixder/en/",
+      "operatingSystem": "iOS 17.0+",
+      "availableOnDevice": "iPhone",
+      "applicationCategory": "PhotographyApplication",
+      "applicationSubCategory": "Photo cleaner",
+      "inLanguage": [
+        "ko",
+        "en",
+        "ja",
+        "zh-hans",
+        "zh-hant",
+        "es",
+        "fr",
+        "de"
+      ],
+      "image": "https://cumulus.team/pixder/img/icon-512.png",
+      "screenshot": [
+        "https://cumulus.team/pixder/img/en/screen-01.jpg",
+        "https://cumulus.team/pixder/img/en/screen-02.jpg",
+        "https://cumulus.team/pixder/img/en/screen-03.jpg",
+        "https://cumulus.team/pixder/img/en/screen-04.jpg",
+        "https://cumulus.team/pixder/img/en/screen-05.jpg"
+      ],
+      "featureList": [
+        "Swipe to sort: left to mark for deletion, right to keep, up to favorite",
+        "Undo",
+        "Review your picks, then delete in one go (iOS confirmation)",
+        "Sort all photos, one month at a time, or just screenshots",
+        "Pick up where you left off",
+        "Photos, videos and Live Photos; 8 languages"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       },
-      {
-        "@type": "MobileApplication",
-        "@id": "https://cumulus.team/pixder/#app",
-        "name": "Pixder",
-        "alternateName": ["Pixder: Swipe Photo Cleaner"],
-        "description": "An iPhone photo cleaner: see photos one at a time, swipe left to mark for deletion and right to keep, then review and delete them all at once.",
-        "url": "https://cumulus.team/pixder/en/",
-        "operatingSystem": "iOS 17.0 or later",
-        "availableOnDevice": "iPhone",
-        "applicationCategory": "PhotographyApplication",
-        "applicationSubCategory": "Photo cleaner",
-        "inLanguage": ["en", "ko", "ja", "zh-Hans", "zh-Hant", "es", "fr", "de"],
-        "softwareVersion": "1.0.0",
-        "contentRating": "4+",
-        "image": "https://cumulus.team/pixder/img/icon-512.png",
-        "screenshot": [
-          "https://cumulus.team/pixder/img/en/screen-01.jpg",
-          "https://cumulus.team/pixder/img/en/screen-02.jpg",
-          "https://cumulus.team/pixder/img/en/screen-03.jpg",
-          "https://cumulus.team/pixder/img/en/screen-04.jpg",
-          "https://cumulus.team/pixder/img/en/screen-05.jpg"
-        ],
-        "featureList": [
-          "Swipe to sort: left to mark for deletion, right to keep, up to favorite",
-          "Undo",
-          "Review your picks, then delete in one go (iOS confirmation)",
-          "Sort all photos, one month at a time, or just screenshots",
-          "Pick up where you left off",
-          "Photos, videos and Live Photos; 8 languages"
-        ],
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "author": { "@id": "https://cumulus.team/#org" },
-        "publisher": { "@id": "https://cumulus.team/#org" }
+      "author": {
+        "@id": "https://cumulus.team/#org"
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://cumulus.team/pixder/en/#page",
-        "url": "https://cumulus.team/pixder/en/",
-        "name": "Pixder - Swipe Photo Cleaner for iPhone",
-        "inLanguage": "en",
-        "about": { "@id": "https://cumulus.team/pixder/#app" },
-        "dateModified": "2026-10-11"
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://cumulus.team/pixder/en/#faq",
-        "mainEntity": [
-          { "@type": "Question", "name": "Is there a faster way to clean up photos on iPhone?",
-            "acceptedAnswer": { "@type": "Answer", "text": "In the Photos app you either open photos one by one or pick small thumbnails in Select mode. Pixder shows one photo at a time, full size. Swipe left to mark it for deletion or right to keep it. When you're done, review the photos marked for deletion and delete them all at once." } },
-          { "@type": "Question", "name": "Does swiping left delete the photo right away?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No. Nothing is deleted while you swipe. Photos you swipe left are collected for review. They're deleted only after you tap Delete on the review screen and confirm in the iOS dialog. Swiped the wrong way? Tap Undo, or remove the photo from the list on the review screen." } },
-          { "@type": "Question", "name": "Can I recover photos I deleted?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Photos deleted with Pixder move to Recently Deleted in the Photos app and stay there for 30 days, so you can recover them in Photos during that time. If you use iCloud Photos, they're deleted from and recovered on all your devices." } },
-          { "@type": "Question", "name": "I deleted photos but my storage didn't go up.",
-            "acceptedAnswer": { "@type": "Answer", "text": "Deleted photos stay in Recently Deleted for 30 days and still take up space during that time. To free space right away, empty Recently Deleted in the Photos app. Pixder can't empty that album for you." } },
-          { "@type": "Question", "name": "Can I sort one month at a time, or just screenshots?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. On the home screen, choose All Photos (newest first), a month, or Screenshots. Each month shows how many photos you've sorted, and a photo you keep won't show up again anywhere else." } },
-          { "@type": "Question", "name": "If I close the app, do I have to start over?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No. Every keep or delete choice is saved on your device as you swipe, and Pixder opens where you left off." } },
-          { "@type": "Question", "name": "Does it work with videos and Live Photos?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Videos show their first frame and length, and Live Photos and favorites are labeled. Deleting a Live Photo deletes both the photo and its video." } },
-          { "@type": "Question", "name": "Is Pixder free? Are my photos uploaded?",
-            "acceptedAnswer": { "@type": "Answer", "text": "It's free, with no ads, no sign-up and no daily limits. Your photos are read on your device only to show them and are never sent anywhere. To improve the app, we collect only anonymous error reports and usage statistics, and we don't use the advertising identifier (IDFA)." } }
-        ]
+      "publisher": {
+        "@id": "https://cumulus.team/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cumulus.team/pixder/en/#page",
+      "url": "https://cumulus.team/pixder/en/",
+      "name": "Pixder - Swipe Photo Cleaner for iPhone",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://cumulus.team/pixder/#app"
+      },
+      "dateModified": "2026-10-13"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://cumulus.team/pixder/en/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there a faster way to clean up photos on iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the Photos app you either open photos one by one or pick small thumbnails in Select mode. Pixder shows one photo at a time, full size. Swipe left to mark it for deletion or right to keep it. When you're done, review the photos marked for deletion and delete them all at once."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does swiping left delete the photo right away?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Nothing is deleted while you swipe. Photos you swipe left are collected for review. They're deleted only after you tap Delete on the review screen and confirm in the iOS dialog. Swiped the wrong way? Tap Undo, or remove the photo from the list on the review screen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I recover photos I deleted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Photos deleted with Pixder move to Recently Deleted in the Photos app and stay there for 30 days, so you can recover them in Photos during that time. If you use iCloud Photos, they're deleted from and recovered on all your devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I deleted photos but my storage didn't go up.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deleted photos stay in Recently Deleted for 30 days and still take up space during that time. To free space right away, empty Recently Deleted in the Photos app. Pixder can't empty that album for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I sort one month at a time, or just screenshots?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. On the home screen, choose All Photos (newest first), a month, or Screenshots. Each month shows how many photos you've sorted, and a photo you keep won't show up again anywhere else."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I close the app, do I have to start over?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Every keep or delete choice is saved on your device as you swipe, and Pixder opens where you left off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it work with videos and Live Photos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Videos show their first frame and length, and Live Photos and favorites are labeled. Deleting a Live Photo deletes both the photo and its video."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pixder free? Are my photos uploaded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's free, with no ads, no sign-up and no daily limits. Your photos are read on your device only to show them and are never sent anywhere. To improve the app, we collect only anonymous error reports and usage statistics, and we don't use the advertising identifier (IDFA). See the Privacy Policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pixder available on Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. Pixder is an iPhone app for iOS 17 or later, and the Android version has not been released."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
+  <!-- appstore:head:end -->
 
   <style>
     :root { --brand:#5E3BEE; --brand-dark:#4B25D9; --keep:#009E6B; --fav:#2985FF; --del:#FF4559; --ink:#1d1d1f; --sub:#5f6368; --bg:#fff; --soft:#f5f4fb; --line:#e6e4ef; }
-    @media (prefers-color-scheme: dark) { :root { --brand:#7656FF; --ink:#f2f2f4; --sub:#b4b4bb; --bg:#111113; --soft:#1c1b22; --line:#2c2b33; } }
+    @media (prefers-color-scheme: dark) { :root { --brand:#9A85FF; --ink:#f2f2f4; --sub:#b4b4bb; --bg:#111113; --soft:#1c1b22; --line:#2c2b33; } }
     * { box-sizing:border-box; }
     body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
     a { color:var(--brand); }
     .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
     header.hero { background:linear-gradient(180deg,#7656FF,#4B25D9); color:#fff; padding:56px 0 48px; }
-    .hero .brand { display:flex; align-items:center; gap:14px; margin-bottom:20px; }
-    .hero .brand img { width:64px; height:64px; border-radius:15px; box-shadow:0 4px 14px rgba(0,0,0,.22); }
-    .hero .brand span { font-size:22px; font-weight:800; }
     .hero .lang { margin-left:auto; color:#fff; opacity:.9; font-size:15px; }
-    .hero h1 { font-size:clamp(32px,6vw,48px); line-height:1.2; margin:0 0 14px; font-weight:800; }
     .hero p.lead { font-size:clamp(17px,2.4vw,20px); margin:0 0 28px; opacity:.95; max-width:640px; }
     .cta { display:inline-block; background:#fff; color:var(--brand-dark); font-weight:800; font-size:18px; padding:14px 26px; border-radius:999px; text-decoration:none; }
-    .cta.soon { background:rgba(255,255,255,.18); color:#fff; border:2px solid rgba(255,255,255,.6); }
-    .cta:focus-visible, a:focus-visible { outline:3px solid #ffd54f; outline-offset:3px; }
     .meta { margin-top:14px; font-size:15px; opacity:.9; }
     section { padding:48px 0; border-bottom:1px solid var(--line); }
     h2 { font-size:clamp(24px,3.6vw,30px); margin:0 0 18px; line-height:1.3; }
@@ -140,16 +212,12 @@ permalink: /pixder/en/
     .swipe-legend .u { border-left:6px solid var(--fav); }
     .swipe-legend strong { display:block; font-size:19px; }
     .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; list-style:none; padding:0; margin:0; }
-    .features li { background:var(--soft); border-radius:16px; padding:18px 20px; }
+    .features li { background:var(--soft); border-radius:16px; padding:18px 20px; min-width:0; }
     .features strong { display:block; font-size:18px; margin-bottom:4px; }
     table { width:100%; border-collapse:collapse; font-size:16px; }
     th, td { border-bottom:1px solid var(--line); padding:12px 10px; text-align:left; vertical-align:top; overflow-wrap:break-word; }
     th { background:var(--soft); }
     .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
-    .shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:16px; margin:0; padding:0; list-style:none; }
-    .shots li, .features li { min-width:0; }
-    .shots img { width:100%; height:auto; border-radius:18px; display:block; border:1px solid var(--line); }
-    .shots figcaption { font-size:15px; color:var(--sub); margin-top:6px; text-align:center; }
     figure { margin:0; }
     img { max-width:100%; }
     ol.steps li { margin-bottom:8px; }
@@ -160,19 +228,111 @@ permalink: /pixder/en/
     footer a { color:inherit; }
     @media (max-width:480px) { .swipe-legend { grid-template-columns:1fr; } }
   </style>
+  <!-- appstore:css:start -->
+  <style>
+:root{--as-bg:var(--bg);--as-ink:var(--ink);--as-sub:var(--sub);--as-line:var(--line);--as-fill:var(--soft);--as-focus:#0a66d6;--as-edge:rgba(0,0,0,.1);--as-pad:20px;--as-r:16px}
+@media (prefers-color-scheme:dark){:root{--as-focus:#8ab8ff;--as-edge:rgba(255,255,255,.16)}}
+@media (prefers-contrast:more){:root{--as-sub:var(--ink);--as-line:var(--ink)}}
+:focus-visible{outline:3px solid var(--as-focus);outline-offset:2px}
+header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6)}
+.as-vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.as-head{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;margin-bottom:20px}
+.as-icon{display:block;width:96px;height:96px;border-radius:22.37%;box-shadow:0 0 0 1px var(--as-edge),0 6px 16px rgba(0,0,0,.2)}
+.as-name{font-size:1.375rem;line-height:1.25;font-weight:700;margin:0}
+.as-sub,.as-dev{margin:2px 0 0;font-size:1rem}.as-dev{font-size:.875rem}.as-dev a{color:inherit}
+.as-get{display:inline-block;margin-top:12px;padding:2px 0}.as-get img{display:block;height:40px;width:auto}
+.as-soon{display:inline-block;margin:12px 0 0;padding:6px 12px;border:1px solid currentColor;border-radius:8px;font-size:.9375rem;font-weight:600}
+.as-tagline{font-size:clamp(1.5rem,4vw,2rem);font-weight:800;line-height:1.3;margin:0 0 10px}
+.as-strip{overflow-x:auto;scroll-snap-type:x mandatory;border-bottom:1px solid var(--as-line)}
+.as-strip dl{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(104px,1fr);margin:0;padding:14px 0;text-align:center}
+.as-strip dl>div{scroll-snap-align:start;padding:0 8px;border-inline-start:1px solid var(--as-line)}
+.as-strip dl>div:first-child{border:0}
+.as-strip dt,.as-cap{font-size:.75rem;color:var(--as-sub)}
+.as-strip dd{margin:0}.as-val{font-size:1.25rem;font-weight:700;color:var(--as-sub);line-height:1.4}
+.as-stars{position:relative;display:inline-block;white-space:nowrap;font-size:.75rem;color:var(--as-line)}
+.as-stars::before{content:"★★★★★"}
+.as-stars::after{content:"★★★★★";position:absolute;left:0;top:0;overflow:hidden;width:calc(var(--r)*20%);color:var(--as-sub)}
+.as-shots{display:grid;grid-auto-flow:column;grid-auto-columns:min(62vw,230px);gap:12px;list-style:none;margin:0 calc(-1*var(--as-pad));padding:4px var(--as-pad) 12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--as-pad);overscroll-behavior-x:contain}
+.as-shots li{scroll-snap-align:start;min-width:0}
+.as-shots img{display:block;width:100%;height:auto;border-radius:var(--as-r);border:1px solid var(--as-line)}
+.as-shots figcaption{font-size:.8125rem;color:var(--as-sub);margin-top:6px}
+.as-strip:focus-visible,.as-shots:focus-visible{outline-offset:-3px}
+@media (min-width:720px){.as-icon{width:128px;height:128px}.as-name{font-size:1.75rem}.as-shots{grid-auto-columns:250px}}
+@media (max-width:360px){.as-icon{width:80px;height:80px}}
+.as-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;color:var(--as-sub);font-size:.9375rem;margin:0 0 8px}
+.as-notes{margin:0;padding-left:1.2em}
+.as-info{margin:0}.as-info>div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--as-line)}
+.as-info dt{color:var(--as-sub);flex:none}.as-info dd{margin:0;text-align:end;min-width:0;overflow-wrap:anywhere}
+.as-src{font-size:.8125rem;color:var(--as-sub)}
+.as-priv{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px;list-style:none;padding:0;margin:0 0 12px}
+.as-priv li{background:var(--as-fill);border-radius:var(--as-r);padding:16px}.as-priv strong{display:block}
+.as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
+.as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
+.as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
+.as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
+.as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
+.as-app h3 a{color:var(--as-ink);text-decoration:none}.as-app h3 a::after{content:"";position:absolute;inset:0}
+.as-app p{margin:0;font-size:.875rem;color:var(--as-sub)}.as-app .as-links{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){.as-strip,.as-shots{scroll-behavior:smooth}}
+  </style>
+  <!-- appstore:css:end -->
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <div class="brand"><img src="/pixder/img/icon-512.png" alt="" width="64" height="64"><span>Pixder</span><a class="lang" href="/pixder/" hreflang="ko" lang="ko">한국어</a></div>
-      <h1>Swipe to tidy up<br>your photos</h1>
+      <!-- appstore:hero:start -->
+      <div class="as-head">
+        <img class="as-icon" src="/pixder/img/icon-512.png" width="128" height="128" alt="Pixder app icon">
+        <div>
+          <h1 class="as-name">Pixder</h1>
+          <p class="as-sub">Swipe Photo Cleaner</p>
+          <p class="as-dev"><a href="/">Team Cumulus</a></p>
+          <p class="as-soon">Coming soon to the App Store</p>
+        </div>
+      </div>
+      <!-- appstore:hero:end -->
+      <p class="as-tagline">Swipe to tidy up<br>your photos</p>
       <p class="lead">Pixder shows your photos one at a time. Swipe left to mark for deletion, swipe right to keep. Nothing is deleted while you swipe — review your picks at the end and delete them all at once.</p>
-      <span class="cta soon" role="note">Coming soon to the App Store</span>
       <p class="meta">iPhone · iOS 17 or later · Free · No ads · No sign-up · 8 languages</p>
+      <p class="meta"><a class="lang" href="/pixder/" hreflang="ko" lang="ko">한국어</a></p>
     </div>
   </header>
 
   <main>
+    <!-- appstore:top:start -->
+    <section id="summary" aria-labelledby="h-summary">
+      <div class="wrap">
+        <h2 id="h-summary">Pixder at a glance</h2>
+        <p class="as-summary">Pixder is a free iPhone photo cleaner: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once.</p>
+        <div class="as-fit">
+          <div><h3>Great for</h3><ul>
+            <li>People with thousands of photos who keep putting off cleanup</li>
+            <li>Clearing just screenshots, or one month at a time</li>
+            <li>Anyone who wants to double-check before anything is deleted</li>
+          </ul></div>
+          <div><h3>Not the right fit if</h3><ul>
+            <li>You want the app to empty Recently Deleted for you (Pixder can't empty that album)</li>
+            <li>You use an Android phone (no Android version yet)</li>
+            <li>Your iPhone runs a version earlier than iOS 17</li>
+          </ul></div>
+        </div>
+      </div>
+    </section>
+    <section id="screens" aria-labelledby="h-screens">
+      <div class="wrap">
+        <h2 id="h-screens">Screenshots</h2>
+        <ul class="as-shots" tabindex="0" aria-label="5 screenshots, scroll sideways">
+          <li><figure><img src="/pixder/img/en/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped left with an X symbol in a red circle"><figcaption>← ✕ Mark for deletion</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped right with a heart symbol in a green circle"><figcaption>→ ♥ Keep</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-03.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped up with a star symbol in a blue circle"><figcaption>↑ ★ Favorite</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Review screen: grid of 12 photos marked for deletion, a 30-day recovery note and a red Delete 12 Items button"><figcaption>Review, then delete in one go</figcaption></figure></li>
+          <li><figure><img src="/pixder/img/en/screen-05.jpg" width="600" height="1304" loading="lazy" alt="Home screen: All Photos progress, Review Deletions, and a list of All Photos, Screenshots and months"><figcaption>By month or screenshots</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+    <!-- appstore:top:end -->
+
     <section id="why">
       <div class="wrap">
         <h2>Why photo cleanup keeps getting put off</h2>
@@ -199,6 +359,9 @@ permalink: /pixder/en/
         </ul>
       </div>
     </section>
+
+    <!-- appstore:whatsnew:start -->
+    <!-- appstore:whatsnew:end -->
 
     <section id="compare">
       <div class="wrap">
@@ -231,19 +394,6 @@ permalink: /pixder/en/
       </div>
     </section>
 
-    <section id="screens">
-      <div class="wrap">
-        <h2>Screenshots</h2>
-        <ul class="shots">
-          <li><figure><img src="/pixder/img/en/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped left with an X symbol in a red circle"><figcaption>← ✕ Mark for deletion</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped right with a heart symbol in a green circle"><figcaption>→ ♥ Keep</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-03.jpg" width="600" height="1304" loading="lazy" alt="Swipe deck: a card being swiped up with a star symbol in a blue circle"><figcaption>↑ ★ Favorite</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Review screen: grid of 12 photos marked for deletion, a 30-day recovery note and a red Delete 12 Items button"><figcaption>Review, then delete in one go</figcaption></figure></li>
-          <li><figure><img src="/pixder/img/en/screen-05.jpg" width="600" height="1304" loading="lazy" alt="Home screen: All Photos progress, Review Deletions, and a list of All Photos, Screenshots and months"><figcaption>By month or screenshots</figcaption></figure></li>
-        </ul>
-      </div>
-    </section>
-
     <section id="faq">
       <div class="wrap">
         <h2>FAQ</h2>
@@ -263,14 +413,39 @@ permalink: /pixder/en/
           <p>Yes. Videos show their first frame and length, and Live Photos and favorites are labeled. Deleting a Live Photo deletes both the photo and its video.</p></details>
         <details><summary>Is Pixder free? Are my photos uploaded?</summary>
           <p>It's free, with no ads, no sign-up and no daily limits. Your photos are read on your device only to show them and are never sent anywhere. To improve the app, we collect only anonymous error reports and usage statistics, and we don't use the advertising identifier (IDFA). See the <a href="/pixder/en/privacy/">Privacy Policy</a>.</p></details>
+        <details><summary>Is Pixder available on Android?</summary>
+          <p>Not yet. Pixder is an iPhone app for iOS 17 or later, and the Android version has not been released.</p></details>
       </div>
     </section>
+
+    <!-- appstore:facts:start -->
+    <section id="privacy" aria-labelledby="h-priv">
+      <div class="wrap">
+        <h2 id="h-priv">App Privacy</h2>
+        <p><a href="/pixder/en/privacy/">Privacy Policy</a></p>
+      </div>
+    </section>
+
+    <section id="info" aria-labelledby="h-info">
+      <div class="wrap">
+        <h2 id="h-info">Information (coming soon)</h2>
+        <dl class="as-info">
+          <div><dt>Developer</dt><dd>Team Cumulus</dd></div>
+          <div><dt>Compatibility</dt><dd>iPhone · Requires iOS 17.0 or later</dd></div>
+          <div><dt>Languages</dt><dd>Korean, English, Japanese, Chinese (Simplified), Chinese (Traditional), Spanish, French, German</dd></div>
+          <div><dt>Price</dt><dd>Free</dd></div>
+        </dl>
+      </div>
+    </section>
+    <!-- appstore:facts:end -->
 
     <section id="start">
       <div class="wrap">
         <h2>A few photos today, a tidy library tomorrow</h2>
+        <!-- appstore:cta:start -->
         <p>One hand, a spare minute, a few swipes. Pixder is coming soon to the App Store, free.</p>
-        <span class="cta" style="background:var(--brand);color:#fff" role="note">Coming soon to the App Store</span>
+        <p class="as-soon">Coming soon to the App Store</p>
+        <!-- appstore:cta:end -->
       </div>
     </section>
   </main>
@@ -278,7 +453,7 @@ permalink: /pixder/en/
   <footer>
     <div class="wrap">
       <p>Pixder · Made by <a href="https://cumulus.team/">Team Cumulus</a> · Contact <a href="mailto:theteamcumulus@gmail.com">theteamcumulus@gmail.com</a></p>
-      <p><a href="/pixder/en/support/">Support</a> · <a href="/pixder/en/privacy/">Privacy Policy</a> · <a href="/pixder/" hreflang="ko" lang="ko">한국어</a> · Last updated <time datetime="2026-10-11">October 11, 2026</time> (app 1.0.0)</p>
+      <p><a href="/pixder/en/support/">Support</a> · <a href="/pixder/en/privacy/">Privacy Policy</a> · <a href="/pixder/" hreflang="ko" lang="ko">한국어</a> · <!-- appstore:updated:start -->Last updated <time datetime="2026-10-13">October 13, 2026</time><!-- appstore:updated:end --></p>
     </div>
   </footer>
 </body>

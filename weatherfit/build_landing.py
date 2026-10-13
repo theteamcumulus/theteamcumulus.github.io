@@ -2,13 +2,18 @@
 """출퇴근날씨 랜딩 페이지 생성기: 본문 FAQ와 JSON-LD FAQ를 같은 데이터에서 만들어 문장이 항상 같게 유지한다.
 
   python3 weatherfit/build_landing.py   # 저장소 루트에서 실행 → weatherfit/index.html
+  (tools/appstore/render.py가 마지막에 이 스크립트를 실행한다. App Store 정보는 tools/appstore/apps.json에서 온다.)
 
-앱 기능이 바뀌면 FAQS·FEATURES와 TODAY, llms.txt의 출퇴근날씨 항목을 함께 고친다.
+App Store 헤더·정보 띠·새로운 기능·정보 표·JSON-LD MobileApplication은 tools/appstore/appstore_lib.py가 만든다.
+앱 기능이 바뀌면 FAQS·FEATURES를, 페이지를 고치면 apps.json의 weatherfit 페이지 modified를 함께 고친다.
 """
 import html
-import json
+import sys
 from urllib.parse import quote
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools' / 'appstore'))
+import appstore_lib as AS  # noqa: E402
 
 OUT = Path(__file__).resolve().parent / 'index.html'
 APP = 'https://apps.apple.com/kr/app/id6819701703'
@@ -41,9 +46,9 @@ def play_cta(ct, label, style=''):
 
 
 BASE = 'https://cumulus.team/weatherfit/'
-TODAY = '2026-10-11'
-TODAY_KO = '2026년 10월 11일'
-VERSION = '1.0.0'
+DATA = AS.load()
+WF = AS.app_by_slug(DATA, 'weatherfit')
+PAGE = WF['pages'][0]
 
 FAQS = [
     ("출근길 날씨와 퇴근길 날씨를 한 번에 볼 수 있는 앱이 있나요?",
@@ -96,26 +101,10 @@ SHOTS = [
 
 PRIVACY_LINK = ' 자세한 내용은 <a href="/weatherfit/privacy/">개인정보 처리방침</a>을 보세요.'
 
-ld = {"@context": "https://schema.org", "@graph": [
-    {"@type": "Organization", "@id": "https://cumulus.team/#org", "name": "Team Cumulus",
-     "url": "https://cumulus.team/", "email": "theteamcumulus@gmail.com"},
-    {"@type": "MobileApplication", "@id": BASE + "#app", "name": "출퇴근날씨",
-     "alternateName": ["출퇴근 날씨", "WeatherFit"],
-     "description": "출근·점심·퇴근 세 시간대의 기상청 예보를 내가 느끼는 체감과 하루 옷차림으로 알려주는 아이폰 날씨 앱. 기상청 실시간 현재 날씨, 내 체감 학습, 집·직장 위치, 주말·공휴일 쉬는 날 문구, 출근 전날 저녁 9시 알림, 홈 화면 위젯.",
-     "url": BASE, "sameAs": [APP], "installUrl": APP, "downloadUrl": APP,
-     "operatingSystem": "iOS 15.1 이상 (위젯은 iOS 17 이상)", "availableOnDevice": "iPhone",
-     "applicationCategory": "WeatherApplication", "applicationSubCategory": "출퇴근 날씨",
-     "inLanguage": "ko", "countriesSupported": "KR", "softwareVersion": VERSION, "contentRating": "4+",
-     "datePublished": "2026-10-12",
-     "image": BASE + "img/icon-512.png", "screenshot": [BASE + "img/" + f for f, _, _ in SHOTS],
-     "featureList": [f"{t}: {d}" for t, d in FEATURES],
-     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"},
-     "author": {"@id": "https://cumulus.team/#org"}, "publisher": {"@id": "https://cumulus.team/#org"}},
-    {"@type": "WebPage", "@id": BASE + "#page", "url": BASE, "name": "출퇴근날씨 - 출근·점심·퇴근, 내가 느끼는 날씨",
-     "inLanguage": "ko", "about": {"@id": BASE + "#app"}, "dateModified": TODAY},
-    {"@type": "FAQPage", "@id": BASE + "#faq", "mainEntity": [
-        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQS]},
-]}
+SHOT_LIST = [(f'/weatherfit/img/{f}', alt, cap) for f, alt, cap in SHOTS]
+ld = AS.ld_graph(WF, PAGE, DATA, SHOT_LIST, FAQS, extra={"featureList": [f"{t}: {d}" for t, d in FEATURES]})
+AS_BLOCKS = AS.blocks(WF, PAGE, DATA, SHOT_LIST)
+AS_BLOCKS['head'] = AS.block_head(WF, PAGE, ld)
 
 esc = html.escape
 features_html = "\n".join(f"          <li><strong>{esc(t)}</strong>{esc(d)}</li>" for t, d in FEATURES)
@@ -123,20 +112,17 @@ faq_html = "\n".join(
     f'        <details{" open" if i == 0 else ""}><summary>{esc(q)}</summary>\n'
     f'          <p>{esc(a)}{PRIVACY_LINK if q.startswith("무료") else ""}</p></details>'
     for i, (q, a) in enumerate(FAQS))
-shots_html = "\n".join(
-    f'          <li><figure><img src="/weatherfit/img/{f}" width="600" height="1304" loading="lazy" alt="{esc(alt)}">'
-    f'<figcaption>{esc(cap)}</figcaption></figure></li>' for f, alt, cap in SHOTS)
-ld_json = json.dumps(ld, ensure_ascii=False, indent=2)
 
 TEMPLATE = Path(__file__).resolve().parent / 'landing.template.html'
 page = (TEMPLATE.read_text()
-        .replace('{{APP_HERO}}', app_link('web-landing-hero'))
         .replace('{{APP_HOWTO}}', app_link('web-landing-howto'))
         .replace('{{APP_BOTTOM}}', app_link('web-landing-bottom'))
         .replace('{{PLAY_HERO}}', play_cta('web-landing-hero', 'Google Play에서 보기'))
-        .replace('{{PLAY_BOTTOM}}', play_cta('web-landing-bottom', 'Google Play에서 출퇴근날씨 보기')).replace('{{BASE}}', BASE).replace('{{TODAY}}', TODAY)
-        .replace('{{TODAY_KO}}', TODAY_KO).replace('{{VERSION}}', VERSION)
-        .replace('{{LD_JSON}}', ld_json).replace('{{FEATURES}}', features_html)
-        .replace('{{SHOTS}}', shots_html).replace('{{FAQ}}', faq_html))
+        .replace('{{PLAY_BOTTOM}}', play_cta('web-landing-bottom', 'Google Play에서 출퇴근날씨 보기')).replace('{{BASE}}', BASE)
+        .replace('{{FEATURES}}', features_html).replace('{{FAQ}}', faq_html))
+for key, html_block in AS_BLOCKS.items():  # 상단 배지는 AS_HERO가 ct=web-landing-hero로 만든다
+    page = page.replace('{{AS_' + key.upper() + '}}', html_block)
+if '{{' in page:
+    raise SystemExit('채우지 못한 자리표시자: ' + page[page.index('{{'):page.index('{{') + 40])
 OUT.write_text(page)
 print(f'{OUT.name}: {len(FAQS)} FAQ, {len(page)} chars')

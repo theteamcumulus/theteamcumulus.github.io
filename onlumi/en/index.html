@@ -14,7 +14,6 @@ permalink: /onlumi/en/
   <link rel="alternate" hreflang="en" href="https://cumulus.team/onlumi/en/">
   <link rel="alternate" hreflang="x-default" href="https://cumulus.team/onlumi/">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-  <meta name="apple-itunes-app" content="app-id=6819722166">
   <meta name="theme-color" content="#1C1530">
   <link rel="icon" type="image/png" sizes="32x32" href="/onlumi/img/favicon-32.png">
   <link rel="apple-touch-icon" href="/onlumi/img/apple-touch-icon.png">
@@ -31,6 +30,7 @@ permalink: /onlumi/en/
   <meta property="og:image:alt" content="Onlumi app icon with the line Let Goodness Glow">
   <meta name="twitter:card" content="summary_large_image">
 
+  <!-- appstore:head:start -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,7 +40,8 @@ permalink: /onlumi/en/
       "@id": "https://cumulus.team/#org",
       "name": "Team Cumulus",
       "url": "https://cumulus.team/",
-      "email": "theteamcumulus@gmail.com"
+      "email": "theteamcumulus@gmail.com",
+      "logo": "https://cumulus.team/assets/logo-512.png"
     },
     {
       "@type": "MobileApplication",
@@ -52,17 +53,15 @@ permalink: /onlumi/en/
         "좋은말"
       ],
       "slogan": "Let Goodness Glow",
-      "description": "One good sentence a day, shared with a kind community.",
+      "description": "Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.",
       "url": "https://cumulus.team/onlumi/en/",
-      "installUrl": "https://apps.apple.com/kr/app/id6819722166",
-      "downloadUrl": "https://apps.apple.com/kr/app/id6819722166",
-      "operatingSystem": "iOS 17.0 or later",
+      "operatingSystem": "iOS 17.0+",
       "availableOnDevice": "iPhone",
       "applicationCategory": "LifestyleApplication",
+      "applicationSubCategory": "Gratitude journal and affirmations",
       "inLanguage": [
         "ko"
       ],
-      "softwareVersion": "1.0.0",
       "image": "https://cumulus.team/onlumi/img/icon-512.png",
       "screenshot": [
         "https://cumulus.team/onlumi/img/screen-01.jpg",
@@ -99,7 +98,7 @@ permalink: /onlumi/en/
       "about": {
         "@id": "https://cumulus.team/onlumi/#app"
       },
-      "dateModified": "2026-10-11"
+      "dateModified": "2026-10-13"
     },
     {
       "@type": "FAQPage",
@@ -166,7 +165,15 @@ permalink: /onlumi/en/
           "name": "How is my data handled?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Favourites and themes stay on your device. Community posts and reactions are stored on our server and you can delete everything in Settings › Delete account and data. We collect only anonymous crash reports and usage statistics, and never use the advertising identifier (IDFA)."
+            "text": "Favourites and themes stay on your device. Community posts and reactions are stored on our server and you can delete everything in Settings › Delete account and data. We collect only anonymous crash reports and usage statistics, and never use the advertising identifier (IDFA). See the Privacy Policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Onlumi available in English or on Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app is in Korean only and runs on iPhone with iOS 17 or later. There is no Android version."
           }
         }
       ]
@@ -174,6 +181,7 @@ permalink: /onlumi/en/
   ]
 }
   </script>
+  <!-- appstore:head:end -->
 
   <style>
     :root { --violet:#7B5BE6; --violet-ink:#5B3FC4; --peach:#FFB27A; --night:#1C1530; --dusk:#2E2350; --cream:#FBF6EE; --ink:#1d1b22; --sub:#5d5966; --bg:#fffdf9; --soft:#f5f1fb; --line:#e8e2f0; }
@@ -183,16 +191,11 @@ permalink: /onlumi/en/
     a { color:var(--violet-ink); }
     .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
     header.hero { background:radial-gradient(120% 90% at 0% 100%, #6b4a3a 0%, var(--dusk) 45%, var(--night) 100%); color:var(--cream); padding:56px 0 48px; }
-    .hero .brand { display:flex; align-items:center; gap:14px; margin-bottom:20px; }
-    .hero .brand img { width:64px; height:64px; border-radius:15px; box-shadow:0 4px 18px rgba(255,178,122,.3); }
-    .hero .brand span { font-size:22px; font-weight:800; color:var(--peach); }
     .hero .tagline { margin:0 0 10px; font-size:clamp(16px,2.2vw,19px); font-weight:600; letter-spacing:.02em; color:var(--peach); }
-    .hero h1 { font-size:clamp(32px,6vw,48px); line-height:1.25; margin:0 0 14px; font-weight:800; }
-    .hero h1 em { font-style:normal; color:var(--peach); }
+    .hero .as-tagline em { font-style:normal; color:var(--peach); }
     .hero p.lead { font-size:clamp(17px,2.4vw,20px); margin:0 0 28px; color:#ddd3e6; max-width:640px; }
     .cta { display:inline-block; background:var(--peach); color:#2a1606; font-weight:800; font-size:18px; padding:14px 26px; border-radius:999px; text-decoration:none; }
     .cta:hover { filter:brightness(1.05); }
-    .cta:focus-visible, a:focus-visible { outline:3px solid #ffd54f; outline-offset:3px; }
     .meta { margin-top:14px; font-size:15px; color:#bcb0c9; }
     section { padding:48px 0; border-bottom:1px solid var(--line); }
     h2 { font-size:clamp(24px,3.6vw,30px); margin:0 0 18px; line-height:1.35; }
@@ -201,10 +204,6 @@ permalink: /onlumi/en/
     .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; list-style:none; padding:0; margin:0; }
     .features li { background:var(--soft); border-radius:16px; padding:18px 20px; min-width:0; }
     .features strong { display:block; font-size:18px; margin-bottom:4px; }
-    .shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:16px; margin:0; padding:0; list-style:none; }
-    .shots li { min-width:0; }
-    .shots img { width:100%; height:auto; border-radius:18px; display:block; }
-    .shots figcaption { font-size:15px; color:var(--sub); margin-top:6px; text-align:center; }
     figure { margin:0; }
     img { max-width:100%; }
     details { border-bottom:1px solid var(--line); padding:14px 0; }
@@ -213,20 +212,110 @@ permalink: /onlumi/en/
     footer { padding:36px 0 56px; font-size:15px; color:var(--sub); }
     footer a { color:inherit; }
   </style>
+  <!-- appstore:css:start -->
+  <style>
+:root{--as-bg:var(--bg);--as-ink:var(--ink);--as-sub:var(--sub);--as-line:var(--line);--as-fill:var(--soft);--as-focus:#0a66d6;--as-edge:rgba(0,0,0,.1);--as-pad:20px;--as-r:16px}
+@media (prefers-color-scheme:dark){:root{--as-focus:#8ab8ff;--as-edge:rgba(255,255,255,.16)}}
+@media (prefers-contrast:more){:root{--as-sub:var(--ink);--as-line:var(--ink)}}
+:focus-visible{outline:3px solid var(--as-focus);outline-offset:2px}
+header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6)}
+.as-vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.as-head{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;margin-bottom:20px}
+.as-icon{display:block;width:96px;height:96px;border-radius:22.37%;box-shadow:0 0 0 1px var(--as-edge),0 6px 16px rgba(0,0,0,.2)}
+.as-name{font-size:1.375rem;line-height:1.25;font-weight:700;margin:0}
+.as-sub,.as-dev{margin:2px 0 0;font-size:1rem}.as-dev{font-size:.875rem}.as-dev a{color:inherit}
+.as-get{display:inline-block;margin-top:12px;padding:2px 0}.as-get img{display:block;height:40px;width:auto}
+.as-soon{display:inline-block;margin:12px 0 0;padding:6px 12px;border:1px solid currentColor;border-radius:8px;font-size:.9375rem;font-weight:600}
+.as-tagline{font-size:clamp(1.5rem,4vw,2rem);font-weight:800;line-height:1.3;margin:0 0 10px}
+.as-strip{overflow-x:auto;scroll-snap-type:x mandatory;border-bottom:1px solid var(--as-line)}
+.as-strip dl{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(104px,1fr);margin:0;padding:14px 0;text-align:center}
+.as-strip dl>div{scroll-snap-align:start;padding:0 8px;border-inline-start:1px solid var(--as-line)}
+.as-strip dl>div:first-child{border:0}
+.as-strip dt,.as-cap{font-size:.75rem;color:var(--as-sub)}
+.as-strip dd{margin:0}.as-val{font-size:1.25rem;font-weight:700;color:var(--as-sub);line-height:1.4}
+.as-stars{position:relative;display:inline-block;white-space:nowrap;font-size:.75rem;color:var(--as-line)}
+.as-stars::before{content:"★★★★★"}
+.as-stars::after{content:"★★★★★";position:absolute;left:0;top:0;overflow:hidden;width:calc(var(--r)*20%);color:var(--as-sub)}
+.as-shots{display:grid;grid-auto-flow:column;grid-auto-columns:min(62vw,230px);gap:12px;list-style:none;margin:0 calc(-1*var(--as-pad));padding:4px var(--as-pad) 12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--as-pad);overscroll-behavior-x:contain}
+.as-shots li{scroll-snap-align:start;min-width:0}
+.as-shots img{display:block;width:100%;height:auto;border-radius:var(--as-r);border:1px solid var(--as-line)}
+.as-shots figcaption{font-size:.8125rem;color:var(--as-sub);margin-top:6px}
+.as-strip:focus-visible,.as-shots:focus-visible{outline-offset:-3px}
+@media (min-width:720px){.as-icon{width:128px;height:128px}.as-name{font-size:1.75rem}.as-shots{grid-auto-columns:250px}}
+@media (max-width:360px){.as-icon{width:80px;height:80px}}
+.as-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;color:var(--as-sub);font-size:.9375rem;margin:0 0 8px}
+.as-notes{margin:0;padding-left:1.2em}
+.as-info{margin:0}.as-info>div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--as-line)}
+.as-info dt{color:var(--as-sub);flex:none}.as-info dd{margin:0;text-align:end;min-width:0;overflow-wrap:anywhere}
+.as-src{font-size:.8125rem;color:var(--as-sub)}
+.as-priv{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px;list-style:none;padding:0;margin:0 0 12px}
+.as-priv li{background:var(--as-fill);border-radius:var(--as-r);padding:16px}.as-priv strong{display:block}
+.as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
+.as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
+.as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
+.as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
+.as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
+.as-app h3 a{color:var(--as-ink);text-decoration:none}.as-app h3 a::after{content:"";position:absolute;inset:0}
+.as-app p{margin:0;font-size:.875rem;color:var(--as-sub)}.as-app .as-links{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){.as-strip,.as-shots{scroll-behavior:smooth}}
+  </style>
+  <!-- appstore:css:end -->
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <div class="brand"><img src="/onlumi/img/icon-512.png" alt="" width="64" height="64"><span>Onlumi</span></div>
+      <!-- appstore:hero:start -->
+      <div class="as-head">
+        <img class="as-icon" src="/onlumi/img/icon-512.png" width="128" height="128" alt="Onlumi app icon">
+        <div>
+          <h1 class="as-name">Onlumi</h1>
+          <p class="as-sub">Gratitude &amp; Quotes</p>
+          <p class="as-dev"><a href="/">Team Cumulus</a></p>
+          <p class="as-soon">Coming soon to the App Store</p>
+        </div>
+      </div>
+      <!-- appstore:hero:end -->
       <p class="tagline">Let Goodness Glow</p>
-      <h1>One sentence a day.<br>Let goodness <em>glow</em>.</h1>
+      <p class="as-tagline">One sentence a day.<br>Let goodness <em>glow</em>.</p>
       <p class="lead">Onlumi starts your day with one good sentence, and lets you share gratitude and words of encouragement with others — so your goodness glows and reaches someone else.</p>
-      <a class="cta" href="https://apps.apple.com/kr/app/id6819722166?pt=129567498&amp;ct=web-landing-en-hero&amp;mt=8">Download free on the App Store</a>
       <p class="meta">iPhone · iOS 17 or later · Free · No ads · No sign-up</p>
     </div>
   </header>
 
   <main>
+    <!-- appstore:top:start -->
+    <section id="summary" aria-labelledby="h-summary">
+      <div class="wrap">
+        <h2 id="h-summary">Onlumi at a glance</h2>
+        <p class="as-summary">Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.</p>
+        <div class="as-fit">
+          <div><h3>Great for</h3><ul>
+            <li>People who want one quote or Bible verse a day on a Home Screen widget</li>
+            <li>Anyone who wants to share gratitude and affirmations anonymously</li>
+            <li>People who'd rather not sign up for an account</li>
+          </ul></div>
+          <div><h3>Not the right fit if</h3><ul>
+            <li>You want the app in a language other than Korean (the app and its quotes are in Korean)</li>
+            <li>You use an Android phone (there is no Android version)</li>
+            <li>Your iPhone runs a version earlier than iOS 17</li>
+          </ul></div>
+        </div>
+      </div>
+    </section>
+    <section id="screens" aria-labelledby="h-screens">
+      <div class="wrap">
+        <h2 id="h-screens">Screenshots</h2>
+        <ul class="as-shots" tabindex="0" aria-label="4 screenshots, scroll sideways">
+          <li><figure><img src="/onlumi/img/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Quote card over an autumn path photo"><figcaption>Today's quote with a theme</figcaption></figure></li>
+          <li><figure><img src="/onlumi/img/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Feed of gratitude and affirmation posts"><figcaption>Community feed</figcaption></figure></li>
+          <li><figure><img src="/onlumi/img/screen-03.jpg" width="600" height="1304" loading="lazy" alt="List of quotes by theme with heart buttons"><figcaption>Collection and search</figcaption></figure></li>
+          <li><figure><img src="/onlumi/img/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Settings: theme, community guidelines, privacy policy, account deletion"><figcaption>Community rules and account deletion</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+    <!-- appstore:top:end -->
+
     <section id="features">
       <div class="wrap">
         <h2>Features</h2>
@@ -241,17 +330,8 @@ permalink: /onlumi/en/
       </div>
     </section>
 
-    <section id="screens">
-      <div class="wrap">
-        <h2>Screens</h2>
-        <ul class="shots">
-          <li><figure><img src="/onlumi/img/screen-01.jpg" width="600" height="1304" loading="lazy" alt="Quote card over an autumn path photo"><figcaption>Today's quote with a theme</figcaption></figure></li>
-          <li><figure><img src="/onlumi/img/screen-02.jpg" width="600" height="1304" loading="lazy" alt="Feed of gratitude and affirmation posts"><figcaption>Community feed</figcaption></figure></li>
-          <li><figure><img src="/onlumi/img/screen-03.jpg" width="600" height="1304" loading="lazy" alt="List of quotes by theme with heart buttons"><figcaption>Collection and search</figcaption></figure></li>
-          <li><figure><img src="/onlumi/img/screen-04.jpg" width="600" height="1304" loading="lazy" alt="Settings: theme, community guidelines, privacy policy, account deletion"><figcaption>Community rules and account deletion</figcaption></figure></li>
-        </ul>
-      </div>
-    </section>
+    <!-- appstore:whatsnew:start -->
+    <!-- appstore:whatsnew:end -->
 
     <section id="faq">
       <div class="wrap">
@@ -272,14 +352,39 @@ permalink: /onlumi/en/
           <p>Tap the heart on a quote to browse your favourites as a topic in Today's Quote (the widget follows it too). Bookmark community posts to find them in Collection › Bookmarks.</p></details>
         <details><summary>How is my data handled?</summary>
           <p>Favourites and themes stay on your device. Community posts and reactions are stored on our server and you can delete everything in Settings › Delete account and data. We collect only anonymous crash reports and usage statistics, and never use the advertising identifier (IDFA). See the <a href="/onlumi/en/privacy/">Privacy Policy</a>.</p></details>
+        <details><summary>Is Onlumi available in English or on Android?</summary>
+          <p>The app is in Korean only and runs on iPhone with iOS 17 or later. There is no Android version.</p></details>
       </div>
     </section>
+
+    <!-- appstore:facts:start -->
+    <section id="privacy" aria-labelledby="h-priv">
+      <div class="wrap">
+        <h2 id="h-priv">App Privacy</h2>
+        <p><a href="/onlumi/en/privacy/">Privacy Policy</a></p>
+      </div>
+    </section>
+
+    <section id="info" aria-labelledby="h-info">
+      <div class="wrap">
+        <h2 id="h-info">Information (coming soon)</h2>
+        <dl class="as-info">
+          <div><dt>Developer</dt><dd>Team Cumulus</dd></div>
+          <div><dt>Compatibility</dt><dd>iPhone · Requires iOS 17.0 or later</dd></div>
+          <div><dt>Languages</dt><dd>Korean</dd></div>
+          <div><dt>Price</dt><dd>Free</dd></div>
+        </dl>
+      </div>
+    </section>
+    <!-- appstore:facts:end -->
 
     <section id="start">
       <div class="wrap">
         <h2>Turn on today's goodness</h2>
-        <p>Onlumi is free on the App Store.</p>
-        <a class="cta" href="https://apps.apple.com/kr/app/id6819722166?pt=129567498&amp;ct=web-landing-en-bottom&amp;mt=8">Get Onlumi on the App Store</a>
+        <!-- appstore:cta:start -->
+        <p>Onlumi is coming soon to the App Store, free.</p>
+        <p class="as-soon">Coming soon to the App Store</p>
+        <!-- appstore:cta:end -->
       </div>
     </section>
   </main>
@@ -287,7 +392,7 @@ permalink: /onlumi/en/
   <footer>
     <div class="wrap">
       <p>Onlumi · Made by <a href="https://cumulus.team/">Team Cumulus</a> · Contact <a href="mailto:theteamcumulus@gmail.com">theteamcumulus@gmail.com</a></p>
-      <p><a href="/onlumi/en/support/">Support</a> · <a href="/onlumi/en/privacy/">Privacy Policy</a> · Last updated <time datetime="2026-10-11">October 11, 2026 (app 1.0.0)</time> · <a href="/onlumi/" hreflang="ko">한국어</a></p>
+      <p><a href="/onlumi/en/support/">Support</a> · <a href="/onlumi/en/privacy/">Privacy Policy</a> · <!-- appstore:updated:start -->Last updated <time datetime="2026-10-13">October 13, 2026</time><!-- appstore:updated:end --> · <a href="/onlumi/" hreflang="ko">한국어</a></p>
     </div>
   </footer>
 </body>
