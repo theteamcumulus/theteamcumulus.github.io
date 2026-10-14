@@ -87,7 +87,7 @@
       "subtitleSource": "appstore",
       "developer": "Team Cumulus",
       "summary": {
-        "ko": "출퇴근날씨는 출근·점심·퇴근 세 시간대 기상청 예보를 내 체감과 하루 옷차림으로 알려주는 무료 아이폰 날씨 앱입니다."
+        "ko": "출퇴근날씨는 앱을 열지 않고 홈 화면 위젯에서 출근길 체감과 옷차림을 바로 확인하는 무료 아이폰 날씨 앱입니다."
       },
       "iconUrl": "https://cumulus.team/weatherfit/img/weatherfit-app-icon.png",
       "landingUrls": {
@@ -127,6 +127,7 @@
       "fit": {
         "ko": {
           "for": [
+            "아침마다 날씨 앱을 열 틈 없이 출근 옷차림을 정해야 하는 직장인",
             "출근·점심·퇴근 날씨를 한 화면에서 보고 싶은 직장인",
             "같은 기온에도 남보다 춥거나 덥게 느끼는 분",
             "집과 직장 지역의 날씨가 다른 분",
