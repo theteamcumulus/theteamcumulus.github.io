@@ -3,14 +3,14 @@
 > Team Cumulus가 만든 iPhone 앱의 공식 안내 페이지. 문의: theteamcumulus@gmail.com
 
 모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.
-App Store 등록정보는 2026-10-13에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
+App Store 등록정보는 2026-10-15에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
 
 | 앱 | App Store 부제 | 상태 | 공식 페이지 |
 |---|---|---|---|
-| 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.4) | https://cumulus.team/redday/ |
-| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.0) | https://cumulus.team/weatherfit/ |
+| 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.5) | https://cumulus.team/redday/ |
+| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.1) | https://cumulus.team/weatherfit/ |
 | Lifory (구 SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.1) | https://cumulus.team/lifory/ |
-| 온루미 (Onlumi) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/onlumi/ |
+| 카인들리 (Kindly) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 
 ## 빨간날 (Red Day Alarm)
@@ -23,8 +23,8 @@ App Store 등록정보는 2026-10-13에 iTunes Lookup으로 확인했다. 기계
 - App Store 이름 / 부제: 빨간날 / 공휴일엔 쉬는 알람
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 유틸리티, 생산성 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.4 (2026-10-13) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 69.3MB
-- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-13 확인)
+- 버전: 1.0.5 (2026-10-14) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 69.4MB
+- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-15 확인)
 - App Store: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
@@ -61,8 +61,8 @@ App Store 등록정보는 2026-10-13에 iTunes Lookup으로 확인했다. 기계
 - App Store 이름 / 부제: 출퇴근날씨 / 출근·점심·퇴근, 내 체감 날씨
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 날씨, 라이프스타일 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.0 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.2MB
-- 평점: 아직 표시할 평가 없음 (2026-10-13 확인)
+- 버전: 1.0.1 (2026-10-13) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.3MB
+- 평점: 아직 표시할 평가 없음 (2026-10-15 확인)
 - App Store: https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/weatherfit/
 - 지원: https://cumulus.team/weatherfit/support/
@@ -105,7 +105,7 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
 - 버전: 1.0.1 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
-- 평점: 아직 표시할 평가 없음 (2026-10-13 확인)
+- 평점: 아직 표시할 평가 없음 (2026-10-15 확인)
 - App Store: https://apps.apple.com/kr/app/id6821004763?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/lifory/ (English: https://cumulus.team/lifory/en/)
 - 지원: https://cumulus.team/lifory/support/ (English: https://cumulus.team/lifory/en/support/)
@@ -131,21 +131,21 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - 사진과 촬영 시각은 기기(와 이용자의 iPhone 백업)에만 있고 서버로 보내지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
 - 안드로이드 버전은 없다.
 
-## 온루미 (Onlumi)
-![온루미 아이콘](https://cumulus.team/onlumi/img/onlumi-app-icon.png)
+## 카인들리 (Kindly)
+![카인들리 아이콘](https://cumulus.team/kindly/img/kindly-app-icon.png)
 
-온루미는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.
+카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.
 
-Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
+Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
 
-온루미는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "좋은 마음이 빛나는 곳" / "Let Goodness Glow". App Store 이름: 온루미 - 감사일기와 긍정확언 (Onlumi - Gratitude & Quotes). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 개발 중 이름은 좋은말.
+카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: 카인들리 - 감사일기와 긍정확언 (Kindly - Kind Words & People). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
 
-- App Store 이름 / 부제: 온루미 / 감사일기와 긍정확언 (App Store 출시 전, 사이트 표기)
+- App Store 이름 / 부제: 카인들리 / 감사일기와 긍정확언 (App Store 출시 전, 사이트 표기)
 - 개발자: Team Cumulus
 - 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
-- 공식 소개·FAQ: https://cumulus.team/onlumi/ (English: https://cumulus.team/onlumi/en/)
-- 지원: https://cumulus.team/onlumi/support/ (English: https://cumulus.team/onlumi/en/support/)
-- 개인정보 처리방침: https://cumulus.team/onlumi/privacy/ (English: https://cumulus.team/onlumi/en/privacy/)
+- 공식 소개·FAQ: https://cumulus.team/kindly/ (English: https://cumulus.team/kindly/en/)
+- 지원: https://cumulus.team/kindly/support/ (English: https://cumulus.team/kindly/en/support/)
+- 개인정보 처리방침: https://cumulus.team/kindly/privacy/ (English: https://cumulus.team/kindly/en/privacy/)
 
 이런 분께 추천:
 - 하루 한 문장 명언·성경 구절(개역개정)을 홈 화면 위젯으로 보고 싶은 분

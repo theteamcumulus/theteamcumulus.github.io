@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-14</lastmod>
+  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://cumulus.team/redday/img/redday-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/redday/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/redday/img/screen-02.jpg</image:loc></image:image>
@@ -46,24 +46,24 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/lifory/en/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/lifory/en/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/</loc><lastmod>2026-10-13</lastmod>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/onlumi-app-icon.png</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-01.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-03.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-04.jpg</image:loc></image:image>
+  <url><loc>https://cumulus.team/kindly/</loc><lastmod>2026-10-15</lastmod>
+    <image:image><image:loc>https://cumulus.team/kindly/img/kindly-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-04.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://cumulus.team/onlumi/support/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/en/</loc><lastmod>2026-10-13</lastmod>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/onlumi-app-icon.png</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-01.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-03.jpg</image:loc></image:image>
-    <image:image><image:loc>https://cumulus.team/onlumi/img/screen-04.jpg</image:loc></image:image>
+  <url><loc>https://cumulus.team/kindly/support/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/privacy/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/en/</loc><lastmod>2026-10-15</lastmod>
+    <image:image><image:loc>https://cumulus.team/kindly/img/kindly-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/kindly/img/screen-04.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://cumulus.team/onlumi/en/support/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/onlumi/en/privacy/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/en/support/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/en/privacy/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/screen-01.jpg</image:loc></image:image>

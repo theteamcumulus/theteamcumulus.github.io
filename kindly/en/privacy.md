@@ -1,22 +1,22 @@
 ---
 layout: default
-permalink: /onlumi/en/privacy/
-app: onlumi
-app_name: Onlumi
-description: "Privacy policy for Onlumi, the gratitude journal and daily quote app for iPhone: what information the app collects, why it is used, and how to contact us."
-image: /onlumi/img/onlumi-app-icon.png
+permalink: /kindly/en/privacy/
+app: kindly
+app_name: Kindly
+description: "Privacy policy for Kindly, the gratitude journal and daily quote app for iPhone: what information the app collects, why it is used, and how to contact us."
+image: /kindly/img/kindly-app-icon.png
 lang: en
 locale: en_US
 alternates:
-  ko: /onlumi/privacy/
-  en: /onlumi/en/privacy/
+  ko: /kindly/privacy/
+  en: /kindly/en/privacy/
 ---
 
-# Onlumi Privacy Policy
+# Kindly Privacy Policy
 
 Effective: October 11, 2026 (version 1.0.0 build 16 and later: bookmarks and feedback added)
 
-Onlumi ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The app creates an anonymous account on each device, without sign-up, to run the community, and collects error reports and anonymous usage statistics to keep the app stable and improve it.
+Kindly ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The app creates an anonymous account on each device, without sign-up, to run the community, and collects error reports and anonymous usage statistics to keep the app stable and improve it.
 
 ## 1. Information we collect and why
 
@@ -76,7 +76,7 @@ Settings › Send feedback opens your mail app with the app version and device m
 ## 8. Your rights
 
 - You can delete any of your posts from its ⋯ menu.
-- Settings › Delete account and data removes your account and all your posts, reactions, reports and blocks at once. Deleting only the app leaves your posts on the server, so delete them first. If you already removed the app, see [Request account deletion](/onlumi/en/support/#delete-account).
+- Settings › Delete account and data removes your account and all your posts, reactions, reports and blocks at once. Deleting only the app leaves your posts on the server, so delete them first. If you already removed the app, see [Request account deletion](/kindly/en/support/#delete-account).
 - To request deletion or restriction of error reports and usage statistics, email us at the address below.
 
 ## 9. Children

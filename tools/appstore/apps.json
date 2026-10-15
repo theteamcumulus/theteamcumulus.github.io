@@ -154,10 +154,10 @@
           "trackId": 6819717732,
           "trackName": "빨간날",
           "bundleId": "com.cumulus.redday",
-          "version": "1.0.4",
-          "currentVersionReleaseDate": "2026-10-12T18:16:19Z",
+          "version": "1.0.5",
+          "currentVersionReleaseDate": "2026-10-13T21:07:11Z",
           "releaseDate": "2026-10-08T07:00:00Z",
-          "releaseNotes": "• 정렬 버튼을 누르면 아래에서 메뉴가 올라와요. 시간순, 레이블순 중에서 골라 보세요.\n• 레이블순에서는 어떤 레이블을 위에 둘지 손가락으로 끌어서 순서를 바꿀 수 있어요.\n• 쉬는 날 목록에서 공휴일 옆 '쉼'을 누르면 바로 '출근'으로 바꿀 수 있어요. 공휴일에도 일하는 분들을 위해서요.\n• 공휴일 출근 설정에서 가까운 공휴일부터 보여 드려요.\n• 2027년 설날 연휴 날짜를 바로잡았어요. 2월 6일부터 9일까지 푹 쉬세요.\n\n내일 아침도, 쉬는 날이면 푹 주무세요.",
+          "releaseNotes": "• 쉬는 날 목록에서 '쉼'을 누르면 그 날짜만 '출근'으로 바뀌어요. 같은 연휴의 다른 날과 공휴일 출근 설정은 그대로예요.\n• 설정에 '빨간날에 들려주세요'를 새로 만들었어요. 의견을 보내거나 App Store에 리뷰를 남길 수 있어요.\n• 최신 iOS에 맞춰 다듬었어요.\n\n쉬는 날엔 푹, 평일엔 상쾌하게.",
           "genres": [
             "유틸리티",
             "생산성"
@@ -170,7 +170,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 5.0,
           "userRatingCount": 3,
-          "fileSizeBytes": "69339136",
+          "fileSizeBytes": "69363712",
           "minimumOsVersion": "26.0",
           "languageCodesISO2A": [
             "KO"
@@ -178,9 +178,9 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/69/48/f269480e-9bcc-9bb0-ef31-ec299a1a9c35/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/25/e3/8d25e335-9aca-825e-eb26-afa34a1dd284/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/%EB%B9%A8%EA%B0%84%EB%82%A0/id6819717732",
-          "checked": "2026-10-13"
+          "checked": "2026-10-15"
         }
       }
     },
@@ -298,10 +298,10 @@
           "trackId": 6819701703,
           "trackName": "출퇴근날씨",
           "bundleId": "com.cumulus.weatherfit",
-          "version": "1.0.0",
-          "currentVersionReleaseDate": "2026-10-12T07:54:16Z",
-          "releaseDate": "2026-10-12T07:54:16Z",
-          "releaseNotes": null,
+          "version": "1.0.1",
+          "currentVersionReleaseDate": "2026-10-13T14:33:23Z",
+          "releaseDate": "2026-10-12T07:00:00Z",
+          "releaseNotes": "• 출근·점심·퇴근 카드에 체감·강수·바람·미세먼지 등 꼭 필요한 정보 4가지를 늘 보여드려요.\n• 시간대별 미세먼지: 출근길·점심·퇴근길 그 시각의 미세먼지 등급과 마스크 안내를 알려드려요.\n• 이미 지난 시간대는 ‘지난 시간’으로 표시해요.\n• 앱을 자주 열고 닫아도 날씨 새로고침이 멈추지 않도록 고쳤어요.\n• 화면 아래 ‘출퇴근날씨에 들려주세요’에서 의견을 보내거나 App Store 리뷰를 남길 수 있어요.",
           "genres": [
             "날씨",
             "라이프스타일"
@@ -314,17 +314,17 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "41185280",
+          "fileSizeBytes": "41253888",
           "minimumOsVersion": "15.1",
           "languageCodesISO2A": [
-            "EN"
+            "KO"
           ],
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/42/5d/29425d1a-c8e8-b777-d99e-b1b7d125dd22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/68/47/0868475f-a1f4-2e55-89c3-ee0117f92ca2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/%EC%B6%9C%ED%87%B4%EA%B7%BC%EB%82%A0%EC%94%A8/id6819701703",
-          "checked": "2026-10-13"
+          "checked": "2026-10-15"
         }
       },
       "languageOverride": [
@@ -609,7 +609,7 @@
           "currency": "KRW",
           "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/lifory/id6821004763",
-          "checked": "2026-10-13"
+          "checked": "2026-10-15"
         },
         "us": {
           "trackId": 6821004763,
@@ -648,30 +648,30 @@
           "currency": "USD",
           "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/us/app/lifory/id6821004763",
-          "checked": "2026-10-13"
+          "checked": "2026-10-15"
         }
       }
     },
     {
-      "slug": "onlumi",
+      "slug": "kindly",
       "trackId": 6819722166,
       "status": "coming_soon",
       "storeCountries": [
         "kr"
       ],
       "name": {
-        "ko": "온루미",
-        "en": "Onlumi"
+        "ko": "카인들리",
+        "en": "Kindly"
       },
       "subtitle": {
         "ko": "감사일기와 긍정확언",
-        "en": "Gratitude & Quotes"
+        "en": "Kind Words & People"
       },
-      "subtitleSource": "site (App Store 미등록: 예정된 App Store 이름 \"온루미 - 감사일기와 긍정확언\")",
+      "subtitleSource": "site (App Store 미출시: 예정된 App Store 이름 \"카인들리 - 감사일기와 긍정확언\" / \"Kindly - Kind Words & People\")",
       "applicationCategory": "LifestyleApplication",
       "summary": {
-        "ko": "온루미는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
-        "en": "Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations."
+        "ko": "카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
+        "en": "Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations."
       },
       "fit": {
         "ko": {
@@ -741,21 +741,21 @@
       },
       "links": {
         "landing": {
-          "ko": "/onlumi/",
-          "en": "/onlumi/en/"
+          "ko": "/kindly/",
+          "en": "/kindly/en/"
         },
         "support": {
-          "ko": "/onlumi/support/",
-          "en": "/onlumi/en/support/"
+          "ko": "/kindly/support/",
+          "en": "/kindly/en/support/"
         },
         "privacy": {
-          "ko": "/onlumi/privacy/",
-          "en": "/onlumi/en/privacy/"
+          "ko": "/kindly/privacy/",
+          "en": "/kindly/en/privacy/"
         }
       },
       "llms": {
-        "title": "온루미 (Onlumi)",
-        "intro": "온루미는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: \"좋은 마음이 빛나는 곳\" / \"Let Goodness Glow\". App Store 이름: 온루미 - 감사일기와 긍정확언 (Onlumi - Gratitude & Quotes). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 개발 중 이름은 좋은말.",
+        "title": "카인들리 (Kindly)",
+        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: 카인들리 - 감사일기와 긍정확언 (Kindly - Kind Words & People). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
         "factsHeading": "핵심 사실 (2026-10-11 확인):",
         "facts": [
           "문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.",
@@ -772,22 +772,23 @@
       "pages": [
         {
           "lang": "ko",
-          "file": "onlumi/index.html",
-          "path": "/onlumi/",
-          "name": "온루미",
+          "file": "kindly/index.html",
+          "path": "/kindly/",
+          "name": "카인들리",
           "alternateName": [
-            "Onlumi",
+            "Kindly",
             "온루미",
+            "Onlumi",
             "좋은말"
           ],
           "storeCountry": "kr",
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-13",
-          "webpageName": "온루미 - 감사일기와 긍정확언, 오늘의 문구 위젯 아이폰 앱",
+          "modified": "2026-10-15",
+          "webpageName": "카인들리 - 감사일기와 긍정확언, 오늘의 문구 위젯 아이폰 앱",
           "ld": {
-            "slogan": "좋은 마음이 빛나는 곳",
+            "slogan": "다정한 말과 사람이 모이는 곳",
             "featureList": [
               "오늘의 문구",
               "홈 화면 위젯",
@@ -801,51 +802,52 @@
           },
           "shots": [
             [
-              "/onlumi/img/screen-01.jpg",
+              "/kindly/img/screen-01.jpg",
               "단풍길 배경 위에 오늘의 문구가 적힌 카드",
               "오늘의 문구와 테마"
             ],
             [
-              "/onlumi/img/screen-02.jpg",
+              "/kindly/img/screen-02.jpg",
               "감사일기와 긍정확언 글이 이어지는 피드",
               "마음 나누기 피드"
             ],
             [
-              "/onlumi/img/screen-03.jpg",
+              "/kindly/img/screen-03.jpg",
               "주제별 문구 목록과 하트 버튼",
               "보관함과 검색"
             ],
             [
-              "/onlumi/img/screen-04.jpg",
+              "/kindly/img/screen-04.jpg",
               "설정 화면: 테마, 커뮤니티 가이드라인, 개인정보 처리방침, 계정 삭제",
               "커뮤니티 정책과 계정 삭제"
             ]
           ],
           "cta": {
-            "textLive": "온루미는 App Store에서 무료로 받을 수 있습니다.",
-            "textSoon": "온루미는 곧 App Store에서 무료로 받을 수 있습니다.",
-            "label": "App Store에서 온루미 받기",
+            "textLive": "카인들리는 App Store에서 무료로 받을 수 있습니다.",
+            "textSoon": "카인들리는 곧 App Store에서 무료로 받을 수 있습니다.",
+            "label": "App Store에서 카인들리 받기",
             "class": "cta"
           }
         },
         {
           "lang": "en",
-          "file": "onlumi/en/index.html",
-          "path": "/onlumi/en/",
-          "name": "Onlumi",
+          "file": "kindly/en/index.html",
+          "path": "/kindly/en/",
+          "name": "Kindly",
           "alternateName": [
-            "Onlumi",
+            "Kindly",
             "온루미",
+            "Onlumi",
             "좋은말"
           ],
           "storeCountry": "kr",
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing-en",
           "currency": "KRW",
-          "modified": "2026-10-13",
-          "webpageName": "Onlumi - Gratitude journal, affirmations and a daily quote widget for iPhone",
+          "modified": "2026-10-15",
+          "webpageName": "Kindly - Gratitude journal, affirmations and a daily quote widget for iPhone",
           "ld": {
-            "slogan": "Let Goodness Glow",
+            "slogan": "Where kind words and kind people gather",
             "featureList": [
               "Today's quote",
               "Home Screen widget",
@@ -858,30 +860,30 @@
           },
           "shots": [
             [
-              "/onlumi/img/screen-01.jpg",
+              "/kindly/img/screen-01.jpg",
               "Quote card over an autumn path photo",
               "Today's quote with a theme"
             ],
             [
-              "/onlumi/img/screen-02.jpg",
+              "/kindly/img/screen-02.jpg",
               "Feed of gratitude and affirmation posts",
               "Community feed"
             ],
             [
-              "/onlumi/img/screen-03.jpg",
+              "/kindly/img/screen-03.jpg",
               "List of quotes by theme with heart buttons",
               "Collection and search"
             ],
             [
-              "/onlumi/img/screen-04.jpg",
+              "/kindly/img/screen-04.jpg",
               "Settings: theme, community guidelines, privacy policy, account deletion",
               "Community rules and account deletion"
             ]
           ],
           "cta": {
-            "textLive": "Onlumi is free on the App Store.",
-            "textSoon": "Onlumi is coming soon to the App Store, free.",
-            "label": "Get Onlumi on the App Store",
+            "textLive": "Kindly is free on the App Store.",
+            "textSoon": "Kindly is coming soon to the App Store, free.",
+            "label": "Get Kindly on the App Store",
             "class": "cta"
           }
         }

@@ -33,10 +33,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6819717732",
       "bundleId": "com.cumulus.redday",
-      "version": "1.0.4",
-      "currentVersionReleaseDate": "2026-10-12T18:16:19Z",
+      "version": "1.0.5",
+      "currentVersionReleaseDate": "2026-10-13T21:07:11Z",
       "releaseDate": "2026-10-08T07:00:00Z",
-      "releaseNotes": "• 정렬 버튼을 누르면 아래에서 메뉴가 올라와요. 시간순, 레이블순 중에서 골라 보세요.\n• 레이블순에서는 어떤 레이블을 위에 둘지 손가락으로 끌어서 순서를 바꿀 수 있어요.\n• 쉬는 날 목록에서 공휴일 옆 '쉼'을 누르면 바로 '출근'으로 바꿀 수 있어요. 공휴일에도 일하는 분들을 위해서요.\n• 공휴일 출근 설정에서 가까운 공휴일부터 보여 드려요.\n• 2027년 설날 연휴 날짜를 바로잡았어요. 2월 6일부터 9일까지 푹 쉬세요.\n\n내일 아침도, 쉬는 날이면 푹 주무세요.",
+      "releaseNotes": "• 쉬는 날 목록에서 '쉼'을 누르면 그 날짜만 '출근'으로 바뀌어요. 같은 연휴의 다른 날과 공휴일 출근 설정은 그대로예요.\n• 설정에 '빨간날에 들려주세요'를 새로 만들었어요. 의견을 보내거나 App Store에 리뷰를 남길 수 있어요.\n• 최신 iOS에 맞춰 다듬었어요.\n\n쉬는 날엔 푹, 평일엔 상쾌하게.",
       "genres": [
         "유틸리티",
         "생산성"
@@ -45,7 +45,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 5.0,
       "userRatingCount": 3,
-      "fileSizeBytes": "69339136",
+      "fileSizeBytes": "69363712",
       "minimumOsVersion": "26.0",
       "languageCodesISO2A": [
         "KO"
@@ -53,8 +53,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/69/48/f269480e-9bcc-9bb0-ef31-ec299a1a9c35/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-13",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/25/e3/8d25e335-9aca-825e-eb26-afa34a1dd284/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-10-15",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -101,10 +101,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6819701703",
       "bundleId": "com.cumulus.weatherfit",
-      "version": "1.0.0",
-      "currentVersionReleaseDate": "2026-10-12T07:54:16Z",
-      "releaseDate": "2026-10-12T07:54:16Z",
-      "releaseNotes": null,
+      "version": "1.0.1",
+      "currentVersionReleaseDate": "2026-10-13T14:33:23Z",
+      "releaseDate": "2026-10-12T07:00:00Z",
+      "releaseNotes": "• 출근·점심·퇴근 카드에 체감·강수·바람·미세먼지 등 꼭 필요한 정보 4가지를 늘 보여드려요.\n• 시간대별 미세먼지: 출근길·점심·퇴근길 그 시각의 미세먼지 등급과 마스크 안내를 알려드려요.\n• 이미 지난 시간대는 ‘지난 시간’으로 표시해요.\n• 앱을 자주 열고 닫아도 날씨 새로고침이 멈추지 않도록 고쳤어요.\n• 화면 아래 ‘출퇴근날씨에 들려주세요’에서 의견을 보내거나 App Store 리뷰를 남길 수 있어요.",
       "genres": [
         "날씨",
         "라이프스타일"
@@ -113,7 +113,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 0.0,
       "userRatingCount": 0,
-      "fileSizeBytes": "41185280",
+      "fileSizeBytes": "41253888",
       "minimumOsVersion": "15.1",
       "languageCodesISO2A": [
         "KO"
@@ -121,8 +121,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/42/5d/29425d1a-c8e8-b777-d99e-b1b7d125dd22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-13",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/68/47/0868475f-a1f4-2e55-89c3-ee0117f92ca2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-10-15",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -202,7 +202,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-13",
+      "checked": "2026-10-15",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -234,36 +234,36 @@
       }
     },
     {
-      "slug": "onlumi",
+      "slug": "kindly",
       "status": "coming_soon",
       "trackId": 6819722166,
-      "trackName": "온루미",
+      "trackName": "카인들리",
       "names": {
-        "ko": "온루미",
-        "en": "Onlumi"
+        "ko": "카인들리",
+        "en": "Kindly"
       },
       "subtitle": {
         "ko": "감사일기와 긍정확언",
-        "en": "Gratitude & Quotes"
+        "en": "Kind Words & People"
       },
-      "subtitleSource": "site (App Store 미등록: 예정된 App Store 이름 \"온루미 - 감사일기와 긍정확언\")",
+      "subtitleSource": "site (App Store 미출시: 예정된 App Store 이름 \"카인들리 - 감사일기와 긍정확언\" / \"Kindly - Kind Words & People\")",
       "developer": "Team Cumulus",
       "summary": {
-        "ko": "온루미는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
-        "en": "Onlumi is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations."
+        "ko": "카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
+        "en": "Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations."
       },
-      "iconUrl": "https://cumulus.team/onlumi/img/onlumi-app-icon.png",
+      "iconUrl": "https://cumulus.team/kindly/img/kindly-app-icon.png",
       "landingUrls": {
-        "ko": "https://cumulus.team/onlumi/",
-        "en": "https://cumulus.team/onlumi/en/"
+        "ko": "https://cumulus.team/kindly/",
+        "en": "https://cumulus.team/kindly/en/"
       },
       "supportUrls": {
-        "ko": "https://cumulus.team/onlumi/support/",
-        "en": "https://cumulus.team/onlumi/en/support/"
+        "ko": "https://cumulus.team/kindly/support/",
+        "en": "https://cumulus.team/kindly/en/support/"
       },
       "privacyUrls": {
-        "ko": "https://cumulus.team/onlumi/privacy/",
-        "en": "https://cumulus.team/onlumi/en/privacy/"
+        "ko": "https://cumulus.team/kindly/privacy/",
+        "en": "https://cumulus.team/kindly/en/privacy/"
       },
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
