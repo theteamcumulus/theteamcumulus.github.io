@@ -63,3 +63,7 @@ Your Kindly account is an anonymous account created per device, with no name or 
 Kindly grows with your stories. Tell us what felt awkward, what you wish it had, or what you liked — we read every message.
 
 theteamcumulus@gmail.com — Settings › Send feedback in the app opens an email with the app version and device info filled in. We usually reply within 2 business days.
+
+## Terms and privacy
+
+[Terms of Use](/kindly/en/terms/) · [Privacy Policy](/kindly/en/privacy/)

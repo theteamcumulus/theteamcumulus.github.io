@@ -53,8 +53,9 @@ layout: null
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-04.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://cumulus.team/kindly/support/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/support/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/kindly/privacy/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/terms/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/kindly/en/</loc><lastmod>2026-10-15</lastmod>
     <image:image><image:loc>https://cumulus.team/kindly/img/kindly-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-01.jpg</image:loc></image:image>
@@ -62,8 +63,9 @@ layout: null
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-04.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://cumulus.team/kindly/en/support/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/en/support/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/kindly/en/privacy/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://cumulus.team/kindly/en/terms/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/screen-01.jpg</image:loc></image:image>
