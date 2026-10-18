@@ -1,22 +1,13 @@
 ---
 layout: default
 permalink: /lifory/en/privacy/
-app: lifory
-app_name: Lifory
-description: "Privacy policy for Lifory, the date stamp camera for iPhone: what information the app collects, why it is used, and how to contact us."
-image: /lifory/img/lifory-app-icon.png
-lang: en
-locale: en_US
-alternates:
-  ko: /lifory/privacy/
-  en: /lifory/en/privacy/
 ---
 
-# Lifory Privacy Policy
+# Lifestamp Privacy Policy
 
 Effective: from the release of version 1.0.1
 
-Lifory ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The photos you take and the date and time stamped on them are stored only on your device and are never sent anywhere. To keep the app stable and improve it, we collect only the error reports and anonymous usage statistics described below.
+Lifestamp ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The photos you take and the date and time stamped on them are stored only on your device and are never sent anywhere. To keep the app stable and improve it, we collect only the error reports and anonymous usage statistics described below.
 
 ## 1. Information we collect and why
 
@@ -60,7 +51,7 @@ You can learn more about how Google handles this data at https://firebase.google
 - Camera: used to take photos and show the stamp preview on screen.
 - Add to Photos: used to save stamped photos to the Photos app. The app cannot read or change existing photos in Photos (add-only access). You can turn off auto-save in the app's settings.
 
-You can install and open the app without granting these permissions, and you can change them anytime in Settings > Lifory.
+You can install and open the app without granting these permissions, and you can change them anytime in Settings > Lifestamp.
 
 ## 6. Sharing
 

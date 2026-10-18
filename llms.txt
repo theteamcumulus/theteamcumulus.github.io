@@ -9,7 +9,7 @@ App Store 등록정보는 2026-10-15에 iTunes Lookup으로 확인했다. 기계
 |---|---|---|---|
 | 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.5) | https://cumulus.team/redday/ |
 | 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.1) | https://cumulus.team/weatherfit/ |
-| Lifory (구 SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.1) | https://cumulus.team/lifory/ |
+| Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.1) | https://cumulus.team/lifory/ |
 | 카인들리 (Kindly) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 
@@ -92,16 +92,16 @@ App Store 등록정보는 2026-10-15에 iTunes Lookup으로 확인했다. 기계
 - 상단 현재 날씨는 기상청 초단기실황(매시 정시 관측, 약 5분 뒤 반영)을 쓴다. 햇빛이 없는 시간엔 자외선, 비 올 확률이 0이면 강수확률 표시를 생략한다.
 - 익명 오류 정보와 사용 통계만 수집(Firebase), 광고 식별자(IDFA) 미사용. 안드로이드 버전은 없다.
 
-## Lifory (구 SandTime)
-![Lifory 아이콘](https://cumulus.team/lifory/img/lifory-app-icon.png)
+## Lifestamp (구 Lifory·SandTime)
+![Lifestamp 아이콘](https://cumulus.team/lifory/img/lifory-app-icon.png)
 
-Lifory는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.
+Lifestamp는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.
 
-Lifory is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting.
+Lifestamp is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting.
 
-Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
+Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
 
-- App Store 이름 / 부제: Lifory / 찍는 순간을 새기는 날짜 카메라
+- App Store 이름 / 부제: Lifestamp: 날짜 스탬프 카메라 (언어별 "Lifestamp: <설명>") / 찍는 순간을 새기는 날짜 카메라
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
 - 버전: 1.0.1 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
@@ -123,7 +123,7 @@ Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜
 - iOS 17 미만 아이폰(iOS 17 이상 필요)
 
 핵심 사실 (2026-10-11 확인):
-- 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifory는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
+- 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
 - 스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.
 - 스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.
 - 앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.

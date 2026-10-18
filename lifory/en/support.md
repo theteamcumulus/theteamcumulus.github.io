@@ -1,26 +1,17 @@
 ---
 layout: default
 permalink: /lifory/en/support/
-app: lifory
-app_name: Lifory
-description: "Lifory support: frequently asked questions, troubleshooting tips and how to contact Team Cumulus about the date stamp camera for iPhone."
-image: /lifory/img/lifory-app-icon.png
-lang: en
-locale: en_US
-alternates:
-  ko: /lifory/support/
-  en: /lifory/en/support/
 ---
 
-# Lifory Support
+# Lifestamp Support
 
 ## Frequently asked questions
 
-**The camera screen says Lifory needs camera access.**
-Turn on Camera in Settings > Lifory, or tap Open Settings on the camera screen.
+**The camera screen says Lifestamp needs camera access.**
+Turn on Camera in Settings > Lifestamp, or tap Open Settings on the camera screen.
 
 **My photos aren't in the Photos app.**
-Check that "Auto-Save to Photos" is on in Settings (the gear at the top right of the camera screen), and that Settings > Lifory > Photos is set to "Add Photos Only". You can also open a photo in the app's gallery and save it with the Share button.
+Check that "Auto-Save to Photos" is on in Settings (the gear at the top right of the camera screen), and that Settings > Lifestamp > Photos is set to "Add Photos Only". You can also open a photo in the app's gallery and save it with the Share button.
 
 **Can I change the stamp style after taking a photo?**
 Yes. Open the photo in the gallery and tap Change Stamp to pick another style or show or hide the time. The original is kept, so you can change it as many times as you like.
@@ -32,10 +23,10 @@ The date, time and time zone of your device at the moment you press the shutter.
 Turn your iPhone sideways and the stamp rotates to match the photo. The app's screen itself stays in portrait.
 
 **Can I add a stamp to photos already in the Photos app?**
-No. To record the exact moment of capture, Lifory only stamps photos taken in the app.
+No. To record the exact moment of capture, Lifestamp only stamps photos taken in the app.
 
 **I deleted a photo in the app, but it's still in Photos.**
-Lifory can only add photos to the Photos app, so it can't delete the copy there. Please delete it in Photos.
+Lifestamp can only add photos to the Photos app, so it can't delete the copy there. Please delete it in Photos.
 
 **Will my photos be deleted if I delete the app?**
 Photos in the app's gallery are deleted along with the app. Copies saved to the Photos app stay.
