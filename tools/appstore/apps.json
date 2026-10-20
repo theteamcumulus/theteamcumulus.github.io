@@ -662,14 +662,14 @@
         "kr"
       ],
       "name": {
-        "ko": "카인들리",
+        "ko": "Kindly",
         "en": "Kindly"
       },
       "subtitle": {
-        "ko": "감사일기와 긍정확언",
-        "en": "Kind Words & People"
+        "ko": "카인들리 따뜻한 말이 모이는 곳",
+        "en": "Where Warm Words Meet"
       },
-      "subtitleSource": "site (App Store 미출시: 예정된 App Store 이름 \"카인들리 - 감사일기와 긍정확언\" / \"Kindly - Kind Words & People\")",
+      "subtitleSource": "site (App Store 미출시: 예정된 App Store 이름 \"Kindly - 카인들리 따뜻한 말이 모이는 곳\" / \"Kindly - Where Warm Words Meet\", 2026-10-21 변경)",
       "applicationCategory": "LifestyleApplication",
       "summary": {
         "ko": "카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
@@ -757,7 +757,7 @@
       },
       "llms": {
         "title": "카인들리 (Kindly)",
-        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: 카인들리 - 감사일기와 긍정확언 (Kindly - Kind Words & People). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
+        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: Kindly - 카인들리 따뜻한 말이 모이는 곳 (Kindly - Where Warm Words Meet, 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
         "factsHeading": "핵심 사실 (2026-10-11 확인):",
         "facts": [
           "문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.",
@@ -776,9 +776,9 @@
           "lang": "ko",
           "file": "kindly/index.html",
           "path": "/kindly/",
-          "name": "카인들리",
+          "name": "Kindly",
           "alternateName": [
-            "Kindly",
+            "카인들리",
             "온루미",
             "Onlumi",
             "좋은말"
@@ -787,8 +787,8 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-15",
-          "webpageName": "카인들리 - 감사일기와 긍정확언, 오늘의 문구 위젯 아이폰 앱",
+          "modified": "2026-10-21",
+          "webpageName": "Kindly - 카인들리 따뜻한 말이 모이는 곳, 감사일기·긍정확언·오늘의 문구 위젯 아이폰 앱",
           "ld": {
             "slogan": "다정한 말과 사람이 모이는 곳",
             "featureList": [
@@ -846,7 +846,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing-en",
           "currency": "KRW",
-          "modified": "2026-10-15",
+          "modified": "2026-10-21",
           "webpageName": "Kindly - Gratitude journal, affirmations and a daily quote widget for iPhone",
           "ld": {
             "slogan": "Where kind words and kind people gather",

@@ -10,7 +10,7 @@ App Store 등록정보는 2026-10-20에 iTunes Lookup으로 확인했다. 기계
 | 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.5) | https://cumulus.team/redday/ |
 | 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.1) | https://cumulus.team/weatherfit/ |
 | Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.3) | https://cumulus.team/lifestamp/ |
-| 카인들리 (Kindly) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/kindly/ |
+| 카인들리 (Kindly) | 카인들리 따뜻한 말이 모이는 곳 | 출시 예정 | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 
 ## 빨간날 (Red Day Alarm)
@@ -132,15 +132,15 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 - 안드로이드 버전은 없다.
 
 ## 카인들리 (Kindly)
-![카인들리 아이콘](https://cumulus.team/kindly/img/kindly-app-icon.png)
+![Kindly 아이콘](https://cumulus.team/kindly/img/kindly-app-icon.png)
 
 카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.
 
 Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
 
-카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: 카인들리 - 감사일기와 긍정확언 (Kindly - Kind Words & People). iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
+카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: Kindly - 카인들리 따뜻한 말이 모이는 곳 (Kindly - Where Warm Words Meet, 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
 
-- App Store 이름 / 부제: 카인들리 / 감사일기와 긍정확언 (App Store 출시 전, 사이트 표기)
+- App Store 이름 / 부제: Kindly / 카인들리 따뜻한 말이 모이는 곳 (App Store 출시 전, 사이트 표기)
 - 개발자: Team Cumulus
 - 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
 - 공식 소개·FAQ: https://cumulus.team/kindly/ (English: https://cumulus.team/kindly/en/)
