@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lifory/en/privacy/
+permalink: /lifestamp/en/privacy/
 ---
 
 # Lifestamp Privacy Policy

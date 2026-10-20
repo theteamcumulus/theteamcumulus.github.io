@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lifory/privacy/
+permalink: /lifestamp/privacy/
 ---
 
 # Lifestamp 개인정보 처리방침

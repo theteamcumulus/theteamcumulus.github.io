@@ -7,7 +7,7 @@ Team Cumulus 공식 사이트. 팀 project_id: SITE.
 - App Store의 지원 URL·개인정보 URL이 이 사이트를 가리킨다. 기존 경로(/<app>/, /<app>/support/, /<app>/privacy/, /sandtime/ 리다이렉트)를 지우거나 옮기지 않는다.
 
 ## 구조
-- 앱 폴더: redday, weatherfit, lifory, onlumi, pixder. 한국어가 기본이고 en/ 하위에 영어판이 있다. sandtime은 lifory로 넘기는 리다이렉트.
+- 앱 폴더: redday, weatherfit, lifestamp, onlumi, pixder. 한국어가 기본이고 en/ 하위에 영어판이 있다. sandtime·lifory는 lifestamp로 넘기는 리다이렉트(lifory/img에 옛 OG·아이콘 사본).
 - weatherfit/index.html은 weatherfit/build_landing.py로 생성한다. 직접 고치지 말고 스크립트를 고친 뒤 `python3 weatherfit/build_landing.py`를 저장소 루트에서 실행한다.
 - App Store 정보(앱 헤더·정보 띠·새로운 기능·정보 표·JSON-LD·허브 앱 목록)와 llms.txt·/apps.json은 tools/appstore/apps.json에서 생성한다. 랜딩의 `<!-- appstore:*:start/end -->` 사이와 llms.txt는 직접 고치지 않는다. 갱신: `python3 tools/appstore/sync.py && python3 tools/appstore/render.py`(저장소 루트). 본문 FAQ를 고치면 render만 다시 실행하면 FAQPage JSON-LD가 따라온다.
 - 개발자 표기는 Team Cumulus만 쓴다. App Store 판매자 실명·개발자 페이지 URL은 사이트·apps.json·llms.txt에 넣지 않는다(sync.py도 저장하지 않음). 앱이 실제 지원 언어와 스토어 언어 표기가 다르면 tools/appstore/apps.json의 languageOverride로 맞춘다(출퇴근날씨: KO).

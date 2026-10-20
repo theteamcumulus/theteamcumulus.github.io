@@ -3,13 +3,13 @@
 > Team Cumulus가 만든 iPhone 앱의 공식 안내 페이지. 문의: theteamcumulus@gmail.com
 
 모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.
-App Store 등록정보는 2026-10-15에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
+App Store 등록정보는 2026-10-20에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
 
 | 앱 | App Store 부제 | 상태 | 공식 페이지 |
 |---|---|---|---|
 | 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.5) | https://cumulus.team/redday/ |
 | 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.1) | https://cumulus.team/weatherfit/ |
-| Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.1) | https://cumulus.team/lifory/ |
+| Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.3) | https://cumulus.team/lifestamp/ |
 | 카인들리 (Kindly) | 감사일기와 긍정확언 | 출시 예정 | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 
@@ -93,7 +93,7 @@ App Store 등록정보는 2026-10-15에 iTunes Lookup으로 확인했다. 기계
 - 익명 오류 정보와 사용 통계만 수집(Firebase), 광고 식별자(IDFA) 미사용. 안드로이드 버전은 없다.
 
 ## Lifestamp (구 Lifory·SandTime)
-![Lifestamp 아이콘](https://cumulus.team/lifory/img/lifory-app-icon.png)
+![Lifestamp 아이콘](https://cumulus.team/lifestamp/img/lifestamp-app-icon.png)
 
 Lifestamp는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.
 
@@ -101,15 +101,15 @@ Lifestamp is a free iPhone camera app that stamps the date and time of the momen
 
 Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: "Your life. Your story." / "삶의 모든 순간이 하나의 이야기가 됩니다." iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.
 
-- App Store 이름 / 부제: Lifestamp: 날짜 스탬프 카메라 (언어별 "Lifestamp: <설명>") / 찍는 순간을 새기는 날짜 카메라
+- App Store 이름 / 부제: Lifestamp: 날짜 스탬프 카메라 / 찍는 순간을 새기는 날짜 카메라
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.1 (2026-10-12) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
-- 평점: 아직 표시할 평가 없음 (2026-10-15 확인)
+- 버전: 1.0.3 (2026-10-19) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
+- 평점: 아직 표시할 평가 없음 (2026-10-20 확인)
 - App Store: https://apps.apple.com/kr/app/id6821004763?pt=129567498&ct=web-llms&mt=8
-- 공식 소개·FAQ: https://cumulus.team/lifory/ (English: https://cumulus.team/lifory/en/)
-- 지원: https://cumulus.team/lifory/support/ (English: https://cumulus.team/lifory/en/support/)
-- 개인정보 처리방침: https://cumulus.team/lifory/privacy/ (English: https://cumulus.team/lifory/en/privacy/)
+- 공식 소개·FAQ: https://cumulus.team/lifestamp/ (English: https://cumulus.team/lifestamp/en/)
+- 지원: https://cumulus.team/lifestamp/support/ (English: https://cumulus.team/lifestamp/en/support/)
+- 개인정보 처리방침: https://cumulus.team/lifestamp/privacy/ (English: https://cumulus.team/lifestamp/en/privacy/)
 
 이런 분께 추천:
 - 사진에 필름 카메라 같은 날짜 표시를 남기고 싶은 분

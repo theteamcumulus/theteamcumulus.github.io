@@ -332,7 +332,7 @@
       ]
     },
     {
-      "slug": "lifory",
+      "slug": "lifestamp",
       "trackId": 6821004763,
       "status": "live",
       "storeCountries": [
@@ -340,8 +340,8 @@
         "us"
       ],
       "name": {
-        "ko": "Lifory",
-        "en": "Lifory"
+        "ko": "Lifestamp",
+        "en": "Lifestamp"
       },
       "subtitle": {
         "ko": "찍는 순간을 새기는 날짜 카메라",
@@ -350,8 +350,8 @@
       "subtitleSource": "appstore",
       "applicationCategory": "PhotographyApplication",
       "summary": {
-        "ko": "Lifory는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.",
-        "en": "Lifory is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting."
+        "ko": "Lifestamp는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.",
+        "en": "Lifestamp is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting."
       },
       "fit": {
         "ko": {
@@ -375,7 +375,7 @@
             "People who want their photos kept on their device, with no sign-up"
           ],
           "not": [
-            "You want to add dates to photos already in your Photos library (Lifory only stamps photos taken in the app)",
+            "You want to add dates to photos already in your Photos library (Lifestamp only stamps photos taken in the app)",
             "You use an Android phone (there is no Android version)",
             "Your iPhone runs a version earlier than iOS 17"
           ]
@@ -421,24 +421,24 @@
       },
       "links": {
         "landing": {
-          "ko": "/lifory/",
-          "en": "/lifory/en/"
+          "ko": "/lifestamp/",
+          "en": "/lifestamp/en/"
         },
         "support": {
-          "ko": "/lifory/support/",
-          "en": "/lifory/en/support/"
+          "ko": "/lifestamp/support/",
+          "en": "/lifestamp/en/support/"
         },
         "privacy": {
-          "ko": "/lifory/privacy/",
-          "en": "/lifory/en/privacy/"
+          "ko": "/lifestamp/privacy/",
+          "en": "/lifestamp/en/privacy/"
         }
       },
       "llms": {
-        "title": "Lifory (구 SandTime)",
-        "intro": "Lifory는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.",
+        "title": "Lifestamp (구 Lifory·SandTime)",
+        "intro": "Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.",
         "factsHeading": "핵심 사실 (2026-10-11 확인):",
         "facts": [
-          "아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifory는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.",
+          "아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.",
           "스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.",
           "스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.",
           "앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.",
@@ -450,11 +450,12 @@
       "pages": [
         {
           "lang": "ko",
-          "file": "lifory/index.html",
-          "path": "/lifory/",
-          "name": "Lifory",
+          "file": "lifestamp/index.html",
+          "path": "/lifestamp/",
+          "name": "Lifestamp",
           "alternateName": [
-            "Lifory 날짜 카메라",
+            "Lifestamp 날짜 카메라",
+            "Lifory",
             "SandTime"
           ],
           "storeCountry": "kr",
@@ -462,7 +463,7 @@
           "ct": "web-landing",
           "currency": "KRW",
           "modified": "2026-10-13",
-          "webpageName": "Lifory - 찍는 순간을 새기는 날짜 카메라",
+          "webpageName": "Lifestamp - 찍는 순간을 새기는 날짜 카메라",
           "ld": {
             "slogan": "삶의 모든 순간이 하나의 이야기가 됩니다.",
             "featureList": [
@@ -477,45 +478,46 @@
           },
           "shots": [
             [
-              "/lifory/img/screen-01.jpg",
+              "/lifestamp/img/screen-01.jpg",
               "카메라 화면: 풍경 미리보기 오른쪽 아래에 주황색 필름 날짜 스탬프 '26 10 09",
               "찍는 순간 시각을 새기는 카메라"
             ],
             [
-              "/lifory/img/screen-02.jpg",
+              "/lifestamp/img/screen-02.jpg",
               "즉석사진 스타일: 흰 테두리 아래에 날짜가 적힌 미리보기",
               "스탬프 10가지"
             ],
             [
-              "/lifory/img/screen-03.jpg",
+              "/lifestamp/img/screen-03.jpg",
               "스탬프 변경 화면: 찍은 사진의 스타일과 시간 표시를 바꾸는 편집기",
               "찍은 뒤에도 스탬프 변경"
             ],
             [
-              "/lifory/img/screen-04.jpg",
+              "/lifestamp/img/screen-04.jpg",
               "갤러리: 월별로 정리된 사진 격자",
               "월별로 모아 보는 갤러리"
             ],
             [
-              "/lifory/img/screen-05.jpg",
+              "/lifestamp/img/screen-05.jpg",
               "캠코더 스타일 스탬프가 들어간 카메라 화면",
               "원본 해상도로 저장·공유"
             ]
           ],
           "cta": {
-            "textLive": "평범한 하루도 언제였는지 기억할 수 있게. Lifory는 App Store에서 무료로 받을 수 있습니다.",
-            "textSoon": "평범한 하루도 언제였는지 기억할 수 있게. Lifory는 App Store에서 무료로 받을 수 있습니다.",
-            "label": "App Store에서 Lifory 받기",
+            "textLive": "평범한 하루도 언제였는지 기억할 수 있게. Lifestamp는 App Store에서 무료로 받을 수 있습니다.",
+            "textSoon": "평범한 하루도 언제였는지 기억할 수 있게. Lifestamp는 App Store에서 무료로 받을 수 있습니다.",
+            "label": "App Store에서 Lifestamp 받기",
             "class": "cta"
           }
         },
         {
           "lang": "en",
-          "file": "lifory/en/index.html",
-          "path": "/lifory/en/",
-          "name": "Lifory",
+          "file": "lifestamp/en/index.html",
+          "path": "/lifestamp/en/",
+          "name": "Lifestamp",
           "alternateName": [
-            "Lifory Date Stamp Camera",
+            "Lifestamp Date Stamp Camera",
+            "Lifory",
             "SandTime"
           ],
           "storeCountry": "us",
@@ -523,7 +525,7 @@
           "ct": "web-landing-en",
           "currency": "USD",
           "modified": "2026-10-13",
-          "webpageName": "Lifory - Date Stamp Camera for iPhone",
+          "webpageName": "Lifestamp - Date Stamp Camera for iPhone",
           "ld": {
             "slogan": "Your life. Your story.",
             "featureList": [
@@ -538,35 +540,35 @@
           },
           "shots": [
             [
-              "/lifory/img/en/screen-01.jpg",
+              "/lifestamp/img/en/screen-01.jpg",
               "Camera screen with an orange film-style date stamp in the bottom right of the preview",
               "A camera that stamps the moment"
             ],
             [
-              "/lifory/img/en/screen-02.jpg",
+              "/lifestamp/img/en/screen-02.jpg",
               "Instant style preview with the date written below a white border",
               "10 stamp styles"
             ],
             [
-              "/lifory/img/en/screen-03.jpg",
+              "/lifestamp/img/en/screen-03.jpg",
               "Stamp editor for changing the style and time display of a photo",
               "Change the stamp anytime"
             ],
             [
-              "/lifory/img/en/screen-04.jpg",
+              "/lifestamp/img/en/screen-04.jpg",
               "Gallery grid of photos sorted by month",
               "A gallery sorted by month"
             ],
             [
-              "/lifory/img/en/screen-05.jpg",
+              "/lifestamp/img/en/screen-05.jpg",
               "Camera screen with a camcorder-style stamp",
               "Save and share in full resolution"
             ]
           ],
           "cta": {
-            "textLive": "So you'll always remember when an ordinary day happened. Lifory is free on the App Store.",
-            "textSoon": "So you'll always remember when an ordinary day happened. Lifory is free on the App Store.",
-            "label": "Get Lifory on the App Store",
+            "textLive": "So you'll always remember when an ordinary day happened. Lifestamp is free on the App Store.",
+            "textSoon": "So you'll always remember when an ordinary day happened. Lifestamp is free on the App Store.",
+            "label": "Get Lifestamp on the App Store",
             "class": "cta"
           }
         }
@@ -574,12 +576,12 @@
       "store": {
         "kr": {
           "trackId": 6821004763,
-          "trackName": "Lifory",
+          "trackName": "Lifestamp: 날짜 스탬프 카메라",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.1",
-          "currentVersionReleaseDate": "2026-10-12T08:01:41Z",
+          "version": "1.0.3",
+          "currentVersionReleaseDate": "2026-10-18T20:27:58Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": null,
+          "releaseNotes": "• Lifory가 Lifestamp로 이름을 바꿨어요. 찍어 둔 사진과 기능은 그대로예요.\n• 인스타그램 스토리에 딱 맞게 올려요. 공유 › 스토리용 공유를 고르면 화면을 꽉 채우고, 스탬프와 프레임은 잘리지 않아요.\n\n오늘의 한 장에 오늘의 시간을.",
           "genres": [
             "사진 및 비디오",
             "라이프스타일"
@@ -592,7 +594,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5167104",
+          "fileSizeBytes": "5171200",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -607,18 +609,18 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "trackViewUrl": "https://apps.apple.com/kr/app/lifory/id6821004763",
-          "checked": "2026-10-15"
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/0b/23/400b230b-bc19-6f0b-52fa-09928c316399/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/kr/app/lifestamp-%EB%82%A0%EC%A7%9C-%EC%8A%A4%ED%83%AC%ED%94%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6821004763",
+          "checked": "2026-10-20"
         },
         "us": {
           "trackId": 6821004763,
-          "trackName": "Lifory",
+          "trackName": "Lifestamp: Date Stamp Camera",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.1",
-          "currentVersionReleaseDate": "2026-10-12T08:01:41Z",
+          "version": "1.0.3",
+          "currentVersionReleaseDate": "2026-10-18T20:27:58Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": null,
+          "releaseNotes": "• Lifory is now Lifestamp. Your photos and features stay just the same.\n• Made for Instagram Stories. Tap Share › Share for Stories to fill the screen, with your stamp and frame fully in view.\n\nToday's shot, stamped with today's time.",
           "genres": [
             "Photo & Video",
             "Lifestyle"
@@ -631,7 +633,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5167104",
+          "fileSizeBytes": "5171200",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -646,9 +648,9 @@
           "formattedPrice": "Free",
           "price": 0.0,
           "currency": "USD",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "trackViewUrl": "https://apps.apple.com/us/app/lifory/id6821004763",
-          "checked": "2026-10-15"
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/0b/23/400b230b-bc19-6f0b-52fa-09928c316399/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/us/app/lifestamp-date-stamp-camera/id6821004763",
+          "checked": "2026-10-20"
         }
       }
     },

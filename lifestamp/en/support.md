@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lifory/en/support/
+permalink: /lifestamp/en/support/
 ---
 
 # Lifestamp Support

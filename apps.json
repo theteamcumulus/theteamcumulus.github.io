@@ -142,13 +142,13 @@
       }
     },
     {
-      "slug": "lifory",
+      "slug": "lifestamp",
       "status": "live",
       "trackId": 6821004763,
-      "trackName": "Lifory",
+      "trackName": "Lifestamp: 날짜 스탬프 카메라",
       "names": {
-        "ko": "Lifory",
-        "en": "Lifory"
+        "ko": "Lifestamp",
+        "en": "Lifestamp"
       },
       "subtitle": {
         "ko": "찍는 순간을 새기는 날짜 카메라",
@@ -157,28 +157,28 @@
       "subtitleSource": "appstore",
       "developer": "Team Cumulus",
       "summary": {
-        "ko": "Lifory는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.",
-        "en": "Lifory is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting."
+        "ko": "Lifestamp는 셔터를 누른 순간의 날짜·시각을 필름 카메라처럼 사진에 새기고, 찍은 뒤에도 스탬프를 바꿀 수 있는 무료 아이폰 카메라 앱입니다.",
+        "en": "Lifestamp is a free iPhone camera app that stamps the date and time of the moment you press the shutter onto your photo, like a film camera, and lets you change the stamp after shooting."
       },
-      "iconUrl": "https://cumulus.team/lifory/img/lifory-app-icon.png",
+      "iconUrl": "https://cumulus.team/lifestamp/img/lifestamp-app-icon.png",
       "landingUrls": {
-        "ko": "https://cumulus.team/lifory/",
-        "en": "https://cumulus.team/lifory/en/"
+        "ko": "https://cumulus.team/lifestamp/",
+        "en": "https://cumulus.team/lifestamp/en/"
       },
       "supportUrls": {
-        "ko": "https://cumulus.team/lifory/support/",
-        "en": "https://cumulus.team/lifory/en/support/"
+        "ko": "https://cumulus.team/lifestamp/support/",
+        "en": "https://cumulus.team/lifestamp/en/support/"
       },
       "privacyUrls": {
-        "ko": "https://cumulus.team/lifory/privacy/",
-        "en": "https://cumulus.team/lifory/en/privacy/"
+        "ko": "https://cumulus.team/lifestamp/privacy/",
+        "en": "https://cumulus.team/lifestamp/en/privacy/"
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6821004763",
       "bundleId": "com.cumulus.sandtime",
-      "version": "1.0.1",
-      "currentVersionReleaseDate": "2026-10-12T08:01:41Z",
+      "version": "1.0.3",
+      "currentVersionReleaseDate": "2026-10-18T20:27:58Z",
       "releaseDate": "2026-10-12T07:00:00Z",
-      "releaseNotes": null,
+      "releaseNotes": "• Lifory가 Lifestamp로 이름을 바꿨어요. 찍어 둔 사진과 기능은 그대로예요.\n• 인스타그램 스토리에 딱 맞게 올려요. 공유 › 스토리용 공유를 고르면 화면을 꽉 채우고, 스탬프와 프레임은 잘리지 않아요.\n\n오늘의 한 장에 오늘의 시간을.",
       "genres": [
         "사진 및 비디오",
         "라이프스타일"
@@ -187,7 +187,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 0.0,
       "userRatingCount": 0,
-      "fileSizeBytes": "5167104",
+      "fileSizeBytes": "5171200",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
         "EN",
@@ -201,8 +201,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/77/67/d97767e9-0ec8-ee6f-2333-5f85372bf568/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-15",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/0b/23/400b230b-bc19-6f0b-52fa-09928c316399/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-10-20",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -226,7 +226,7 @@
             "People who want their photos kept on their device, with no sign-up"
           ],
           "not": [
-            "You want to add dates to photos already in your Photos library (Lifory only stamps photos taken in the app)",
+            "You want to add dates to photos already in your Photos library (Lifestamp only stamps photos taken in the app)",
             "You use an Android phone (there is no Android version)",
             "Your iPhone runs a version earlier than iOS 17"
           ]
