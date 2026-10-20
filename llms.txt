@@ -138,7 +138,7 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 
 Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
 
-카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: Kindly - 카인들리 따뜻한 말이 모이는 곳 (Kindly - Where Warm Words Meet, 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
+카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: Kindly - 카인들리 따뜻한 말이 모이는 곳 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
 
 - App Store 이름 / 부제: Kindly / 카인들리 따뜻한 말이 모이는 곳 (App Store 출시 전, 사이트 표기)
 - 개발자: Team Cumulus
