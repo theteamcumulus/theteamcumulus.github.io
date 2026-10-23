@@ -154,23 +154,23 @@
           "trackId": 6819717732,
           "trackName": "빨간날",
           "bundleId": "com.cumulus.redday",
-          "version": "1.0.5",
-          "currentVersionReleaseDate": "2026-10-13T21:07:11Z",
+          "version": "1.0.7",
+          "currentVersionReleaseDate": "2026-10-19T06:25:48Z",
           "releaseDate": "2026-10-08T07:00:00Z",
-          "releaseNotes": "• 쉬는 날 목록에서 '쉼'을 누르면 그 날짜만 '출근'으로 바뀌어요. 같은 연휴의 다른 날과 공휴일 출근 설정은 그대로예요.\n• 설정에 '빨간날에 들려주세요'를 새로 만들었어요. 의견을 보내거나 App Store에 리뷰를 남길 수 있어요.\n• 최신 iOS에 맞춰 다듬었어요.\n\n쉬는 날엔 푹, 평일엔 상쾌하게.",
+          "releaseNotes": "• '한 번만' 알람은 울리고 나면 알아서 꺼져요. 다음 날 다시 울리지 않아요.\n• 새 알람을 만들 때마다 부드러운 테마·음악 테마 14곡 중 한 곡이 골라져요.\n• '미리 울려보기'에서 실제 알람 소리를 들어볼 수 있어요. 저장하기 전에도 돼요.\n• 설정의 '친구에게 알려주기'로 빨간날을 친구에게 소개할 수 있어요.",
           "genres": [
-            "유틸리티",
+            "라이프스타일",
             "생산성"
           ],
           "genreIds": [
-            "6002",
+            "6012",
             "6007"
           ],
-          "primaryGenreName": "Utilities",
+          "primaryGenreName": "Lifestyle",
           "trackContentRating": "4+",
           "averageUserRating": 5.0,
           "userRatingCount": 3,
-          "fileSizeBytes": "69363712",
+          "fileSizeBytes": "76892160",
           "minimumOsVersion": "26.0",
           "languageCodesISO2A": [
             "KO"
@@ -178,9 +178,9 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/25/e3/8d25e335-9aca-825e-eb26-afa34a1dd284/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/aa/93/62aa9398-6e97-d553-7254-264e58901014/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/%EB%B9%A8%EA%B0%84%EB%82%A0/id6819717732",
-          "checked": "2026-10-15"
+          "checked": "2026-10-24"
         }
       }
     },
@@ -298,10 +298,10 @@
           "trackId": 6819701703,
           "trackName": "출퇴근날씨",
           "bundleId": "com.cumulus.weatherfit",
-          "version": "1.0.1",
-          "currentVersionReleaseDate": "2026-10-13T14:33:23Z",
+          "version": "1.0.3",
+          "currentVersionReleaseDate": "2026-10-15T07:02:44Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": "• 출근·점심·퇴근 카드에 체감·강수·바람·미세먼지 등 꼭 필요한 정보 4가지를 늘 보여드려요.\n• 시간대별 미세먼지: 출근길·점심·퇴근길 그 시각의 미세먼지 등급과 마스크 안내를 알려드려요.\n• 이미 지난 시간대는 ‘지난 시간’으로 표시해요.\n• 앱을 자주 열고 닫아도 날씨 새로고침이 멈추지 않도록 고쳤어요.\n• 화면 아래 ‘출퇴근날씨에 들려주세요’에서 의견을 보내거나 App Store 리뷰를 남길 수 있어요.",
+          "releaseNotes": "• 홈 화면 작은 위젯이 다가오는 시간대를 알아서 보여줘요. 출근 전엔 출근길, 그다음 점심, 퇴근길, 퇴근 뒤엔 내일 출근길로 바뀌어요. 위젯 편집에서 특정 시간대나 현재 날씨로 고정할 수도 있어요.\n• 아직 위젯을 놓지 않았다면 홈 화면에 위젯을 추가하는 방법을 안내해 드려요.\n• 기상청 예보가 늦게 올라오는 시간에도 직전 예보로 날씨를 보여줘요. 기상청 예보를 받지 못하면 다른 예보(Open-Meteo)로 대신 보여드려요.",
           "genres": [
             "날씨",
             "라이프스타일"
@@ -312,9 +312,9 @@
           ],
           "primaryGenreName": "Weather",
           "trackContentRating": "4+",
-          "averageUserRating": 0.0,
-          "userRatingCount": 0,
-          "fileSizeBytes": "41253888",
+          "averageUserRating": 5.0,
+          "userRatingCount": 1,
+          "fileSizeBytes": "41323520",
           "minimumOsVersion": "15.1",
           "languageCodesISO2A": [
             "KO"
@@ -322,9 +322,9 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/68/47/0868475f-a1f4-2e55-89c3-ee0117f92ca2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/2b/f2/b52bf209-b187-2ccf-55c1-3dbf4b6262b9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/%EC%B6%9C%ED%87%B4%EA%B7%BC%EB%82%A0%EC%94%A8/id6819701703",
-          "checked": "2026-10-15"
+          "checked": "2026-10-24"
         }
       },
       "languageOverride": [
@@ -436,10 +436,11 @@
       "llms": {
         "title": "Lifestamp (구 Lifory·SandTime)",
         "intro": "Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.",
-        "factsHeading": "핵심 사실 (2026-10-11 확인):",
+        "factsHeading": "핵심 사실 (2026-10-24 확인):",
         "facts": [
           "아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.",
-          "스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.",
+          "스탬프 15가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Postmark(소인), Inked(고무 도장), Ticket, Receipt(영수증), Calendar(달력), Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.",
+          "사진 비율 9:16(기본, 인스타그램 스토리 크기)·4:5·1:1·3:4를 카메라와 편집 화면에서 고른다. 원본은 자르지 않고 보관한다. 9:16은 스토리 화면 위아래 메뉴 자리에 스탬프를 두지 않는다.",
           "스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.",
           "앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.",
           "0.5배 광각·망원 줌, 전면 카메라, 플래시, 가로 촬영 시 스탬프 회전 지원. 원본 해상도로 사진 앱 자동 저장과 공유 시트 전송.",
@@ -462,15 +463,16 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6821004763",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-13",
+          "modified": "2026-10-24",
           "webpageName": "Lifestamp - 찍는 순간을 새기는 날짜 카메라",
           "ld": {
             "slogan": "삶의 모든 순간이 하나의 이야기가 됩니다.",
             "featureList": [
               "셔터를 누른 순간의 날짜·시각을 사진에 스탬프로 새기기",
-              "스탬프 10가지: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Scribble, Sticker, Marker",
+              "스탬프 15가지: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Postmark, Inked, Ticket, Receipt, Calendar, Scribble, Sticker, Marker",
               "화면을 좌우로 넘겨 스탬프 스타일 전환",
-              "원본 보관: 찍은 뒤에도 스탬프 스타일과 시각 표시 변경",
+              "사진 비율 9:16(스토리)·4:5·1:1·3:4 선택",
+              "원본 보관: 찍은 뒤에도 스탬프 스타일·비율·시각 표시 변경",
               "0.5배 광각부터 망원까지 줌, 전면·후면 카메라, 플래시",
               "원본 해상도로 사진 앱 자동 저장, 공유 시트로 전송"
             ],
@@ -479,17 +481,17 @@
           "shots": [
             [
               "/lifestamp/img/screen-01.jpg",
-              "카메라 화면: 풍경 미리보기 오른쪽 아래에 주황색 필름 날짜 스탬프 '26 10 09",
+              "카메라 화면: 9:16 풍경 미리보기 오른쪽 아래에 주황색 필름 날짜 스탬프 '26 10 24",
               "찍는 순간 시각을 새기는 카메라"
             ],
             [
               "/lifestamp/img/screen-02.jpg",
               "즉석사진 스타일: 흰 테두리 아래에 날짜가 적힌 미리보기",
-              "스탬프 10가지"
+              "스탬프 15가지"
             ],
             [
               "/lifestamp/img/screen-03.jpg",
-              "스탬프 변경 화면: 찍은 사진의 스타일과 시간 표시를 바꾸는 편집기",
+              "스탬프 변경 화면: 찍은 사진의 비율(9:16·4:5·1:1·3:4), 스타일, 시간 표시를 바꾸는 편집기",
               "찍은 뒤에도 스탬프 변경"
             ],
             [
@@ -499,7 +501,7 @@
             ],
             [
               "/lifestamp/img/screen-05.jpg",
-              "캠코더 스타일 스탬프가 들어간 카메라 화면",
+              "사진 상세 화면: 캠코더 스타일 스탬프가 들어간 사진과 공유 버튼",
               "원본 해상도로 저장·공유"
             ]
           ],
@@ -524,15 +526,16 @@
           "storeUrl": "https://apps.apple.com/app/id6821004763",
           "ct": "web-landing-en",
           "currency": "USD",
-          "modified": "2026-10-13",
+          "modified": "2026-10-24",
           "webpageName": "Lifestamp - Date Stamp Camera for iPhone",
           "ld": {
             "slogan": "Your life. Your story.",
             "featureList": [
               "Stamps the date and time of capture onto the photo",
-              "10 stamp styles: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Scribble, Sticker, Marker",
+              "15 stamp styles: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Postmark, Inked, Ticket, Receipt, Calendar, Scribble, Sticker, Marker",
               "Swipe left or right to switch stamp styles",
-              "Original kept: change the stamp style or hide the time after shooting",
+              "Photo aspect ratios: 9:16 (Stories), 4:5, 1:1, 3:4",
+              "Original kept: change the stamp style, aspect ratio or time display after shooting",
               "Zoom from 0.5x Ultra Wide to telephoto, front and back cameras, flash",
               "Full-resolution auto-save to Photos and sharing from the share sheet"
             ],
@@ -541,17 +544,17 @@
           "shots": [
             [
               "/lifestamp/img/en/screen-01.jpg",
-              "Camera screen with an orange film-style date stamp in the bottom right of the preview",
+              "Camera screen with an orange film-style date stamp in the bottom right of a 9:16 preview",
               "A camera that stamps the moment"
             ],
             [
               "/lifestamp/img/en/screen-02.jpg",
               "Instant style preview with the date written below a white border",
-              "10 stamp styles"
+              "15 stamp styles"
             ],
             [
               "/lifestamp/img/en/screen-03.jpg",
-              "Stamp editor for changing the style and time display of a photo",
+              "Stamp editor for changing the aspect ratio (9:16, 4:5, 1:1, 3:4), style and time display of a photo",
               "Change the stamp anytime"
             ],
             [
@@ -561,7 +564,7 @@
             ],
             [
               "/lifestamp/img/en/screen-05.jpg",
-              "Camera screen with a camcorder-style stamp",
+              "Photo detail screen with a camcorder-style stamp and a share button",
               "Save and share in full resolution"
             ]
           ],
@@ -578,10 +581,10 @@
           "trackId": 6821004763,
           "trackName": "Lifestamp: 날짜 스탬프 카메라",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.3",
-          "currentVersionReleaseDate": "2026-10-18T20:27:58Z",
+          "version": "1.0.4",
+          "currentVersionReleaseDate": "2026-10-23T21:29:33Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": "• Lifory가 Lifestamp로 이름을 바꿨어요. 찍어 둔 사진과 기능은 그대로예요.\n• 인스타그램 스토리에 딱 맞게 올려요. 공유 › 스토리용 공유를 고르면 화면을 꽉 채우고, 스탬프와 프레임은 잘리지 않아요.\n\n오늘의 한 장에 오늘의 시간을.",
+          "releaseNotes": "• 새 스탬프 5가지: 소인(Postmark), 고무 도장(Inked), 티켓(Ticket), 영수증(Receipt), 달력(Calendar)\n• 사진 비율을 고를 수 있어요. 카메라 화면의 비율 버튼으로 9:16, 4:5, 1:1, 3:4를 바꾸고, 찍은 뒤 스탬프 편집에서도 바꿀 수 있어요. 기본 9:16은 스토리 크기이고, 스탬프가 스토리 화면의 위아래 메뉴에 가리지 않아요.\n• 카메라 화면이 넓어졌어요. 고른 비율 그대로 화면 폭을 꽉 채우고, 스탬프 크기와 위치도 비율마다 알맞게 맞췄어요.\n• 사진이 처음부터 스토리 크기로 찍히니 따로 있던 '스토리용 공유'는 없앴어요. 이제 공유 버튼 하나로 저장된 사진을 그대로 보내요.\n\n오늘의 한 장에 오늘의 시간을.",
           "genres": [
             "사진 및 비디오",
             "라이프스타일"
@@ -594,7 +597,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5171200",
+          "fileSizeBytes": "5240832",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -609,18 +612,18 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/0b/23/400b230b-bc19-6f0b-52fa-09928c316399/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/lifestamp-%EB%82%A0%EC%A7%9C-%EC%8A%A4%ED%83%AC%ED%94%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6821004763",
-          "checked": "2026-10-20"
+          "checked": "2026-10-24"
         },
         "us": {
           "trackId": 6821004763,
           "trackName": "Lifestamp: Date Stamp Camera",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.3",
-          "currentVersionReleaseDate": "2026-10-18T20:27:58Z",
+          "version": "1.0.4",
+          "currentVersionReleaseDate": "2026-10-23T21:29:33Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": "• Lifory is now Lifestamp. Your photos and features stay just the same.\n• Made for Instagram Stories. Tap Share › Share for Stories to fill the screen, with your stamp and frame fully in view.\n\nToday's shot, stamped with today's time.",
+          "releaseNotes": "• 5 new stamps: Postmark, Inked, Ticket, Receipt and Calendar.\n• Choose your aspect ratio. Tap the ratio button on the camera to switch between 9:16, 4:5, 1:1 and 3:4, or change it later in the stamp editor. The default 9:16 is Story-sized, and your stamp stays clear of the Stories controls at the top and bottom.\n• A bigger viewfinder: your chosen ratio now fills the full width of the screen, and stamps are sized and placed to fit each ratio.\n• Since photos are now Story-sized from the start, the separate Share for Stories option is gone. One Share button sends your saved photo as it is.\n\nToday's shot, stamped with today's time.",
           "genres": [
             "Photo & Video",
             "Lifestyle"
@@ -633,7 +636,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5171200",
+          "fileSizeBytes": "5240832",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -648,16 +651,16 @@
           "formattedPrice": "Free",
           "price": 0.0,
           "currency": "USD",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/0b/23/400b230b-bc19-6f0b-52fa-09928c316399/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/us/app/lifestamp-date-stamp-camera/id6821004763",
-          "checked": "2026-10-20"
+          "checked": "2026-10-24"
         }
       }
     },
     {
       "slug": "kindly",
       "trackId": 6819722166,
-      "status": "coming_soon",
+      "status": "live",
       "storeCountries": [
         "kr"
       ],
@@ -666,10 +669,10 @@
         "en": "Kindly"
       },
       "subtitle": {
-        "ko": "카인들리 다정한 말, 좋은 사람",
-        "en": "Kind Words & People"
+        "ko": "감사일기 · 긍정확언 · 오늘의 문장 위젯",
+        "en": "Gratitude & Affirmations"
       },
-      "subtitleSource": "site (App Store 미출시: 예정된 App Store 이름 \"Kindly - 카인들리 다정한 말, 좋은 사람\" / \"Kindly - Kind Words & People\", ko 2026-10-21 변경)",
+      "subtitleSource": "appstore",
       "applicationCategory": "LifestyleApplication",
       "summary": {
         "ko": "카인들리는 하루 한 문장 명언·성경 구절 위젯과 익명 감사일기·긍정확언 나눔을 담은 무료 아이폰 앱입니다.",
@@ -678,7 +681,7 @@
       "fit": {
         "ko": {
           "for": [
-            "하루 한 문장 명언·성경 구절(개역개정)을 홈 화면 위젯으로 보고 싶은 분",
+            "하루 한 문장 명언·성경 구절을 홈 화면 위젯으로 보고 싶은 분",
             "감사일기와 긍정확언을 익명으로 나누고 응원받고 싶은 분",
             "회원가입 없이 가볍게 쓰고 싶은 분"
           ],
@@ -757,15 +760,15 @@
       },
       "llms": {
         "title": "카인들리 (Kindly)",
-        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
-        "factsHeading": "핵심 사실 (2026-10-11 확인):",
+        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 2026-10-24 대한민국 App Store 출시. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
+        "factsHeading": "핵심 사실 (2026-10-24 확인):",
         "facts": [
-          "문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.",
-          "다음 문구 순서는 날짜와 주제별로 섞인다. 즐겨찾기(하트)와 보관함 검색. 배경 테마 10가지.",
-          "위젯(소형·중형·대형): 오늘의 문구, 중형·대형은 공유·즐겨찾기·다음 문구 버튼. 앱과 같은 테마·문구.",
+          "문장 1,866개, 21가지 주제(긍정, 감사, 위로, 사랑, 용기, 불안 이겨내기, 우울할 때, 이별, 짝사랑, 자신감, 성경말씀 등). 명언은 인물·출처를 함께 적고 원전을 확인했으며(2026-10-22 전수 검증), 성경 구절은 개역개정.",
+          "주제를 골라 넘겨 보고 최근 고른 주제는 바로 다시 선택. 즐겨찾기(하트)는 마음 서랍에 모인다. 배경 38가지(자연 사진·단색·그라데이션), 배경과 문장을 하루 한 번부터 15분마다까지 자동으로 바꿀 수 있다.",
+          "위젯(소형·중형·대형, 잠금 화면): 오늘의 문장, 다음 문장 넘기기·즐겨찾기 버튼. 앱과 같은 배경·문장.",
           "문구 이미지 공유: 테마 사진 원본 비율(1080×1935), 사진 밝기에 맞춘 글자색(대비 4.5:1 이상).",
-          "마음 나누기: 긍정확언·감사일기 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 너무 짧거나 뜻을 알기 어려운 글·부정적인 글은 작성자만 보는 \"나만 보기\"로 저장. 도배 방지(같은 글 24시간 내 반복 금지, 1분 3개·하루 20개). 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.",
-          "오늘의 문구 탭 주제: 전체, 즐겨찾기(하트한 문구, 위젯도 따라감), 모두의 긍정확언·모두의 감사일기(다른 사용자 글을 카드로 넘겨 보기), 문구 주제 11가지. 마음 나눔 글 북마크는 보관함 › 북마크에 기기 저장.",
+          "마음 나누기: 감사일기·좋은 일 3가지·나에게 다정한 편지 등 7가지 질문으로 쓴 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 너무 짧거나 뜻을 알기 어려운 글·부정적인 글은 작성자만 보는 \"나만 보기\"로 저장. 도배 방지(같은 글 24시간 내 반복 금지, 1분 3개·하루 20개). 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.",
+          "오늘의 문장 탭: 문장·즐겨찾기(하트한 문장, 위젯도 따라감)·모두의 마음(다른 사용자 글을 카드로 넘겨 보기). 마음 나눔 글 북마크는 마음 서랍 › 북마크에 기기 저장.",
           "의견: 설정 › 의견 보내기(앱 버전·기기 정보가 담긴 메일), App Store 리뷰 링크. 문의 theteamcumulus@gmail.com.",
           "즐겨찾기·북마크·테마는 기기에만 저장. 커뮤니티 글은 Supabase(서울 리전). 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.",
           "안드로이드 버전은 없다."
@@ -787,41 +790,40 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-21",
-          "webpageName": "Kindly - 카인들리 다정한 말, 좋은 사람, 감사일기·긍정확언·오늘의 문구 위젯 아이폰 앱",
+          "modified": "2026-10-24",
+          "webpageName": "Kindly - 카인들리 다정한 말, 좋은 사람, 감사일기·긍정확언·오늘의 문장 위젯 아이폰 앱",
           "ld": {
             "slogan": "다정한 말과 사람이 모이는 곳",
             "featureList": [
-              "오늘의 문구",
+              "오늘의 문장",
               "홈 화면 위젯",
               "좋은 마음 전하기",
               "마음 나누기",
-              "즐겨찾기·북마크 보관함",
               "안전한 공간",
-              "보관함과 테마"
+              "마음 서랍과 배경"
             ],
             "applicationSubCategory": "감사일기·긍정확언"
           },
           "shots": [
             [
               "/kindly/img/screen-01.jpg",
-              "단풍길 배경 위에 오늘의 문구가 적힌 카드",
-              "오늘의 문구와 테마"
+              "단풍길 배경 화면 가득 오늘의 문장이 적힌 화면",
+              "오늘의 문장과 배경"
             ],
             [
               "/kindly/img/screen-02.jpg",
-              "감사일기와 긍정확언 글이 이어지는 피드",
+              "감사일기와 긍정확언 글이 공감 반응과 함께 이어지는 피드",
               "마음 나누기 피드"
             ],
             [
               "/kindly/img/screen-03.jpg",
-              "주제별 문구 목록과 하트 버튼",
-              "보관함과 검색"
+              "감사일기 질문과 글쓰기 팁이 보이는 글쓰기 화면",
+              "질문을 따라 쉽게 쓰기"
             ],
             [
               "/kindly/img/screen-04.jpg",
-              "설정 화면: 테마, 커뮤니티 가이드라인, 개인정보 처리방침, 계정 삭제",
-              "커뮤니티 정책과 계정 삭제"
+              "설정 화면: 테마 변경, 배경·문장 자동으로 바꾸기, 커뮤니티 가이드라인",
+              "배경·문장 자동 바꾸기와 커뮤니티 정책"
             ]
           ],
           "cta": {
@@ -846,40 +848,40 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing-en",
           "currency": "KRW",
-          "modified": "2026-10-21",
+          "modified": "2026-10-24",
           "webpageName": "Kindly - Gratitude journal, affirmations and a daily quote widget for iPhone",
           "ld": {
             "slogan": "Where kind words and kind people gather",
             "featureList": [
-              "Today's quote",
+              "Today's line",
               "Home Screen widget",
               "Share the good",
               "Community",
               "A safe space",
-              "Collection & themes"
+              "Favorites & backgrounds"
             ],
             "applicationSubCategory": "Gratitude journal and affirmations"
           },
           "shots": [
             [
               "/kindly/img/screen-01.jpg",
-              "Quote card over an autumn path photo",
-              "Today's quote with a theme"
+              "Today's line over a full-screen autumn path photo",
+              "Today's line and background"
             ],
             [
               "/kindly/img/screen-02.jpg",
-              "Feed of gratitude and affirmation posts",
+              "Feed of gratitude and affirmation posts with reactions",
               "Community feed"
             ],
             [
               "/kindly/img/screen-03.jpg",
-              "List of quotes by theme with heart buttons",
-              "Collection and search"
+              "Writing screen with a gratitude prompt and writing tips",
+              "Guided writing prompts"
             ],
             [
               "/kindly/img/screen-04.jpg",
-              "Settings: theme, community guidelines, privacy policy, account deletion",
-              "Community rules and account deletion"
+              "Settings: theme, auto-change background and line, community guidelines",
+              "Auto-change and community rules"
             ]
           ],
           "cta": {
@@ -890,7 +892,43 @@
           }
         }
       ],
-      "store": {}
+      "store": {
+        "kr": {
+          "trackId": 6819722166,
+          "trackName": "Kindly - 카인들리 다정한 말, 좋은 사람",
+          "bundleId": "com.cumulus.inspire",
+          "version": "1.0.0",
+          "currentVersionReleaseDate": "2026-10-23T19:18:07Z",
+          "releaseDate": "2026-10-23T07:00:00Z",
+          "releaseNotes": null,
+          "genres": [
+            "라이프스타일",
+            "건강 및 피트니스"
+          ],
+          "genreIds": [
+            "6012",
+            "6013"
+          ],
+          "primaryGenreName": "Lifestyle",
+          "trackContentRating": "4+",
+          "averageUserRating": 0.0,
+          "userRatingCount": 0,
+          "fileSizeBytes": "21127168",
+          "minimumOsVersion": "17.0",
+          "languageCodesISO2A": [
+            "EN"
+          ],
+          "formattedPrice": "무료",
+          "price": 0.0,
+          "currency": "KRW",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/60/f6/5760f695-5f96-a6a1-e625-8753e6c63d26/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/kr/app/kindly-%EC%B9%B4%EC%9D%B8%EB%93%A4%EB%A6%AC-%EB%8B%A4%EC%A0%95%ED%95%9C-%EB%A7%90-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C/id6819722166",
+          "checked": "2026-10-24"
+        }
+      },
+      "languageOverride": [
+        "KO"
+      ]
     },
     {
       "slug": "pixder",

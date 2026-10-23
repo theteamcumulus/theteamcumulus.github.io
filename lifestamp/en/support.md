@@ -14,7 +14,10 @@ Turn on Camera in Settings > Lifestamp, or tap Open Settings on the camera scree
 Check that "Auto-Save to Photos" is on in Settings (the gear at the top right of the camera screen), and that Settings > Lifestamp > Photos is set to "Add Photos Only". You can also open a photo in the app's gallery and save it with the Share button.
 
 **Can I change the stamp style after taking a photo?**
-Yes. Open the photo in the gallery and tap Change Stamp to pick another style or show or hide the time. The original is kept, so you can change it as many times as you like.
+Yes. Open the photo in the gallery and tap Change Stamp to pick another style or aspect ratio, or show or hide the time. The original is kept, so you can change it as many times as you like.
+
+**How do I change the aspect ratio?**
+Tap the ratio button (9:16) at the top left of the camera screen to cycle through 9:16, 4:5, 1:1, and 3:4. The default 9:16 fits Instagram Stories exactly, and the stamp sits slightly inward so the story controls at the top and bottom don't cover it.
 
 **Which time does the stamp use?**
 The date, time and time zone of your device at the moment you press the shutter.

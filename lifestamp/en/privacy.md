@@ -25,7 +25,7 @@ We do not collect:
 ## 2. Information stored on your device
 
 - Photos taken in the app (original, stamped photo and thumbnail) and their capture time are kept only in the app's storage on your device.
-- Your last stamp style and the "Auto-Save to Photos" setting are stored on your device.
+- Your last stamp style, aspect ratio, and the "Auto-Save to Photos" setting are stored on your device.
 - If you use iPhone backup (iCloud Backup or a computer backup), the app's storage is included in your backup. Backups are managed by Apple and you; we cannot access them.
 - Deleting the app deletes the photos and settings in the app's storage. Copies saved to the Photos app must be deleted in Photos.
 

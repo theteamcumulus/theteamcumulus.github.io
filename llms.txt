@@ -3,14 +3,14 @@
 > Team Cumulus가 만든 iPhone 앱의 공식 안내 페이지. 문의: theteamcumulus@gmail.com
 
 모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.
-App Store 등록정보는 2026-10-20에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
+App Store 등록정보는 2026-10-24에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json
 
 | 앱 | App Store 부제 | 상태 | 공식 페이지 |
 |---|---|---|---|
-| 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.5) | https://cumulus.team/redday/ |
-| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.1) | https://cumulus.team/weatherfit/ |
-| Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.3) | https://cumulus.team/lifestamp/ |
-| 카인들리 (Kindly) | 카인들리 다정한 말, 좋은 사람 | 출시 예정 | https://cumulus.team/kindly/ |
+| 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.7) | https://cumulus.team/redday/ |
+| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.3) | https://cumulus.team/weatherfit/ |
+| Lifestamp (구 Lifory·SandTime) | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.4) | https://cumulus.team/lifestamp/ |
+| 카인들리 (Kindly) | 감사일기 · 긍정확언 · 오늘의 문장 위젯 | App Store 출시 (1.0.0) | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 
 ## 빨간날 (Red Day Alarm)
@@ -22,9 +22,9 @@ App Store 등록정보는 2026-10-20에 iTunes Lookup으로 확인했다. 기계
 
 - App Store 이름 / 부제: 빨간날 / 공휴일엔 쉬는 알람
 - 개발자: Team Cumulus
-- 상태: App Store 출시 · 카테고리: 유틸리티, 생산성 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.5 (2026-10-14) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 69.4MB
-- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-15 확인)
+- 상태: App Store 출시 · 카테고리: 라이프스타일, 생산성 · 가격: 무료 · 연령: 4+
+- 버전: 1.0.7 (2026-10-19) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 76.9MB
+- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-24 확인)
 - App Store: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
@@ -61,8 +61,8 @@ App Store 등록정보는 2026-10-20에 iTunes Lookup으로 확인했다. 기계
 - App Store 이름 / 부제: 출퇴근날씨 / 출근·점심·퇴근, 내 체감 날씨
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 날씨, 라이프스타일 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.1 (2026-10-13) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.3MB
-- 평점: 아직 표시할 평가 없음 (2026-10-15 확인)
+- 버전: 1.0.3 (2026-10-15) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.3MB
+- 평점: 5.0 (1개 평가, 대한민국 App Store, 2026-10-24 확인)
 - App Store: https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/weatherfit/
 - 지원: https://cumulus.team/weatherfit/support/
@@ -104,8 +104,8 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 - App Store 이름 / 부제: Lifestamp: 날짜 스탬프 카메라 / 찍는 순간을 새기는 날짜 카메라
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.3 (2026-10-19) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
-- 평점: 아직 표시할 평가 없음 (2026-10-20 확인)
+- 버전: 1.0.4 (2026-10-24) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
+- 평점: 아직 표시할 평가 없음 (2026-10-24 확인)
 - App Store: https://apps.apple.com/kr/app/id6821004763?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/lifestamp/ (English: https://cumulus.team/lifestamp/en/)
 - 지원: https://cumulus.team/lifestamp/support/ (English: https://cumulus.team/lifestamp/en/support/)
@@ -122,9 +122,10 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 - 안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)
 - iOS 17 미만 아이폰(iOS 17 이상 필요)
 
-핵심 사실 (2026-10-11 확인):
+핵심 사실 (2026-10-24 확인):
 - 아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.
-- 스탬프 10가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.
+- 스탬프 15가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Postmark(소인), Inked(고무 도장), Ticket, Receipt(영수증), Calendar(달력), Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.
+- 사진 비율 9:16(기본, 인스타그램 스토리 크기)·4:5·1:1·3:4를 카메라와 편집 화면에서 고른다. 원본은 자르지 않고 보관한다. 9:16은 스토리 화면 위아래 메뉴 자리에 스탬프를 두지 않는다.
 - 스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.
 - 앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.
 - 0.5배 광각·망원 줌, 전면 카메라, 플래시, 가로 촬영 시 스탬프 회전 지원. 원본 해상도로 사진 앱 자동 저장과 공유 시트 전송.
@@ -138,17 +139,20 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 
 Kindly is a free iPhone app with a daily quote and Bible verse widget and an anonymous community for sharing gratitude and affirmations.
 
-카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
+카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 2026-10-24 대한민국 App Store 출시. 슬로건: "다정한 말과 사람이 모이는 곳" / "Where kind words and kind people gather". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.
 
-- App Store 이름 / 부제: Kindly / 카인들리 다정한 말, 좋은 사람 (App Store 출시 전, 사이트 표기)
+- App Store 이름 / 부제: Kindly - 카인들리 다정한 말, 좋은 사람 / 감사일기 · 긍정확언 · 오늘의 문장 위젯
 - 개발자: Team Cumulus
-- 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
+- 상태: App Store 출시 · 카테고리: 라이프스타일, 건강 및 피트니스 · 가격: 무료 · 연령: 4+
+- 버전: 1.0.0 (2026-10-24) · 최초 출시: 2026-10-23 · iOS 17.0 이상 · 언어: 한국어 · 크기: 21.1MB
+- 평점: 아직 표시할 평가 없음 (2026-10-24 확인)
+- App Store: https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/kindly/ (English: https://cumulus.team/kindly/en/)
 - 지원: https://cumulus.team/kindly/support/ (English: https://cumulus.team/kindly/en/support/)
 - 개인정보 처리방침: https://cumulus.team/kindly/privacy/ (English: https://cumulus.team/kindly/en/privacy/)
 
 이런 분께 추천:
-- 하루 한 문장 명언·성경 구절(개역개정)을 홈 화면 위젯으로 보고 싶은 분
+- 하루 한 문장 명언·성경 구절을 홈 화면 위젯으로 보고 싶은 분
 - 감사일기와 긍정확언을 익명으로 나누고 응원받고 싶은 분
 - 회원가입 없이 가볍게 쓰고 싶은 분
 
@@ -157,13 +161,13 @@ Kindly is a free iPhone app with a daily quote and Bible verse widget and an ano
 - 안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)
 - iOS 17 미만 아이폰(iOS 17 이상 필요)
 
-핵심 사실 (2026-10-11 확인):
-- 문구 1,100개, 11가지 주제(긍정확언, 감사, 위로, 성장, 일상, 사랑, 용기, 지혜, 행복, 평안, 성경말씀). 명언은 출처 확인, 성경 구절은 모두 개역개정 원문 그대로.
-- 다음 문구 순서는 날짜와 주제별로 섞인다. 즐겨찾기(하트)와 보관함 검색. 배경 테마 10가지.
-- 위젯(소형·중형·대형): 오늘의 문장, 중형·대형은 공유·즐겨찾기·다음 문구 버튼. 앱과 같은 테마·문구.
+핵심 사실 (2026-10-24 확인):
+- 문장 1,866개, 21가지 주제(긍정, 감사, 위로, 사랑, 용기, 불안 이겨내기, 우울할 때, 이별, 짝사랑, 자신감, 성경말씀 등). 명언은 인물·출처를 함께 적고 원전을 확인했으며(2026-10-22 전수 검증), 성경 구절은 개역개정.
+- 주제를 골라 넘겨 보고 최근 고른 주제는 바로 다시 선택. 즐겨찾기(하트)는 마음 서랍에 모인다. 배경 38가지(자연 사진·단색·그라데이션), 배경과 문장을 하루 한 번부터 15분마다까지 자동으로 바꿀 수 있다.
+- 위젯(소형·중형·대형, 잠금 화면): 오늘의 문장, 다음 문장 넘기기·즐겨찾기 버튼. 앱과 같은 배경·문장.
 - 문구 이미지 공유: 테마 사진 원본 비율(1080×1935), 사진 밝기에 맞춘 글자색(대비 4.5:1 이상).
-- 마음 나누기: 긍정확언·감사일기 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 너무 짧거나 뜻을 알기 어려운 글·부정적인 글은 작성자만 보는 "나만 보기"로 저장. 도배 방지(같은 글 24시간 내 반복 금지, 1분 3개·하루 20개). 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.
-- 오늘의 문장 탭 주제: 전체, 즐겨찾기(하트한 문구, 위젯도 따라감), 모두의 긍정확언·모두의 감사일기(다른 사용자 글을 카드로 넘겨 보기), 문구 주제 11가지. 마음 나눔 글 북마크는 보관함 › 북마크에 기기 저장.
+- 마음 나누기: 감사일기·좋은 일 3가지·나에게 다정한 편지 등 7가지 질문으로 쓴 글을 익명 계정으로 공유, 공감 반응. 글은 서버에서 자동 검토 후 공개. 너무 짧거나 뜻을 알기 어려운 글·부정적인 글은 작성자만 보는 "나만 보기"로 저장. 도배 방지(같은 글 24시간 내 반복 금지, 1분 3개·하루 20개). 신고(3건이면 자동 비공개)·차단·내 글 삭제·계정 삭제 지원.
+- 오늘의 문장 탭: 문장·즐겨찾기(하트한 문장, 위젯도 따라감)·모두의 마음(다른 사용자 글을 카드로 넘겨 보기). 마음 나눔 글 북마크는 마음 서랍 › 북마크에 기기 저장.
 - 의견: 설정 › 의견 보내기(앱 버전·기기 정보가 담긴 메일), App Store 리뷰 링크. 문의 theteamcumulus@gmail.com.
 - 즐겨찾기·북마크·테마는 기기에만 저장. 커뮤니티 글은 Supabase(서울 리전). 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.
 - 안드로이드 버전은 없다.
