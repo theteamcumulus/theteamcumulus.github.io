@@ -14,7 +14,7 @@ alternates:
 
 # Kindly Terms of Use
 
-Effective October 18, 2026 · Operated by Team Cumulus · Contact: theteamcumulus@gmail.com
+Effective October 23, 2026 · Operated by Team Cumulus · Contact: theteamcumulus@gmail.com
 
 ## 1. The service
 
@@ -54,17 +54,13 @@ If you break these terms or the community guidelines, we may remove your posts a
 
 You can delete your account and your posts, reactions, reports and blocks at any time in Settings › Delete account and data. If you've already removed the app, see [account deletion requests](/kindly/en/support/#delete-account).
 
-## 8. Quote copyright
-
-Quotes are shown with their author and source. Bible verses are quoted from the Korean Revised Version (개역개정판, © Korean Bible Society) with permission.
-
-## 9. Liability and changes
+## 8. Liability and changes
 
 - Kindly is free, and we are not liable for damages from using it unless caused by our intent or gross negligence.
 - If we change these terms we will say so in the app and on this page, and ask for your agreement again in the app for significant changes.
 - These terms are governed by the laws of the Republic of Korea.
 
-## 10. If you're struggling
+## 9. If you're struggling
 
 You don't have to go through it alone. In Korea, the suicide prevention line 109 and the mental health crisis line 1577-0199 are available 24 hours a day.
 
