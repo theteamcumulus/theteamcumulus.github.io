@@ -267,10 +267,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6819722166",
       "bundleId": "com.cumulus.inspire",
-      "version": "1.0.0",
-      "currentVersionReleaseDate": "2026-10-23T19:18:07Z",
+      "version": "1.0.1",
+      "currentVersionReleaseDate": "2026-10-23T23:51:58Z",
       "releaseDate": "2026-10-23T07:00:00Z",
-      "releaseNotes": null,
+      "releaseNotes": "• 홈 화면 위젯을 쉽게 추가하도록 안내해요. 설정 › 홈 화면 위젯 추가하는 방법에서 미리보기와 함께 단계별로 볼 수 있어요.\n• 공감이 12가지로 늘었어요. 더 보기를 눌러 마음에 맞는 반응을 골라 보세요.\n• 잘못 누른 공감은 길게 눌러 취소해요.\n• 마음 나눔 글을 배경 이미지와 함께 친구에게 보낼 수 있어요.\n• 글을 더 편하게 읽도록 마음 나눔 글의 작성 시각을 뺐어요.",
       "genres": [
         "라이프스타일",
         "건강 및 피트니스"
@@ -279,7 +279,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 0.0,
       "userRatingCount": 0,
-      "fileSizeBytes": "21127168",
+      "fileSizeBytes": "21250048",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
         "KO"
@@ -287,7 +287,7 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/60/f6/5760f695-5f96-a6a1-e625-8753e6c63d26/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/2d/51/fc2d5138-ff09-f993-c0c4-fd09b34ff596/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "checked": "2026-10-24",
       "storefront": "kr",
       "fit": {
