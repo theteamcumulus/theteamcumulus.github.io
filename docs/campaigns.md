@@ -24,6 +24,14 @@
 
 예약(사이트 밖에서 쓸 때): `sns-instagram`, `sns-threads`, `sns-x`, `community-<이름>`, `qr-offline`.
 
+앱 안에서 쓰는 것:
+
+| ct | 위치 | 적용 앱 |
+|---|---|---|
+| `app-share` | 앱의 "친구에게 알려주기" 공유 링크 | redday |
+| `app-crosspromo` | 다른 Cumulus 앱 설정의 "팀 커뮬러스의 다른 앱" 행 (빨간날 1.0.8부터 → 출퇴근날씨) | weatherfit |
+| `sns-instagram-story` | 인스타 스토리 링크 스티커 | weatherfit |
+
 ## 고칠 때
 
 - weatherfit 랜딩은 `weatherfit/build_landing.py`의 `PT`·`app_link(ct)`로 만든다(index.html 직접 수정 금지).
