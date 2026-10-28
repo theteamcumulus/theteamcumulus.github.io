@@ -196,6 +196,8 @@ def llms(data):
     head = [
         f'# {s["developer"]}', '',
         f'> {s["developer"]}가 만든 iPhone 앱의 공식 안내 페이지. 문의: {s["email"]}', '',
+        f'사업자 정보: 상호 {s["developer"]}, 대표자 {s["representative"]}, 사업자등록번호 {s["businessNumber"]}. '
+        f'개인정보 처리방침: {base}{s["privacy"]["ko"]} (English: {base}{s["privacy"]["en"]})', '',
         f'모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.',
         f'App Store 등록정보는 {checked}에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: {base}/apps.json', '',
         '| 앱 | App Store 부제 | 상태 | 공식 페이지 |', '|---|---|---|---|', *rows, '',

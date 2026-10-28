@@ -413,6 +413,10 @@ def org_node(data):
             'email': s['email']}
     if s.get('logo'):
         node['logo'] = s['base'] + s['logo']
+    if s.get('representative'):
+        node['founder'] = {'@type': 'Person', 'name': s['representative']}
+    if s.get('businessNumber'):
+        node['taxID'] = s['businessNumber']
     return node
 
 

@@ -11,12 +11,14 @@
     <link rel="apple-touch-icon" href="/{{ page.app }}/img/apple-touch-icon.png">{% else %}<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">{% endif %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <style>.site-title{margin:0 0 24px;font-size:1.25rem;font-weight:600}.site-title a{color:inherit}</style>
+    <style>.site-title{margin:0 0 24px;font-size:1.25rem;font-weight:600}.site-title a{color:inherit}.site-footer{margin-top:16px;font-size:.85rem;color:#57606a}</style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       <p class="site-title"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a>{% if page.app %} · <a href="/{{ page.app }}/{% if page.lang == 'en' %}en/{% endif %}">{{ page.app_name }}</a>{% endif %}</p>
       {{ content }}
+      <hr>
+      {% if page.lang == 'en' %}<p class="site-footer">© Team Cumulus · Representative Gungu Hwang · Business registration no. 655-24-02328 · <a href="mailto:contact@cumulus.team">contact@cumulus.team</a> · <a href="/en/privacy/">Privacy Policy</a></p>{% else %}<p class="site-footer">© Team Cumulus · 대표자 Gungu Hwang · 사업자등록번호 655-24-02328 · <a href="mailto:contact@cumulus.team">contact@cumulus.team</a> · <a href="/privacy/">개인정보 처리방침</a></p>{% endif %}
     </div>
   </body>
 </html>

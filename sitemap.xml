@@ -12,9 +12,11 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/redday/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/redday/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/</loc><lastmod>2026-10-13</lastmod>
+  <url><loc>https://cumulus.team/</loc><lastmod>2026-10-28</lastmod>
     <image:image><image:loc>https://cumulus.team/assets/logo-512.png</image:loc></image:image>
   </url>
+  <url><loc>https://cumulus.team/privacy/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://cumulus.team/en/privacy/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://cumulus.team/weatherfit/</loc><lastmod>2026-10-15</lastmod>
     <image:image><image:loc>https://cumulus.team/weatherfit/img/weatherfit-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-01.jpg</image:loc></image:image>

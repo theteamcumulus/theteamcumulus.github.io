@@ -4,9 +4,15 @@
     "base": "https://cumulus.team",
     "developer": "Team Cumulus",
     "email": "contact@cumulus.team",
+    "representative": "Gungu Hwang",
+    "businessNumber": "655-24-02328",
+    "privacy": {
+      "ko": "/privacy/",
+      "en": "/en/privacy/"
+    },
     "pt": "129567498",
     "logo": "/assets/logo-512.png",
-    "hubModified": "2026-10-13"
+    "hubModified": "2026-10-28"
   },
   "apps": [
     {
