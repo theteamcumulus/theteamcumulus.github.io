@@ -100,7 +100,7 @@ The app is not directed to children under 14 and does not knowingly collect thei
 ## 12. Privacy officer and contact
 
 - Privacy officer: the Team Cumulus operator
-- Contact: theteamcumulus@gmail.com
+- Contact: contact@cumulus.team
 
 ## 13. Remedies
 

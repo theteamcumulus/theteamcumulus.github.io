@@ -41,4 +41,4 @@ When you finish a sort, tap Start Over on the completion screen to clear your ch
 
 ## Contact
 
-theteamcumulus@gmail.com — or use Send Feedback in the app's settings menu (gear icon).
+contact@cumulus.team — or use Send Feedback in the app's settings menu (gear icon).

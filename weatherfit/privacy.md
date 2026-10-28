@@ -74,6 +74,6 @@ Google의 개인정보 처리에 관한 내용은 <https://firebase.google.com/s
 
 ## 8. 문의
 
-theteamcumulus@gmail.com
+contact@cumulus.team
 
 이 방침이 바뀌면 이 페이지에 시행일과 함께 게시합니다.

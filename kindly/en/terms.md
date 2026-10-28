@@ -14,7 +14,7 @@ alternates:
 
 # Kindly Terms of Use
 
-Effective October 23, 2026 · Operated by Team Cumulus · Contact: theteamcumulus@gmail.com
+Effective October 23, 2026 · Operated by Team Cumulus · Contact: contact@cumulus.team
 
 ## 1. The service
 
@@ -48,7 +48,7 @@ Kindly does not tolerate objectionable content or users who post it.
 
 ## 6. Restrictions
 
-If you break these terms or the community guidelines, we may remove your posts and stop your account from posting. To appeal, email theteamcumulus@gmail.com.
+If you break these terms or the community guidelines, we may remove your posts and stop your account from posting. To appeal, email contact@cumulus.team.
 
 ## 7. Deleting your account
 

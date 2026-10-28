@@ -45,6 +45,6 @@ image: /weatherfit/img/weatherfit-app-icon.png
 
 ## 문의
 
-theteamcumulus@gmail.com — 앱 아래쪽 "문의하기"로도 보낼 수 있어요.
+contact@cumulus.team — 앱 아래쪽 "문의하기"로도 보낼 수 있어요.
 
 [개인정보 처리방침](/weatherfit/privacy/)

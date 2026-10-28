@@ -39,4 +39,4 @@ iCloud 사진에서 기기에 원본이 없는 사진은 인터넷으로 받아 
 
 ## 문의
 
-theteamcumulus@gmail.com — 앱의 설정 메뉴(톱니) > 의견 보내기로도 보낼 수 있어요.
+contact@cumulus.team — 앱의 설정 메뉴(톱니) > 의견 보내기로도 보낼 수 있어요.

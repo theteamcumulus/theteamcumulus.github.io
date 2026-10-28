@@ -53,7 +53,7 @@ Tap the bookmark under a community post and it appears in Collection › Bookmar
 Your Kindly account is an anonymous account created per device, with no name or email.
 
 1. In the app: Settings › Delete account and data › Delete. Your account and all your posts, reactions, reports and blocks are removed from the server immediately.
-2. If you already removed the app or cannot open it: email theteamcumulus@gmail.com with the subject "Kindly account deletion" and the text and approximate date of a post you wrote. Because accounts are anonymous we find the account by its posts, delete the account and all its posts, reactions, reports and blocks within 7 days, and reply to you.
+2. If you already removed the app or cannot open it: email contact@cumulus.team with the subject "Kindly account deletion" and the text and approximate date of a post you wrote. Because accounts are anonymous we find the account by its posts, delete the account and all its posts, reactions, reports and blocks within 7 days, and reply to you.
 
 - Favourites, themes and bookmarks live only on your device and are removed with the app.
 - Error reports (90 days) and usage statistics (2 months) are not linked to your account and are deleted automatically. Email us if you want them removed sooner.
@@ -62,7 +62,7 @@ Your Kindly account is an anonymous account created per device, with no name or 
 
 Kindly grows with your stories. Tell us what felt awkward, what you wish it had, or what you liked — we read every message.
 
-theteamcumulus@gmail.com — Settings › Send feedback in the app opens an email with the app version and device info filled in. We usually reply within 2 business days.
+contact@cumulus.team — Settings › Send feedback in the app opens an email with the app version and device info filled in. We usually reply within 2 business days.
 
 ## Terms and privacy
 

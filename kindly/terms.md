@@ -12,7 +12,7 @@ alternates:
 
 # 카인들리 이용약관
 
-시행일: 2026년 10월 23일 · 운영: Team Cumulus · 문의: theteamcumulus@gmail.com
+시행일: 2026년 10월 23일 · 운영: Team Cumulus · 문의: contact@cumulus.team
 
 ## 1. 서비스 소개
 
@@ -48,7 +48,7 @@ alternates:
 
 ## 6. 이용 제한
 
-이 약관이나 커뮤니티 가이드라인을 어기면 글을 삭제하고, 해당 계정의 글쓰기를 제한할 수 있습니다. 조치에 이의가 있으면 theteamcumulus@gmail.com 으로 알려 주세요.
+이 약관이나 커뮤니티 가이드라인을 어기면 글을 삭제하고, 해당 계정의 글쓰기를 제한할 수 있습니다. 조치에 이의가 있으면 contact@cumulus.team 으로 알려 주세요.
 
 ## 7. 계정 삭제
 

@@ -42,4 +42,4 @@ permalink: /lifestamp/support/
 
 ## 문의
 
-theteamcumulus@gmail.com — 카메라 화면 오른쪽 위 설정 > 의견 보내기로도 보낼 수 있어요.
+contact@cumulus.team — 카메라 화면 오른쪽 위 설정 > 의견 보내기로도 보낼 수 있어요.

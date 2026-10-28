@@ -71,7 +71,7 @@ The app is not directed at children, does not ask for age and does not separatel
 
 ## 10. Contact
 
-theteamcumulus@gmail.com
+contact@cumulus.team
 
 If this policy changes, we will post the new version on this page with its effective date.
 

@@ -98,7 +98,7 @@ Google의 개인정보 처리에 관한 내용은 https://firebase.google.com/su
 ## 12. 개인정보 보호책임자와 문의
 
 - 개인정보 보호책임자: Team Cumulus 운영자
-- 연락처: theteamcumulus@gmail.com
+- 연락처: contact@cumulus.team
 
 ## 13. 권익침해 구제 방법
 

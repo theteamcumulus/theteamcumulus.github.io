@@ -78,6 +78,6 @@ The app is suitable for all ages but is not directed at children, and we do not 
 
 ## 9. Contact
 
-theteamcumulus@gmail.com
+contact@cumulus.team
 
 If this policy changes, we'll post the new version on this page with its effective date.

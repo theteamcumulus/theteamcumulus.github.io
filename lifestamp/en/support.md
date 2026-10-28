@@ -42,4 +42,4 @@ The date format on each stamp is part of its design, inspired by film cameras an
 
 ## Contact
 
-theteamcumulus@gmail.com — you can also use Settings > Send Feedback on the camera screen.
+contact@cumulus.team — you can also use Settings > Send Feedback on the camera screen.
