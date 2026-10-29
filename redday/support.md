@@ -28,3 +28,51 @@ iPhone 기본 시계 앱과 같은 정책입니다. 알람은 무음 모드와 �
 ## 문의
 
 contact@cumulus.team — 앱의 설정 탭 > 피드백 보내기로도 보낼 수 있어요.
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/redday/support/#faq",
+  "inLanguage": "ko",
+  "about": {
+    "@id": "https://cumulus.team/redday/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "알람이 울리지 않아요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "설정 앱 > 빨간날에서 알람 권한이 켜져 있는지 확인해 주세요. 앱의 설정 탭 > 알람 테스트로 3초 후 실제로 울리는지 확인할 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "무음 모드인데 알람이 울려요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iPhone 기본 시계 앱과 같은 정책입니다. 알람은 무음 모드와 집중 모드에서도 울립니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "공휴일에 출근해요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "설정 탭 > 공휴일 출근 설정에서 출근하는 공휴일을 켜 두면 그날도 알람이 울립니다. 매년 자동으로 적용되고, 대체공휴일도 같은 설정을 따릅니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "임시공휴일이 반영되지 않았어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "공휴일 정보는 앱 업데이트로 갱신됩니다. 최신 버전으로 업데이트해 주세요."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->

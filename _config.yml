@@ -3,7 +3,7 @@ theme: jekyll-theme-primer
 lang: ko
 locale: ko_KR
 url: https://cumulus.team
-description: Team Cumulus가 만든 iPhone 앱(빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder) 공식 안내
+description: Team Cumulus가 만든 iPhone 앱(빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder, 펄시, 거닐다) 공식 안내
 exclude:
   - docs/
   - tools/

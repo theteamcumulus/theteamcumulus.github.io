@@ -127,12 +127,20 @@ permalink: /kindly/en/
       "about": {
         "@id": "https://cumulus.team/kindly/#app"
       },
-      "dateModified": "2026-10-24"
+      "dateModified": "2026-10-29"
     },
     {
       "@type": "FAQPage",
       "@id": "https://cumulus.team/kindly/en/#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "I'm looking for a gratitude journal app. What makes Kindly different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You write from 7 prompts such as a gratitude journal or three good things, then share anonymously or keep it to yourself. No login. The 1,866 lines you read alongside are quotes with the person and source named plus Bible verses in the Korean Revised Version, shown on Home and Lock Screen widgets. Free, no ads. The app and its lines are in Korean."
+          }
+        },
         {
           "@type": "Question",
           "name": "What is Kindly?",
@@ -236,6 +244,10 @@ permalink: /kindly/en/
     .features strong { display:block; font-size:18px; margin-bottom:4px; }
     figure { margin:0; }
     img { max-width:100%; }
+    table { width:100%; border-collapse:collapse; font-size:16px; }
+    th, td { border-bottom:1px solid var(--line); padding:12px 10px; text-align:left; vertical-align:top; overflow-wrap:break-word; }
+    th { background:var(--soft); }
+    .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
     details { border-bottom:1px solid var(--line); padding:14px 0; }
     summary { font-size:18px; font-weight:700; cursor:pointer; }
     details p { margin:10px 0 0; }
@@ -283,6 +295,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
 .as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
 .as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
 .as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-related{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:8px 24px}.as-related li{font-size:1rem;padding:6px 0;border-bottom:1px solid var(--as-line)}
 .as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
 .as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
 .as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
@@ -353,6 +366,14 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     </section>
     <!-- appstore:top:end -->
 
+    <section id="why">
+      <div class="wrap">
+        <h2>A gratitude journal in a notes app ends alone</h2>
+        <p>Gratitude journals are hard to keep up, and in a notes app nobody reads them, so most people stop within days. Quote apps mix in lines with no source, and Bible apps differ in translation.</p>
+        <p>Kindly shows one line a day (quotes with the person and source named, Bible verses from the Korean Revised Version) on a widget, and lets you share a gratitude entry written from 7 prompts anonymously and receive 12 kinds of reactions. No login, no ads.</p>
+      </div>
+    </section>
+
     <section id="features">
       <div class="wrap">
         <h2>Features</h2>
@@ -383,10 +404,28 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     </section>
     <!-- appstore:whatsnew:end -->
 
+    <section id="compare">
+      <div class="wrap">
+        <h2>How is it different from a notes app or a quote app?</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Situation</th><th scope="col">Notes app / typical quote app</th><th scope="col">Kindly</th></tr></thead>
+          <tbody>
+            <tr><td>Source of each line</td><td>Varies</td><td>Person and source named; Bible verses in the Korean Revised Version</td></tr>
+            <tr><td>Reactions to what you wrote</td><td>None (notes app)</td><td>12 anonymous reactions</td></tr>
+            <tr><td>Login</td><td>Usually required</td><td>None (anonymous per-device account)</td></tr>
+            <tr><td>Widget</td><td>Varies</td><td>Home and Lock Screen, with next-line and favourite buttons</td></tr>
+            <tr><td>Deleting your posts</td><td>—</td><td>Delete a post, or delete account and data</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
     <section id="faq">
       <div class="wrap">
         <h2>FAQ</h2>
-        <details open><summary>What is Kindly?</summary>
+        <details open><summary>I'm looking for a gratitude journal app. What makes Kindly different?</summary>
+          <p>You write from 7 prompts such as a gratitude journal or three good things, then share anonymously or keep it to yourself. No login. The 1,866 lines you read alongside are quotes with the person and source named plus Bible verses in the Korean Revised Version, shown on Home and Lock Screen widgets. Free, no ads. The app and its lines are in Korean.</p></details>
+        <details><summary>What is Kindly?</summary>
           <p>An iPhone app that shows one good quote or Bible verse a day in the app and on a Home Screen widget, together with an anonymous community for sharing gratitude and affirmations. Free, iOS 17 or later.</p></details>
         <details><summary>How do I add the widget?</summary>
           <p>Open Settings › 홈 화면 위젯 추가하는 방법 (How to add the widget) in the app for a preview and step-by-step help. Or touch and hold an empty area of the Home Screen, tap Edit › Add Widget and choose Kindly. Medium and large widgets have next and favourite buttons. You can also add Kindly to the Lock Screen.</p></details>
@@ -437,6 +476,20 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
         <p class="as-src">App Store information checked: <time datetime="2026-10-24">October 24, 2026</time></p>
       </div>
     </section>
+
+    <section id="related" aria-labelledby="h-related">
+      <div class="wrap">
+        <h2 id="h-related">More apps from Team Cumulus</h2>
+        <ul class="as-related">
+          <li><a href="/redday/" hreflang="ko" lang="ko">Red Day Alarm</a> · 공휴일엔 쉬는 알람</li>
+          <li><a href="/weatherfit/" hreflang="ko" lang="ko">WeatherFit</a> · 출근·점심·퇴근, 내 체감 날씨</li>
+          <li><a href="/lifestamp/en/">Lifestamp</a> · Film-Style Date Stamp Camera</li>
+          <li><a href="/pixder/en/">Pixder</a> · Swipe Photo Cleaner <span class="as-cap">(coming soon)</span></li>
+          <li><a href="/pulsie/" hreflang="ko" lang="ko">Pulsie</a> · Heart-rate running coach <span class="as-cap">(coming soon)</span></li>
+          <li><a href="/walk/" hreflang="ko" lang="ko">거닐다</a> · Walking meditation <span class="as-cap">(coming soon)</span></li>
+        </ul>
+      </div>
+    </section>
     <!-- appstore:facts:end -->
 
     <section id="start">
@@ -453,7 +506,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
   <footer>
     <div class="wrap">
       <p>Kindly (formerly Onlumi) · Made by <a href="https://cumulus.team/">Team Cumulus</a> · Contact <a href="mailto:contact@cumulus.team">contact@cumulus.team</a></p>
-      <p><a href="/kindly/en/support/">Support</a> · <a href="/kindly/en/terms/">Terms of Use</a> · <a href="/kindly/en/privacy/">Privacy Policy</a> · <!-- appstore:updated:start -->Last updated <time datetime="2026-10-24">October 24, 2026</time> (app 1.0.1)<!-- appstore:updated:end --> · <a href="/kindly/" hreflang="ko">한국어</a></p>
+      <p><a href="/kindly/en/support/">Support</a> · <a href="/kindly/en/terms/">Terms of Use</a> · <a href="/kindly/en/privacy/">Privacy Policy</a> · <!-- appstore:updated:start -->Last updated <time datetime="2026-10-29">October 29, 2026</time> (app 1.0.1)<!-- appstore:updated:end --> · <a href="/kindly/" hreflang="ko">한국어</a></p>
     </div>
   </footer>
 </body>

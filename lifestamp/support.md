@@ -43,3 +43,107 @@ permalink: /lifestamp/support/
 ## 문의
 
 contact@cumulus.team — 카메라 화면 오른쪽 위 설정 > 의견 보내기로도 보낼 수 있어요.
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/lifestamp/support/#faq",
+  "inLanguage": "ko",
+  "about": {
+    "@id": "https://cumulus.team/lifestamp/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "카메라 화면에 \"카메라 권한이 필요합니다\"가 나와요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "화면의 \"설정 열기\"를 누르거나 설정 앱 > Lifestamp에서 카메라 권한을 켜 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "찍은 사진이 사진 앱에 없어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카메라 화면 오른쪽 위 설정(톱니바퀴)에서 \"사진 앱에 자동 저장\"이 켜져 있는지, 설정 앱 > Lifestamp > 사진이 \"사진 추가만\"으로 허용되어 있는지 확인해 주세요. 앱 갤러리에서 사진을 열고 공유 버튼으로 저장할 수도 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "찍은 뒤에 스탬프 스타일을 바꿀 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "갤러리에서 사진을 열고 스탬프 변경을 누르면 스타일, 사진 비율, 시각 표시 여부를 바꿀 수 있습니다. 원본은 그대로 보관되므로 몇 번이든 다시 바꿀 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "사진 비율은 어떻게 바꾸나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카메라 화면 왼쪽 위의 비율 버튼(9:16)을 누를 때마다 9:16 → 4:5 → 1:1 → 3:4 순서로 바뀝니다. 기본값 9:16은 인스타그램 스토리에 딱 맞는 크기이고, 스탬프가 스토리의 위·아래 메뉴에 가리지 않도록 조금 안쪽에 찍힙니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "스탬프 시각은 언제를 기준으로 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "셔터를 누른 순간의 기기 날짜·시각과 시간대입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "앱에서 지운 사진이 사진 앱에 남아 있어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "앱은 사진 앱에 사진을 추가만 할 수 있어서 사진 앱의 사본은 지우지 못합니다. 사진 앱에서 직접 삭제해 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "앱을 지우면 사진도 지워지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "앱 안 갤러리의 사진은 함께 삭제됩니다. 사진 앱에 저장된 사본은 남습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "가로로 찍으면 스탬프가 어떻게 들어가나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아이폰을 가로로 돌려 찍으면 스탬프도 사진 방향에 맞춰 회전해 들어갑니다. 화면 자체는 세로로 고정되어 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "사진 앱에 있는 사진에도 스탬프를 넣을 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아니요. 찍은 순간의 시각을 정확히 남기기 위해 Lifestamp에서 직접 찍은 사진에만 스탬프를 넣을 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "사진을 다른 기기로 옮기거나 백업할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "앱 안 갤러리(스탬프 없는 원본 포함)는 iPhone 백업(iCloud 백업 또는 컴퓨터 백업)에 함께 들어가므로, 백업으로 새 iPhone을 설정하면 그대로 옮겨집니다. \"사진 앱에 자동 저장\"을 켜 두면 스탬프가 들어간 사진이 사진 앱에도 남습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "스탬프 글자는 왜 영어인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "스탬프의 날짜 형식은 필름 카메라·캠코더를 본뜬 디자인의 일부라 어느 언어에서나 같게 보입니다."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->

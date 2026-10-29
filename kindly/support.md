@@ -68,3 +68,107 @@ contact@cumulus.team — 앱의 설정 › 의견 보내기를 누르면 앱 버
 ## 약관과 개인정보
 
 [이용약관](/kindly/terms/) · [개인정보 처리방침](/kindly/privacy/)
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/kindly/support/#faq",
+  "inLanguage": "ko",
+  "about": {
+    "@id": "https://cumulus.team/kindly/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "위젯은 어떻게 추가하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "홈 화면의 빈 곳을 길게 누르고 왼쪽 위 + 버튼을 누른 뒤 카인들리를 고르세요. 중형·대형 위젯에서는 공유, 즐겨찾기, 다음 문구 버튼을 바로 쓸 수 있어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "위젯의 문구나 테마가 앱과 달라요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "앱을 한 번 열면 위젯이 바로 맞춰집니다. 그래도 다르면 위젯을 지우고 다시 추가해 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "로그인이 필요한가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아니요. 처음 실행할 때 기기별 익명 계정이 만들어져요. 이름·이메일·전화번호를 묻지 않아요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "글을 올렸는데 다른 사람에게 안 보여요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "모든 글은 자동 검토를 거쳐요. 다른 사람을 비하하는 글, 스팸·홍보·링크, 성적인 내용, 전화번호·주소 같은 개인정보가 담긴 글은 나에게만 보이거나 공개되지 않아요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "글이 \"나만 보기\"로 저장됐어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "너무 짧거나 뜻을 알기 어려운 글(예: \"ㅋㅋ\", 같은 글자 반복), 부정적인 글은 다른 사람에게 공개하지 않고 나에게만 보이게 저장해요. 무엇이, 왜 감사했는지 한 문장으로 조금 더 적어 주면 함께 나눌 수 있어요. 같은 글을 반복해 올리거나 짧은 시간에 너무 많이 올리는 것도 막고 있어요(1분 3개, 하루 20개)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "마음에 드는 글을 따로 모아 두고 싶어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "마음 나눔 글 아래의 북마크를 누르면 보관함 › 북마크에 모여요. 오늘의 문장 탭에서는 \"즐겨찾기\" 주제로 하트한 문구만, \"모두의 긍정확언·감사일기\"로 다른 분들의 글을 카드로 넘겨 볼 수 있어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "불편한 글을 봤어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "글의 ⋯ 메뉴에서 신고하거나 작성자를 차단하세요. 차단한 사람의 글은 바로 사라지고, 여러 명이 신고한 글은 공개가 중단된 뒤 운영자가 확인해요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "내가 쓴 글을 지우고 싶어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "글의 ⋯ 메뉴에서 삭제할 수 있어요. 계정과 모든 글·반응을 한 번에 지우려면 설정 › 계정 및 데이터 삭제를 누르세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "앱을 지우면 즐겨찾기도 없어지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 즐겨찾기와 테마는 기기에만 저장돼서 앱과 함께 지워져요. 서버의 글은 남으니 앱을 지우기 전에 설정에서 계정을 먼저 삭제해 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "성경 구절은 어떤 번역인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "대한성서공회 개역개정 본문을 그대로 옮겼어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "힘든 마음이 들 때",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "혼자 견디지 않아도 괜찮아요. 자살예방상담전화 109, 정신건강위기상담 1577-0199 에서 24시간 이야기를 들어 줘요."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->

@@ -2,7 +2,7 @@
 layout: default
 permalink: /privacy/
 title: Team Cumulus 개인정보 처리방침
-description: "Team Cumulus가 웹사이트와 앱(빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder)에서 어떤 정보를 왜 처리하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
+description: "Team Cumulus가 웹사이트와 앱(빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder, 펄시, 거닐다)에서 어떤 정보를 왜 처리하는지, 문의는 어디로 하는지 안내하는 개인정보 처리방침입니다."
 image: /assets/logo-512.png
 alternates:
   ko: /privacy/
@@ -24,6 +24,8 @@ Team Cumulus(이하 "팀")는 이용자의 개인정보를 소중히 여기며, 
 | Lifestamp | [/lifestamp/privacy/](/lifestamp/privacy/) |
 | 카인들리 | [/kindly/privacy/](/kindly/privacy/) |
 | Pixder | [/pixder/privacy/](/pixder/privacy/) |
+| 펄시 | [/pulsie/privacy/](/pulsie/privacy/) |
+| 거닐다 | [/walk/privacy/](/walk/privacy/) |
 
 ## 2. 앱에서 처리하는 정보 요약
 

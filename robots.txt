@@ -1,4 +1,5 @@
 # Search engines and AI assistants are welcome to read and cite every page.
+# Machine-readable summaries: https://cumulus.team/llms.txt, https://cumulus.team/llms-full.txt, https://cumulus.team/apps.json
 User-agent: *
 Allow: /
 
@@ -21,6 +22,36 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 User-agent: Yeti

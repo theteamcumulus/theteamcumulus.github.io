@@ -127,12 +127,20 @@ permalink: /kindly/
       "about": {
         "@id": "https://cumulus.team/kindly/#app"
       },
-      "dateModified": "2026-10-24"
+      "dateModified": "2026-10-29"
     },
     {
       "@type": "FAQPage",
       "@id": "https://cumulus.team/kindly/#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "감사일기 앱을 찾는데 카인들리는 무엇이 다른가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "감사일기·좋은 일 3가지 등 7가지 질문을 따라 쓰고 익명으로 나누거나 나만 보기로 남깁니다. 로그인 없이 쓰며, 함께 보는 오늘의 문장 1,866개는 인물·출처를 적은 명언과 개역개정 성경 구절이고 홈 화면·잠금 화면 위젯으로 볼 수 있습니다. 무료이고 광고가 없습니다."
+          }
+        },
         {
           "@type": "Question",
           "name": "카인들리는 어떤 앱인가요?",
@@ -236,6 +244,10 @@ permalink: /kindly/
     .features strong { display:block; font-size:18px; margin-bottom:4px; }
     figure { margin:0; }
     img { max-width:100%; }
+    table { width:100%; border-collapse:collapse; font-size:16px; }
+    th, td { border-bottom:1px solid var(--line); padding:12px 10px; text-align:left; vertical-align:top; overflow-wrap:break-word; }
+    th { background:var(--soft); }
+    .table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
     details { border-bottom:1px solid var(--line); padding:14px 0; }
     summary { font-size:18px; font-weight:700; cursor:pointer; }
     details p { margin:10px 0 0; }
@@ -283,6 +295,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
 .as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
 .as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
 .as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-related{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:8px 24px}.as-related li{font-size:1rem;padding:6px 0;border-bottom:1px solid var(--as-line)}
 .as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
 .as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
 .as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
@@ -353,6 +366,14 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     </section>
     <!-- appstore:top:end -->
 
+    <section id="why">
+      <div class="wrap">
+        <h2>메모 앱에 쓰는 감사일기는 혼자 끝납니다</h2>
+        <p>감사일기는 꾸준히 쓰기가 어렵고, 메모 앱에 쓰면 아무도 읽어 주지 않아 금방 멈춥니다. 명언 앱은 출처 없는 문장이 섞여 있고, 성경 구절 앱은 번역이 제각각입니다.</p>
+        <p>카인들리는 하루 한 문장(인물·출처를 적은 명언과 개역개정 성경 구절)을 위젯으로 보여 주고, 7가지 질문을 따라 쓴 감사일기를 익명으로 나눠 12가지 공감을 받게 했습니다. 로그인도 광고도 없습니다.</p>
+      </div>
+    </section>
+
     <section id="features">
       <div class="wrap">
         <h2>주요 기능</h2>
@@ -383,10 +404,28 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     </section>
     <!-- appstore:whatsnew:end -->
 
+    <section id="compare">
+      <div class="wrap">
+        <h2>메모 앱·명언 앱과 무엇이 다른가요?</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">상황</th><th scope="col">메모 앱·일반 명언 앱</th><th scope="col">카인들리</th></tr></thead>
+          <tbody>
+            <tr><td>문장 출처</td><td>앱마다 다름</td><td>인물·출처 표기, 성경은 개역개정</td></tr>
+            <tr><td>쓴 글의 반응</td><td>없음(메모 앱)</td><td>익명 공감 12가지</td></tr>
+            <tr><td>로그인</td><td>대개 필요</td><td>없음(기기별 익명 계정)</td></tr>
+            <tr><td>위젯</td><td>앱마다 다름</td><td>홈·잠금 화면, 다음 문장·즐겨찾기 버튼</td></tr>
+            <tr><td>내 글 지우기</td><td>—</td><td>글 삭제, 계정 및 데이터 삭제 지원</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
     <section id="faq">
       <div class="wrap">
         <h2>자주 묻는 질문</h2>
-        <details open><summary>카인들리는 어떤 앱인가요?</summary>
+        <details open><summary>감사일기 앱을 찾는데 카인들리는 무엇이 다른가요?</summary>
+          <p>감사일기·좋은 일 3가지 등 7가지 질문을 따라 쓰고 익명으로 나누거나 나만 보기로 남깁니다. 로그인 없이 쓰며, 함께 보는 오늘의 문장 1,866개는 인물·출처를 적은 명언과 개역개정 성경 구절이고 홈 화면·잠금 화면 위젯으로 볼 수 있습니다. 무료이고 광고가 없습니다.</p></details>
+        <details><summary>카인들리는 어떤 앱인가요?</summary>
           <p>하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 함께 담은 아이폰 앱입니다. 무료이고 iOS 17 이상에서 동작합니다.</p></details>
         <details><summary>위젯은 어떻게 추가하나요?</summary>
           <p>앱의 설정 › 홈 화면 위젯 추가하는 방법에서 미리보기와 함께 단계별로 볼 수 있습니다. 홈 화면의 빈 곳을 길게 누르고 편집 › 위젯 추가를 누른 뒤 Kindly를 고르세요. 중형·대형 위젯에서는 다음 문장, 즐겨찾기 버튼을 바로 쓸 수 있습니다. 잠금 화면에도 둘 수 있습니다.</p></details>
@@ -437,6 +476,20 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
         <p class="as-src">App Store 정보 확인: <time datetime="2026-10-24">2026년 10월 24일</time></p>
       </div>
     </section>
+
+    <section id="related" aria-labelledby="h-related">
+      <div class="wrap">
+        <h2 id="h-related">Team Cumulus의 다른 앱</h2>
+        <ul class="as-related">
+          <li><a href="/redday/">빨간날</a> · 공휴일엔 쉬는 알람</li>
+          <li><a href="/weatherfit/">출퇴근날씨</a> · 출근·점심·퇴근, 내 체감 날씨</li>
+          <li><a href="/lifestamp/">Lifestamp</a> · 찍는 순간을 새기는 날짜 카메라</li>
+          <li><a href="/pixder/">Pixder</a> · 스와이프 사진 정리 <span class="as-cap">(출시 예정)</span></li>
+          <li><a href="/pulsie/">Pulsie</a> · 내 심박에 맞춘 러닝 코치 <span class="as-cap">(출시 예정)</span></li>
+          <li><a href="/walk/">거닐다</a> · 걷기명상, 산책 <span class="as-cap">(출시 예정)</span></li>
+        </ul>
+      </div>
+    </section>
     <!-- appstore:facts:end -->
 
     <section id="start">
@@ -453,7 +506,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
   <footer>
     <div class="wrap">
       <p>카인들리(이전 이름 온루미) · 만든 곳 <a href="https://cumulus.team/">Team Cumulus</a> · 문의 <a href="mailto:contact@cumulus.team">contact@cumulus.team</a></p>
-      <p><a href="/kindly/support/">지원</a> · <a href="/kindly/terms/">이용약관</a> · <a href="/kindly/privacy/">개인정보 처리방침</a> · <!-- appstore:updated:start -->최종 수정 <time datetime="2026-10-24">2026년 10월 24일</time> (앱 1.0.1 기준)<!-- appstore:updated:end --> · <a href="/kindly/en/" hreflang="en">English</a></p>
+      <p><a href="/kindly/support/">지원</a> · <a href="/kindly/terms/">이용약관</a> · <a href="/kindly/privacy/">개인정보 처리방침</a> · <!-- appstore:updated:start -->최종 수정 <time datetime="2026-10-29">2026년 10월 29일</time> (앱 1.0.1 기준)<!-- appstore:updated:end --> · <a href="/kindly/en/" hreflang="en">English</a></p>
     </div>
   </footer>
 </body>

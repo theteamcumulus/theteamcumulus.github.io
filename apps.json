@@ -387,6 +387,108 @@
           ]
         }
       }
+    },
+    {
+      "slug": "pulsie",
+      "status": "coming_soon",
+      "trackId": 6822345508,
+      "trackName": "Pulsie",
+      "names": {
+        "ko": "Pulsie",
+        "en": "Pulsie"
+      },
+      "subtitle": {
+        "ko": "내 심박에 맞춘 러닝 코치",
+        "en": "Heart-rate running coach"
+      },
+      "subtitleSource": "site (App Store 미등록)",
+      "developer": "Team Cumulus",
+      "summary": {
+        "ko": "펄시는 Apple Watch 심박과 건강 앱 데이터로 입문·5 km·10 km 러닝 주간 플랜을 만들고, 달리는 동안 내 심박에 맞는 강도를 음성으로 안내하는 무료 아이폰 러닝 코치 앱입니다.",
+        "en": "Pulsie is a free iPhone + Apple Watch running coach that builds beginner, 5 km and 10 km weekly plans from your heart rate and Health data, and guides your effort by voice while you run. Korean only; nothing leaves your device."
+      },
+      "iconUrl": "https://cumulus.team/pulsie/img/pulsie-app-icon.png",
+      "landingUrls": {
+        "ko": "https://cumulus.team/pulsie/"
+      },
+      "supportUrls": {
+        "ko": "https://cumulus.team/pulsie/support/"
+      },
+      "privacyUrls": {
+        "ko": "https://cumulus.team/pulsie/privacy/"
+      },
+      "minimumOsVersion": "17.0",
+      "languageCodesISO2A": [
+        "KO"
+      ],
+      "price": 0,
+      "fit": {
+        "ko": {
+          "for": [
+            "달리기를 처음 시작해 30분 이어 달리기를 목표로 하는 분",
+            "5 km·10 km를 목표로 주마다 어떤 달리기를 할지 계획이 필요한 분",
+            "페이스 숫자 대신 '편하게·조금 힘들게' 같은 내 심박 기준으로 안내받고 싶은 분",
+            "Apple Watch로 심박을 재면서 달리는 분"
+          ],
+          "not": [
+            "Apple Watch가 없는 경우(운동은 Watch 심박 측정이 준비돼야 시작됩니다)",
+            "하프·풀코스 훈련 계획이 필요한 경우(아직 입문·5 km·10 km만 있습니다)",
+            "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
+            "iOS 17 미만 아이폰, watchOS 10 미만 Apple Watch"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "walk",
+      "status": "coming_soon",
+      "trackId": 6826716719,
+      "trackName": "거닐다",
+      "names": {
+        "ko": "거닐다",
+        "en": "거닐다"
+      },
+      "subtitle": {
+        "ko": "걷기명상, 산책",
+        "en": "Walking meditation"
+      },
+      "subtitleSource": "site (App Store 미등록)",
+      "developer": "Team Cumulus",
+      "summary": {
+        "ko": "거닐다는 음성 안내를 들으며 10–30분 걷기 명상을 하는 무료 아이폰 + Apple Watch 앱입니다. 발, 숨, 몸, 소리와 시야, 둘러보기 순서로 짧은 문장이 걷기에 머물게 돕고, 심박이 너무 오르지 않게 살핍니다.",
+        "en": "거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; nothing leaves your device."
+      },
+      "iconUrl": "https://cumulus.team/walk/img/walk-app-icon.png",
+      "landingUrls": {
+        "ko": "https://cumulus.team/walk/"
+      },
+      "supportUrls": {
+        "ko": "https://cumulus.team/walk/support/"
+      },
+      "privacyUrls": {
+        "ko": "https://cumulus.team/walk/privacy/"
+      },
+      "minimumOsVersion": "17.0",
+      "languageCodesISO2A": [
+        "KO"
+      ],
+      "price": 0,
+      "fit": {
+        "ko": {
+          "for": [
+            "앉아서 하는 명상이 잘 안 돼 걸으면서 해 보고 싶은 분",
+            "매일 하는 산책에 마음챙김을 더하고 싶은 분",
+            "명상이 처음이라 짧고 촘촘한 안내가 필요한 분",
+            "점수·연속 기록 없이 조용히 쓰고 싶은 분"
+          ],
+          "not": [
+            "달리기 코칭이 필요한 경우(같은 팀의 펄시를 보세요)",
+            "자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내와 선택형 배경음악만 있습니다)",
+            "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
+            "iOS 17 미만 아이폰"
+          ]
+        }
+      }
     }
   ]
 }

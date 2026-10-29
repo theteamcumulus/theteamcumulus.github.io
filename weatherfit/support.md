@@ -48,3 +48,99 @@ image: /weatherfit/img/weatherfit-app-icon.png
 contact@cumulus.team — 앱 아래쪽 "문의하기"로도 보낼 수 있어요.
 
 [개인정보 처리방침](/weatherfit/privacy/)
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/weatherfit/support/#faq",
+  "inLanguage": "ko",
+  "about": {
+    "@id": "https://cumulus.team/weatherfit/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "날씨가 안 나와요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "설정 앱 › 출퇴근날씨 › 위치가 \"앱을 사용하는 동안\"인지 확인해 주세요. 기상청 예보는 대한민국 위치에서만 제공됩니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "체감은 어떻게 정해지나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "기상청 체감온도에 바람·비·강한 햇볕을 반영하고, \"지금 내 체감은?\"에서 고른 기록으로 온도·습도·바람·강수·자외선별 내 기준을 학습해 보정합니다. 다양한 날씨에서 기록할수록 정확해집니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "출근·점심·퇴근 시간을 바꾸고 싶어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"내 출퇴근 시간\"에서 30분 단위로 바꿀 수 있어요(기본 오전 8시·낮 12시·오후 6시). 퇴근 시각이 지나면 내일 시간대로 바뀝니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "집과 직장 날씨를 따로 보고 싶어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"내 장소\"에서 집과 직장을 현재 위치나 주소로 정하세요. 출근은 집, 점심·퇴근은 직장 날씨로 보여주고, 주말·공휴일엔 모두 집 기준이에요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "옷차림은 어떻게 추천하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "시간대 카드에는 아침에 한 번 입고 나가는 하루 옷차림(가장 쌀쌀한 때 기준, 일교차가 크면 겹쳐 입기)을, 상단 현재 날씨에는 지금과 가장 가까운 시간대의 옷차림을 보여줘요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "주말·공휴일엔 문구가 달라요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "출근이 없는 날엔 \"느긋한 아침 · 한가한 점심 · 저녁 나들이\"와 쉬는 날 문구로 바뀌어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "작은 위젯에는 어떤 시간대가 나오나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "기본으로 다가오는 시간대 하나를 보여줘요. 출근 전에는 출근길, 그다음 점심, 퇴근길 순서로 바뀌고, 퇴근 시간이 지나면 다음 날 출근길이 나와요. 위젯을 길게 눌러 편집하면 출근길·점심·퇴근길 중 하나나 현재 날씨로 고정할 수 있어요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "위젯이 갱신되지 않아요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "위젯의 ↻ 버튼을 누르거나 앱을 한 번 열면 바로 갱신돼요. 위젯은 약 30분마다 스스로 날씨를 받아오지만, iOS가 배터리 상황에 따라 갱신을 늦출 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "저녁 9시 알림이 안 와요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"저녁 9시 출근 날씨 알림\"을 켜고 설정 앱 › 출퇴근날씨 › 알림이 허용돼 있는지 확인해 주세요. 다음날이 주말·공휴일이면 보내지 않아요. 알림 내용은 앱이나 위젯이 날씨를 새로 받을 때마다 최신 예보로 다시 예약돼요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "체감 기록을 지우고 싶어요.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "앱 아래쪽 \"내 체감 프로필\" 카드의 초기화를 누르세요. 기록은 기기 안에만 저장됩니다."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->

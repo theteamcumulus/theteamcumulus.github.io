@@ -17,6 +17,7 @@ import appstore_lib as AS
 
 ROOT = AS.ROOT
 INLINE = {'updated'}
+SUPPORT_MARK = re.compile(r'<!-- appstore:faq-ld:start -->.*?<!-- appstore:faq-ld:end -->', re.S)
 MARK = re.compile(r'(?P<indent>[ \t]*)<!-- appstore:(?P<name>[a-z-]+):start -->.*?<!-- appstore:(?P=name):end -->', re.S)
 
 
@@ -199,10 +200,93 @@ def llms(data):
         f'사업자 정보: 상호 {s["developer"]}, 대표자 {s["representative"]}, 사업자등록번호 {s["businessNumber"]}. '
         f'개인정보 처리방침: {base}{s["privacy"]["ko"]} (English: {base}{s["privacy"]["en"]})', '',
         f'모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.',
-        f'App Store 등록정보는 {checked}에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: {base}/apps.json', '',
+        f'App Store 등록정보는 {checked}에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: {base}/apps.json · 랜딩 본문(기능·사용법·FAQ)까지 담은 전체판: {base}/llms-full.txt', '',
         '| 앱 | App Store 부제 | 상태 | 공식 페이지 |', '|---|---|---|---|', *rows, '',
     ]
     return '\n'.join(head) + '\n' + '\n\n'.join(llms_card(data, a) for a in data['apps']) + '\n'
+
+
+
+# ---------- 지원 페이지 FAQPage JSON-LD ----------
+
+def render_support(data, app):
+    """<app>/support.md·<app>/en/support.md의 <!-- appstore:faq-ld:start/end --> 사이에 본문 FAQ로 만든 FAQPage JSON-LD를 넣는다. 마커가 없으면 건너뛴다."""
+    base = data['site']['base']
+    out = []
+    for lang, url in app['links']['support'].items():
+        path = ROOT / url.strip('/') / '..' / ('support.md' if lang == 'ko' else 'support.md')
+        path = (ROOT / app['slug'] / ('support.md' if lang == 'ko' else 'en/support.md'))
+        if not path.exists():
+            continue
+        text = path.read_text()
+        if not SUPPORT_MARK.search(text):
+            continue
+        body = text.split('---', 2)[2]
+        faqs = AS.faqs_from_markdown(SUPPORT_MARK.sub('', body))
+        if not faqs:
+            raise ValueError(f'{path}: FAQ 없음')
+        ld = {'@context': 'https://schema.org', '@type': 'FAQPage', '@id': f'{base}{url}#faq', 'inLanguage': lang,
+              'about': {'@id': f'{base}/{app["slug"]}/#app'},
+              'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faqs]}
+        block = ('<!-- appstore:faq-ld:start -->\n<script type="application/ld+json">\n'
+                 + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>\n<!-- appstore:faq-ld:end -->')
+        out.append((path, SUPPORT_MARK.sub(lambda m: block, text)))
+    return out
+
+
+# ---------- llms-full.txt (랜딩 본문까지 담은 전체판) ----------
+
+SECTION_RE = re.compile(r'<section id="(features|how)"[^>]*>(.*?)</section>', re.S)
+LI_RE = re.compile(r'<li[^>]*>(.*?)</li>', re.S)
+
+
+def landing_body(text):
+    """랜딩 HTML에서 주요 기능·사용법·FAQ를 글로 뽑는다(본문 문장 그대로)."""
+    parts = {}
+    for sid, body in SECTION_RE.findall(text):
+        h = re.search(r'<h2[^>]*>(.*?)</h2>', body, re.S)
+        items = []
+        for li in LI_RE.findall(body):
+            m = re.match(r'\s*<strong>(.*?)</strong>(.*)', li, re.S)
+            items.append(f'{AS.text_of(m.group(1))}: {AS.text_of(m.group(2))}' if m else AS.text_of(li))
+        parts[sid] = (AS.text_of(h.group(1)) if h else sid, items)
+    try:
+        parts['faq'] = ('자주 묻는 질문', AS.faqs_from_html(text))
+    except ValueError:
+        pass
+    return parts
+
+
+def llms_full(data):
+    s = data['site']
+    base = s['base']
+    out = [f'# {s["developer"]} (전체판)', '',
+           f'> {s["developer"]}가 만든 iPhone 앱의 공식 안내 페이지 전체 내용. 요약판: {base}/llms.txt · 카탈로그: {base}/apps.json · 문의: {s["email"]}', '',
+           f'사업자 정보: 상호 {s["developer"]}, 대표자 {s["representative"]}, 사업자등록번호 {s["businessNumber"]}. 모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.', '']
+    for a in data['apps']:
+        out += [llms_card(data, a), '']
+        for p in a['pages']:
+            if p['lang'] != 'ko':
+                continue
+            parts = landing_body((ROOT / p['file']).read_text())
+            for sid in ('features', 'how', 'faq'):
+                if sid not in parts:
+                    continue
+                title, items = parts[sid]
+                out.append(f'### {a["name"]["ko"]} {title} ({base}{p["path"]}#{sid})')
+                if sid == 'faq':
+                    out += [f'Q. {q}\nA. {ans}\n' for q, ans in items]
+                elif sid == 'how':
+                    out += [f'{i}. {x}' for i, x in enumerate(items, 1)] + ['']
+                else:
+                    out += [f'- {x}' for x in items] + ['']
+        sp = ROOT / a['slug'] / 'support.md'
+        if sp.exists():
+            faqs = AS.faqs_from_markdown(SUPPORT_MARK.sub('', sp.read_text().split('---', 2)[2]))
+            if faqs:
+                out.append(f'### {a["name"]["ko"]} 지원 FAQ ({base}{a["links"]["support"]["ko"]})')
+                out += [f'Q. {q}\nA. {ans}\n' for q, ans in faqs]
+    return '\n'.join(out).rstrip() + '\n'
 
 
 # ---------- sitemap ----------
@@ -260,6 +344,9 @@ def main():
         writes.append(render_hub(data))
         writes.append((ROOT / 'apps.json', catalog(data)))
         writes.append((ROOT / 'llms.txt', llms(data)))
+        writes.append((ROOT / 'llms-full.txt', llms_full(data)))
+        for app in data['apps']:
+            writes += render_support(data, app)
         writes.append((ROOT / 'sitemap.xml', sitemap(data, (ROOT / 'sitemap.xml').read_text())))
     except (KeyError, ValueError) as e:
         print(f'render 실패, 파일 변경 없음: {e}', file=sys.stderr)

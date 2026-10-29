@@ -40,6 +40,7 @@ L = {
         'info_h': '정보', 'info_h_soon': '정보 (출시 예정)', 'seller': '판매자', 'compat': '호환성',
         'compat_val': 'iPhone · iOS {v} 이상 필요', 'languages': '언어', 'age_rating': '연령 등급', 'price': '가격',
         'released': '최초 출시', 'checked': 'App Store 정보 확인', 'updated': '최종 수정', 'app_ver': '(앱 {v} 기준)',
+        'related_h': 'Team Cumulus의 다른 앱', 'related_soon': '출시 예정',
     },
     'en': {
         'icon_alt': '{name} app icon', 'badge': '/assets/appstore-badge-en.svg', 'badge_w': 120,
@@ -53,7 +54,7 @@ L = {
         'info_h': 'Information', 'info_h_soon': 'Information (coming soon)', 'seller': 'Seller', 'compat': 'Compatibility',
         'compat_val': 'iPhone · Requires iOS {v} or later', 'languages': 'Languages', 'age_rating': 'Age Rating',
         'price': 'Price', 'released': 'Released', 'checked': 'App Store information checked', 'updated': 'Last updated',
-        'app_ver': '(app {v})',
+        'app_ver': '(app {v})', 'related_h': 'More apps from Team Cumulus', 'related_soon': 'coming soon',
     },
 }
 
@@ -97,6 +98,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
 .as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
 .as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
 .as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-related{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:8px 24px}.as-related li{font-size:1rem;padding:6px 0;border-bottom:1px solid var(--as-line)}
 .as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
 .as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
 .as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
@@ -273,6 +275,8 @@ def _summary(app, page):
 
 
 def _shots(page, shots):
+    if not shots:  # 스크린샷이 아직 없으면 섹션을 만들지 않는다(빈 목록 노출 방지)
+        return ''
     t = L[page['lang']]
     items = '\n'.join(
         f'          <li><figure><img src="{esc(src)}" width="600" height="1304" loading="lazy" alt="{esc(alt)}">'
@@ -371,7 +375,33 @@ def block_facts(app, page, data):
 {rows}
         </dl>{checked}
       </div>
+    </section>
+
+    <section id="related" aria-labelledby="h-related">
+      <div class="wrap">
+        <h2 id="h-related">{t["related_h"]}</h2>
+        <ul class="as-related">
+{related_items(app, page, data)}
+        </ul>
+      </div>
     </section>'''
+
+
+def related_items(app, page, data):
+    """같은 개발자의 다른 앱 목록(엔티티 연결). 영어 페이지는 영어판이 있는 앱만 영어 주소로, 없으면 한국어 주소."""
+    lang, t = page['lang'], L[page['lang']]
+    out = []
+    for other in data['apps']:
+        if other['slug'] == app['slug']:
+            continue
+        p0 = other['pages'][0]
+        href = other['links']['landing'].get(lang) or other['links']['landing']['ko']
+        name = other['name'].get(lang) or other['name']['ko']
+        sub = other['subtitle'].get(lang) or other['subtitle']['ko']
+        attrs = ' hreflang="ko" lang="ko"' if lang == 'en' and 'en' not in other['links']['landing'] else ''
+        soon = '' if is_live(other) else f' <span class="as-cap">({t["related_soon"]})</span>'
+        out.append(f'          <li><a href="{href}"{attrs}>{esc(name)}</a> · {esc(sub)}{soon}</li>')
+    return '\n'.join(out)
 
 
 def block_cta(app, page, data):
@@ -434,8 +464,9 @@ def app_node(app, page, data, shots, extra=None):
         node['sameAs'] = [page['storeUrl']]
         node['installUrl'] = page['storeUrl']
         node['downloadUrl'] = page['storeUrl']
-    node['operatingSystem'] = f'iOS {min_os(app, store)}+'
-    node['availableOnDevice'] = 'iPhone'
+    ld_over = page.get('ld', {})
+    node['operatingSystem'] = ld_over.get('operatingSystem') or f'iOS {min_os(app, store)}+'
+    node['availableOnDevice'] = ld_over.get('availableOnDevice') or 'iPhone'
     node['applicationCategory'] = app['applicationCategory']
     node['applicationSubCategory'] = ', '.join(store['genres']) if store else page['ld']['applicationSubCategory']
     node['inLanguage'] = [c.lower() for c in lang_codes(app, store)]
@@ -494,3 +525,18 @@ def faqs_from_html(page_html):
     if not m:
         raise ValueError('FAQ section not found')
     return [(text_of(q), text_of(a)) for q, a in FAQ_RE.findall(m.group(1))]
+
+
+# ---------- 지원 페이지(.md) FAQ → JSON-LD ----------
+
+MD_FAQ_RE = re.compile(r'^\*\*(.+?)\*\*\n(.+?)(?=\n\n|\n\*\*|\n## |\Z)', re.M | re.S)
+MD_LINK_RE = re.compile(r'\[([^\]]+)\]\([^)]+\)')
+
+
+def faqs_from_markdown(md_body):
+    """`**질문**` 줄 바로 아래 답 문단을 (질문, 답) 목록으로. 링크는 글자만 남긴다."""
+    out = []
+    for q, a in MD_FAQ_RE.findall(md_body):
+        a = MD_LINK_RE.sub(r'\1', ' '.join(a.split()))
+        out.append((q.strip(), a.strip()))
+    return out

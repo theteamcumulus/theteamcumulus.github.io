@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-13</lastmod>
+  <url><loc>https://cumulus.team/redday/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/redday/img/redday-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/redday/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/redday/img/screen-02.jpg</image:loc></image:image>
@@ -17,7 +17,7 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/privacy/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://cumulus.team/en/privacy/</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://cumulus.team/weatherfit/</loc><lastmod>2026-10-15</lastmod>
+  <url><loc>https://cumulus.team/weatherfit/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/weatherfit/img/weatherfit-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/weatherfit/img/screen-02.jpg</image:loc></image:image>
@@ -28,7 +28,7 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/weatherfit/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/weatherfit/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/lifestamp/</loc><lastmod>2026-10-24</lastmod>
+  <url><loc>https://cumulus.team/lifestamp/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/lifestamp-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/screen-02.jpg</image:loc></image:image>
@@ -38,7 +38,7 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/lifestamp/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/lifestamp/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/lifestamp/en/</loc><lastmod>2026-10-24</lastmod>
+  <url><loc>https://cumulus.team/lifestamp/en/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/lifestamp-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/en/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/lifestamp/img/en/screen-02.jpg</image:loc></image:image>
@@ -48,7 +48,7 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/lifestamp/en/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/lifestamp/en/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/kindly/</loc><lastmod>2026-10-24</lastmod>
+  <url><loc>https://cumulus.team/kindly/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/kindly/img/kindly-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-02.jpg</image:loc></image:image>
@@ -58,7 +58,7 @@ layout: null
   <url><loc>https://cumulus.team/kindly/support/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/kindly/privacy/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://cumulus.team/kindly/terms/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://cumulus.team/kindly/en/</loc><lastmod>2026-10-24</lastmod>
+  <url><loc>https://cumulus.team/kindly/en/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/kindly/img/kindly-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/kindly/img/screen-02.jpg</image:loc></image:image>
@@ -68,7 +68,7 @@ layout: null
   <url><loc>https://cumulus.team/kindly/en/support/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://cumulus.team/kindly/en/privacy/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://cumulus.team/kindly/en/terms/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-13</lastmod>
+  <url><loc>https://cumulus.team/pixder/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/screen-02.jpg</image:loc></image:image>
@@ -78,7 +78,7 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/pixder/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/pixder/privacy/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://cumulus.team/pixder/en/</loc><lastmod>2026-10-13</lastmod>
+  <url><loc>https://cumulus.team/pixder/en/</loc><lastmod>2026-10-29</lastmod>
     <image:image><image:loc>https://cumulus.team/pixder/img/pixder-app-icon.png</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://cumulus.team/pixder/img/en/screen-02.jpg</image:loc></image:image>
@@ -88,4 +88,19 @@ layout: null
   </url>
   <url><loc>https://cumulus.team/pixder/en/support/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://cumulus.team/pixder/en/privacy/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://cumulus.team/pulsie/</loc><lastmod>2026-10-29</lastmod>
+    <image:image><image:loc>https://cumulus.team/pulsie/img/pulsie-app-icon.png</image:loc></image:image>
+  </url>
+  <url><loc>https://cumulus.team/pulsie/support/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://cumulus.team/pulsie/privacy/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://cumulus.team/walk/</loc><lastmod>2026-10-29</lastmod>
+    <image:image><image:loc>https://cumulus.team/walk/img/walk-app-icon.png</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/walk/img/screen-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/walk/img/screen-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/walk/img/screen-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/walk/img/screen-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://cumulus.team/walk/img/screen-05.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://cumulus.team/walk/support/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://cumulus.team/walk/privacy/</loc><lastmod>2026-10-29</lastmod></url>
 </urlset>

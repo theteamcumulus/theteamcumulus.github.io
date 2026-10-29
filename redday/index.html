@@ -68,7 +68,7 @@ permalink: /redday/
       "downloadUrl": "https://apps.apple.com/kr/app/id6819717732",
       "operatingSystem": "iOS 26.0+",
       "availableOnDevice": "iPhone",
-      "applicationCategory": "UtilitiesApplication",
+      "applicationCategory": "LifestyleApplication",
       "applicationSubCategory": "라이프스타일, 생산성",
       "inLanguage": [
         "ko"
@@ -130,12 +130,28 @@ permalink: /redday/
       "about": {
         "@id": "https://cumulus.team/redday/#app"
       },
-      "dateModified": "2026-10-13"
+      "dateModified": "2026-10-29"
     },
     {
       "@type": "FAQPage",
       "@id": "https://cumulus.team/redday/#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "공휴일에 안 울리는 알람 앱이 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "빨간날이 그 용도로 만든 아이폰 알람 앱입니다. 알람마다 '빨간 날에는 쉬기'를 켜 두면 주말·공휴일·대체공휴일·등록한 연차에는 울리지 않고 다음 평일에 다시 울립니다. 무료이고 iOS 26 이상, 한국 공휴일 기준입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2028년 이후 공휴일도 들어가나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "현재 앱에는 2026년과 2027년 공휴일이 들어 있고, 다음 해 공휴일과 새로 지정되는 임시공휴일은 앱 업데이트로 추가합니다."
+          }
+        },
         {
           "@type": "Question",
           "name": "아이폰 기본 알람에서 공휴일만 빼고 울리게 할 수 있나요?",
@@ -290,6 +306,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
 .as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
 .as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
 .as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-related{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:8px 24px}.as-related li{font-size:1rem;padding:6px 0;border-bottom:1px solid var(--as-line)}
 .as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
 .as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
 .as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
@@ -431,7 +448,11 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
     <section id="faq">
       <div class="wrap">
         <h2>자주 묻는 질문</h2>
-        <details open><summary>아이폰 기본 알람에서 공휴일만 빼고 울리게 할 수 있나요?</summary>
+        <details open><summary>공휴일에 안 울리는 알람 앱이 있나요?</summary>
+          <p>빨간날이 그 용도로 만든 아이폰 알람 앱입니다. 알람마다 '빨간 날에는 쉬기'를 켜 두면 주말·공휴일·대체공휴일·등록한 연차에는 울리지 않고 다음 평일에 다시 울립니다. 무료이고 iOS 26 이상, 한국 공휴일 기준입니다.</p></details>
+        <details><summary>2028년 이후 공휴일도 들어가나요?</summary>
+          <p>현재 앱에는 2026년과 2027년 공휴일이 들어 있고, 다음 해 공휴일과 새로 지정되는 임시공휴일은 앱 업데이트로 추가합니다.</p></details>
+        <details><summary>아이폰 기본 알람에서 공휴일만 빼고 울리게 할 수 있나요?</summary>
           <p>아이폰 기본 시계 앱의 반복 알람은 요일 단위로만 정할 수 있어서, 공휴일만 따로 빼는 설정은 없습니다. 연휴마다 알람을 직접 끄고 다시 켜야 합니다. 빨간날은 한국 공휴일 정보를 앱에 담고 있어, 알람마다 '빨간 날에는 쉬기'를 켜 두면 공휴일과 대체공휴일에 자동으로 울리지 않습니다.</p></details>
         <details><summary>빨간날은 어떤 앱인가요?</summary>
           <p>빨간날은 주말·공휴일·대체공휴일·내 휴무일에는 울리지 않고 평일에만 울리는 아이폰 알람 앱입니다. 직장인과 학생처럼 평일 아침 알람을 쓰는 사람을 위해 만들었습니다. App Store에서 무료로 받을 수 있고 iOS 26 이상에서 동작합니다.</p></details>
@@ -481,6 +502,20 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
         <p class="as-src">App Store 정보 확인: <time datetime="2026-10-24">2026년 10월 24일</time></p>
       </div>
     </section>
+
+    <section id="related" aria-labelledby="h-related">
+      <div class="wrap">
+        <h2 id="h-related">Team Cumulus의 다른 앱</h2>
+        <ul class="as-related">
+          <li><a href="/weatherfit/">출퇴근날씨</a> · 출근·점심·퇴근, 내 체감 날씨</li>
+          <li><a href="/lifestamp/">Lifestamp</a> · 찍는 순간을 새기는 날짜 카메라</li>
+          <li><a href="/kindly/">Kindly</a> · 감사일기 · 긍정확언 · 오늘의 문장 위젯</li>
+          <li><a href="/pixder/">Pixder</a> · 스와이프 사진 정리 <span class="as-cap">(출시 예정)</span></li>
+          <li><a href="/pulsie/">Pulsie</a> · 내 심박에 맞춘 러닝 코치 <span class="as-cap">(출시 예정)</span></li>
+          <li><a href="/walk/">거닐다</a> · 걷기명상, 산책 <span class="as-cap">(출시 예정)</span></li>
+        </ul>
+      </div>
+    </section>
     <!-- appstore:facts:end -->
 
     <section id="start">
@@ -497,7 +532,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
   <footer>
     <div class="wrap">
       <p>빨간날 · 만든 곳 <a href="https://cumulus.team/">Team Cumulus</a> · 문의 <a href="mailto:contact@cumulus.team">contact@cumulus.team</a></p>
-      <p><a href="/redday/support/">지원</a> · <a href="/redday/privacy/">개인정보 처리방침</a> · <!-- appstore:updated:start -->최종 수정 <time datetime="2026-10-13">2026년 10월 13일</time> (앱 1.0.7 기준)<!-- appstore:updated:end --></p>
+      <p><a href="/redday/support/">지원</a> · <a href="/redday/privacy/">개인정보 처리방침</a> · <!-- appstore:updated:start -->최종 수정 <time datetime="2026-10-29">2026년 10월 29일</time> (앱 1.0.7 기준)<!-- appstore:updated:end --></p>
     </div>
   </footer>
 </body>

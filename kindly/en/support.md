@@ -67,3 +67,99 @@ contact@cumulus.team — Settings › Send feedback in the app opens an email wi
 ## Terms and privacy
 
 [Terms of Use](/kindly/en/terms/) · [Privacy Policy](/kindly/en/privacy/)
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/kindly/en/support/#faq",
+  "inLanguage": "en",
+  "about": {
+    "@id": "https://cumulus.team/kindly/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I add the widget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Touch and hold an empty area of the Home Screen, tap + in the top-left corner and choose Kindly. Medium and large widgets have share, favourite and next buttons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "The widget shows a different quote or theme from the app.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the app once and the widget updates. If it still differs, remove the widget and add it again."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. An anonymous per-device account is created on first launch. We never ask for your name, email or phone number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I posted something but others can't see it.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every post is reviewed automatically. Posts that put others down, spam, promotions or links, sexual content, or personal information such as phone numbers or addresses stay visible only to you or are not published."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I saw a post that bothers me.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the ⋯ menu on the post to report it or block the author. Blocked authors disappear right away; posts reported by several people are hidden and reviewed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I delete my posts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Delete a post from its ⋯ menu. To delete your account and all your posts and reactions at once, go to Settings › Delete account and data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will deleting the app remove my favourites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Favourites and themes are stored only on your device. Posts on the server remain, so delete your account in Settings before deleting the app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Bible translation is used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verses are quoted exactly from the Korean Revised Version (개역개정) of the Korean Bible Society. The app's content is in Korean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My post was saved as \"Only me\".",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Very short or unclear posts (for example \"lol\" or repeated characters) and negative posts are kept visible only to you. Add a sentence about what you are grateful for and why, and it can be shared. Posting the same text again or posting too often is also limited (3 per minute, 20 per day)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I keep posts I like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap the bookmark under a community post and it appears in Collection › Bookmarks."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->

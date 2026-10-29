@@ -30,7 +30,7 @@
         "ko": "공휴일엔 쉬는 알람"
       },
       "subtitleSource": "appstore",
-      "applicationCategory": "UtilitiesApplication",
+      "applicationCategory": "LifestyleApplication",
       "summary": {
         "ko": "빨간날은 주말·공휴일·대체공휴일·연차에는 자동으로 쉬고 평일에만 울리는 무료 아이폰 알람 앱입니다(iOS 26 이상, 한국 공휴일 기준)."
       },
@@ -84,7 +84,7 @@
       "llms": {
         "title": "빨간날 (Red Day Alarm)",
         "intro": "빨간날은 주말·공휴일·대체공휴일·내 휴무일(연차 등)에는 자동으로 울리지 않고 평일에만 울리는 아이폰 알람 앱이다. 한국 공휴일 기준, iOS 26 이상, 무료, 광고 없음, 회원가입 없음.",
-        "factsHeading": "핵심 사실 (2026-10-10 확인):",
+        "factsHeading": "핵심 사실 (1.0.7 기준, 2026-10-29 확인):",
         "facts": [
           "아이폰 기본 시계 앱의 반복 알람은 요일 단위라 공휴일만 빼는 설정이 없다. 빨간날은 알람마다 '빨간 날에는 쉬기'(기본 켜짐)를 켜 두면 공휴일·대체공휴일·내 휴무일에 울리지 않는다.",
           "공휴일 데이터: 한국천문연구원 특일 정보(공공데이터포털). 2026~2027년 포함. 임시공휴일은 앱 업데이트로 반영.",
@@ -93,7 +93,10 @@
           "앞으로 2주 미리보기: 날짜별로 울림/쉼과 쉬는 이유 표시, 특정 날짜만 이번 한 번 예외 처리 가능.",
           "iOS AlarmKit 시스템 알람: 무음·집중 모드에서도 울리고 잠금 화면에서 끄기/다시 울림.",
           "알람·레이블·메모·휴무일은 기기에만 저장. 익명 오류 정보와 사용 통계만 수집, 광고 식별자(IDFA) 미사용.",
-          "안드로이드 버전은 아직 출시되지 않았다."
+          "안드로이드 버전은 아직 출시되지 않았다.",
+          "'한 번만' 알람은 울리고 나면 자동으로 꺼진다(1.0.7).",
+          "알람 사운드는 부드러운 테마·음악 테마 14곡이며 저장 전 '미리 울려보기'로 들을 수 있다(1.0.7).",
+          "2028년 이후 공휴일과 새로 지정되는 임시공휴일은 앱 업데이트로 추가한다."
         ]
       },
       "pages": [
@@ -110,7 +113,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819717732",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-13",
+          "modified": "2026-10-29",
           "webpageName": "빨간날 - 공휴일엔 알아서 쉬는 아이폰 알람 앱",
           "ld": {
             "featureList": [
@@ -260,7 +263,7 @@
       "llms": {
         "title": "출퇴근날씨 (WeatherFit)",
         "intro": "출퇴근날씨는 출근·점심·퇴근 세 시간대의 대한민국 기상청 예보를 '내가 느끼는 체감'과 하루 옷차림으로, 앱을 열지 않아도 홈 화면 위젯에서 알려주는 아이폰 날씨 앱이다. iPhone 전용, iOS 15.1 이상(홈 화면 위젯은 iOS 17 이상), 무료, 광고 없음, 회원가입 없음. 2026-10-12 대한민국 App Store 출시.",
-        "factsHeading": "핵심 사실 (2026-10-10 확인):",
+        "factsHeading": "핵심 사실 (1.0.3 기준, 2026-10-29 확인):",
         "facts": [
           "시간대: 출근 오전 8시·점심 12시·퇴근 오후 6시가 기본. 30분 단위로 변경 가능(출근 05:00–10:30, 점심 11:00–14:30, 퇴근 15:00–22:00). 퇴근 시각이 지나면 내일 시간대로 전환.",
           "데이터: 기상청 단기예보·초단기실황(체감온도 산출식), 자외선 Open-Meteo, 미세먼지 OpenWeather. 대한민국 위치에서만 동작.",
@@ -289,7 +292,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819701703",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-15",
+          "modified": "2026-10-29",
           "webpageName": "출퇴근날씨 - 앱 열지 않고, 위젯으로 출근 옷차림",
           "ld": {
             "countriesSupported": "KR",
@@ -440,8 +443,8 @@
         }
       },
       "llms": {
-        "title": "Lifestamp (구 Lifory·SandTime)",
-        "intro": "Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 2026-10-11 SandTime에서 이름을 바꿨다.",
+        "title": "Lifestamp: 날짜 스탬프 카메라",
+        "intro": "Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 이름 이력: SandTime → Lifory(2026-10-11) → Lifestamp(현재 이름, /lifory/·/sandtime/은 /lifestamp/로 연결).",
         "factsHeading": "핵심 사실 (2026-10-24 확인):",
         "facts": [
           "아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.",
@@ -469,7 +472,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6821004763",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-24",
+          "modified": "2026-10-29",
           "webpageName": "Lifestamp - 찍는 순간을 새기는 날짜 카메라",
           "ld": {
             "slogan": "삶의 모든 순간이 하나의 이야기가 됩니다.",
@@ -532,7 +535,7 @@
           "storeUrl": "https://apps.apple.com/app/id6821004763",
           "ct": "web-landing-en",
           "currency": "USD",
-          "modified": "2026-10-24",
+          "modified": "2026-10-29",
           "webpageName": "Lifestamp - Date Stamp Camera for iPhone",
           "ld": {
             "slogan": "Your life. Your story.",
@@ -766,7 +769,7 @@
       },
       "llms": {
         "title": "카인들리 (Kindly)",
-        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 2026-10-24 대한민국 App Store 출시. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
+        "intro": "카인들리는 하루 한 문장의 명언·성경 구절을 앱과 홈 화면 위젯으로 보여 주고, 감사일기와 긍정확언을 익명으로 나누는 커뮤니티를 담은 아이폰 앱이다. 2026-10-23 대한민국 App Store 출시. 슬로건: \"다정한 말과 사람이 모이는 곳\" / \"Where kind words and kind people gather\". App Store 이름: Kindly - 카인들리 다정한 말, 좋은 사람 (영어 Kindly - Kind Words & People, 한국어 이름 2026-10-21 변경). 홈 화면 앱 이름은 Kindly. iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어. 2026-10-15 온루미(Onlumi)에서 이름을 바꿨다(이전 주소 /onlumi/는 /kindly/로 연결). 개발 중 이름은 좋은말.",
         "factsHeading": "핵심 사실 (2026-10-24 확인, 1.0.1):",
         "facts": [
           "문장 1,866개, 21가지 주제(긍정, 감사, 위로, 사랑, 용기, 불안 이겨내기, 우울할 때, 이별, 짝사랑, 자신감, 성경말씀 등). 명언은 인물·출처를 함께 적고 원전을 확인했으며(2026-10-22 전수 검증), 성경 구절은 개역개정.",
@@ -796,7 +799,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-24",
+          "modified": "2026-10-29",
           "webpageName": "Kindly - 카인들리 다정한 말, 좋은 사람, 감사일기·긍정확언·오늘의 문장 위젯 아이폰 앱",
           "ld": {
             "slogan": "다정한 말과 사람이 모이는 곳",
@@ -854,7 +857,7 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6819722166",
           "ct": "web-landing-en",
           "currency": "KRW",
-          "modified": "2026-10-24",
+          "modified": "2026-10-29",
           "webpageName": "Kindly - Gratitude journal, affirmations and a daily quote widget for iPhone",
           "ld": {
             "slogan": "Where kind words and kind people gather",
@@ -1038,15 +1041,15 @@
       },
       "llms": {
         "title": "Pixder (픽스더)",
-        "intro": "Pixder is an iPhone photo cleaner by Team Cumulus. Photos appear one at a time; swipe left to mark for deletion, swipe right to keep, then review the marked photos and delete them all at once. iPhone, iOS 17 or later, free, no ads, no sign-up, no daily limits. 8 languages (ko, en, ja, zh-Hans, zh-Hant, es, fr, de). Status on 2026-10-11: preparing App Store release.",
-        "factsHeading": "Key facts (checked 2026-10-11):",
+        "intro": "Pixder(픽스더)는 Team Cumulus의 아이폰 사진 정리 앱이다. 사진을 한 장씩 보여 주며 왼쪽은 삭제 후보, 오른쪽은 보관, 위는 즐겨찾기로 넘기고, 검토 화면에서 한 번에 지운다. 넘기는 동안에는 지워지지 않는다. iOS 17 이상, 무료, 광고·회원가입·하루 한도 없음, 앱 언어 8개(한국어·영어·일본어·중국어 간체·번체·스페인어·프랑스어·독일어). 상태: 2026-10-29 현재 App Store 출시 준비 중(아직 설치 불가).",
+        "factsHeading": "핵심 사실 (출시 전 빌드 기준, 2026-10-29 확인):",
         "facts": [
-          "Swiping never deletes. Deletion happens only from the review screen after the standard iOS confirmation dialog; deleted items go to Recently Deleted in Photos for 30 days and can be recovered.",
-          "Storage is freed only after Recently Deleted is emptied (Pixder cannot empty it).",
-          "Sort scopes: All Photos (newest first), by month, Screenshots. Keeping a photo applies everywhere. Progress is saved and resumes automatically. Undo is available.",
-          "Photos, videos (first frame and length) and Live Photos are supported. Limited photo access works with the selected photos only.",
-          "Photos, photo identifiers and metadata never leave the device. Only anonymous crash reports (Firebase Crashlytics) and usage statistics (Google Analytics for Firebase, no IDFA) are collected.",
-          "Android version is not available."
+          "넘기기만으로는 지워지지 않는다. 삭제는 검토 화면에서 iOS 확인 창을 거쳐야 하며, 지운 사진은 사진 앱 '최근 삭제된 항목'에 30일 보관돼 복구할 수 있다.",
+          "저장 공간은 '최근 삭제된 항목'을 비워야 늘어난다(Pixder는 이 앨범을 비울 수 없음).",
+          "정리 범위: 전체 사진(최신순), 월별, 스크린샷. 보관한 사진은 다른 범위에서도 다시 나오지 않는다. 진행은 자동 저장돼 이어서 할 수 있고, 되돌리기가 있다.",
+          "사진·동영상(첫 장면과 길이)·라이브 포토 지원. 일부 사진만 허용하면 선택한 사진만 다룬다.",
+          "사진·사진 식별자·메타데이터는 기기 밖으로 나가지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase, IDFA 미사용)만 수집한다.",
+          "안드로이드 버전은 없다."
         ]
       },
       "pages": [
@@ -1064,7 +1067,7 @@
           "storeUrl": null,
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-13",
+          "modified": "2026-10-29",
           "webpageName": "Pixder - 넘기기만 하면 끝나는 아이폰 사진 정리 앱",
           "ld": {
             "featureList": [
@@ -1123,7 +1126,7 @@
           "storeUrl": null,
           "ct": "web-landing-en",
           "currency": "USD",
-          "modified": "2026-10-13",
+          "modified": "2026-10-29",
           "webpageName": "Pixder - Swipe Photo Cleaner for iPhone",
           "ld": {
             "featureList": [
@@ -1167,6 +1170,305 @@
             "textLive": "One hand, a spare minute, a few swipes. Pixder is free on the App Store.",
             "textSoon": "One hand, a spare minute, a few swipes. Pixder is coming soon to the App Store, free.",
             "label": "Get Pixder on the App Store",
+            "class": "cta"
+          }
+        }
+      ],
+      "store": {}
+    },
+    {
+      "slug": "pulsie",
+      "trackId": 6822345508,
+      "status": "coming_soon",
+      "storeCountries": [
+        "kr"
+      ],
+      "name": {
+        "ko": "Pulsie",
+        "en": "Pulsie"
+      },
+      "subtitle": {
+        "ko": "내 심박에 맞춘 러닝 코치",
+        "en": "Heart-rate running coach"
+      },
+      "subtitleSource": "site (App Store 미등록)",
+      "applicationCategory": "HealthApplication",
+      "summary": {
+        "ko": "펄시는 Apple Watch 심박과 건강 앱 데이터로 입문·5 km·10 km 러닝 주간 플랜을 만들고, 달리는 동안 내 심박에 맞는 강도를 음성으로 안내하는 무료 아이폰 러닝 코치 앱입니다.",
+        "en": "Pulsie is a free iPhone + Apple Watch running coach that builds beginner, 5 km and 10 km weekly plans from your heart rate and Health data, and guides your effort by voice while you run. Korean only; nothing leaves your device."
+      },
+      "fit": {
+        "ko": {
+          "for": [
+            "달리기를 처음 시작해 30분 이어 달리기를 목표로 하는 분",
+            "5 km·10 km를 목표로 주마다 어떤 달리기를 할지 계획이 필요한 분",
+            "페이스 숫자 대신 '편하게·조금 힘들게' 같은 내 심박 기준으로 안내받고 싶은 분",
+            "Apple Watch로 심박을 재면서 달리는 분"
+          ],
+          "not": [
+            "Apple Watch가 없는 경우(운동은 Watch 심박 측정이 준비돼야 시작됩니다)",
+            "하프·풀코스 훈련 계획이 필요한 경우(아직 입문·5 km·10 km만 있습니다)",
+            "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
+            "iOS 17 미만 아이폰, watchOS 10 미만 Apple Watch"
+          ]
+        }
+      },
+      "privacy": {
+        "ko": [
+          [
+            "수집하는 정보",
+            "펄시는 어떤 정보도 서버로 보내지 않습니다. 분석·광고 SDK와 회원가입이 없습니다."
+          ],
+          [
+            "기기에만 저장",
+            "운동 기록과 설정은 이 iPhone에만 저장되고 iCloud 백업에 넣지 않습니다."
+          ],
+          [
+            "건강 앱",
+            "심박수·운동 등은 기기 안에서만 읽고, 운동 기록·운동 경로·마음 챙기기만 건강 앱에 저장합니다."
+          ]
+        ]
+      },
+      "facts": {
+        "minimumOsVersion": "17.0",
+        "languages": [
+          "KO"
+        ],
+        "price": {
+          "ko": "무료"
+        }
+      },
+      "links": {
+        "landing": {
+          "ko": "/pulsie/"
+        },
+        "support": {
+          "ko": "/pulsie/support/"
+        },
+        "privacy": {
+          "ko": "/pulsie/privacy/"
+        }
+      },
+      "llms": {
+        "title": "펄시 (Pulsie)",
+        "intro": "펄시는 Apple Watch 심박과 건강 앱 데이터를 기기 안에서만 읽어, 러닝 입문(30분 이어 달리기)·5 km·10 km 트랙의 주간 플랜을 만들고 달리는 동안 내 심박에 맞는 강도를 음성·햅틱으로 안내하는 아이폰 + Apple Watch 러닝 코치 앱이다. 2026-10-29 현재 TestFlight 테스트 중이며 App Store 출시 예정. iOS 17 이상, watchOS 10 이상, 무료, 광고 없음, 회원가입 없음, 외부 전송 없음. 앱 언어: 한국어. App Store 이름은 Pulsie, 홈 화면 앱 이름은 펄시(한국어 표기).",
+        "factsHeading": "핵심 사실 (2026-10-29 확인, 출시 전 빌드 기준):",
+        "facts": [
+          "트랙 3개: 입문(11주, 걷기–달리기에서 30분 이어 달리기까지), 5 km(8주), 10 km(10주). 주간 계획은 기기 안 규칙으로 만든다: 편한 달리기가 전체 시간의 80% 이상, 강한 세션은 10 km 트랙만 주 1회, 주간 양은 전 주의 10% 이내로 늘리고 4주마다 줄인다.",
+          "강도 1 '편하게'(여유 심박수 HRR 50–70%)는 흔히 '존 2'라고 부르는 저강도 달리기와 같은 목적이다. 존 구분 기준은 앱·코치마다 달라 숫자가 똑같지는 않다.",
+          "강도는 1 편하게·2 조금 힘들게·3 힘들게 세 단계로, 최대 심박수(직접 입력 > 건강 앱 운동 기록에서 관측 > 나이로 추정)와 안정 시 심박수로 계산한 심박 범위(카르보넨 %HRR)다. 모두 '추정'으로 표시한다.",
+          "달리는 동안 Apple Watch 심박을 iPhone이 받아 목표 범위를 벗어나면 번들 음성 클립과 햅틱으로 안내한다(네트워크 TTS 없음). 음악 앱을 함께 켜면 안내할 때만 음악이 작아진다. 잠금 화면 라이브 액티비티.",
+          "오늘의 몸: 건강 앱의 심박 변이·안정 시 심박수가 28일 기준선에서 벗어나면 그날의 강한 세션을 같은 시간의 편한 달리기로 바꾼다. 점수 없이 문장 하나와 사실 3개로만 보여 주고, 운동 시작을 막지 않는다.",
+          "운동 뒤 리포트: 심박 그래프, 5단계 심박 존별 시간(표시 전용), 마친 뒤 1분 심박 변화, 비슷한 지난 운동과 비교, 음성 리포트. 추세 탭에 주간 부하(Edwards TRIMP)·강도별 시간·몸 기록(안정 시 심박수·심박 변이·잠 등).",
+          "배지·연속 기록·점수는 없다. '이번 주 n/3회'와 공유 카드(사용자가 직접 보내며 심박·경로는 담지 않음)만 있다. 모든 운동의 일시정지 화면에 1–3분 호흡 쉬어가기.",
+          "건강 앱 읽기: 심박수·운동·안정 시 심박수·걷기와 달리기 거리·생년월일·심박 변이·잠·걷기 심박수·호흡수·VO2 max·활동 에너지·달리기 파워·보폭·수직 진폭·지면 접촉 시간. 쓰기: 운동 기록·운동 경로·마음 챙기기(설정에서 끌 수 있음).",
+          "운동 기록·설정은 iPhone에만 저장하고 iCloud 백업에 넣지 않는다. Watch에는 심박 안내에 필요한 값만 기기끼리 보낸다. 서드파티 SDK·분석 도구·서버가 없다.",
+          "의료 기기가 아니며 진단·치료에 쓸 수 없다. 처음 실행할 때 안전 안내와 심박수에 영향을 주는 약 복용 여부를 묻고, 약을 먹으면 심박 판단을 끄고 느낌으로 안내한다.",
+          "안드로이드 버전은 없다."
+        ]
+      },
+      "pages": [
+        {
+          "lang": "ko",
+          "file": "pulsie/index.html",
+          "path": "/pulsie/",
+          "name": "Pulsie",
+          "alternateName": [
+            "펄시",
+            "펄시 러닝 코치",
+            "Pulsie 러닝 코치"
+          ],
+          "storeCountry": "kr",
+          "storeUrl": null,
+          "ct": "web-landing",
+          "currency": "KRW",
+          "modified": "2026-10-29",
+          "webpageName": "펄시 - 내 심박에 맞춘 러닝 코치, 아이폰 + Apple Watch 앱",
+          "ld": {
+            "slogan": "내 심박에 맞춘 러닝 코치",
+            "featureList": [
+              "입문·5 km·10 km 트랙과 주간 플랜",
+              "강도 1·2·3 심박 범위 안내(음성·햅틱)",
+              "오늘의 몸: 심박 변이·안정 시 심박수로 세션 조절",
+              "운동 리포트: 심박 그래프·심박 존·1분 심박 회복",
+              "추세: 주간 부하·강도별 시간·몸 기록",
+              "Apple Watch 미러링·라이브 액티비티·음악 덕킹",
+              "1–3분 호흡 쉬어가기"
+            ],
+            "applicationSubCategory": "러닝 코치",
+            "availableOnDevice": [
+              "iPhone",
+              "Apple Watch"
+            ],
+            "operatingSystem": "iOS 17.0+, watchOS 10+"
+          },
+          "shots": [],
+          "cta": {
+            "textLive": "펄시는 App Store에서 무료로 받을 수 있습니다.",
+            "textSoon": "펄시는 지금 TestFlight에서 테스트 중이며, 곧 App Store에서 무료로 받을 수 있습니다.",
+            "label": "App Store에서 펄시 받기",
+            "class": "cta"
+          }
+        }
+      ],
+      "store": {}
+    },
+    {
+      "slug": "walk",
+      "trackId": 6826716719,
+      "status": "coming_soon",
+      "storeCountries": [
+        "kr"
+      ],
+      "name": {
+        "ko": "거닐다",
+        "en": "거닐다"
+      },
+      "subtitle": {
+        "ko": "걷기명상, 산책",
+        "en": "Walking meditation"
+      },
+      "subtitleSource": "site (App Store 미등록)",
+      "applicationCategory": "HealthApplication",
+      "summary": {
+        "ko": "거닐다는 음성 안내를 들으며 10–30분 걷기 명상을 하는 무료 아이폰 + Apple Watch 앱입니다. 발, 숨, 몸, 소리와 시야, 둘러보기 순서로 짧은 문장이 걷기에 머물게 돕고, 심박이 너무 오르지 않게 살핍니다.",
+        "en": "거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; nothing leaves your device."
+      },
+      "fit": {
+        "ko": {
+          "for": [
+            "앉아서 하는 명상이 잘 안 돼 걸으면서 해 보고 싶은 분",
+            "매일 하는 산책에 마음챙김을 더하고 싶은 분",
+            "명상이 처음이라 짧고 촘촘한 안내가 필요한 분",
+            "점수·연속 기록 없이 조용히 쓰고 싶은 분"
+          ],
+          "not": [
+            "달리기 코칭이 필요한 경우(같은 팀의 펄시를 보세요)",
+            "자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내와 선택형 배경음악만 있습니다)",
+            "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
+            "iOS 17 미만 아이폰"
+          ]
+        }
+      },
+      "privacy": {
+        "ko": [
+          [
+            "수집하는 정보",
+            "거닐다는 어떤 정보도 서버로 보내지 않습니다. 분석·광고 SDK와 회원가입이 없습니다."
+          ],
+          [
+            "기기에만 저장",
+            "걷기 기록과 설정은 이 iPhone에만 저장되고 iCloud 백업에 넣지 않습니다."
+          ],
+          [
+            "건강 앱",
+            "심박수·운동 등은 기기 안에서만 읽고, 걷기 운동 기록·경로·마음 챙기기만 건강 앱에 저장합니다."
+          ]
+        ]
+      },
+      "facts": {
+        "minimumOsVersion": "17.0",
+        "languages": [
+          "KO"
+        ],
+        "price": {
+          "ko": "무료"
+        }
+      },
+      "links": {
+        "landing": {
+          "ko": "/walk/"
+        },
+        "support": {
+          "ko": "/walk/support/"
+        },
+        "privacy": {
+          "ko": "/walk/privacy/"
+        }
+      },
+      "llms": {
+        "title": "거닐다",
+        "intro": "거닐다는 걷기 명상 전용 아이폰 + Apple Watch 앱이다. 길이(10·15·20·30분·정하지 않음)를 고르고 시작하면 안착 → 본 걷기(발·숨과 걸음·몸·소리와 시야·둘러보기·지금 여기) → 마무리 세 막으로 짧은 마음챙김 문장을 음성·햅틱·화면 한 줄로 안내한다. 2026-10-29 현재 TestFlight 테스트 중이며 App Store 출시 예정(App Store 이름: 거닐다 - 걷기명상, 산책). iOS 17 이상, watchOS 10 이상, 무료, 광고 없음, 회원가입 없음, 외부 전송 없음. 앱 언어: 한국어. 같은 팀 러닝 코치 앱 펄시의 명상 걷기를 떼어 내 만든 앱이다.",
+        "factsHeading": "핵심 사실 (2026-10-29 확인, 출시 전 빌드 기준):",
+        "facts": [
+          "안내 문장 150개를 세션마다 다르게 고르고, 안내 간격은 자주(35–60초)·보통(50–90초)·적게(90–150초) 중 고른다. 자동이면 처음 세 번은 자주, 그다음은 보통. 문장은 지시가 아니라 초대형('~해 봐요')이고 30자 이하.",
+          "안내 음성은 한국어이며, 참고한 연구들은 주 두세 번, 10–30분으로 진행됐다(효과를 단정하지 않음). 처음이면 10분·안내 '자주'를 권한다.",
+          "안내 음성은 번들 클립(네트워크 TTS 없음). 15분 이상 길이에서는 잠시 멈춰 서서 둘러보는 '정거장'(60초)이 있고, 모든 일시정지 화면에 4초 들이쉬고 6초 내쉬는 1–3분 호흡 쉬어가기가 있다.",
+          "심박: Apple Watch를 차고 있으면 걷기 범위의 위쪽만 살펴 너무 빨라지면 천천히 가자고 안내한다(심박 숫자는 화면에 보이지 않음). Watch가 없으면 느낌으로 안내한다.",
+          "배경음악 3곡을 고를 수 있다(기본 꺼짐, iPhone 스피커·이어폰, 안내 음성이 나올 땐 작아짐). 음악 앱을 함께 켜면 안내할 때만 음악이 작아진다.",
+          "걷기 리포트: 걸음과 길, 단계별 시간 막대, 정거장·멈춤·쉬어가기 횟수, 심박, 지도. 연속 기록·배지·점수는 없다.",
+          "설계 근거: 안내가 있는 걷기 명상이 무안내보다 주의 점수가 높았다는 연구(Han, Lee & Kim, 2025, Frontiers in Psychology 16, DOI 10.3389/fpsyg.2025.1572499)와 깨어 있는 시간의 46.9%가 딴생각이라는 연구(Killingsworth & Gilbert, 2010, Science 330:932)를 바탕으로 간격과 문장을 정했다. 여러 연구가 주 두세 번, 10–30분으로 진행됐다. 효과를 단정하지 않는다.",
+          "건강 앱 읽기: 심박수·운동·안정 시 심박수·생년월일. 쓰기: 걷기 운동 기록·운동 경로·마음 챙기기(5분 이상 명상 걷기만, 설정에서 끌 수 있음).",
+          "걷기 기록·설정은 iPhone에만 저장하고 iCloud 백업에 넣지 않는다. Watch에는 심박 안내에 필요한 값과 명상 걷기 설정만 기기끼리 보낸다. 서드파티 SDK·분석 도구·서버가 없다.",
+          "의료 기기가 아니며 진단·치료에 쓸 수 없다. 처음 실행할 때 안전 안내와 심박수에 영향을 주는 약 복용 여부를 묻는다.",
+          "안드로이드 버전은 없다."
+        ]
+      },
+      "pages": [
+        {
+          "lang": "ko",
+          "file": "walk/index.html",
+          "path": "/walk/",
+          "name": "거닐다",
+          "alternateName": [
+            "거닐다 걷기 명상",
+            "거닐다 - 걷기명상, 산책"
+          ],
+          "storeCountry": "kr",
+          "storeUrl": null,
+          "ct": "web-landing",
+          "currency": "KRW",
+          "modified": "2026-10-29",
+          "webpageName": "거닐다 - 음성 안내로 하는 걷기 명상, 아이폰 + Apple Watch 앱",
+          "ld": {
+            "slogan": "천천히 걸으며 숨과 발걸음에 머물러요",
+            "featureList": [
+              "10·15·20·30분 또는 정하지 않고 걷기",
+              "세 막 안내: 안착 → 발·숨·몸·소리와 시야·둘러보기·지금 여기 → 마무리",
+              "문장 150개, 간격 자주·보통·적게",
+              "정거장과 1–3분 호흡 쉬어가기",
+              "Apple Watch 심박 상한 살피기",
+              "선택형 배경음악 3곡",
+              "걷기 리포트와 건강 앱 마음 챙기기 저장"
+            ],
+            "applicationSubCategory": "걷기 명상",
+            "availableOnDevice": [
+              "iPhone",
+              "Apple Watch"
+            ],
+            "operatingSystem": "iOS 17.0+, watchOS 10+"
+          },
+          "shots": [
+            [
+              "/walk/img/screen-01.jpg",
+              "걷기 탭 홈: 물길 패널의 '명상 걷기', 길이 칩 10분(선택)·15분·20분·30분·정하지 않음, 배경음악 끔, '명상 걷기 시작' 버튼",
+              "길이를 고르고 시작"
+            ],
+            [
+              "/walk/img/screen-02.jpg",
+              "명상 걷기 진행 화면: 어두운 바탕에 세 막 진행 선과 안내 한 줄 '발이 들리고, 나아가고, 내려놓이는 걸 느껴요.', 아래 일시정지·마치기",
+              "화면에는 문장 하나만"
+            ],
+            [
+              "/walk/img/screen-03.jpg",
+              "쉬어가기: 청록 숨 원 안의 '내쉬기', 남은 시간 0:35, 심박 102, 다시 시작 버튼",
+              "1–3분 호흡 쉬어가기"
+            ],
+            [
+              "/walk/img/screen-04.jpg",
+              "요약: '명상 걷기를 마쳤어요', 10:25 · 936걸음, 지금 기분은 어때요? 가벼워요 선택, 걷기 리포트의 걸은 시간·걸음·거리·평균 속도",
+              "마치면 걷기 리포트"
+            ],
+            [
+              "/walk/img/screen-05.jpg",
+              "걷기 리포트 아래쪽: 마음을 둔 곳 단계별 시간, 멈춤·쉬어가기 횟수, 평균 심박수 116 · 최고 140 그래프, 다닌 길 지도",
+              "단계별 시간·심박·지도"
+            ]
+          ],
+          "cta": {
+            "textLive": "거닐다는 App Store에서 무료로 받을 수 있습니다.",
+            "textSoon": "거닐다는 지금 TestFlight에서 테스트 중이며, 곧 App Store에서 무료로 받을 수 있습니다.",
+            "label": "App Store에서 거닐다 받기",
             "class": "cta"
           }
         }

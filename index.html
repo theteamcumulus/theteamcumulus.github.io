@@ -7,8 +7,8 @@ permalink: /
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Team Cumulus - iPhone 앱 (빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder)</title>
-  <meta name="description" content="Team Cumulus가 만든 iPhone 앱 공식 안내: 빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder. 모든 앱은 무료이고 광고와 회원가입이 없습니다.">
+  <title>Team Cumulus - iPhone 앱 (빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder, 펄시, 거닐다)</title>
+  <meta name="description" content="Team Cumulus가 만든 iPhone 앱 공식 안내: 빨간날(공휴일엔 쉬는 알람), 출퇴근날씨(위젯으로 출근 옷차림), Lifestamp(날짜 스탬프 카메라), 카인들리(감사일기·오늘의 문장 위젯), Pixder(스와이프 사진 정리), 펄시(심박 러닝 코치), 거닐다(걷기 명상). 모두 무료, 광고·회원가입 없음.">
   <link rel="canonical" href="https://cumulus.team/">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <meta name="theme-color" content="#F4F7FB">
@@ -16,7 +16,7 @@ permalink: /
   <meta property="og:locale" content="ko_KR">
   <meta property="og:site_name" content="Team Cumulus">
   <meta property="og:title" content="Team Cumulus - iPhone 앱">
-  <meta property="og:description" content="빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder. 무료, 광고 없음, 회원가입 없음.">
+  <meta property="og:description" content="빨간날, 출퇴근날씨, Lifestamp, 카인들리, Pixder, 펄시, 거닐다. 무료, 광고 없음, 회원가입 없음.">
   <meta property="og:url" content="https://cumulus.team/">
   <meta property="og:image" content="https://cumulus.team/assets/logo-512.png">
   <meta property="og:image:width" content="512">
@@ -28,6 +28,7 @@ permalink: /
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="alternate" type="application/json" href="https://cumulus.team/apps.json" title="Team Cumulus app catalog">
   <link rel="alternate" type="text/plain" href="https://cumulus.team/llms.txt" title="llms.txt">
+  <link rel="alternate" type="text/plain" href="https://cumulus.team/llms-full.txt" title="llms-full.txt">
 
   <!-- appstore:hub-head:start -->
   <script type="application/ld+json">
@@ -62,7 +63,7 @@ permalink: /
       "@type": "ItemList",
       "@id": "https://cumulus.team/#apps",
       "name": "Team Cumulus iPhone 앱",
-      "numberOfItems": 5,
+      "numberOfItems": 7,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -117,6 +118,28 @@ permalink: /
             "name": "Pixder",
             "url": "https://cumulus.team/pixder/",
             "image": "https://cumulus.team/pixder/img/pixder-app-icon.png"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "MobileApplication",
+            "@id": "https://cumulus.team/pulsie/#app",
+            "name": "Pulsie",
+            "url": "https://cumulus.team/pulsie/",
+            "image": "https://cumulus.team/pulsie/img/pulsie-app-icon.png"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "MobileApplication",
+            "@id": "https://cumulus.team/walk/#app",
+            "name": "거닐다",
+            "url": "https://cumulus.team/walk/",
+            "image": "https://cumulus.team/walk/img/walk-app-icon.png"
           }
         }
       ]
@@ -192,6 +215,7 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
 .as-summary{font-size:1.1875rem;font-weight:600;margin:0 0 20px}
 .as-fit{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px 24px}
 .as-fit h3{font-size:1.0625rem;margin:0 0 6px}.as-fit ul{margin:0;padding-left:1.2em}
+.as-related{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:8px 24px}.as-related li{font-size:1rem;padding:6px 0;border-bottom:1px solid var(--as-line)}
 .as-apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:0 24px;list-style:none;padding:0;margin:0}
 .as-app{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 14px;padding:14px 0;border-bottom:1px solid var(--as-line)}
 .as-app .as-icon{width:64px;height:64px;grid-row:span 4}.as-app h3{margin:0;font-size:1.0625rem}
@@ -254,6 +278,20 @@ header.hero :focus-visible{outline-color:#fff;box-shadow:0 0 0 6px rgba(0,0,0,.6
             <p>스와이프 사진 정리</p>
             <p class="as-meta-line">App Store 출시 예정</p>
             <p class="as-links"><a href="/pixder/support/">지원</a> · <a href="/pixder/privacy/">개인정보 처리방침</a> · <a href="/pixder/en/" hreflang="en" lang="en">English</a> · <a href="/pixder/en/support/" hreflang="en" lang="en">Support</a> · <a href="/pixder/en/privacy/" hreflang="en" lang="en">Privacy Policy</a></p>
+          </li>
+          <li class="as-app">
+            <img class="as-icon" src="/pulsie/img/pulsie-app-icon.png" width="64" height="64" alt="">
+            <h3><a href="/pulsie/">Pulsie</a></h3>
+            <p>내 심박에 맞춘 러닝 코치</p>
+            <p class="as-meta-line">App Store 출시 예정</p>
+            <p class="as-links"><a href="/pulsie/support/">지원</a> · <a href="/pulsie/privacy/">개인정보 처리방침</a></p>
+          </li>
+          <li class="as-app">
+            <img class="as-icon" src="/walk/img/walk-app-icon.png" width="64" height="64" alt="">
+            <h3><a href="/walk/">거닐다</a></h3>
+            <p>걷기명상, 산책</p>
+            <p class="as-meta-line">App Store 출시 예정</p>
+            <p class="as-links"><a href="/walk/support/">지원</a> · <a href="/walk/privacy/">개인정보 처리방침</a></p>
           </li>
         </ul>
         <p class="as-src">App Store 정보 확인: <time datetime="2026-10-24">2026년 10월 24일</time></p>

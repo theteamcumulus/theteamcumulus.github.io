@@ -2,7 +2,7 @@
 layout: default
 permalink: /en/privacy/
 title: Team Cumulus Privacy Policy
-description: "Privacy policy for Team Cumulus: what information our website and apps (Red Day Alarm, WeatherFit, Lifestamp, Kindly, Pixder) handle, why, and how to contact us."
+description: "Privacy policy for Team Cumulus: what information our website and apps (Red Day Alarm, WeatherFit, Lifestamp, Kindly, Pixder, Pulsie, 거닐다) handle, why, and how to contact us."
 image: /assets/logo-512.png
 lang: en
 locale: en_US
@@ -26,6 +26,8 @@ Team Cumulus ("we") respects your privacy and follows the Personal Information P
 | Lifestamp | [/lifestamp/en/privacy/](/lifestamp/en/privacy/) |
 | Kindly | [/kindly/en/privacy/](/kindly/en/privacy/) |
 | Pixder | [/pixder/en/privacy/](/pixder/en/privacy/) |
+| Pulsie | [/pulsie/privacy/](/pulsie/privacy/) (Korean) |
+| 거닐다 | [/walk/privacy/](/walk/privacy/) (Korean) |
 
 ## 2. Summary of what our apps handle
 

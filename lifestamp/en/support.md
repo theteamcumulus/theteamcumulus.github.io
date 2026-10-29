@@ -43,3 +43,107 @@ The date format on each stamp is part of its design, inspired by film cameras an
 ## Contact
 
 contact@cumulus.team — you can also use Settings > Send Feedback on the camera screen.
+
+<!-- appstore:faq-ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cumulus.team/lifestamp/en/support/#faq",
+  "inLanguage": "en",
+  "about": {
+    "@id": "https://cumulus.team/lifestamp/#app"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "The camera screen says Lifestamp needs camera access.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turn on Camera in Settings > Lifestamp, or tap Open Settings on the camera screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My photos aren't in the Photos app.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check that \"Auto-Save to Photos\" is on in Settings (the gear at the top right of the camera screen), and that Settings > Lifestamp > Photos is set to \"Add Photos Only\". You can also open a photo in the app's gallery and save it with the Share button."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change the stamp style after taking a photo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Open the photo in the gallery and tap Change Stamp to pick another style or aspect ratio, or show or hide the time. The original is kept, so you can change it as many times as you like."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I change the aspect ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap the ratio button (9:16) at the top left of the camera screen to cycle through 9:16, 4:5, 1:1, and 3:4. The default 9:16 fits Instagram Stories exactly, and the stamp sits slightly inward so the story controls at the top and bottom don't cover it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which time does the stamp use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The date, time and time zone of your device at the moment you press the shutter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when I shoot in landscape?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turn your iPhone sideways and the stamp rotates to match the photo. The app's screen itself stays in portrait."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I add a stamp to photos already in the Photos app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. To record the exact moment of capture, Lifestamp only stamps photos taken in the app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I deleted a photo in the app, but it's still in Photos.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lifestamp can only add photos to the Photos app, so it can't delete the copy there. Please delete it in Photos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my photos be deleted if I delete the app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Photos in the app's gallery are deleted along with the app. Copies saved to the Photos app stay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I move my photos to a new iPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The app's gallery (including the unstamped originals) is part of your iPhone backup (iCloud Backup or a computer backup), so it moves over when you set up a new iPhone from that backup. With \"Auto-Save to Photos\" on, stamped photos are also kept in the Photos app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are the stamps in English?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The date format on each stamp is part of its design, inspired by film cameras and camcorders, so it looks the same in every language."
+      }
+    }
+  ]
+}
+</script>
+<!-- appstore:faq-ld:end -->
