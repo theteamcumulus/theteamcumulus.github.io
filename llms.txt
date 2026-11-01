@@ -5,17 +5,17 @@
 사업자 정보: 상호 Team Cumulus, 대표자 Gungu Hwang, 사업자등록번호 655-24-02328. 개인정보 처리방침: https://cumulus.team/privacy/ (English: https://cumulus.team/en/privacy/)
 
 모든 앱은 iPhone용이며 무료이고 광고와 회원가입이 없다.
-App Store 등록정보는 2026-10-24에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json · 랜딩 본문(기능·사용법·FAQ)까지 담은 전체판: https://cumulus.team/llms-full.txt
+App Store 등록정보는 2026-11-01에 iTunes Lookup으로 확인했다. 기계 판독용 카탈로그: https://cumulus.team/apps.json · 랜딩 본문(기능·사용법·FAQ)까지 담은 전체판: https://cumulus.team/llms-full.txt
 
 | 앱 | App Store 부제 | 상태 | 공식 페이지 |
 |---|---|---|---|
 | 빨간날 (Red Day Alarm) | 공휴일엔 쉬는 알람 | App Store 출시 (1.0.7) | https://cumulus.team/redday/ |
-| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.0.3) | https://cumulus.team/weatherfit/ |
+| 출퇴근날씨 (WeatherFit) | 출근·점심·퇴근, 내 체감 날씨 | App Store 출시 (1.1.0) | https://cumulus.team/weatherfit/ |
 | Lifestamp: 날짜 스탬프 카메라 | 찍는 순간을 새기는 날짜 카메라 | App Store 출시 (1.0.4) | https://cumulus.team/lifestamp/ |
-| 카인들리 (Kindly) | 감사일기 · 긍정확언 · 오늘의 문장 위젯 | App Store 출시 (1.0.1) | https://cumulus.team/kindly/ |
+| 카인들리 (Kindly) | 감사일기 · 긍정확언 · 오늘의 문장 위젯 | App Store 출시 (1.0.2) | https://cumulus.team/kindly/ |
 | Pixder (픽스더) | 스와이프 사진 정리 | 출시 예정 | https://cumulus.team/pixder/ |
 | 펄시 (Pulsie) | 내 심박에 맞춘 러닝 코치 | 출시 예정 | https://cumulus.team/pulsie/ |
-| 거닐다 | 걷기명상, 산책 | 출시 예정 | https://cumulus.team/walk/ |
+| 거닐다 | 음성 안내로 하는 10–30분 걷기 명상 | App Store 출시 (1.0) | https://cumulus.team/walk/ |
 
 ## 빨간날 (Red Day Alarm)
 ![빨간날 아이콘](https://cumulus.team/redday/img/redday-app-icon.png)
@@ -28,7 +28,7 @@ App Store 등록정보는 2026-10-24에 iTunes Lookup으로 확인했다. 기계
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 라이프스타일, 생산성 · 가격: 무료 · 연령: 4+
 - 버전: 1.0.7 (2026-10-19) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 76.9MB
-- 평점: 5.0 (3개 평가, 대한민국 App Store, 2026-10-24 확인)
+- 평점: 5.0 (4개 평가, 대한민국 App Store, 2026-11-01 확인)
 - App Store: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
@@ -68,8 +68,8 @@ App Store 등록정보는 2026-10-24에 iTunes Lookup으로 확인했다. 기계
 - App Store 이름 / 부제: 출퇴근날씨 / 출근·점심·퇴근, 내 체감 날씨
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 날씨, 라이프스타일 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.3 (2026-10-15) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.3MB
-- 평점: 5.0 (1개 평가, 대한민국 App Store, 2026-10-24 확인)
+- 버전: 1.1.0 (2026-10-25) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.5MB
+- 평점: 5.0 (1개 평가, 대한민국 App Store, 2026-11-01 확인)
 - App Store: https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/weatherfit/
 - 지원: https://cumulus.team/weatherfit/support/
@@ -112,7 +112,7 @@ Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 사진 및 비디오, 라이프스타일 · 가격: 무료 · 연령: 4+
 - 버전: 1.0.4 (2026-10-24) · 최초 출시: 2026-10-12 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 5.2MB
-- 평점: 아직 표시할 평가 없음 (2026-10-24 확인)
+- 평점: 아직 표시할 평가 없음 (2026-11-01 확인)
 - App Store: https://apps.apple.com/kr/app/id6821004763?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/lifestamp/ (English: https://cumulus.team/lifestamp/en/)
 - 지원: https://cumulus.team/lifestamp/support/ (English: https://cumulus.team/lifestamp/en/support/)
@@ -151,8 +151,8 @@ Kindly is a free iPhone app with a daily quote and Bible verse widget and an ano
 - App Store 이름 / 부제: Kindly - 카인들리 다정한 말, 좋은 사람 / 감사일기 · 긍정확언 · 오늘의 문장 위젯
 - 개발자: Team Cumulus
 - 상태: App Store 출시 · 카테고리: 라이프스타일, 건강 및 피트니스 · 가격: 무료 · 연령: 4+
-- 버전: 1.0.1 (2026-10-24) · 최초 출시: 2026-10-23 · iOS 17.0 이상 · 언어: 한국어 · 크기: 21.3MB
-- 평점: 아직 표시할 평가 없음 (2026-10-24 확인)
+- 버전: 1.0.2 (2026-10-26) · 최초 출시: 2026-10-23 · iOS 17.0 이상 · 언어: 한국어 · 크기: 21.0MB
+- 평점: 아직 표시할 평가 없음 (2026-11-01 확인)
 - App Store: https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/kindly/ (English: https://cumulus.team/kindly/en/)
 - 지원: https://cumulus.team/kindly/support/ (English: https://cumulus.team/kindly/en/support/)
@@ -259,13 +259,16 @@ Pulsie is a free iPhone + Apple Watch running coach that builds beginner, 5 km a
 
 거닐다는 음성 안내를 들으며 10–30분 걷기 명상을 하는 무료 아이폰 + Apple Watch 앱입니다. 발, 숨, 몸, 소리와 시야, 둘러보기 순서로 짧은 문장이 걷기에 머물게 돕고, 심박이 너무 오르지 않게 살핍니다.
 
-거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; nothing leaves your device.
+거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; health data stays on your device.
 
-거닐다는 걷기 명상 전용 아이폰 + Apple Watch 앱이다. 길이(10·15·20·30분·정하지 않음)를 고르고 시작하면 안착 → 본 걷기(발·숨과 걸음·몸·소리와 시야·둘러보기·지금 여기) → 마무리 세 막으로 짧은 마음챙김 문장을 음성·햅틱·화면 한 줄로 안내한다. 2026-10-29 현재 TestFlight 테스트 중이며 App Store 출시 예정(App Store 이름: 거닐다 - 걷기명상, 산책). iOS 17 이상, watchOS 10 이상, 무료, 광고 없음, 회원가입 없음, 외부 전송 없음. 앱 언어: 한국어. 같은 팀 러닝 코치 앱 펄시의 명상 걷기를 떼어 내 만든 앱이다.
+거닐다는 걷기 명상 전용 아이폰 + Apple Watch 앱이다. 길이(10·15·20·30분·정하지 않음)를 고르고 시작하면 안착 → 본 걷기(발·숨과 걸음·몸·소리와 시야·둘러보기·지금 여기) → 마무리 세 막으로 짧은 마음챙김 문장을 음성·햅틱·화면 한 줄로 안내한다. 2026-10-31 App Store에 출시됐다(App Store 이름: 거닐다 - 걷기명상, 산책). iOS 17 이상, watchOS 10 이상, 무료, 광고 없음, 회원가입 없음, 건강 데이터는 기기 안에만. 앱 언어: 한국어. 같은 팀 러닝 코치 앱 펄시의 명상 걷기를 떼어 내 만든 앱이다.
 
-- App Store 이름 / 부제: 거닐다 / 걷기명상, 산책 (App Store 출시 전, 사이트 표기)
+- App Store 이름 / 부제: 거닐다 - 걷기명상, 산책 / 음성 안내로 하는 10–30분 걷기 명상
 - 개발자: Team Cumulus
-- 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS 17.0 이상
+- 상태: App Store 출시 · 카테고리: 건강 및 피트니스, 라이프스타일 · 가격: 무료 · 연령: 4+
+- 버전: 1.0 (2026-11-01) · 최초 출시: 2026-10-31 · iOS 17.0 이상 · 언어: 한국어 · 크기: 21.4MB
+- 평점: 아직 표시할 평가 없음 (2026-11-01 확인)
+- App Store: https://apps.apple.com/kr/app/id6826716719?pt=129567498&ct=web-llms&mt=8
 - 공식 소개·FAQ: https://cumulus.team/walk/
 - 지원: https://cumulus.team/walk/support/
 - 개인정보 처리방침: https://cumulus.team/walk/privacy/
@@ -278,19 +281,19 @@ Pulsie is a free iPhone + Apple Watch running coach that builds beginner, 5 km a
 
 맞지 않는 경우:
 - 달리기 코칭이 필요한 경우(같은 팀의 펄시를 보세요)
-- 자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내와 선택형 배경음악만 있습니다)
+- 자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내만 있고, 음악은 Spotify 같은 음악 앱과 함께 씁니다)
 - 안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)
 - iOS 17 미만 아이폰
 
-핵심 사실 (2026-10-29 확인, 출시 전 빌드 기준):
-- 안내 문장 150개를 세션마다 다르게 고르고, 안내 간격은 자주(35–60초)·보통(50–90초)·적게(90–150초) 중 고른다. 자동이면 처음 세 번은 자주, 그다음은 보통. 문장은 지시가 아니라 초대형('~해 봐요')이고 30자 이하.
+핵심 사실 (1.1 기준, 2026-11-01 확인):
+- 안내 문장 221개를 세션마다 다르게 고르고, 안내 간격은 자주(35–60초)·보통(50–90초)·적게(90–150초) 중 고른다. 자동이면 처음 세 번은 자주, 그다음은 보통. 문장은 지시가 아니라 초대형('~해 봐요')이고 30자 이하.
 - 안내 음성은 한국어이며, 참고한 연구들은 주 두세 번, 10–30분으로 진행됐다(효과를 단정하지 않음). 처음이면 10분·안내 '자주'를 권한다.
 - 안내 음성은 번들 클립(네트워크 TTS 없음). 15분 이상 길이에서는 잠시 멈춰 서서 둘러보는 '정거장'(60초)이 있고, 모든 일시정지 화면에 4초 들이쉬고 6초 내쉬는 1–3분 호흡 쉬어가기가 있다.
 - 심박: Apple Watch를 차고 있으면 걷기 범위의 위쪽만 살펴 너무 빨라지면 천천히 가자고 안내한다(심박 숫자는 화면에 보이지 않음). Watch가 없으면 느낌으로 안내한다.
-- 배경음악 3곡을 고를 수 있다(기본 꺼짐, iPhone 스피커·이어폰, 안내 음성이 나올 땐 작아짐). 음악 앱을 함께 켜면 안내할 때만 음악이 작아진다.
+- 앱 안에 배경음악은 없다. 홈에서 Spotify의 차분한 플레이리스트(Peaceful Piano·Ambient Relaxation·Deep Focus)를 열 수 있고(앱은 링크만 열고 재생하지 않음), 음악 앱을 함께 켜면 안내할 때만 음악이 작아진다.
 - 걷기 리포트: 걸음과 길, 단계별 시간 막대, 정거장·멈춤·쉬어가기 횟수, 심박, 지도. 연속 기록·배지·점수는 없다.
 - 설계 근거: 안내가 있는 걷기 명상이 무안내보다 주의 점수가 높았다는 연구(Han, Lee & Kim, 2025, Frontiers in Psychology 16, DOI 10.3389/fpsyg.2025.1572499)와 깨어 있는 시간의 46.9%가 딴생각이라는 연구(Killingsworth & Gilbert, 2010, Science 330:932)를 바탕으로 간격과 문장을 정했다. 여러 연구가 주 두세 번, 10–30분으로 진행됐다. 효과를 단정하지 않는다.
 - 건강 앱 읽기: 심박수·운동·안정 시 심박수·생년월일. 쓰기: 걷기 운동 기록·운동 경로·마음 챙기기(5분 이상 명상 걷기만, 설정에서 끌 수 있음).
-- 걷기 기록·설정은 iPhone에만 저장하고 iCloud 백업에 넣지 않는다. Watch에는 심박 안내에 필요한 값과 명상 걷기 설정만 기기끼리 보낸다. 서드파티 SDK·분석 도구·서버가 없다.
+- 걷기 기록·설정은 iPhone에만 저장하고 iCloud 백업에 넣지 않는다. Watch에는 심박 안내에 필요한 값과 명상 걷기 설정만 기기끼리 보낸다. 서버·광고 SDK가 없고, 건강 데이터·정확한 위치·기분을 빼고 고른 길이·걸은 시간 범위·횟수 같은 사용 통계만 Firebase Analytics로 이용자와 연결하지 않고 모은다(1.1부터).
 - 의료 기기가 아니며 진단·치료에 쓸 수 없다. 처음 실행할 때 안전 안내와 심박수에 영향을 주는 약 복용 여부를 묻는다.
 - 안드로이드 버전은 없다.

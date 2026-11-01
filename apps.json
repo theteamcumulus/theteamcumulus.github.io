@@ -44,7 +44,7 @@
       "primaryGenreName": "Lifestyle",
       "trackContentRating": "4+",
       "averageUserRating": 5.0,
-      "userRatingCount": 3,
+      "userRatingCount": 4,
       "fileSizeBytes": "76892160",
       "minimumOsVersion": "26.0",
       "languageCodesISO2A": [
@@ -54,7 +54,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/aa/93/62aa9398-6e97-d553-7254-264e58901014/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-24",
+      "checked": "2026-11-01",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -101,10 +101,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6819701703",
       "bundleId": "com.cumulus.weatherfit",
-      "version": "1.0.3",
-      "currentVersionReleaseDate": "2026-10-15T07:02:44Z",
+      "version": "1.1.0",
+      "currentVersionReleaseDate": "2026-10-25T01:46:35Z",
       "releaseDate": "2026-10-12T07:00:00Z",
-      "releaseNotes": "• 홈 화면 작은 위젯이 다가오는 시간대를 알아서 보여줘요. 출근 전엔 출근길, 그다음 점심, 퇴근길, 퇴근 뒤엔 내일 출근길로 바뀌어요. 위젯 편집에서 특정 시간대나 현재 날씨로 고정할 수도 있어요.\n• 아직 위젯을 놓지 않았다면 홈 화면에 위젯을 추가하는 방법을 안내해 드려요.\n• 기상청 예보가 늦게 올라오는 시간에도 직전 예보로 날씨를 보여줘요. 기상청 예보를 받지 못하면 다른 예보(Open-Meteo)로 대신 보여드려요.",
+      "releaseNotes": "• 새 \"이번 주\" 탭: 돌아오는 주말 토·일의 아침·낮·저녁 체감과 나들이하기 제일 좋은 때, 그때 옷차림을 알려드려요. 비가 오면 강수량까지 보여드려요.\n• 이번 주·다음 주 평일 출퇴근 체감을 한눈에 볼 수 있어요. 줄을 누르면 출근·퇴근 시각 체감과 옷차림이 펼쳐져요.\n• 옷차림 추천이 더 다양해졌어요. 날마다 다른 조합으로, 옷과 신발·소품을 나눠 읽기 쉽게 보여드려요.",
       "genres": [
         "날씨",
         "라이프스타일"
@@ -113,7 +113,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 5.0,
       "userRatingCount": 1,
-      "fileSizeBytes": "41323520",
+      "fileSizeBytes": "41540608",
       "minimumOsVersion": "15.1",
       "languageCodesISO2A": [
         "KO"
@@ -121,8 +121,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/2b/f2/b52bf209-b187-2ccf-55c1-3dbf4b6262b9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-24",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/da/fd/58dafddf-fa3f-f3dc-247b-7f044d14811b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-11-01",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -202,7 +202,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-24",
+      "checked": "2026-11-01",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -267,10 +267,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6819722166",
       "bundleId": "com.cumulus.inspire",
-      "version": "1.0.1",
-      "currentVersionReleaseDate": "2026-10-23T23:51:58Z",
+      "version": "1.0.2",
+      "currentVersionReleaseDate": "2026-10-26T02:35:18Z",
       "releaseDate": "2026-10-23T07:00:00Z",
-      "releaseNotes": "• 홈 화면 위젯을 쉽게 추가하도록 안내해요. 설정 › 홈 화면 위젯 추가하는 방법에서 미리보기와 함께 단계별로 볼 수 있어요.\n• 공감이 12가지로 늘었어요. 더 보기를 눌러 마음에 맞는 반응을 골라 보세요.\n• 잘못 누른 공감은 길게 눌러 취소해요.\n• 마음 나눔 글을 배경 이미지와 함께 친구에게 보낼 수 있어요.\n• 글을 더 편하게 읽도록 마음 나눔 글의 작성 시각을 뺐어요.",
+      "releaseNotes": "• 새 아이콘과 함께 앱이 따뜻한 크림·산호색으로 새로워졌어요.\n• 마음 나눔에 '내 글' 탭이 생겼어요. 내가 쓴 글을 한곳에서 모아 볼 수 있어요.\n• 글을 두 번 톡 누르면 감사일기엔 '감사해요', 긍정확언엔 '응원해요'처럼 글 종류에 맞는 공감이 가요. 한 번 더 누르면 다른 공감이 이어져요.\n• Kindly 공식 계정이 글쓰기 질문과 팁을 나눠요. 공식 글에는 '공식' 표시가 붙어요.",
       "genres": [
         "라이프스타일",
         "건강 및 피트니스"
@@ -279,7 +279,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 0.0,
       "userRatingCount": 0,
-      "fileSizeBytes": "21250048",
+      "fileSizeBytes": "21028864",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
         "KO"
@@ -287,8 +287,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/2d/51/fc2d5138-ff09-f993-c0c4-fd09b34ff596/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-10-24",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/38/f1/0038f1ac-9898-aec6-85a4-7bc63d64b846/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-11-01",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -441,22 +441,22 @@
     },
     {
       "slug": "walk",
-      "status": "coming_soon",
+      "status": "live",
       "trackId": 6826716719,
-      "trackName": "거닐다",
+      "trackName": "거닐다 - 걷기명상, 산책",
       "names": {
         "ko": "거닐다",
         "en": "거닐다"
       },
       "subtitle": {
-        "ko": "걷기명상, 산책",
+        "ko": "음성 안내로 하는 10–30분 걷기 명상",
         "en": "Walking meditation"
       },
-      "subtitleSource": "site (App Store 미등록)",
+      "subtitleSource": "appstore",
       "developer": "Team Cumulus",
       "summary": {
         "ko": "거닐다는 음성 안내를 들으며 10–30분 걷기 명상을 하는 무료 아이폰 + Apple Watch 앱입니다. 발, 숨, 몸, 소리와 시야, 둘러보기 순서로 짧은 문장이 걷기에 머물게 돕고, 심박이 너무 오르지 않게 살핍니다.",
-        "en": "거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; nothing leaves your device."
+        "en": "거닐다 (Geonilda) is a free iPhone + Apple Watch walking meditation app: short voice prompts guide a 10–30 minute mindful walk through feet, breath, body, senses and surroundings, and keep your heart rate from climbing too high. Korean only; health data stays on your device."
       },
       "iconUrl": "https://cumulus.team/walk/img/walk-app-icon.png",
       "landingUrls": {
@@ -468,11 +468,31 @@
       "privacyUrls": {
         "ko": "https://cumulus.team/walk/privacy/"
       },
+      "appStoreUrl": "https://apps.apple.com/kr/app/id6826716719",
+      "bundleId": "com.cumulus.walk",
+      "version": "1.0",
+      "currentVersionReleaseDate": "2026-11-01T00:31:04Z",
+      "releaseDate": "2026-10-31T07:00:00Z",
+      "releaseNotes": null,
+      "genres": [
+        "건강 및 피트니스",
+        "라이프스타일"
+      ],
+      "primaryGenreName": "Health & Fitness",
+      "trackContentRating": "4+",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "fileSizeBytes": "21356544",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
         "KO"
       ],
-      "price": 0,
+      "formattedPrice": "무료",
+      "price": 0.0,
+      "currency": "KRW",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/9b/ef/f79bef57-0795-f934-f139-47e4972c7dd8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-11-01",
+      "storefront": "kr",
       "fit": {
         "ko": {
           "for": [
@@ -483,7 +503,7 @@
           ],
           "not": [
             "달리기 코칭이 필요한 경우(같은 팀의 펄시를 보세요)",
-            "자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내와 선택형 배경음악만 있습니다)",
+            "자연음 배경이나 긴 강의형 명상을 원하는 경우(짧은 문장 안내만 있고, 음악은 Spotify 같은 음악 앱과 함께 씁니다)",
             "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
             "iOS 17 미만 아이폰"
           ]
