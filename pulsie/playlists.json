@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "recommended": { "easy": "runWild", "hard": "beastMode" },
+  "playlists": [
+    { "key": "runWild", "title": "Run Wild", "line": "가볍게 달리기 좋은 팝", "playlistID": "37i9dQZF1DX35oM5SPECmN", "mood": "easy" },
+    { "key": "funRun", "title": "Fun Run", "line": "밝은 팝", "playlistID": "37i9dQZF1DXadOVCgGhS7j", "mood": "easy" },
+    { "key": "indieRunning", "title": "Indie Running", "line": "인디 록·팝", "playlistID": "37i9dQZF1DWZq91oLsHZvy", "mood": "easy" },
+    { "key": "kpopOn", "title": "K-Pop ON! (온)", "line": "요즘 K-pop", "playlistID": "37i9dQZF1DX9tPFwDMOaN1", "mood": "easy" },
+    { "key": "beastMode", "title": "Beast Mode", "line": "힘 있는 힙합·EDM", "playlistID": "37i9dQZF1DX76Wlfdnj7AP", "mood": "hard" },
+    { "key": "powerWorkout", "title": "Power Workout", "line": "빠른 박자의 팝·EDM", "playlistID": "37i9dQZF1DWUVpAXiEPK8P", "mood": "hard" },
+    { "key": "cardio", "title": "Cardio", "line": "빠른 댄스곡", "playlistID": "37i9dQZF1DWSJHnPb1f0X3", "mood": "hard" }
+  ]
+}
