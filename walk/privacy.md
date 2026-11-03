@@ -60,7 +60,7 @@ image: /walk/img/walk-app-icon.png
 
 ## 6. 외부 링크
 
-홈의 "Spotify에서 듣기"를 누르면 고른 플레이리스트 주소(open.spotify.com)를 Spotify 앱이나 브라우저로 엽니다. 거닐다는 Spotify에 로그인하거나 어떤 정보도 Spotify에 보내지 않으며, 그 뒤의 이용은 Spotify의 개인정보 처리방침을 따릅니다.
+홈의 "Spotify에서 재생"를 누르면 고른 플레이리스트 주소(open.spotify.com)를 Spotify 앱이나 브라우저로 엽니다. 거닐다는 Spotify에 로그인하거나 어떤 정보도 Spotify에 보내지 않으며, 그 뒤의 이용은 Spotify의 개인정보 처리방침을 따릅니다.
 
 ## 7. 보유 기간과 국외 이전
 

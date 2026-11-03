@@ -17,7 +17,7 @@ image: /walk/img/walk-app-icon.png
 설정 › 음성 안내가 켜져 있는지, iPhone이 무음 모드가 아닌지 확인하세요. 설정 › 음성 › 안내 목소리 미리 듣기로 바로 확인할 수 있습니다. 안내는 앱에 들어 있는 음성 클립이라 인터넷은 필요 없습니다.
 
 **음악을 함께 듣고 싶어요.**
-홈의 'Spotify에서 듣기'를 누르면 고른 플레이리스트(Peaceful Piano·Ambient Relaxation·Deep Focus)가 Spotify에서 열립니다. 음악을 켜 두고 거닐다로 돌아와 시작하세요. 다른 음악 앱도 함께 쓸 수 있고, 안내 음성이 나올 땐 음악 소리가 잠깐 작아집니다. 앱 안의 배경음악은 1.1에서 뺐습니다.
+홈의 'Spotify에서 재생'를 누르면 고른 플레이리스트(Peaceful Piano·Ambient Relaxation·Deep Focus)가 Spotify에서 열립니다. 음악을 켜 두고 거닐다로 돌아와 시작하세요. 다른 음악 앱도 함께 쓸 수 있고, 안내 음성이 나올 땐 음악 소리가 잠깐 작아집니다. 앱 안의 배경음악은 1.1에서 뺐습니다.
 
 **안내가 너무 잦거나 너무 드물어요.**
 설정 › 명상 걷기 › 안내에서 자주·보통·적게를 고르세요. 자동이면 처음 세 번은 자주, 그다음은 보통입니다.
@@ -68,7 +68,7 @@ contact@cumulus.team — 앱 버전(설정 › 정보)과 iPhone·Apple Watch �
       "name": "음악을 함께 듣고 싶어요.",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "홈의 'Spotify에서 듣기'를 누르면 고른 플레이리스트(Peaceful Piano·Ambient Relaxation·Deep Focus)가 Spotify에서 열립니다. 음악을 켜 두고 거닐다로 돌아와 시작하세요. 다른 음악 앱도 함께 쓸 수 있고, 안내 음성이 나올 땐 음악 소리가 잠깐 작아집니다. 앱 안의 배경음악은 1.1에서 뺐습니다."
+        "text": "홈의 'Spotify에서 재생'를 누르면 고른 플레이리스트(Peaceful Piano·Ambient Relaxation·Deep Focus)가 Spotify에서 열립니다. 음악을 켜 두고 거닐다로 돌아와 시작하세요. 다른 음악 앱도 함께 쓸 수 있고, 안내 음성이 나올 땐 음악 소리가 잠깐 작아집니다. 앱 안의 배경음악은 1.1에서 뺐습니다."
       }
     },
     {

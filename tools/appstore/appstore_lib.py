@@ -317,7 +317,9 @@ def block_whatsnew(app, page):
             notes.append(f'        <p>{esc(line)}</p>')
     if items:
         notes.append('        <ul class="as-notes">\n' + '\n'.join(f'          <li>{esc(i)}</li>' for i in items) + '\n        </ul>')
-    body = ('\n' + '\n'.join(notes)) if notes else ''
+    if not notes:  # 첫 버전처럼 App Store에 새로운 기능 문구가 없으면 섹션을 만들지 않는다
+        return ''
+    body = '\n' + '\n'.join(notes)
     return f'''    <section id="whats-new" aria-labelledby="h-new">
       <div class="wrap">
         <h2 id="h-new">{t["new_h"]}</h2>
