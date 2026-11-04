@@ -54,7 +54,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/aa/93/62aa9398-6e97-d553-7254-264e58901014/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -122,7 +122,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/da/fd/58dafddf-fa3f-f3dc-247b-7f044d14811b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -202,7 +202,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -288,7 +288,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/38/f1/0038f1ac-9898-aec6-85a4-7bc63d64b846/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -404,8 +404,8 @@
       "subtitleSource": "appstore",
       "developer": "Team Cumulus",
       "summary": {
-        "ko": "펄시는 Apple Watch 심박과 건강 앱 데이터로 입문·5 km·10 km 러닝 주간 플랜을 만들고, 달리는 동안 내 심박에 맞는 강도를 음성으로 안내하는 무료 아이폰 러닝 코치 앱입니다.",
-        "en": "Pulsie is a free iPhone + Apple Watch running coach that builds beginner, 5 km and 10 km weekly plans from your heart rate and Health data, and guides your effort by voice while you run. Korean only; health data stays on your device."
+        "ko": "펄시는 심박과 건강 앱 데이터로 입문·5 km·10 km 러닝 주간 플랜을 만들고, 달리는 동안 내 심박에 맞는 강도를 음성으로 안내하는 무료 아이폰 러닝 코치 앱입니다.",
+        "en": "Pulsie is a free iPhone running coach (Apple Watch optional, needed for heart-rate guidance) that builds beginner, 5 km and 10 km weekly plans from your heart rate and Health data, and guides your effort by voice while you run. Korean only; health data stays on your device."
       },
       "iconUrl": "https://cumulus.team/pulsie/img/pulsie-app-icon.png",
       "landingUrls": {
@@ -419,10 +419,10 @@
       },
       "appStoreUrl": "https://apps.apple.com/kr/app/id6822345508",
       "bundleId": "com.cumulus.health",
-      "version": "1.0",
-      "currentVersionReleaseDate": "2026-11-02T16:43:52Z",
+      "version": "1.1",
+      "currentVersionReleaseDate": "2026-11-04T02:25:54Z",
       "releaseDate": "2026-11-02T08:00:00Z",
-      "releaseNotes": null,
+      "releaseNotes": "• Apple Watch 없이도 달릴 수 있어요. 시작할 때 Watch를 찾지 못하면 Watch 없이 시작할지 물어보고, 심박 대신 느낌으로 안내해요.\n• 오늘의 달리기에 맞는 Spotify 플레이리스트를 추천해요. 시작 전에 음악을 켜 두세요.\n• 추천 플레이리스트는 앱 업데이트 없이 새로 바뀔 수 있어요.",
       "genres": [
         "건강 및 피트니스"
       ],
@@ -430,7 +430,7 @@
       "trackContentRating": "4+",
       "averageUserRating": 0.0,
       "userRatingCount": 0,
-      "fileSizeBytes": "37116928",
+      "fileSizeBytes": "37395456",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
         "KO"
@@ -438,8 +438,8 @@
       "formattedPrice": "무료",
       "price": 0.0,
       "currency": "KRW",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/87/c3/aa87c336-5f4b-c9cd-7efb-7dc7bae79bb2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/55/2d/25552d80-13fb-c0dd-1ff5-6a31c920b89c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -450,7 +450,7 @@
             "Apple Watch로 심박을 재면서 달리는 분"
           ],
           "not": [
-            "Apple Watch가 없는 경우(운동은 Watch 심박 측정이 준비돼야 시작됩니다)",
+            "Apple Watch 없이 심박 범위 안내까지 받고 싶은 경우(Watch가 없으면 시간과 느낌으로 안내합니다)",
             "하프·풀코스 훈련 계획이 필요한 경우(아직 입문·5 km·10 km만 있습니다)",
             "안드로이드 폰을 쓰는 경우(안드로이드 버전은 없습니다)",
             "iOS 17 미만 아이폰, watchOS 10 미만 Apple Watch"
@@ -510,7 +510,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/a4/20/fca420ac-c1a9-c476-70fa-7d47a99a2b66/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-04",
+      "checked": "2026-11-05",
       "storefront": "kr",
       "fit": {
         "ko": {
