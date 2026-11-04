@@ -18,14 +18,15 @@ Lifestamp ("the app") does not collect information that directly identifies you,
 
 We do not collect:
 
-- Your photos, the date and time stamped on them, or photo location data
+- Your photos, the date, time and weather stamped on them, or photo location data
 - The advertising identifier (IDFA), contacts or precise location
 - Your activity in other apps or on websites (we do not track you)
 
 ## 2. Information stored on your device
 
 - Photos taken in the app (original, stamped photo and thumbnail) and their capture time are kept only in the app's storage on your device.
-- Your last stamp style, aspect ratio, and the "Auto-Save to Photos" setting are stored on your device.
+- The weather at the time of each photo (condition and temperature) is stored with the photo's record on your device. Your location is not stored.
+- Your last stamp style, aspect ratio, and the "Auto-Save to Photos" and "Show Weather on Stamp" settings are stored on your device.
 - If you use iPhone backup (iCloud Backup or a computer backup), the app's storage is included in your backup. Backups are managed by Apple and you; we cannot access them.
 - Deleting the app deletes the photos and settings in the app's storage. Copies saved to the Photos app must be deleted in Photos.
 
@@ -46,10 +47,19 @@ The information in section 1 is processed by Firebase, a service of Google LLC, 
 
 You can learn more about how Google handles this data at https://firebase.google.com/support/privacy
 
+To get the weather for your stamp, the app sends your approximate location to Open-Meteo (from the version that includes stamp weather).
+
+- Recipient: OpenMeteo GmbH (Switzerland, https://open-meteo.com)
+- Data: latitude and longitude reduced to about 1 km, and the IP address used for the network connection
+- When and how: about every 10 minutes while the camera screen is open, over an encrypted connection
+- Purpose: looking up the current weather
+- Retention: may remain in Open-Meteo's server logs and is deleted after 90 days (per Open-Meteo's terms). The app developer does not receive this data.
+
 ## 5. Permissions
 
 - Camera: used to take photos and show the stamp preview on screen.
 - Add to Photos: used to save stamped photos to the Photos app. The app cannot read or change existing photos in Photos (add-only access). You can turn off auto-save in the app's settings.
+- Location (while using the app): used to add the current weather to your stamp, based on your approximate location. No location data is added to your photos. If you don't allow it, or turn off "Show Weather on Stamp" in settings, photos are stamped without weather and your location is not used.
 
 You can install and open the app without granting these permissions, and you can change them anytime in Settings > Lifestamp.
 
