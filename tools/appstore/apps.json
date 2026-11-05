@@ -22,6 +22,10 @@
       "storeCountries": [
         "kr"
       ],
+      "play": {
+        "packageId": "com.cumulus.redday",
+        "status": "testing"
+      },
       "name": {
         "ko": "빨간날",
         "en": "Red Day Alarm"
@@ -200,6 +204,10 @@
       "storeCountries": [
         "kr"
       ],
+      "play": {
+        "packageId": "com.cumulus.weatherfit",
+        "status": "testing"
+      },
       "name": {
         "ko": "출퇴근날씨",
         "en": "WeatherFit"
@@ -673,6 +681,10 @@
       "storeCountries": [
         "kr"
       ],
+      "play": {
+        "packageId": "com.cumulus.kindly",
+        "status": "testing"
+      },
       "name": {
         "ko": "Kindly",
         "en": "Kindly"

@@ -56,6 +56,9 @@
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/aa/93/62aa9398-6e97-d553-7254-264e58901014/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "checked": "2026-11-05",
       "storefront": "kr",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.redday",
+      "playPackageId": "com.cumulus.redday",
+      "playStatus": "testing",
       "fit": {
         "ko": {
           "for": [
@@ -124,6 +127,9 @@
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/da/fd/58dafddf-fa3f-f3dc-247b-7f044d14811b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "checked": "2026-11-05",
       "storefront": "kr",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.weatherfit",
+      "playPackageId": "com.cumulus.weatherfit",
+      "playStatus": "testing",
       "fit": {
         "ko": {
           "for": [
@@ -290,6 +296,9 @@
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/38/f1/0038f1ac-9898-aec6-85a4-7bc63d64b846/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "checked": "2026-11-05",
       "storefront": "kr",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.kindly",
+      "playPackageId": "com.cumulus.kindly",
+      "playStatus": "testing",
       "fit": {
         "ko": {
           "for": [

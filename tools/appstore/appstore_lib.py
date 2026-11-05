@@ -7,6 +7,7 @@ import json
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = Path(__file__).resolve().parent / 'apps.json'
@@ -172,6 +173,28 @@ def rating_text(store):
 def store_link(page, where, pt):
     ct = f"{page['ct']}-{where}"
     return f"{page['storeUrl']}?pt={pt}&amp;ct={ct}&amp;mt=8"
+
+
+PLAY_STORE = 'https://play.google.com/store/apps/details?id='
+
+
+def play_url(app):
+    """Google Play 정식 주소(캠페인 없음). apps.json의 play.packageId가 없으면 None."""
+    play = app.get('play')
+    return PLAY_STORE + play['packageId'] if play else None
+
+
+def play_link(app, ct):
+    """Google Play 캠페인 링크(docs/campaigns.md): referrer에 utm_source=cumulus.team·utm_medium=web·utm_campaign=<ct>."""
+    url = play_url(app)
+    if not url:
+        return None
+    referrer = quote(f'utm_source=cumulus.team&utm_medium=web&utm_campaign={ct}', safe='')
+    return f'{url}&amp;referrer={referrer}'
+
+
+def play_testing(app):
+    return (app.get('play') or {}).get('status') == 'testing'
 
 
 def icon_path(app):

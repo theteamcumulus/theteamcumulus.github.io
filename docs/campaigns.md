@@ -47,4 +47,5 @@
 - `utm_source=cumulus.team`, `utm_medium=web`, `utm_campaign=<위 ct 표와 같은 값>` — iOS와 같은 위치는 같은 이름을 써서 플랫폼끼리 비교한다. 사이트 밖은 `utm_source=<instagram 등>&utm_medium=social|community|qr`.
 - referrer 값 전체를 한 번 URL 인코딩한다(`=`→`%3D`, `&`→`%26`). HTML 속성 안에서 `id=…&referrer=` 사이의 `&`는 `&amp;`.
 - 보는 곳: Play Console › 통계 › 스토어 등록정보 획득(UTM 캠페인별 방문·설치) / Firebase Analytics 첫 사용자 소스·캠페인(앱 SDK가 Play Install Referrer로 읽음).
-- 출시 전에는 링크를 내보내지 않는다. weatherfit은 `build_landing.py`의 `PLAY_LIVE`(False)·`play_link(ct)`로 준비돼 있다. 출시하면 True로 바꾸고 FAQ·meta·JSON-LD·llms.txt의 "iPhone 전용" 문구를 같이 고친다.
+- 허브(/)·/apps.json·llms.txt의 Google Play 링크는 `tools/appstore/apps.json`의 `play`(packageId·status)로 `render.py`가 만든다(`appstore_lib.play_link(app, ct)`, ct는 `web-hub`·`web-llms`). 2026-11-05 사용자 결정으로 출퇴근날씨·빨간날·kindly의 안드로이드 테스트(status `testing`) 링크를 허브에 "Google Play 테스트 참여"로 내보낸다. 테스트 중인 앱의 Play 페이지는 테스터로 등록된 Google 계정으로 로그인하지 않으면 404다(curl도 404). 정식 출시하면 status를 `live`로 바꾼다(문구가 "Google Play에서 보기"로 바뀜).
+- 앱 랜딩에는 Play 출시 전 링크를 내보내지 않는다. weatherfit은 `build_landing.py`의 `PLAY_LIVE`(False)·`play_link(ct)`로 준비돼 있다. 출시하면 True로 바꾸고 FAQ·meta·JSON-LD·llms.txt의 "iPhone 전용" 문구를 같이 고친다.

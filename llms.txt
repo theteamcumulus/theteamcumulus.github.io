@@ -30,6 +30,7 @@ App Store 등록정보는 2026-11-05에 iTunes Lookup으로 확인했다. 기계
 - 버전: 1.0.7 (2026-10-19) · 최초 출시: 2026-10-08 · iOS 26.0 이상 · 언어: 한국어 · 크기: 76.9MB
 - 평점: 5.0 (4개 평가, 대한민국 App Store, 2026-11-05 확인)
 - App Store: https://apps.apple.com/kr/app/id6819717732?pt=129567498&ct=web-llms&mt=8
+- Google Play: https://play.google.com/store/apps/details?id=com.cumulus.redday&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-llms (안드로이드 테스트 중, 테스터 참여 링크)
 - 공식 소개·FAQ: https://cumulus.team/redday/
 - 지원: https://cumulus.team/redday/support/
 - 개인정보 처리방침: https://cumulus.team/redday/privacy/
@@ -71,6 +72,7 @@ App Store 등록정보는 2026-11-05에 iTunes Lookup으로 확인했다. 기계
 - 버전: 1.1.0 (2026-10-25) · 최초 출시: 2026-10-12 · iOS 15.1 이상 · 언어: 한국어 · 크기: 41.5MB
 - 평점: 5.0 (1개 평가, 대한민국 App Store, 2026-11-05 확인)
 - App Store: https://apps.apple.com/kr/app/id6819701703?pt=129567498&ct=web-llms&mt=8
+- Google Play: https://play.google.com/store/apps/details?id=com.cumulus.weatherfit&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-llms (안드로이드 테스트 중, 테스터 참여 링크)
 - 공식 소개·FAQ: https://cumulus.team/weatherfit/
 - 지원: https://cumulus.team/weatherfit/support/
 - 개인정보 처리방침: https://cumulus.team/weatherfit/privacy/
@@ -154,6 +156,7 @@ Kindly is a free iPhone app with a daily quote and Bible verse widget and an ano
 - 버전: 1.0.2 (2026-10-26) · 최초 출시: 2026-10-23 · iOS 17.0 이상 · 언어: 한국어 · 크기: 21.0MB
 - 평점: 아직 표시할 평가 없음 (2026-11-05 확인)
 - App Store: https://apps.apple.com/kr/app/id6819722166?pt=129567498&ct=web-llms&mt=8
+- Google Play: https://play.google.com/store/apps/details?id=com.cumulus.kindly&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-llms (안드로이드 테스트 중, 테스터 참여 링크)
 - 공식 소개·FAQ: https://cumulus.team/kindly/ (English: https://cumulus.team/kindly/en/)
 - 지원: https://cumulus.team/kindly/support/ (English: https://cumulus.team/kindly/en/support/)
 - 개인정보 처리방침: https://cumulus.team/kindly/privacy/ (English: https://cumulus.team/kindly/en/privacy/)

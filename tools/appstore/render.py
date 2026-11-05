@@ -68,6 +68,9 @@ def hub_card(data, app):
     parts = []
     if store:
         parts.append(f'<a href="{page["storeUrl"]}?pt={data["site"]["pt"]}&amp;ct=web-hub&amp;mt=8">App Store에서 보기</a>')
+    if AS.play_url(app):
+        label = 'Google Play 테스트 참여' if AS.play_testing(app) else 'Google Play에서 보기'
+        parts.append(f'<a href="{AS.play_link(app, "web-hub")}" rel="noopener">{label}</a>')
     parts += [f'<a href="{links["support"]["ko"]}">지원</a>', f'<a href="{links["privacy"]["ko"]}">개인정보 처리방침</a>']
     if 'en' in links['landing']:
         parts += [f'<a href="{links["landing"]["en"]}" hreflang="en" lang="en">English</a>',
@@ -137,6 +140,10 @@ def catalog(data):
             entry['minimumOsVersion'] = a['facts']['minimumOsVersion']
             entry['languageCodesISO2A'] = a['facts']['languages']
             entry['price'] = 0
+        if AS.play_url(a):
+            entry['playStoreUrl'] = AS.play_url(a)
+            entry['playPackageId'] = a['play']['packageId']
+            entry['playStatus'] = a['play']['status']
         entry['fit'] = a['fit']
         apps.append(entry)
     return json.dumps({'publisher': data['site']['developer'], 'url': base + '/', 'email': data['site']['email'],
@@ -173,6 +180,9 @@ def llms_card(data, a):
         out.append(f'- App Store: {page["storeUrl"]}?pt={s["pt"]}&ct=web-llms&mt=8')
     else:
         out.append(f'- 상태: App Store 출시 예정(아직 설치할 수 없음) · 가격: 무료 · iOS {a["facts"]["minimumOsVersion"]} 이상')
+    if AS.play_url(a):
+        note = ' (안드로이드 테스트 중, 테스터 참여 링크)' if AS.play_testing(a) else ''
+        out.append(f'- Google Play: {AS.play_link(a, "web-llms").replace("&amp;", "&")}{note}')
     links = a['links']
     en = lambda k: f' (English: {base}{links[k]["en"]})' if 'en' in links[k] else ''
     out.append(f'- 공식 소개·FAQ: {base}{links["landing"]["ko"]}{en("landing")}')
