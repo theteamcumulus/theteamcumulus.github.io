@@ -406,7 +406,7 @@
           ],
           [
             "기기에만 저장",
-            "사진과 촬영 시각은 기기 안에만 저장되고 서버로 보내지 않습니다."
+            "사진과 촬영 시각은 기기 안에만 저장되고 서버로 보내지 않습니다. 날씨를 받을 때만 약 1km 단위로 줄인 위치를 날씨 서비스(Open-Meteo)에 보냅니다."
           ]
         ],
         "en": [
@@ -416,7 +416,7 @@
           ],
           [
             "Stays on your device",
-            "Your photos and their capture times stay on your device and are never uploaded."
+            "Your photos and their capture times stay on your device and are never uploaded. Only for the weather stamp, a location rounded to about 1 km is sent to the weather service (Open-Meteo)."
           ]
         ]
       },
@@ -453,12 +453,13 @@
       "llms": {
         "title": "Lifestamp: 날짜 스탬프 카메라",
         "intro": "Lifestamp는 셔터를 누른 순간의 날짜와 시각을 필름 카메라 날짜 표시처럼 사진에 스탬프로 새겨 주는 아이폰 카메라 앱이다. 슬로건: \"Your life. Your story.\" / \"삶의 모든 순간이 하나의 이야기가 됩니다.\" iOS 17 이상, 무료, 광고 없음, 회원가입 없음. 앱 언어: 한국어, 영어, 일본어, 중국어(간체·번체), 스페인어, 프랑스어, 독일어. 이름 이력: SandTime → Lifory(2026-10-11) → Lifestamp(현재 이름, /lifory/·/sandtime/은 /lifestamp/로 연결).",
-        "factsHeading": "핵심 사실 (2026-10-24 확인):",
+        "factsHeading": "핵심 사실 (1.0.5 기준, 2026-11-06 확인):",
         "facts": [
           "아이폰 기본 카메라에는 사진에 날짜를 새기는 기능이 없다. Lifestamp는 촬영 순간의 기기 날짜·시각·시간대를 미리보기 그대로 사진에 합성한다.",
           "스탬프 15가지: Film, Minimal, Camcorder, Instant(즉석사진 테두리), 35mm(필름 스트립), Timemark, Magazine, Postmark(소인), Inked(고무 도장), Ticket, Receipt(영수증), Calendar(달력), Scribble, Sticker, Marker. 화면을 좌우로 넘겨 전환. 스탬프 글자는 모든 언어에서 영어 형식.",
           "사진 비율 9:16(기본, 인스타그램 스토리 크기)·4:5·1:1·3:4를 카메라와 편집 화면에서 고른다. 원본은 자르지 않고 보관한다. 9:16은 스토리 화면 위아래 메뉴 자리에 스탬프를 두지 않는다.",
           "스탬프 없는 원본을 앱 안에 보관해 찍은 뒤에도 스타일과 시각 표시 여부를 다시 바꿀 수 있다.",
+          "1.0.5부터 촬영 순간의 날씨 아이콘(맑음·구름·흐림·안개·비·눈·뇌우, 밤에는 달)과 기온이 스탬프에 들어간다. 날씨는 Open-Meteo에서 받고 위치는 약 1km 단위로 줄여 보낸다. 위치를 허용하지 않거나 날씨를 받지 못하면 날씨 없이 찍힌다. 설정과 사진별 편집에서 끌 수 있다.",
           "앱에서 직접 찍은 사진에만 스탬프를 넣는다. 사진 앱 권한은 추가 전용이라 기존 사진을 읽지 않는다.",
           "0.5배 광각·망원 줌, 전면 카메라, 플래시, 가로 촬영 시 스탬프 회전 지원. 원본 해상도로 사진 앱 자동 저장과 공유 시트 전송.",
           "사진과 촬영 시각은 기기(와 이용자의 iPhone 백업)에만 있고 서버로 보내지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase)만 수집하며 광고 식별자(IDFA)는 쓰지 않는다.",
@@ -480,12 +481,13 @@
           "storeUrl": "https://apps.apple.com/kr/app/id6821004763",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-29",
+          "modified": "2026-11-06",
           "webpageName": "Lifestamp - 찍는 순간을 새기는 날짜 카메라",
           "ld": {
             "slogan": "삶의 모든 순간이 하나의 이야기가 됩니다.",
             "featureList": [
               "셔터를 누른 순간의 날짜·시각을 사진에 스탬프로 새기기",
+              "촬영 순간의 날씨 아이콘·기온 표시(위치 허용 시, 설정에서 끄기 가능)",
               "스탬프 15가지: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Postmark, Inked, Ticket, Receipt, Calendar, Scribble, Sticker, Marker",
               "화면을 좌우로 넘겨 스탬프 스타일 전환",
               "사진 비율 9:16(스토리)·4:5·1:1·3:4 선택",
@@ -498,8 +500,8 @@
           "shots": [
             [
               "/lifestamp/img/screen-01.jpg",
-              "카메라 화면: 9:16 풍경 미리보기 오른쪽 아래에 주황색 필름 날짜 스탬프 '26 10 24",
-              "찍는 순간 시각을 새기는 카메라"
+              "카메라 화면: 9:16 풍경 미리보기 오른쪽 아래에 주황색 필름 날짜 스탬프 '26 11 06과 맑음 아이콘·23°C",
+              "찍는 순간 시각과 날씨를 새기는 카메라"
             ],
             [
               "/lifestamp/img/screen-02.jpg",
@@ -508,7 +510,7 @@
             ],
             [
               "/lifestamp/img/screen-03.jpg",
-              "스탬프 변경 화면: 찍은 사진의 비율(9:16·4:5·1:1·3:4), 스타일, 시간 표시를 바꾸는 편집기",
+              "스탬프 변경 화면: 찍은 사진의 비율(9:16·4:5·1:1·3:4), 스타일, 시간·날씨 표시를 바꾸는 편집기",
               "찍은 뒤에도 스탬프 변경"
             ],
             [
@@ -543,12 +545,13 @@
           "storeUrl": "https://apps.apple.com/app/id6821004763",
           "ct": "web-landing-en",
           "currency": "USD",
-          "modified": "2026-10-29",
+          "modified": "2026-11-06",
           "webpageName": "Lifestamp - Date Stamp Camera for iPhone",
           "ld": {
             "slogan": "Your life. Your story.",
             "featureList": [
               "Stamps the date and time of capture onto the photo",
+              "Adds a weather icon and temperature from the moment you shoot (with location access, can be turned off)",
               "15 stamp styles: Film, Minimal, Camcorder, Instant, 35mm, Timemark, Magazine, Postmark, Inked, Ticket, Receipt, Calendar, Scribble, Sticker, Marker",
               "Swipe left or right to switch stamp styles",
               "Photo aspect ratios: 9:16 (Stories), 4:5, 1:1, 3:4",
@@ -561,8 +564,8 @@
           "shots": [
             [
               "/lifestamp/img/en/screen-01.jpg",
-              "Camera screen with an orange film-style date stamp in the bottom right of a 9:16 preview",
-              "A camera that stamps the moment"
+              "Camera screen with an orange film-style date stamp and a sunny 23°C weather badge in the bottom right of a 9:16 preview",
+              "A camera that stamps the moment and the weather"
             ],
             [
               "/lifestamp/img/en/screen-02.jpg",
@@ -571,7 +574,7 @@
             ],
             [
               "/lifestamp/img/en/screen-03.jpg",
-              "Stamp editor for changing the aspect ratio (9:16, 4:5, 1:1, 3:4), style and time display of a photo",
+              "Stamp editor for changing the aspect ratio (9:16, 4:5, 1:1, 3:4), style, and time and weather display of a photo",
               "Change the stamp anytime"
             ],
             [
@@ -598,10 +601,10 @@
           "trackId": 6821004763,
           "trackName": "Lifestamp: 날짜 스탬프 카메라",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.4",
-          "currentVersionReleaseDate": "2026-10-23T21:29:33Z",
+          "version": "1.0.5",
+          "currentVersionReleaseDate": "2026-11-04T21:43:55Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": "• 새 스탬프 5가지: 소인(Postmark), 고무 도장(Inked), 티켓(Ticket), 영수증(Receipt), 달력(Calendar)\n• 사진 비율을 고를 수 있어요. 카메라 화면의 비율 버튼으로 9:16, 4:5, 1:1, 3:4를 바꾸고, 찍은 뒤 스탬프 편집에서도 바꿀 수 있어요. 기본 9:16은 스토리 크기이고, 스탬프가 스토리 화면의 위아래 메뉴에 가리지 않아요.\n• 카메라 화면이 넓어졌어요. 고른 비율 그대로 화면 폭을 꽉 채우고, 스탬프 크기와 위치도 비율마다 알맞게 맞췄어요.\n• 사진이 처음부터 스토리 크기로 찍히니 따로 있던 '스토리용 공유'는 없앴어요. 이제 공유 버튼 하나로 저장된 사진을 그대로 보내요.\n\n오늘의 한 장에 오늘의 시간을.",
+          "releaseNotes": "• 이제 스탬프에 그 순간의 날씨도 함께 찍혀요. 날씨 아이콘과 온도가 15가지 스탬프 모두에 어울리게 들어가요.\n• 날씨를 받아 오려면 대략적인 위치가 필요해요. 위치를 허용하지 않거나 날씨를 받아 오지 못하면 스탬프는 평소처럼 찍혀요.\n• 날씨를 빼고 싶다면 카메라 설정에서 끄거나, 찍은 뒤 스탬프 변경에서 사진마다 끌 수 있어요.\n\n오늘의 한 장에 오늘의 시간을.",
           "genres": [
             "사진 및 비디오",
             "라이프스타일"
@@ -614,7 +617,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5240832",
+          "fileSizeBytes": "5322752",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -629,18 +632,18 @@
           "formattedPrice": "무료",
           "price": 0.0,
           "currency": "KRW",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/74/8f/8a748f6f-6238-0062-0e60-2a4f3681fd1f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/kr/app/lifestamp-%EB%82%A0%EC%A7%9C-%EC%8A%A4%ED%83%AC%ED%94%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6821004763",
-          "checked": "2026-11-05"
+          "checked": "2026-11-06"
         },
         "us": {
           "trackId": 6821004763,
           "trackName": "Lifestamp: Date Stamp Camera",
           "bundleId": "com.cumulus.sandtime",
-          "version": "1.0.4",
-          "currentVersionReleaseDate": "2026-10-23T21:29:33Z",
+          "version": "1.0.5",
+          "currentVersionReleaseDate": "2026-11-04T21:43:55Z",
           "releaseDate": "2026-10-12T07:00:00Z",
-          "releaseNotes": "• 5 new stamps: Postmark, Inked, Ticket, Receipt and Calendar.\n• Choose your aspect ratio. Tap the ratio button on the camera to switch between 9:16, 4:5, 1:1 and 3:4, or change it later in the stamp editor. The default 9:16 is Story-sized, and your stamp stays clear of the Stories controls at the top and bottom.\n• A bigger viewfinder: your chosen ratio now fills the full width of the screen, and stamps are sized and placed to fit each ratio.\n• Since photos are now Story-sized from the start, the separate Share for Stories option is gone. One Share button sends your saved photo as it is.\n\nToday's shot, stamped with today's time.",
+          "releaseNotes": "• Your stamp now remembers the weather. A weather icon and the temperature join the date on all 15 stamps.\n• Weather needs your approximate location. If you don't allow it, or the weather can't be fetched, your stamp looks the way it always has.\n• Prefer it without? Turn it off in the camera settings, or for any photo under Change Stamp.\n\nToday's shot, stamped with today's time.",
           "genres": [
             "Photo & Video",
             "Lifestyle"
@@ -653,7 +656,7 @@
           "trackContentRating": "4+",
           "averageUserRating": 0.0,
           "userRatingCount": 0,
-          "fileSizeBytes": "5240832",
+          "fileSizeBytes": "5322752",
           "minimumOsVersion": "17.0",
           "languageCodesISO2A": [
             "EN",
@@ -668,9 +671,9 @@
           "formattedPrice": "Free",
           "price": 0.0,
           "currency": "USD",
-          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b6/35/82b63587-3d0c-71f6-65e4-03cbc77a1da7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/74/8f/8a748f6f-6238-0062-0e60-2a4f3681fd1f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
           "trackViewUrl": "https://apps.apple.com/us/app/lifestamp-date-stamp-camera/id6821004763",
-          "checked": "2026-11-05"
+          "checked": "2026-11-06"
         }
       }
     },
