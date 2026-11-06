@@ -957,7 +957,7 @@
     {
       "slug": "pixder",
       "trackId": 6821498179,
-      "status": "coming_soon",
+      "status": "live",
       "storeCountries": [
         "kr",
         "us"
@@ -1080,10 +1080,10 @@
             "Pixder 스와이프 사진 정리"
           ],
           "storeCountry": "kr",
-          "storeUrl": null,
+          "storeUrl": "https://apps.apple.com/kr/app/id6821498179",
           "ct": "web-landing",
           "currency": "KRW",
-          "modified": "2026-10-29",
+          "modified": "2026-11-06",
           "webpageName": "Pixder - 넘기기만 하면 끝나는 아이폰 사진 정리 앱",
           "ld": {
             "featureList": [
@@ -1138,11 +1138,11 @@
           "alternateName": [
             "Pixder: Swipe Photo Cleaner"
           ],
-          "storeCountry": "kr",
-          "storeUrl": null,
+          "storeCountry": "us",
+          "storeUrl": "https://apps.apple.com/app/id6821498179",
           "ct": "web-landing-en",
           "currency": "USD",
-          "modified": "2026-10-29",
+          "modified": "2026-11-06",
           "webpageName": "Pixder - Swipe Photo Cleaner for iPhone",
           "ld": {
             "featureList": [
@@ -1190,7 +1190,86 @@
           }
         }
       ],
-      "store": {},
+      "store": {
+        "kr": {
+          "trackId": 6821498179,
+          "trackName": "Pixder: 스와이프 사진 정리",
+          "bundleId": "com.cumulus.pixder",
+          "version": "1.0.0",
+          "currentVersionReleaseDate": "2026-11-06T02:08:18Z",
+          "releaseDate": "2026-11-05T08:00:00Z",
+          "releaseNotes": null,
+          "genres": [
+            "사진 및 비디오",
+            "유틸리티"
+          ],
+          "genreIds": [
+            "6008",
+            "6002"
+          ],
+          "primaryGenreName": "Photo & Video",
+          "trackContentRating": "4+",
+          "averageUserRating": 0.0,
+          "userRatingCount": 0,
+          "fileSizeBytes": "3994624",
+          "minimumOsVersion": "17.0",
+          "languageCodesISO2A": [
+            "EN",
+            "FR",
+            "DE",
+            "JA",
+            "KO",
+            "ZH",
+            "ES",
+            "ZH"
+          ],
+          "formattedPrice": "무료",
+          "price": 0.0,
+          "currency": "KRW",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/be/e6/3fbee699-b390-c105-991c-ac27fbe7dbe6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/kr/app/pixder-%EC%8A%A4%EC%99%80%EC%9D%B4%ED%94%84-%EC%82%AC%EC%A7%84-%EC%A0%95%EB%A6%AC/id6821498179",
+          "checked": "2026-11-06"
+        },
+        "us": {
+          "trackId": 6821498179,
+          "trackName": "Pixder: Swipe Photo Cleaner",
+          "bundleId": "com.cumulus.pixder",
+          "version": "1.0.0",
+          "currentVersionReleaseDate": "2026-11-06T02:08:18Z",
+          "releaseDate": "2026-11-05T08:00:00Z",
+          "releaseNotes": null,
+          "genres": [
+            "Photo & Video",
+            "Utilities"
+          ],
+          "genreIds": [
+            "6008",
+            "6002"
+          ],
+          "primaryGenreName": "Photo & Video",
+          "trackContentRating": "4+",
+          "averageUserRating": 0.0,
+          "userRatingCount": 0,
+          "fileSizeBytes": "3994624",
+          "minimumOsVersion": "17.0",
+          "languageCodesISO2A": [
+            "EN",
+            "FR",
+            "DE",
+            "JA",
+            "KO",
+            "ZH",
+            "ES",
+            "ZH"
+          ],
+          "formattedPrice": "Free",
+          "price": 0.0,
+          "currency": "USD",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/be/e6/3fbee699-b390-c105-991c-ac27fbe7dbe6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/us/app/pixder-swipe-photo-cleaner/id6821498179",
+          "checked": "2026-11-06"
+        }
+      },
       "play": {
         "packageId": "com.cumulus.pixder",
         "status": "testing"

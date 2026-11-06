@@ -328,9 +328,9 @@
     },
     {
       "slug": "pixder",
-      "status": "coming_soon",
+      "status": "live",
       "trackId": 6821498179,
-      "trackName": "Pixder",
+      "trackName": "Pixder: 스와이프 사진 정리",
       "names": {
         "ko": "Pixder",
         "en": "Pixder"
@@ -358,18 +358,37 @@
         "ko": "https://cumulus.team/pixder/privacy/",
         "en": "https://cumulus.team/pixder/en/privacy/"
       },
+      "appStoreUrl": "https://apps.apple.com/kr/app/id6821498179",
+      "bundleId": "com.cumulus.pixder",
+      "version": "1.0.0",
+      "currentVersionReleaseDate": "2026-11-06T02:08:18Z",
+      "releaseDate": "2026-11-05T08:00:00Z",
+      "releaseNotes": null,
+      "genres": [
+        "사진 및 비디오",
+        "유틸리티"
+      ],
+      "primaryGenreName": "Photo & Video",
+      "trackContentRating": "4+",
+      "averageUserRating": 0.0,
+      "userRatingCount": 0,
+      "fileSizeBytes": "3994624",
       "minimumOsVersion": "17.0",
       "languageCodesISO2A": [
-        "KO",
         "EN",
-        "JA",
-        "ZH-HANS",
-        "ZH-HANT",
-        "ES",
         "FR",
-        "DE"
+        "DE",
+        "JA",
+        "KO",
+        "ZH",
+        "ES"
       ],
-      "price": 0,
+      "formattedPrice": "무료",
+      "price": 0.0,
+      "currency": "KRW",
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/be/e6/3fbee699-b390-c105-991c-ac27fbe7dbe6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "checked": "2026-11-06",
+      "storefront": "kr",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.pixder",
       "playPackageId": "com.cumulus.pixder",
       "playStatus": "testing",
