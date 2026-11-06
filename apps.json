@@ -54,7 +54,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/aa/93/62aa9398-6e97-d553-7254-264e58901014/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-05",
+      "checked": "2026-11-06",
       "storefront": "kr",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.redday",
       "playPackageId": "com.cumulus.redday",
@@ -125,7 +125,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/da/fd/58dafddf-fa3f-f3dc-247b-7f044d14811b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-05",
+      "checked": "2026-11-06",
       "storefront": "kr",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.weatherfit",
       "playPackageId": "com.cumulus.weatherfit",
@@ -294,7 +294,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/38/f1/0038f1ac-9898-aec6-85a4-7bc63d64b846/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-05",
+      "checked": "2026-11-06",
       "storefront": "kr",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.kindly",
       "playPackageId": "com.cumulus.kindly",
@@ -329,7 +329,7 @@
     {
       "slug": "pixder",
       "status": "coming_soon",
-      "trackId": null,
+      "trackId": 6821498179,
       "trackName": "Pixder",
       "names": {
         "ko": "Pixder",
@@ -370,6 +370,9 @@
         "DE"
       ],
       "price": 0,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.pixder",
+      "playPackageId": "com.cumulus.pixder",
+      "playStatus": "testing",
       "fit": {
         "ko": {
           "for": [
@@ -379,7 +382,7 @@
           ],
           "not": [
             "'최근 삭제된 항목'까지 앱이 대신 비워 주길 원하는 경우(Pixder는 이 앨범을 비울 수 없습니다)",
-            "안드로이드 폰을 쓰는 경우(안드로이드 버전은 아직 없습니다)",
+            "안드로이드 폰을 쓰는 경우(Google Play 버전은 아직 테스트 중입니다)",
             "iOS 17 미만 아이폰(iOS 17 이상 필요)"
           ]
         },
@@ -391,7 +394,7 @@
           ],
           "not": [
             "You want the app to empty Recently Deleted for you (Pixder can't empty that album)",
-            "You use an Android phone (no Android version yet)",
+            "You use an Android phone (the Google Play version is still in testing)",
             "Your iPhone runs a version earlier than iOS 17"
           ]
         }
@@ -448,7 +451,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/55/2d/25552d80-13fb-c0dd-1ff5-6a31c920b89c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-05",
+      "checked": "2026-11-06",
       "storefront": "kr",
       "fit": {
         "ko": {
@@ -519,7 +522,7 @@
       "price": 0.0,
       "currency": "KRW",
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/a4/20/fca420ac-c1a9-c476-70fa-7d47a99a2b66/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "checked": "2026-11-05",
+      "checked": "2026-11-06",
       "storefront": "kr",
       "fit": {
         "ko": {
