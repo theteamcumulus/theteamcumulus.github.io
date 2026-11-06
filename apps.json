@@ -342,8 +342,8 @@
       "subtitleSource": "appstore",
       "developer": "Team Cumulus",
       "summary": {
-        "ko": "Pixder는 사진을 한 장씩 넘기며 왼쪽은 삭제 후보, 오른쪽은 보관으로 고른 뒤 한 번에 지우는 무료 아이폰 사진 정리 앱입니다.",
-        "en": "Pixder is a free iPhone photo cleaner: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once."
+        "ko": "Pixder는 사진을 한 장씩 넘기며 왼쪽은 삭제 후보, 오른쪽은 보관으로 고른 뒤 한 번에 지우는 무료 사진 정리 앱(아이폰·안드로이드)입니다.",
+        "en": "Pixder is a free photo cleaner for iPhone and Android: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once."
       },
       "iconUrl": "https://cumulus.team/pixder/img/pixder-app-icon.png",
       "landingUrls": {
@@ -391,7 +391,7 @@
       "storefront": "kr",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cumulus.pixder",
       "playPackageId": "com.cumulus.pixder",
-      "playStatus": "testing",
+      "playStatus": "live",
       "fit": {
         "ko": {
           "for": [
@@ -401,7 +401,7 @@
           ],
           "not": [
             "'최근 삭제된 항목'까지 앱이 대신 비워 주길 원하는 경우(Pixder는 이 앨범을 비울 수 없습니다)",
-            "안드로이드 폰을 쓰는 경우(Google Play 버전은 아직 테스트 중입니다)",
+            "안드로이드 11 미만 폰(안드로이드 11 이상 필요)",
             "iOS 17 미만 아이폰(iOS 17 이상 필요)"
           ]
         },
@@ -413,7 +413,7 @@
           ],
           "not": [
             "You want the app to empty Recently Deleted for you (Pixder can't empty that album)",
-            "You use an Android phone (the Google Play version is still in testing)",
+            "Your Android phone runs a version earlier than Android 11",
             "Your iPhone runs a version earlier than iOS 17"
           ]
         }

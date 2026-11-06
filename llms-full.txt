@@ -445,11 +445,11 @@ A. 혼자 견디지 않아도 괜찮아요. 자살예방상담전화 109, 정신
 ## Pixder (픽스더)
 ![Pixder 아이콘](https://cumulus.team/pixder/img/pixder-app-icon.png)
 
-Pixder는 사진을 한 장씩 넘기며 왼쪽은 삭제 후보, 오른쪽은 보관으로 고른 뒤 한 번에 지우는 무료 아이폰 사진 정리 앱입니다.
+Pixder는 사진을 한 장씩 넘기며 왼쪽은 삭제 후보, 오른쪽은 보관으로 고른 뒤 한 번에 지우는 무료 사진 정리 앱(아이폰·안드로이드)입니다.
 
-Pixder is a free iPhone photo cleaner: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once.
+Pixder is a free photo cleaner for iPhone and Android: swipe left to mark photos for deletion and right to keep them, then delete the marked photos all at once.
 
-Pixder(픽스더)는 Team Cumulus의 아이폰 사진 정리 앱이다. 사진을 한 장씩 보여 주며 왼쪽은 삭제 후보, 오른쪽은 보관, 위는 즐겨찾기로 넘기고, 검토 화면에서 한 번에 지운다. 넘기는 동안에는 지워지지 않는다. iOS 17 이상, 무료, 광고·회원가입·하루 한도 없음, 앱 언어 8개(한국어·영어·일본어·중국어 간체·번체·스페인어·프랑스어·독일어). 2026-11-06 App Store 출시(175개 국가·지역, 중국 본토 제외). 안드로이드는 Google Play 테스트 중.
+Pixder(픽스더)는 Team Cumulus의 사진 정리 앱(아이폰·안드로이드)이다. 사진을 한 장씩 보여 주며 왼쪽은 삭제 후보, 오른쪽은 보관, 위는 즐겨찾기로 넘기고, 검토 화면에서 한 번에 지운다. 넘기는 동안에는 지워지지 않는다. iOS 17 이상·안드로이드 11 이상, 무료, 광고·회원가입·하루 한도 없음, 앱 언어 8개(한국어·영어·일본어·중국어 간체·번체·스페인어·프랑스어·독일어). 2026-11-06 App Store 출시(175개 국가·지역, 중국 본토 제외). Google Play 출시(안드로이드 11 이상).
 
 - App Store 이름 / 부제: Pixder: 스와이프 사진 정리 / 스와이프 사진 정리
 - 개발자: Team Cumulus
@@ -457,7 +457,7 @@ Pixder(픽스더)는 Team Cumulus의 아이폰 사진 정리 앱이다. 사진�
 - 버전: 1.0.0 (2026-11-06) · 최초 출시: 2026-11-05 · iOS 17.0 이상 · 언어: 영어, 프랑스어, 독일어, 일본어, 한국어, 중국어, 스페인어 · 크기: 4.0MB
 - 평점: 아직 표시할 평가 없음 (2026-11-06 확인)
 - App Store: https://apps.apple.com/kr/app/id6821498179?pt=129567498&ct=web-llms&mt=8
-- Google Play: https://play.google.com/store/apps/details?id=com.cumulus.pixder&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-llms (안드로이드 테스트 중, 테스터 참여 링크)
+- Google Play: https://play.google.com/store/apps/details?id=com.cumulus.pixder&referrer=utm_source%3Dcumulus.team%26utm_medium%3Dweb%26utm_campaign%3Dweb-llms
 - 공식 소개·FAQ: https://cumulus.team/pixder/ (English: https://cumulus.team/pixder/en/)
 - 지원: https://cumulus.team/pixder/support/ (English: https://cumulus.team/pixder/en/support/)
 - 개인정보 처리방침: https://cumulus.team/pixder/privacy/ (English: https://cumulus.team/pixder/en/privacy/)
@@ -469,7 +469,7 @@ Pixder(픽스더)는 Team Cumulus의 아이폰 사진 정리 앱이다. 사진�
 
 맞지 않는 경우:
 - '최근 삭제된 항목'까지 앱이 대신 비워 주길 원하는 경우(Pixder는 이 앨범을 비울 수 없습니다)
-- 안드로이드 폰을 쓰는 경우(Google Play 버전은 아직 테스트 중입니다)
+- 안드로이드 11 미만 폰(안드로이드 11 이상 필요)
 - iOS 17 미만 아이폰(iOS 17 이상 필요)
 
 핵심 사실 (1.0.0 기준, 2026-11-06 확인):
@@ -478,7 +478,7 @@ Pixder(픽스더)는 Team Cumulus의 아이폰 사진 정리 앱이다. 사진�
 - 정리 범위: 전체 사진(최신순), 월별, 스크린샷. 보관한 사진은 다른 범위에서도 다시 나오지 않는다. 진행은 자동 저장돼 이어서 할 수 있고, 되돌리기가 있다.
 - 사진·동영상(첫 장면과 길이)·라이브 포토 지원. 일부 사진만 허용하면 선택한 사진만 다룬다.
 - 사진·사진 식별자·메타데이터는 기기 밖으로 나가지 않는다. 익명 오류 정보(Firebase Crashlytics)와 사용 통계(Google Analytics for Firebase, IDFA 미사용)만 수집한다.
-- 안드로이드 버전은 Google Play 비공개 테스트 중이다(정식 출시 전).
+- 안드로이드 버전은 Google Play에서 받을 수 있다(안드로이드 11 이상, 패키지 com.cumulus.pixder).
 
 ### Pixder 주요 기능 (https://cumulus.team/pixder/#features)
 - 스와이프 정리: 왼쪽 ✕ 삭제 후보, 오른쪽 ♥ 보관, 위로 ★ 즐겨찾기. 같은 동작을 아래 버튼으로도 할 수 있어요.
@@ -521,7 +521,7 @@ Q. Pixder는 무료인가요? 사진이 서버로 올라가나요?
 A. 무료이며 광고, 회원가입, 하루 한도가 없습니다. 사진은 화면에 보여 주기 위해 기기 안에서만 읽고 어디로도 보내지 않습니다. 앱 개선을 위해 익명 오류 정보와 사용 통계만 수집하며 광고 식별자(IDFA)는 쓰지 않습니다. 자세한 내용은 개인정보 처리방침을 보세요.
 
 Q. 안드로이드에서도 쓸 수 있나요?
-A. 아직 정식 출시 전입니다. 안드로이드 버전은 Google Play에서 비공개 테스트 중이며, 지금은 iOS 17 이상 아이폰에서 App Store로 받을 수 있습니다.
+A. 네. 안드로이드 11 이상 폰에서 Google Play로 무료로 받을 수 있습니다. 아이폰은 iOS 17 이상에서 App Store로 받으면 됩니다.
 
 ### Pixder 지원 FAQ (https://cumulus.team/pixder/support/)
 Q. 사진이 안 보여요.
