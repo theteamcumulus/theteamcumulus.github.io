@@ -5,21 +5,23 @@ permalink: /lifestamp/en/privacy/
 
 # Lifestamp Privacy Policy
 
-Effective: from the release of version 1.0.1
+Effective: from the release of version 1.0.1 on iPhone, and from the release on Google Play on Android
 
-Lifestamp ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The photos you take and the date and time stamped on them are stored only on your device and are never sent anywhere. To keep the app stable and improve it, we collect only the error reports and anonymous usage statistics described below.
+Lifestamp ("the app") does not collect information that directly identifies you, such as your name, email address or phone number. The photos you take and the date and time stamped on them are stored only on your device and are never sent anywhere. To keep the app stable and improve it, we collect only the error reports and usage statistics described below. No name, email address or account is attached to them.
 
 ## 1. Information we collect and why
 
 | Type | What is collected | Purpose | Service |
 |---|---|---|---|
-| Error reports | Error logs when the app crashes or hits an error, device model, OS version, app version | Finding and fixing bugs | Firebase Crashlytics |
+| Error reports | Error logs when the app crashes or hits an error, device model, OS version, app version, a random installation ID, session information, network connection type, memory and storage usage, screen orientation, and app-usage events just before the error | Finding and fixing bugs | Firebase Crashlytics |
 | Usage statistics | Screen views and feature events (for example: taking a photo, choosing a stamp style, sharing), a randomly generated app installation ID, device and OS information, approximate region estimated from your IP address (the IP address itself is not stored) | Understanding how features are used and improving the app | Google Analytics for Firebase |
+
+On Android, the error details in a report contain only the exception type (class name) and the code location (stack trace). They do not contain error message text, file paths, photos, photo capture times or locations.
 
 We do not collect:
 
 - Your photos, the date, time and weather stamped on them, or photo location data
-- The advertising identifier (IDFA), contacts or precise location
+- The advertising identifier (IDFA on iPhone, advertising ID on Android; neither version uses advertising, and the Android app does not request the advertising ID permission), contacts or precise location
 - Your activity in other apps or on websites (we do not track you)
 
 ## 2. Information stored on your device
@@ -27,8 +29,9 @@ We do not collect:
 - Photos taken in the app (original, stamped photo and thumbnail) and their capture time are kept only in the app's storage on your device.
 - The weather at the time of each photo (condition and temperature) is stored with the photo's record on your device. Your location is not stored.
 - Your last stamp style, aspect ratio, and the "Auto-Save to Photos" and "Show Weather on Stamp" settings are stored on your device.
-- If you use iPhone backup (iCloud Backup or a computer backup), the app's storage is included in your backup. Backups are managed by Apple and you; we cannot access them.
-- Deleting the app deletes the photos and settings in the app's storage. Copies saved to the Photos app must be deleted in Photos.
+- On iPhone, if you use iPhone backup (iCloud Backup or a computer backup), the app's storage is included in your backup. Backups are managed by Apple and you; we cannot access them.
+- On Android, the app's storage is excluded from Google backup and device-to-device transfer. We can't guarantee how a phone maker's own migration tools behave.
+- Deleting the app deletes the photos and settings in the app's storage. Copies saved to the Photos app on iPhone, or to the gallery (Photos) app on Android, must be deleted in that app.
 
 ## 3. Retention
 
@@ -47,7 +50,7 @@ The information in section 1 is processed by Firebase, a service of Google LLC, 
 
 You can learn more about how Google handles this data at https://firebase.google.com/support/privacy
 
-To get the weather for your stamp, the app sends your approximate location to Open-Meteo (from the version that includes stamp weather).
+To get the weather for your stamp, the app sends your approximate location to Open-Meteo (from the version that includes stamp weather, on both iPhone and Android). It is sent only while weather is on: if you don't allow location or turn off "Show Weather on Stamp" in settings, nothing is sent. The app never uploads your photos.
 
 - Recipient: OpenMeteo GmbH (Switzerland, https://open-meteo.com)
 - Data: latitude and longitude reduced to about 1 km, and the IP address used for the network connection
@@ -58,14 +61,15 @@ To get the weather for your stamp, the app sends your approximate location to Op
 ## 5. Permissions
 
 - Camera: used to take photos and show the stamp preview on screen.
-- Add to Photos: used to save stamped photos to the Photos app. The app cannot read or change existing photos in Photos (add-only access). You can turn off auto-save in the app's settings.
-- Location (while using the app): used to add the current weather to your stamp, based on your approximate location. No location data is added to your photos. If you don't allow it, or turn off "Show Weather on Stamp" in settings, photos are stamped without weather and your location is not used.
+- Add to Photos (iPhone): used to save stamped photos to the Photos app. The app cannot read or change existing photos in Photos (add-only access). You can turn off auto-save in the app's settings.
+- Saving to the gallery (Android): stamped photos are saved to the gallery (Pictures/Lifestamp). No photo or storage permission is needed and the app does not read existing photos. You can turn off auto-save in the app's settings.
+- Location (while using the app): used to add the current weather to your stamp, based on your approximate location. On Android the app asks only for approximate location, never precise location. No location data is added to your photos. If you don't allow it, or turn off "Show Weather on Stamp" in settings, photos are stamped without weather and your location is not used.
 
-You can install and open the app without granting these permissions, and you can change them anytime in Settings > Lifestamp.
+You can install and open the app without granting these permissions, and you can change them anytime: on iPhone in Settings > Lifestamp, on Android in Settings > Apps > Lifestamp > Permissions.
 
 ## 6. Sharing
 
-When you tap Share, the iOS share sheet opens. Your photo goes only to the app or person you choose, and is then handled under that service's privacy policy.
+When you tap Share, the iOS share sheet opens on iPhone and the Android share sheet opens on Android. Your photo goes only to the app or person you choose, and is then handled under that service's privacy policy.
 
 ## 7. Feedback
 
